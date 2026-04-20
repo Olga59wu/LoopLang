@@ -102,16 +102,19 @@
 
       <!-- 第一列：基礎顯示控制 -->
       <div class="flex justify-between items-center glass-panel p-3.5 rounded-2xl mb-3">
-        <label
-          class="flex items-center justify-center gap-3 text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-3 flex-1">
-          <input type="checkbox" v-model="prefs.showPhonetic" class="accent-slate-800 w-4 h-4 rounded">
-          <span>輔助注音</span>
+        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.showPhonetic" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+          <span class="whitespace-nowrap">注音</span>
         </label>
         <div class="w-[1px] h-6 bg-slate-300"></div>
-        <label
-          class="flex items-center justify-center gap-3 text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-3 flex-1">
-          <input type="checkbox" v-model="prefs.showTranslation" class="accent-slate-800 w-4 h-4 rounded">
-          <span>中文對照</span>
+        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.showTranslation" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+          <span class="whitespace-nowrap">中文</span>
+        </label>
+        <div class="w-[1px] h-6 bg-slate-300"></div>
+        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.playTranslationAudio" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+          <span class="whitespace-nowrap">唸中文</span>
         </label>
       </div>
 
@@ -208,6 +211,7 @@
           pauseDuration: 2,
           showPhonetic: true,
           showTranslation: true,
+          playTranslationAudio: true,
           playbackSpeed: 1.0,
           loopMode: '1',
           playbackMode: 'standard',
@@ -249,7 +253,7 @@
           topicId.value = RouterHelpers.getQueryParam('topic') || '';
           let initIdx = parseInt(RouterHelpers.getQueryParam('idx') || '0', 10);
 
-          prefs.value = StorageService.getPreferences();
+          prefs.value = StorageService.getPreferences(lang.value);
 
           const catalog = await DataService.getCatalog();
           const lData = catalog.find(c => c.lang === lang.value);
@@ -351,7 +355,7 @@
         });
 
         watch(() => prefs.value, (newVal) => {
-          StorageService.savePreferences(newVal);
+          StorageService.savePreferences(newVal, lang.value);
           PlayerService.setConfig(newVal);
         }, { deep: true });
 

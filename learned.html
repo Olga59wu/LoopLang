@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 已學會的句子</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 mx-auto max-w-md pb-20">
+  <div id="app" class="breathing-container" v-cloak>
+    
+    <!-- 頂部與返回導覽 -->
+    <header class="flex items-center mb-8 pt-4">
+      <button @click="goHome" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <h1 class="text-2xl font-bold tracking-tight">已學會</h1>
+    </header>
+
+    <!-- 狀態一：空狀態 (Empty State) -->
+    <div v-if="learned.length === 0" class="flex flex-col items-center justify-center mt-20 text-zinc-400">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="mb-4 text-zinc-300">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+        <polyline points="22 4 12 14.01 9 11.01"></polyline>
+      </svg>
+      <p>目前還沒有標示已學會的句子。</p>
+    </div>
+
+    <!-- 狀態二：資料列表 -->
+    <div v-else class="flex flex-col">
+      <transition-group name="slide-up">
+        <learned-item 
+          v-for="item in learned" 
+          :key="item.id" 
+          :item="item"
+          @remove="removeLearned"
+          @navigate="goToPlayer"
+        />
+      </transition-group>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { createApp, ref, onMounted } from 'vue';
+    import LearnedItem from '/components/learned-item.js';
+    import { StorageService } from '/js/storage-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+    import { FirebaseService } from '/js/firebase-service.js';
+
+    const App = {
+      components: {
+        LearnedItem
+      },
+      setup() {
+        const learned = ref([]);
+
+        onMounted(() => {
+          FirebaseService.onAuthChange((user) => {
+            if (!user) {
+              window.location.href = '/index.html';
+              return;
+            }
+            learned.value = StorageService.getLearned().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+          });
+        });
+
+        const removeLearned = (id) => {
+          StorageService.removeLearned(id);
+          learned.value = StorageService.getLearned().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+        };
+
+        const goToPlayer = (lang, topicId, idx) => {
+          RouterHelpers.navigateToPlayer(lang, topicId, idx);
+        };
+
+        const goHome = () => {
+          RouterHelpers.navigateToHome();
+        };
+
+        return {
+          learned, removeLearned, goToPlayer, goHome
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

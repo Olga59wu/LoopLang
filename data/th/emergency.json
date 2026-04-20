@@ -1,11 +1,11 @@
 [
   {
     "id": "th_phrase_026",
-    "text": "ช่วยด้วยค่ะ!",
-    "phonetic": "chuay-duay kha",
+    "text": "ช่วยด้วย!",
+    "phonetic": "chuay-duay",
     "translation": "救命！/ 請幫幫我！",
-    "audioUrl": "/assets/audio/th/th_phrase_026.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_026.mp3",
+    "audioUrl": "/audio/th/th_phrase_026.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_026.mp3",
     "hasAudio": true,
     "order": 1,
     "tags": [
@@ -13,16 +13,16 @@
       "emergency"
     ],
     "note": "",
-    "ttsText": "ช่วยด้วยค่ะ",
+    "ttsText": "ช่วยด้วย",
     "status": "published"
   },
   {
     "id": "th_phrase_042",
-    "text": "เรียกตำรวจให้หน่อยค่ะ",
-    "phonetic": "riak tam-ruat hai-noi kha",
+    "text": "เรียกตำรวจให้หน่อย",
+    "phonetic": "riak tam-ruat hai-noi",
     "translation": "請幫我叫警察。",
-    "audioUrl": "/assets/audio/th/th_phrase_042.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_042.mp3",
+    "audioUrl": "/audio/th/th_phrase_042.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_042.mp3",
     "hasAudio": true,
     "order": 2,
     "tags": [
@@ -30,7 +30,7 @@
       "emergency"
     ],
     "note": "",
-    "ttsText": "เรียกตำรวจให้หน่อยค่ะ",
+    "ttsText": "เรียกตำรวจให้หน่อย",
     "status": "published"
   }
 ]

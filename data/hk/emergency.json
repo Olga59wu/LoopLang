@@ -4,8 +4,8 @@
     "text": "幫我叫醫生。",
     "phonetic": "bong1 ngo5 giu3 ji1 sang1",
     "translation": "幫我叫醫生。",
-    "audioUrl": "/assets/audio/hk/hk_phrase_026.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_026.mp3",
+    "audioUrl": "/audio/hk/hk_phrase_026.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_026.mp3",
     "hasAudio": true,
     "order": 1,
     "tags": [
@@ -21,8 +21,8 @@
     "text": "我唔見咗銀包。",
     "phonetic": "ngo5 m4 gin3 zo2 ngan4 baau1",
     "translation": "我的錢包掉了。",
-    "audioUrl": "/assets/audio/hk/hk_phrase_027.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_027.mp3",
+    "audioUrl": "/audio/hk/hk_phrase_027.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_027.mp3",
     "hasAudio": true,
     "order": 2,
     "tags": [
@@ -38,8 +38,8 @@
     "text": "幫我報警。",
     "phonetic": "bong1 ngo5 bou3 ging2",
     "translation": "幫我報警。",
-    "audioUrl": "/assets/audio/hk/hk_phrase_042.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_042.mp3",
+    "audioUrl": "/audio/hk/hk_phrase_042.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_042.mp3",
     "hasAudio": true,
     "order": 3,
     "tags": [

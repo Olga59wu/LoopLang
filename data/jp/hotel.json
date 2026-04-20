@@ -4,8 +4,8 @@
     "text": "チェックインをお[願|ねが]いします。",
     "phonetic": "chekkuin o onegaishimasu",
     "translation": "麻煩辦理入住。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_011.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_011.mp3",
+    "audioUrl": "/audio/jp/jp_phrase_011.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_011.mp3",
     "hasAudio": true,
     "order": 1,
     "tags": [
@@ -21,8 +21,8 @@
     "text": "[荷物|にもつ]を[預|あず]かってもらえますか？",
     "phonetic": "nimotsu o azukatte moraemasu ka",
     "translation": "可以幫我寄放行李嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_012.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_012.mp3",
+    "audioUrl": "/audio/jp/jp_phrase_012.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_012.mp3",
     "hasAudio": true,
     "order": 2,
     "tags": [
@@ -38,8 +38,8 @@
     "text": "[朝食|ちょうしょく]は[何時|なんじ]からですか？",
     "phonetic": "choushoku wa nanji kara desu ka",
     "translation": "早餐幾點開始？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_037.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_037.mp3",
+    "audioUrl": "/audio/jp/jp_phrase_037.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_037.mp3",
     "hasAudio": true,
     "order": 3,
     "tags": [

@@ -4,8 +4,8 @@
     "text": "도와주세요!",
     "phonetic": "do-wa-ju-se-yo",
     "translation": "請幫幫我！",
-    "audioUrl": "/assets/audio/kr/kr_phrase_022.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_022.mp3",
+    "audioUrl": "/audio/kr/kr_phrase_022.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_022.mp3",
     "hasAudio": true,
     "order": 1,
     "tags": [
@@ -21,8 +21,8 @@
     "text": "지갑을 잃어버렸어요.",
     "phonetic": "ji-gap-eul il-eo-beo-ryeot-seo-yo",
     "translation": "錢包弄丟了。",
-    "audioUrl": "/assets/audio/kr/kr_phrase_023.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_023.mp3",
+    "audioUrl": "/audio/kr/kr_phrase_023.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_023.mp3",
     "hasAudio": true,
     "order": 2,
     "tags": [
@@ -38,8 +38,8 @@
     "text": "경찰을 불러 주세요.",
     "phonetic": "gyeong-chal-eul bul-leo ju-se-yo",
     "translation": "請幫我叫警察。",
-    "audioUrl": "/assets/audio/kr/kr_phrase_042.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_042.mp3",
+    "audioUrl": "/audio/kr/kr_phrase_042.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_042.mp3",
     "hasAudio": true,
     "order": 3,
     "tags": [

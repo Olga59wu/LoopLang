@@ -1,0 +1,17 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    
+    // 1. 開放音檔資料夾供所有人「讀取」 (這是讓 REST API 直連不會報 403 的關鍵)
+    match /audio/{allPaths=**} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+    
+    // 2. 預設防護規則 (其他尚未定義的資料夾)
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

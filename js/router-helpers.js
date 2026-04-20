@@ -34,5 +34,9 @@ export const RouterHelpers = {
 
   navigateToSettings() {
     window.location.href = 'settings.html';
+  },
+
+  navigateToLearned() {
+    window.location.href = 'learned.html';
   }
 };

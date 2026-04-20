@@ -11,7 +11,8 @@ const KEYS = {
   LEARNED: 'looplang_learned',
   PREF_PAUSE: 'looplang_pref_pause_duration',
   PREF_PHONETIC: 'looplang_pref_show_phonetic',
-  PREF_TRANSLATION: 'looplang_pref_show_translation',
+  PREF_PLAY_AUDIO: 'looplang_pref_play_audio',
+  PREF_CLOUD_AUDIO: 'looplang_pref_cloud_audio',
   PREF_SPEED: 'looplang_pref_speed',
   PREF_LOOP: 'looplang_pref_loop',
   PREF_MODE: 'looplang_pref_mode',
@@ -148,37 +149,53 @@ export const StorageService = {
 
   // --------- 偏好設定區塊 ---------
 
-  /**
-   * 取得全域設定 (預設 2 秒停頓，預設開啟拼音與翻譯顯示)
-   */
-  getPreferences() {
-    let modeRaw = localStorage.getItem(KEYS.PREF_MODE) || 'standard';
+  getPreferences(lang = 'default') {
+    const getVal = (keyBase, defaultVal) => {
+       const v = localStorage.getItem(`${keyBase}_${lang}`);
+       if (v !== null) return v;
+       // 降級讀取全域舊設定作為初始值
+       const old = localStorage.getItem(keyBase);
+       return old !== null ? old : defaultVal;
+    };
+
     return {
-      pauseDuration: parseInt(localStorage.getItem(KEYS.PREF_PAUSE) || '2', 10),
-      showPhonetic: localStorage.getItem(KEYS.PREF_PHONETIC) !== 'false',
-      showTranslation: localStorage.getItem(KEYS.PREF_TRANSLATION) !== 'false',
-      playbackSpeed: parseFloat(localStorage.getItem(KEYS.PREF_SPEED) || '1.0'),
-      loopMode: localStorage.getItem(KEYS.PREF_LOOP) || '1', // '1', '3', '5', 'inf'
-      playbackMode: modeRaw,
-      filterMode: localStorage.getItem(KEYS.PREF_FILTER) || 'all'
+      pauseDuration: parseInt(getVal(KEYS.PREF_PAUSE, '2'), 10),
+      showPhonetic: getVal(KEYS.PREF_PHONETIC, 'true') !== 'false',
+      showTranslation: getVal(KEYS.PREF_TRANSLATION, 'true') !== 'false',
+      playTranslationAudio: getVal(KEYS.PREF_PLAY_AUDIO, 'true') !== 'false',
+      playbackSpeed: parseFloat(getVal(KEYS.PREF_SPEED, '1.0')),
+      loopMode: getVal(KEYS.PREF_LOOP, '1'),
+      playbackMode: getVal(KEYS.PREF_MODE, 'standard'),
+      filterMode: getVal(KEYS.PREF_FILTER, 'all')
     };
   },
 
   /**
-   * 更新全域設定，支援部分參數寫入
+   * 更新全域或特定語言設定
    */
-  savePreferences(prefs) {
-    if (prefs.pauseDuration !== undefined) localStorage.setItem(KEYS.PREF_PAUSE, prefs.pauseDuration);
-    if (prefs.showPhonetic !== undefined) localStorage.setItem(KEYS.PREF_PHONETIC, prefs.showPhonetic);
-    if (prefs.showTranslation !== undefined) localStorage.setItem(KEYS.PREF_TRANSLATION, prefs.showTranslation);
-    if (prefs.playbackSpeed !== undefined) localStorage.setItem(KEYS.PREF_SPEED, prefs.playbackSpeed);
-    if (prefs.loopMode !== undefined) localStorage.setItem(KEYS.PREF_LOOP, prefs.loopMode);
-    if (prefs.playbackMode !== undefined) localStorage.setItem(KEYS.PREF_MODE, prefs.playbackMode);
-    if (prefs.filterMode !== undefined) localStorage.setItem(KEYS.PREF_FILTER, prefs.filterMode);
+  savePreferences(prefs, lang = 'default') {
+    if (prefs.pauseDuration !== undefined) localStorage.setItem(`${KEYS.PREF_PAUSE}_${lang}`, prefs.pauseDuration);
+    if (prefs.showPhonetic !== undefined) localStorage.setItem(`${KEYS.PREF_PHONETIC}_${lang}`, prefs.showPhonetic);
+    if (prefs.showTranslation !== undefined) localStorage.setItem(`${KEYS.PREF_TRANSLATION}_${lang}`, prefs.showTranslation);
+    if (prefs.playTranslationAudio !== undefined) localStorage.setItem(`${KEYS.PREF_PLAY_AUDIO}_${lang}`, prefs.playTranslationAudio);
+    if (prefs.playbackSpeed !== undefined) localStorage.setItem(`${KEYS.PREF_SPEED}_${lang}`, prefs.playbackSpeed);
+    if (prefs.loopMode !== undefined) localStorage.setItem(`${KEYS.PREF_LOOP}_${lang}`, prefs.loopMode);
+    if (prefs.playbackMode !== undefined) localStorage.setItem(`${KEYS.PREF_MODE}_${lang}`, prefs.playbackMode);
+    if (prefs.filterMode !== undefined) localStorage.setItem(`${KEYS.PREF_FILTER}_${lang}`, prefs.filterMode);
     
     // 雲端同步
-    FirebaseService.syncUserRoot({ preferences: this.getPreferences() })
+    FirebaseService.syncUserRoot({ [`preferences_${lang}`]: prefs })
       .catch(e => console.warn('Preferences sync failed', e));
+  },
+
+  // --------- 開發與環境區塊 ---------
+  getUseCloudAudio() {
+    const val = localStorage.getItem(KEYS.PREF_CLOUD_AUDIO);
+    return val !== 'false'; // 預設使用雲端
+  },
+
+  setUseCloudAudio(value) {
+    localStorage.setItem(KEYS.PREF_CLOUD_AUDIO, value ? 'true' : 'false');
   },
 
   // --------- 雲端橋接區塊 ---------
@@ -198,9 +215,19 @@ export const StorageService = {
       if (cloudRoot.recent) {
         localStorage.setItem(KEYS.RECENT, JSON.stringify(cloudRoot.recent));
       }
+      
+      // 相容舊的全域設定
       if (cloudRoot.preferences) {
-        this.savePreferences(cloudRoot.preferences);
+        this.savePreferences(cloudRoot.preferences, 'default');
       }
+
+      // 新版分拆語言的設定
+      Object.keys(cloudRoot).forEach(key => {
+        if (key.startsWith('preferences_')) {
+          const lang = key.replace('preferences_', '');
+          this.savePreferences(cloudRoot[key], lang);
+        }
+      });
     }
     if (cloudFavorites && cloudFavorites.length > 0) {
       localStorage.setItem(KEYS.FAVORITES, JSON.stringify(cloudFavorites));

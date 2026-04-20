@@ -7,6 +7,8 @@
     <title>LoopLang - 萬用音檔下載器</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <style>
         [v-cloak] {
             display: none;
@@ -31,6 +33,8 @@
         .status-error {
             @apply text-rose-500;
         }
+
+        .progress-fill { background: linear-gradient(90deg, #3b82f6, #2563eb); transition: width 0.4s ease; }
     </style>
 </head>
 
@@ -42,14 +46,22 @@
         </header>
 
         <section class="bg-white p-6 rounded-2xl shadow-sm border border-zinc-200 mb-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div>
                     <label class="block text-sm font-semibold mb-2">選擇語系</label>
                     <select v-model="config.lang" class="w-full bg-zinc-100 border-none rounded-lg p-3 outline-none">
-                        <option value="jp">日文 (JP)</option>
-                        <option value="th">泰文 (TH)</option>
-                        <option value="kr">韓文 (KR)</option>
-                        <option value="hk">粵語 (HK)</option>
+                        <option v-if="catalog.length === 0" value="jp">讀取中...</option>
+                        <option v-for="c in catalog" :key="c.lang" :value="c.lang">
+                            {{ c.langLabel }} ({{ c.lang.toUpperCase() }})
+                        </option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2">選擇主題</label>
+                    <select v-model="config.topic" class="w-full bg-zinc-100 border-none rounded-lg p-3 outline-none">
+                        <option v-for="t in currentTopics" :key="t.id" :value="t.id">
+                            {{ t.title }} ({{ t.slug }})
+                        </option>
                     </select>
                 </div>
                 <div>
@@ -63,8 +75,14 @@
                 <button @click="loadJson"
                     class="bg-zinc-900 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">載入
                     JSON</button>
-                <button @click="startBatchDownload" v-if="sentences.length > 0"
-                    class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">開始批次下載 (僅新檔)</button>
+                <button @click="startBatchDownload" v-if="sentences.length > 0" :disabled="isDownloading"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform disabled:opacity-50 flex items-center gap-2">
+                    <span v-if="!isDownloading">⬇️ 打包音檔 (ZIP)</span>
+                    <span v-else class="flex items-center gap-2">
+                        <div class="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
+                        打包中...
+                    </span>
+                </button>
                 <button @click="clearHistory" v-if="sentences.length > 0"
                     class="bg-zinc-200 text-zinc-600 px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform border border-zinc-300">清除下載紀錄</button>
             </div>
@@ -81,7 +99,7 @@
                     <tr class="text-xs uppercase text-zinc-400 border-b border-zinc-100">
                         <th class="p-4 font-semibold">ID</th>
                         <th class="p-4 font-semibold">原文</th>
-                        <th class="p-4 font-semibold">下載狀態</th>
+                        <th class="p-4 font-semibold">狀態 / 操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -93,33 +111,92 @@
                             <div class="text-xs text-zinc-400">{{ item.translation }}</div>
                         </td>
                         <td class="p-4">
-                            <span :class="'status-' + (item.status || 'pending')" class="text-sm font-bold capitalize">
-                                {{ item.status || '等待中' }}
-                            </span>
+                            <div class="flex items-center gap-4">
+                                <span :class="'status-' + (item.status || 'pending')" class="text-sm font-bold capitalize whitespace-nowrap min-w-[60px]">
+                                    {{ item.status || '等待中' }}
+                                </span>
+                                <button @click="downloadSingle(item)" :disabled="item.status === 'downloading' || isDownloading" title="單獨抓取" class="p-2 text-zinc-400 hover:text-blue-500 hover:bg-blue-50 rounded-lg transition-all active:scale-95 disabled:opacity-30 disabled:pointer-events-none">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                                </button>
+                            </div>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </section>
+
+        <!-- 右下角通知 -->
+        <div v-if="isDownloading || isFinished" class="fixed bottom-6 right-6 w-80 bg-white p-5 rounded-2xl shadow-2xl border border-slate-100 z-[100] transition-all duration-500">
+            <div class="flex items-center justify-between mb-3">
+                <div class="text-[11px] font-black text-slate-800 uppercase">{{ isDownloading ? '同步抓取中...' : '任務完成' }}</div>
+                <div class="text-[11px] font-black text-blue-600">{{ progressPercent }}%</div>
+            </div>
+            <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden mb-2"><div class="progress-fill h-full" :style="{ width: progressPercent + '%' }"></div></div>
+            <div class="text-[9px] text-slate-400 font-bold truncate" v-if="isDownloading">處理中: {{ currentWordDisplay }}</div>
+            <div class="text-[9px] text-emerald-500 font-bold" v-else>✅ ZIP 檔案已產生。</div>
+        </div>
     </div>
 
     <script type="module">
-        const { createApp, ref, reactive, watch } = Vue;
+        const { createApp, ref, reactive, watch, onMounted, computed } = Vue;
 
         createApp({
             setup() {
+                const catalog = ref([]);
                 const config = reactive({
                     lang: 'jp',
+                    topic: 'jp_greetings',
                     jsonPath: '/data/jp/greetings.json'
                 });
 
                 const sentences = ref([]);
+                const isDownloading = ref(false);
+                const isFinished = ref(false);
+                const currentWordDisplay = ref('');
                 const progress = reactive({ current: 0, total: 0 });
+
+                const progressPercent = computed(() => {
+                    if (progress.total === 0) return 0;
+                    return Math.round((progress.current / progress.total) * 100);
+                });
                 const downloadHistory = reactive(JSON.parse(localStorage.getItem('looplang_audio_dl_track') || '{}'));
 
-                // 監聽語系切換，自動修正路徑
+                const currentTopics = computed(() => {
+                    const c = catalog.value.find(x => x.lang === config.lang);
+                    return c ? c.topics : [];
+                });
+
+                onMounted(async () => {
+                    try {
+                        const res = await fetch('/data/catalog.json');
+                        catalog.value = await res.json();
+                        // 目錄讀取完成後，自動載入第一個預設的 JSON
+                        setTimeout(() => loadJson(), 100);
+                    } catch (e) {
+                        console.error('Failed to load catalog.json', e);
+                    }
+                });
+
+                // 監聽語系切換，自動修正路徑與主題
                 watch(() => config.lang, (newLang) => {
-                    config.jsonPath = `/data/${newLang}/greetings.json`;
+                    const c = catalog.value.find(x => x.lang === newLang);
+                    if (c && c.topics.length > 0) {
+                        config.topic = c.topics[0].id;
+                        config.jsonPath = c.topics[0].dataFile;
+                        // 切換語系後自動載入句子
+                        setTimeout(() => loadJson(), 50);
+                    }
+                });
+
+                // 監聽主題切換，修改對應的路徑
+                watch(() => config.topic, (newTopic) => {
+                    const t = currentTopics.value.find(x => x.id === newTopic);
+                    // 加上判斷避免被語系切換觸發時重複載入
+                    if (t && config.jsonPath !== t.dataFile) {
+                        config.jsonPath = t.dataFile;
+                        // 切換分類後自動載入句子
+                        setTimeout(() => loadJson(), 50);
+                    }
                 });
 
                 const loadJson = async () => {
@@ -140,9 +217,19 @@
                 };
 
                 const clearHistory = () => {
-                    if (confirm('確定要清除紀錄？下次下載將會重新下載所有音檔。')) {
-                        Object.keys(downloadHistory).forEach(k => delete downloadHistory[k]);
-                        localStorage.removeItem('looplang_audio_dl_track');
+                    if (confirm(`確定要清除 [${config.lang.toUpperCase()}] 語系的下載紀錄？下次下載將會重新獲取音檔。`)) {
+                        let changed = false;
+                        Object.keys(downloadHistory).forEach(k => {
+                            if (k.startsWith(config.lang + '_')) {
+                                delete downloadHistory[k];
+                                changed = true;
+                            }
+                        });
+                        
+                        if (changed) {
+                            localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
+                        }
+                        
                         // 更新畫面狀態
                         sentences.value.forEach(s => s.status = 'pending');
                         progress.total = sentences.value.length;
@@ -150,50 +237,82 @@
                     }
                 };
 
-                const downloadFile = async (url, filename) => {
-                    if (!url) return;
+                const fetchMp3Blob = async (text, lang, retry = 2) => {
+                    if (!text) return null;
+                    const googleUrl = `https://translate.googleapis.com/translate_tts?ie=UTF-8&q=${encodeURIComponent(text)}&tl=${lang}&client=tw-ob`;
+                    const proxies = [
+                        `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(googleUrl)}`,
+                        `https://api.allorigins.win/raw?url=${encodeURIComponent(googleUrl)}`
+                    ];
                     
-                    // 若有跨網域存取需求，可在此補上 BASE_URL
-                    // const BASE_URL = 'https://your-server.com';
-                    // const fullUrl = url.startsWith('http') ? url : BASE_URL + url;
-                    
-                    try {
-                        const response = await fetch(url);
-                        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                        const blob = await response.blob();
-                        const blobUrl = window.URL.createObjectURL(blob);
-                        const link = document.createElement('a');
-                        link.href = blobUrl;
-                        link.download = filename;
-                        document.body.appendChild(link);
-                        link.click();
-                        document.body.removeChild(link);
-                        window.URL.revokeObjectURL(blobUrl);
-                    } catch (e) {
-                        throw e;
+                    for(let proxy of proxies) {
+                        try {
+                            const controller = new AbortController();
+                            const timeoutId = setTimeout(() => controller.abort(), 6000); // 6秒保護，超時強制拔網線
+                            const res = await fetch(proxy, { signal: controller.signal });
+                            clearTimeout(timeoutId);
+
+                            if (res.ok) {
+                                const blob = await res.blob();
+                                if (blob.size > 500) return blob; 
+                            }
+                        } catch (e) {
+                            console.warn(`Proxy failed: ${proxy}`);
+                        }
                     }
+                    
+                    if (retry > 0) return await fetchMp3Blob(text, lang, retry - 1);
+                    return null;
                 };
 
                 const startBatchDownload = async () => {
+                    isDownloading.value = true;
+                    isFinished.value = false;
+                    const zip = new JSZip();
+                    const audioFolder = zip.folder("audio").folder(config.lang.toUpperCase());
+                    let hasDownloadedAny = false;
+
                     for (let item of sentences.value) {
                         // 跳過已經下載過或是成功的
                         if (item.status === 'skipped' || item.status === 'success') continue;
                         
                         item.status = 'downloading';
                         try {
-                            // 動態從 URL 擷取正確檔名與副檔名，比寫死 .mp3 更加容錯
+                            // 動態從 URL 擷取正確檔名與副檔名
                             const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
+
+                            // 支援日文特殊讀音與停頓轉換
+                            let originalQueryText = item.ttsText || item.text;
+                            if (config.lang === 'jp') {
+                                const ttsFixMap = { '暇': 'ひま', '何': 'なに' };
+                                originalQueryText = (ttsFixMap[originalQueryText] || originalQueryText).replace(/\s*\/\s*/g, '。');
+                            }
+                            currentWordDisplay.value = `[外] ${originalQueryText}`;
 
                             // 下載原文音檔
                             if (item.audioUrl) {
                                 const originalFileName = getFileName(item.audioUrl);
-                                await downloadFile(item.audioUrl, originalFileName);
+                                const langCode = { 'jp': 'ja', 'th': 'th', 'kr': 'ko', 'hk': 'yue' }[config.lang] || config.lang;
+                                const blob = await fetchMp3Blob(originalQueryText, langCode);
+                                if (blob) {
+                                    audioFolder.file(originalFileName, blob);
+                                    hasDownloadedAny = true;
+                                }
                             }
+                            
+                            // 延遲 500ms 避免短時間抓太多被封鎖
+                            await new Promise(r => setTimeout(r, 500));
 
                             // 若有翻譯音檔則下載
                             if (item.translationAudioUrl) {
+                                currentWordDisplay.value = `[中] ${item.translation}`;
                                 const translationFileName = getFileName(item.translationAudioUrl);
-                                await downloadFile(item.translationAudioUrl, translationFileName);
+                                let translationQuery = item.translation.replace(/\s*\/\s*/g, '、');
+                                const blob = await fetchMp3Blob(translationQuery, 'zh-TW');
+                                if (blob) {
+                                    audioFolder.file(translationFileName, blob);
+                                    hasDownloadedAny = true;
+                                }
                             }
 
                             item.status = 'success';
@@ -202,15 +321,73 @@
                             localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
                             
                             progress.current++;
-                            // 延遲 500ms 避免瀏覽器判定為惡意腳本而阻擋多空下載
-                            await new Promise(r => setTimeout(r, 500));
+                            
+                            // 再延遲一次，避免頻繁請求
+                            await new Promise(r => setTimeout(r, 200));
                         } catch (e) {
                             item.status = 'error';
                         }
                     }
+
+                    if (hasDownloadedAny) {
+                        const zipBlob = await zip.generateAsync({ type: "blob" });
+                        saveAs(zipBlob, `${config.lang}_${config.topic}_audio.zip`);
+                    }
+
+                    isDownloading.value = false;
+                    isFinished.value = true;
                 };
 
-                return { config, sentences, progress, loadJson, startBatchDownload, clearHistory };
+                const downloadSingle = async (item) => {
+                    item.status = 'downloading';
+                    try {
+                        const zip = new JSZip();
+                        const audioFolder = zip.folder("audio").folder(config.lang.toUpperCase());
+                        let hasDownloadedAny = false;
+                        const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
+                        
+                        let originalQueryText = item.ttsText || item.text;
+                        if (config.lang === 'jp') {
+                            const ttsFixMap = { '暇': 'ひま', '何': 'なに' };
+                            originalQueryText = (ttsFixMap[originalQueryText] || originalQueryText).replace(/\s*\/\s*/g, '。');
+                        }
+
+                        if (item.audioUrl) {
+                            const langCode = { 'jp': 'ja', 'th': 'th', 'kr': 'ko', 'hk': 'yue' }[config.lang] || config.lang;
+                            const blob = await fetchMp3Blob(originalQueryText, langCode);
+                            if (blob) {
+                                audioFolder.file(getFileName(item.audioUrl), blob);
+                                hasDownloadedAny = true;
+                            }
+                        }
+
+                        await new Promise(r => setTimeout(r, 600));
+
+                        if (item.translationAudioUrl) {
+                            let translationQuery = item.translation.replace(/\s*\/\s*/g, '、');
+                            const blob = await fetchMp3Blob(translationQuery, 'zh-TW');
+                            if (blob) {
+                                audioFolder.file(getFileName(item.translationAudioUrl), blob);
+                                hasDownloadedAny = true;
+                            }
+                        }
+
+                        if (hasDownloadedAny) {
+                            const zipBlob = await zip.generateAsync({ type: "blob" });
+                            saveAs(zipBlob, `${item.id}_audio.zip`);
+                            item.status = 'success';
+                            downloadHistory[item.id] = true;
+                            localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
+                            progress.current = sentences.value.filter(s => s.status === 'success' || s.status === 'skipped').length;
+                        } else {
+                            item.status = 'error';
+                        }
+                    } catch (e) {
+                        item.status = 'error';
+                    }
+                };
+
+                return { config, sentences, isDownloading, isFinished, progress, progressPercent, currentWordDisplay, catalog, currentTopics, loadJson, startBatchDownload, downloadSingle, clearHistory };
             }
         }).mount('#app');
     </script>

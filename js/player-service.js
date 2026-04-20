@@ -1,6 +1,26 @@
-// js/player-service.js
 import { reactive } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
 import { DeviceService } from './device-service.js';
+import { StorageService } from './storage-service.js';
+
+/**
+ * 音檔解析器 (Cloud / Local 雙軌)
+ * 根據 StorageService 設定，將相對路徑轉換為 Firebase Storage REST API 網址，
+ * 或保持本地路徑。
+ */
+function resolveAudioUrl(path) {
+  if (!path) return null;
+  if (!StorageService.getUseCloudAudio()) return path;
+  
+  let cleanPath = path;
+  if (cleanPath.startsWith('/')) {
+    cleanPath = cleanPath.substring(1);
+  }
+  
+  const encodedPath = cleanPath.split('/').map(encodeURIComponent).join('%2F');
+  const bucketName = 'looplang-6ef14.firebasestorage.app';
+  
+  return `https://firebasestorage.googleapis.com/v0/b/${bucketName}/o/${encodedPath}?alt=media`;
+}
 
 /**
  * Player Service (播放引擎)
@@ -73,6 +93,7 @@ export const PlayerService = {
     this.config.speed = prefs.playbackSpeed;
     this.config.loopMode = prefs.loopMode;
     this.config.playbackMode = prefs.playbackMode;
+    this.config.playTranslationAudio = prefs.playTranslationAudio !== false;
   },
 
   play() {
@@ -162,8 +183,10 @@ export const PlayerService = {
     // 觸發預載 (當前句 + 後兩句)
     this._preloadNext(this.state.currentIndex);
 
+    const targetUrl = resolveAudioUrl(sentence.audioUrl);
+
     // 優先播放實體音軌，若失敗則退回 TTS
-    this._playAudioFileOrFallback(sentence.audioUrl, sentence.ttsText || sentence.text, this.config.lang, () => {
+    this._playAudioFileOrFallback(targetUrl, sentence.ttsText || sentence.text, this.config.lang, () => {
       if (!this.state.isPlaying) return;
       this._pauseAfterOriginal();
     });
@@ -176,8 +199,8 @@ export const PlayerService = {
     this.timeoutId = setTimeout(() => {
       if (!this.state.isPlaying) return;
       
-      // 如果是「衝刺模式」，直接跳過發送翻譯語音
-      if (this.config.playbackMode === 'sprint') {
+      // 如果是「衝刺模式」且使用者關閉讀中文，直接跳過發送翻譯語音
+      if (this.config.playbackMode === 'sprint' || !this.config.playTranslationAudio) {
         this._handleLoopOrNext();
       } else {
         this._playTranslation();
@@ -192,7 +215,7 @@ export const PlayerService = {
     DeviceService.setPlaybackState('playing');
 
     // 檢查是否有專屬中譯音檔 (translationAudioUrl)
-    const targetUrl = sentence.translationAudioUrl || null;
+    const targetUrl = resolveAudioUrl(sentence.translationAudioUrl);
     
     this._playAudioFileOrFallback(targetUrl, sentence.translation, 'zh-TW', () => {
       if (!this.state.isPlaying) return;
@@ -288,20 +311,22 @@ export const PlayerService = {
    */
   _preloadNext(currentIndex) {
     const list = this.state.sentences;
-    // 預載後面最多兩句
     for(let i = 1; i <= 2; i++) {
       const index = currentIndex + i;
       if (index < list.length) {
         const tgt = list[index];
-        if (tgt.audioUrl) {
+        const originalUrl = resolveAudioUrl(tgt.audioUrl);
+        const transUrl = resolveAudioUrl(tgt.translationAudioUrl);
+
+        if (originalUrl) {
           const a = new Audio();
           a.preload = "auto";
-          a.src = tgt.audioUrl;
+          a.src = originalUrl;
         }
-        if (tgt.translationAudioUrl) {
+        if (transUrl) {
           const a2 = new Audio();
           a2.preload = "auto";
-          a2.src = tgt.translationAudioUrl;
+          a2.src = transUrl;
         }
       }
     }
