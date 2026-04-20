@@ -1,0 +1,1498 @@
+[
+  {
+    "id": "jp_phrase_001",
+    "text": "おはようございます。",
+    "phonetic": "ohayou gozaimasu",
+    "translation": "早安。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_001.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "おはようございます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_002",
+    "text": "こんにちは。",
+    "phonetic": "konnichiwa",
+    "translation": "你好。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_002.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "白天使用。",
+    "ttsText": "こんにちは",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_003",
+    "text": "こんばんは。",
+    "phonetic": "konbanwa",
+    "translation": "晚安。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_003.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "傍晚後使用。",
+    "ttsText": "こんばんは",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_004",
+    "text": "[台湾|たいわん]から[来|き]ました。",
+    "phonetic": "taiwan kara kimashita",
+    "translation": "我從台灣來的。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_004.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "台湾から来ました",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_005",
+    "text": "エンジニアです。",
+    "phonetic": "enjinia desu",
+    "translation": "我是工程師。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_005.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_005.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "intro",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "エンジニアです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_006",
+    "text": "ありがとうございます。",
+    "phonetic": "arigatou gozaimasu",
+    "translation": "非常感謝。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_006.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ありがとうございます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_007",
+    "text": "すみません。",
+    "phonetic": "sumimasen",
+    "translation": "不好意思 / 抱歉。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_007.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "最通用的萬用語句。",
+    "ttsText": "すみません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_008",
+    "text": "はい、そうです。",
+    "phonetic": "hai, sou desu",
+    "translation": "是的，沒錯。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_008.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "はい、そうです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_009",
+    "text": "わかりました。",
+    "phonetic": "wakarimashita",
+    "translation": "我明白了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_009.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "わかりました",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_010",
+    "text": "お[元気|げんき]ですか？",
+    "phonetic": "o genki desu ka",
+    "translation": "你好嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_010.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "chat",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "お元気ですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_011",
+    "text": "チェックインをお[願|ねが]いします。",
+    "phonetic": "chekkuin o onegaishimasu",
+    "translation": "麻煩辦理入住。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_011.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_011.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "チェックインをお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_012",
+    "text": "[荷物|にもつ]を[預|あず]かってもらえますか？",
+    "phonetic": "nimotsu o azukatte moraemasu ka",
+    "translation": "可以幫我寄放行李嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_012.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "荷物を預かってもらえますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_013",
+    "text": "メニューをください。",
+    "phonetic": "menyuu o kudasai",
+    "translation": "請給我菜單。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_013.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "メニューをください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_014",
+    "text": "これをお[願|ねが]いします。",
+    "phonetic": "kore o onegaishimasu",
+    "translation": "請給我這個。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_014.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これをお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_015",
+    "text": "お[会計|かいけい]をお[願|ねが]いします。",
+    "phonetic": "okaikei o onegaishimasu",
+    "translation": "麻煩請結帳。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_015.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "お会計をお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_016",
+    "text": "[袋|ふくろ]はいりません。",
+    "phonetic": "fukuro wa irimasen",
+    "translation": "我不需要袋子。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_016.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_016.mp3",
+    "hasAudio": true,
+    "order": 16,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "便利商店常用語。",
+    "ttsText": "袋はいりません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_017",
+    "text": "[温|あたた]めてください。",
+    "phonetic": "atatamete kudasai",
+    "translation": "請幫我微波加熱。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_017.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_017.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "温めてください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_018",
+    "text": "[免税|めんぜい]できますか？",
+    "phonetic": "menzei dekimasu ka",
+    "translation": "可以免稅嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_018.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_018.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "藥妝店購物必備。",
+    "ttsText": "免税できますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_019",
+    "text": "トイレはどこですか？",
+    "phonetic": "toire wa doko desu ka",
+    "translation": "廁所在哪裡？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_019.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_019.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "トイレはどこですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_020",
+    "text": "[切符|きっぷ][売|う]り[場|ば]はどこですか？",
+    "phonetic": "kippu uriba wa doko desu ka",
+    "translation": "售票處在哪裡？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_020.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_020.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "切符売り場はどこですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_021",
+    "text": "[助|たす]けてください！",
+    "phonetic": "tasukete kudasai",
+    "translation": "請救救我！",
+    "audioUrl": "/assets/audio/jp/jp_phrase_021.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "助けてください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_022",
+    "text": "[日本語|にほんご]がわかりません。",
+    "phonetic": "nihongo ga wakarimasen",
+    "translation": "我不懂日語。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_022.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_022.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "日本語がわかりません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_023",
+    "text": "もう[一度|いちど]お[願|ねが]いします。",
+    "phonetic": "mou ichido onegaishimasu",
+    "translation": "請再說一次。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_023.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_023.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "もう一度お願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_024",
+    "text": "ゆっくり[話|はな]してください。",
+    "phonetic": "yukkuri hanashite kudasai",
+    "translation": "請說慢一點。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_024.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ゆっくり話してください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_025",
+    "text": "お[疲|つか]れ[様|さま]です。",
+    "phonetic": "otsukaresama desu",
+    "translation": "辛苦了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_025.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "工作場合必備。",
+    "ttsText": "お疲れ様です",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_026",
+    "text": "よろしくお[願|ねが]いします。",
+    "phonetic": "yoroshiku onegaishimasu",
+    "translation": "請多指教。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_026.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_026.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "intro",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "よろしくお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_027",
+    "text": "いくらですか？",
+    "phonetic": "ikura desu ka",
+    "translation": "多少錢？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_027.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_027.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "いくらですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_028",
+    "text": "[大丈夫|だいじょうぶ]です。",
+    "phonetic": "daijoubu desu",
+    "translation": "沒關係 / 沒問題 / 不用了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_028.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_028.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "大丈夫です",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_029",
+    "text": "[美味|おい]しいです。",
+    "phonetic": "oishii desu",
+    "translation": "很好吃。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_029.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "美味しいです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_030",
+    "text": "またね。",
+    "phonetic": "matane",
+    "translation": "再見 / 下次見。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_030.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "非正式口語。",
+    "ttsText": "またね",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_031",
+    "text": "はじめまして。",
+    "phonetic": "hajimemashite",
+    "translation": "初次見面。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_031.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "第一次見面時使用。",
+    "ttsText": "はじめまして",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_032",
+    "text": "[名前|なまえ]はオーガです。",
+    "phonetic": "namae wa Ouga desu",
+    "translation": "我的名字是歐嘎。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_032.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "名前はオーガです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_033",
+    "text": "[申|もう]し[訳|わけ]ありません。",
+    "phonetic": "moushiwake arimasen",
+    "translation": "非常抱歉。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_033.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "比 すみません 更正式。",
+    "ttsText": "申し訳ありません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_034",
+    "text": "[今日|きょう]はいい[天気|てんき]ですね。",
+    "phonetic": "kyou wa ii tenki desu ne",
+    "translation": "今天天氣真好呢。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_034.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "適合輕鬆寒暄。",
+    "ttsText": "今日はいい天気ですね",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_035",
+    "text": "それでお[願|ねが]いします。",
+    "phonetic": "sore de onegaishimasu",
+    "translation": "那就麻煩照這個辦。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_035.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "回應對方提案時常用。",
+    "ttsText": "それでお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_036",
+    "text": "[入国審査|にゅうこくしんさ]はどこですか？",
+    "phonetic": "nyuukoku shinsa wa doko desu ka",
+    "translation": "入境審查在哪裡？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_036.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_036.mp3",
+    "hasAudio": true,
+    "order": 36,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "入国審査はどこですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_037",
+    "text": "[朝食|ちょうしょく]は[何時|なんじ]からですか？",
+    "phonetic": "choushoku wa nanji kara desu ka",
+    "translation": "早餐幾點開始？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_037.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_037.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "朝食は何時からですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_038",
+    "text": "[水|みず]をください。",
+    "phonetic": "mizu o kudasai",
+    "translation": "請給我水。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_038.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "水をください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_039",
+    "text": "レシートをください。",
+    "phonetic": "reshiito o kudasai",
+    "translation": "請給我收據。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_039.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "レシートをください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_040",
+    "text": "この[場所|ばしょ]へどうやって[行|い]きますか？",
+    "phonetic": "kono basho e douyatte ikimasu ka",
+    "translation": "這個地方要怎麼去？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_040.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_040.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "この場所へどうやって行きますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_041",
+    "text": "[次|つぎ]の[駅|えき]で[降|お]ります。",
+    "phonetic": "tsugi no eki de orimasu",
+    "translation": "我在下一站下車。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_041.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_041.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "次の駅で降ります",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_042",
+    "text": "[警察|けいさつ]を[呼|よ]んでください。",
+    "phonetic": "keisatsu o yonde kudasai",
+    "translation": "請幫我叫警察。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_042.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_042.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "警察を呼んでください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_043",
+    "text": "お[名前|なまえ]は[何|なん]ですか？",
+    "phonetic": "onamae wa nan desu ka",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_043.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "お名前は何ですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_044",
+    "text": "[少|すこ]し[待|ま]ってください。",
+    "phonetic": "sukoshi matte kudasai",
+    "translation": "請等一下。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_044.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_044.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "超高頻生活句。",
+    "ttsText": "少し待ってください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_045",
+    "text": "[今|いま][行|い]きます。",
+    "phonetic": "ima ikimasu",
+    "translation": "我現在過去 / 馬上來。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_045.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "今行きます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_046",
+    "text": "[今|いま][忙|いそが]しいです。",
+    "phonetic": "ima isogashii desu",
+    "translation": "我現在很忙。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_046.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_046.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "今忙しいです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_047",
+    "text": "[大丈夫|だいじょうぶ]です、ありがとうございます。",
+    "phonetic": "daijoubu desu, arigatou gozaimasu",
+    "translation": "沒關係，謝謝你。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_047.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "大丈夫です、ありがとうございます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_048",
+    "text": "[今|いま]は[結構|けっこう]です。",
+    "phonetic": "ima wa kekkou desu",
+    "translation": "現在不用了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_048.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "委婉拒絕很好用。",
+    "ttsText": "今は結構です",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_049",
+    "text": "[喉|のど]が[渇|かわ]きました。",
+    "phonetic": "nodo ga kawakimashita",
+    "translation": "我口渴了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_049.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "喉が渇きました",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_050",
+    "text": "[お腹|おなか]が[空|す]きました。",
+    "phonetic": "onaka ga sukimashita",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_050.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "お腹が空きました",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_051",
+    "text": "[疲|つか]れました。",
+    "phonetic": "tsukaremashita",
+    "translation": "我累了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_051.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 51,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "疲れました",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_052",
+    "text": "[眠|ねむ]いです。",
+    "phonetic": "nemui desu",
+    "translation": "我想睡了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_052.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_052.mp3",
+    "hasAudio": true,
+    "order": 52,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "眠いです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_053",
+    "text": "[気分|きぶん]が[悪|わる]いです。",
+    "phonetic": "kibun ga warui desu",
+    "translation": "我不舒服。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_053.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "気分が悪いです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_054",
+    "text": "[頭|あたま]が[痛|いた]いです。",
+    "phonetic": "atama ga itai desu",
+    "translation": "我頭痛。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_054.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 54,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "頭が痛いです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_055",
+    "text": "[携帯|けいたい]の[充電|じゅうでん]がありません。",
+    "phonetic": "keitai no juuden ga arimasen",
+    "translation": "我的手機沒電了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_055.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 55,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "携帯の充電がありません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_056",
+    "text": "Wi-Fi を[使|つか]えますか？",
+    "phonetic": "wai-fai o tsukaemasu ka",
+    "translation": "可以用 Wi-Fi 嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_056.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_056.mp3",
+    "hasAudio": true,
+    "order": 56,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "Wi-Fi を使えますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_057",
+    "text": "[現金|げんきん]だけですか？",
+    "phonetic": "genkin dake desu ka",
+    "translation": "只能付現金嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_057.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 57,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "現金だけですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_058",
+    "text": "カードは[使|つか]えますか？",
+    "phonetic": "kaado wa tsukaemasu ka",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_058.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 58,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "カードは使えますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_059",
+    "text": "[今|いま]、[何|なに]してますか？",
+    "phonetic": "ima, nani shitemasu ka",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_059.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 59,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "朋友聊天高頻句。",
+    "ttsText": "今、何してますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_060",
+    "text": "[今|いま]、[家|いえ]にいます。",
+    "phonetic": "ima, ie ni imasu",
+    "translation": "我現在在家。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_060.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_060.mp3",
+    "hasAudio": true,
+    "order": 60,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "今、家にいます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_061",
+    "text": "[後|あと]で[連絡|れんらく]します。",
+    "phonetic": "ato de renraku shimasu",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_061.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 61,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "後で連絡します",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_062",
+    "text": "[一緒|いっしょ]に[行|い]きますか？",
+    "phonetic": "issho ni ikimasu ka",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_062.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 62,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "一緒に行きますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_063",
+    "text": "[何|なに]を[食|た]べたいですか？",
+    "phonetic": "nani o tabetai desu ka",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_063.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 63,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "何を食べたいですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_064",
+    "text": "[おすすめ]はありますか？",
+    "phonetic": "osusume wa arimasu ka",
+    "translation": "有推薦的嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_064.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 64,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "餐廳、咖啡店都很常用。",
+    "ttsText": "おすすめはありますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_065",
+    "text": "これは[辛|から]いですか？",
+    "phonetic": "kore wa karai desu ka",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_065.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 65,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これは辛いですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_066",
+    "text": "[持|も]ち[帰|かえ]りできますか？",
+    "phonetic": "mochi kaeri dekimasu ka",
+    "translation": "可以外帶嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_066.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰りできますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_067",
+    "text": "コーヒーを[一杯|いっぱい]ください。",
+    "phonetic": "koohii o ippai kudasai",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_067.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "コーヒーを一杯ください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_068",
+    "text": "[風邪薬|かぜぐすり]はありますか？",
+    "phonetic": "kazegusuri wa arimasu ka",
+    "translation": "有感冒藥嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_068.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 68,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "風邪薬はありますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_069",
+    "text": "[熱|ねつ]があります。",
+    "phonetic": "netsu ga arimasu",
+    "translation": "我發燒了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_069.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 69,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "熱があります",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_070",
+    "text": "[咳|せき]が[出|で]ます。",
+    "phonetic": "seki ga demasu",
+    "translation": "我有咳嗽。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_070.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 70,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "咳が出ます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_071",
+    "text": "[痛|いた]み[止|ど]めをください。",
+    "phonetic": "itamidome o kudasai",
+    "translation": "請給我止痛藥。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_071.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 71,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "痛み止めをください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_072",
+    "text": "どの[薬|くすり]がいいですか？",
+    "phonetic": "dono kusuri ga ii desu ka",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_072.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 72,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "どの薬がいいですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_073",
+    "text": "[今|いま]どこですか？",
+    "phonetic": "ima doko desu ka",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_073.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 73,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "訊息聊天高頻句。",
+    "ttsText": "今どこですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_074",
+    "text": "[今|いま][向|む]かっています。",
+    "phonetic": "ima mukatteimasu",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_074.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 74,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "今向かっています",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_075",
+    "text": "[少|すこ]し[遅|おく]れます。",
+    "phonetic": "sukoshi okuremasu",
+    "translation": "我會晚一點到。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_075.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 75,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "少し遅れます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_076",
+    "text": "[着|つ]いたら[連絡|れんらく]します。",
+    "phonetic": "tsuitara renraku shimasu",
+    "translation": "我到了再聯絡你。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_076.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_076.mp3",
+    "hasAudio": true,
+    "order": 76,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "着いたら連絡します",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_077",
+    "text": "[大丈夫|だいじょうぶ]？",
+    "phonetic": "daijoubu",
+    "translation": "你還好嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_077.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_077.mp3",
+    "hasAudio": true,
+    "order": 77,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "口語簡短版。",
+    "ttsText": "大丈夫",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_078",
+    "text": "また[今度|こんど]ね。",
+    "phonetic": "mata kondo ne",
+    "translation": "下次再約喔。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_078.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_078.mp3",
+    "hasAudio": true,
+    "order": 78,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "また今度ね",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_079",
+    "text": "[明日|あした]は[空|あ]いていますか？",
+    "phonetic": "ashita wa aiteimasu ka",
+    "translation": "你明天有空嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_079.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_079.mp3",
+    "hasAudio": true,
+    "order": 79,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "明日は空いていますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_080",
+    "text": "[了解|りょうかい]です。",
+    "phonetic": "ryoukai desu",
+    "translation": "了解。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_080.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_080.mp3",
+    "hasAudio": true,
+    "order": 80,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "了解です",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_081",
+    "text": "アイスコーヒーをお[願|ねが]いします。",
+    "phonetic": "aisu koohii o onegaishimasu",
+    "translation": "請給我冰咖啡。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_081.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_081.mp3",
+    "hasAudio": true,
+    "order": 81,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "咖啡店高頻句。",
+    "ttsText": "アイスコーヒーをお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_082",
+    "text": "ここで[飲|の]みます。",
+    "phonetic": "koko de nomimasu",
+    "translation": "我在這裡喝。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_082.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_082.mp3",
+    "hasAudio": true,
+    "order": 82,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "ここで飲みます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_083",
+    "text": "[持|も]ち[帰|かえ]ります。",
+    "phonetic": "mochi kaerimasu",
+    "translation": "我要外帶。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_083.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_083.mp3",
+    "hasAudio": true,
+    "order": 83,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰ります",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_084",
+    "text": "[温|あたた]かいのと[冷|つめ]たいの、どちらですか？",
+    "phonetic": "atatakai no to tsumetai no, dochira desu ka",
+    "translation": "熱的和冰的，要哪一個？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_084.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_084.mp3",
+    "hasAudio": true,
+    "order": 84,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句，也可收進學習資料。",
+    "ttsText": "温かいのと冷たいの、どちらですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_085",
+    "text": "[袋|ふくろ]をください。",
+    "phonetic": "fukuro o kudasai",
+    "translation": "請給我袋子。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_085.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_085.mp3",
+    "hasAudio": true,
+    "order": 85,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "袋をください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_086",
+    "text": "このままでいいです。",
+    "phonetic": "kono mama de ii desu",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_086.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_086.mp3",
+    "hasAudio": true,
+    "order": 86,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "不加熱、不分裝時可用。",
+    "ttsText": "このままでいいです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_087",
+    "text": "ポイントカードはありません。",
+    "phonetic": "pointo kaado wa arimasen",
+    "translation": "我沒有點數卡。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_087.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_087.mp3",
+    "hasAudio": true,
+    "order": 87,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "日本便利商店超常聽到。",
+    "ttsText": "ポイントカードはありません",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_088",
+    "text": "[別々|べつべつ]でお[会計|かいけい]できますか？",
+    "phonetic": "betsubetsu de okaikei dekimasu ka",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_088.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_088.mp3",
+    "hasAudio": true,
+    "order": 88,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "別々でお会計できますか",
+    "status": "published"
+  }
+]

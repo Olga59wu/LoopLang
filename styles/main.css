@@ -1,0 +1,150 @@
+/* styles/main.css */
+[v-cloak] {
+  display: none !important;
+}
+
+:root {
+  /* 基礎配色使用 zinc 家族, 透過 Tailwind 直接控制 */
+  --soft-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  --active-bg: #f4f4f5; /* zinc-100 */
+}
+
+body {
+  font-family: 'Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #1e293b; /* slate-800 for refined text */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+  background-image: radial-gradient(circle at 50% 0%, #ffffff 0%, #f1f5f9 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* 頂級毛玻璃 (Premium Glassmorphism) 共用元件 */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(40px) saturate(180%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-top: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.07);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel:hover {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px 0 rgba(31, 38, 135, 0.1);
+}
+
+/* 暗色系毛玻璃元件與高級反饋 */
+.glass-btn-dark {
+  background: rgba(24, 24, 27, 0.85); /* zinc-900 */
+  backdrop-filter: blur(20px) saturate(150%);
+  -webkit-backdrop-filter: blur(20px) saturate(150%);
+  border: 1px solid rgba(63, 63, 70, 0.5);
+  border-top: 1px solid rgba(82, 82, 91, 0.6);
+  box-shadow: 0 12px 32px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-btn-dark:hover {
+  background: rgba(24, 24, 27, 0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* 漸層標題文字 */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+}
+
+
+
+/* 泰文專屬排版強化 */
+.lang-th {
+  font-family: 'Sarabun', 'Kanit', sans-serif;
+  line-height: 2.0 !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+/* 拼音字體 */
+.font-phonetic {
+  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+}
+
+/* 軟陰影 */
+.shadow-soft {
+  box-shadow: var(--soft-shadow);
+}
+
+/* Vue 轉場動畫: Slide-up + Fade */
+.slide-up-enter-active,
+.slide-up-leave-active {
+  transition: all 0.3s ease;
+}
+
+.slide-up-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.slide-up-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* 漸隱動畫 */
+.fade-enter-active,
+.fade-enter-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/* 控制列點擊回饋 (Active State) */
+.btn-active:active {
+  background-color: var(--active-bg);
+  transform: scale(0.98);
+}
+
+/* 呼吸感排版基礎設定 */
+.breathing-container {
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+/* 加大 Hit Area 的無框按鈕 */
+.hit-area-lg {
+  position: relative;
+}
+
+.hit-area-lg::after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  bottom: -10px;
+  left: -10px;
+}
+
+/* 日文漢字振假名 (Furigana / Ruby) 樣式 */
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  color: #8b5cf6; /* Tailwind violet-500，符合參考圖淺紫配色 */
+  font-size: 0.5em; /* 保持精緻比例 */
+  font-weight: 600;
+  letter-spacing: 0;
+  transform: translateY(2px); /* 微降貼合 */
+}

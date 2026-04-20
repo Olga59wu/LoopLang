@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 設定</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 mx-auto max-w-md pb-20">
+  <div id="app" class="breathing-container" v-cloak>
+    
+    <header class="flex items-center mb-8 pt-4">
+      <button @click="goHome" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <h1 class="text-2xl font-bold tracking-tight">偏好設定</h1>
+    </header>
+
+    <!-- 區塊 0: 帳戶中心 -->
+    <div class="bg-white rounded-xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 p-5 mb-6" v-if="authUser">
+      <h2 class="text-sm font-semibold text-slate-400 mb-4 uppercase tracking-wider">帳戶與同步</h2>
+      <div class="flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <img :src="authUser.photoURL || 'https://via.placeholder.com/40'" class="w-10 h-10 rounded-full border border-slate-200" referrerpolicy="no-referrer">
+          <div>
+            <div class="font-medium text-slate-800">{{ authUser.displayName || '使用者' }}</div>
+            <div class="text-xs text-slate-500">{{ authUser.email }}</div>
+          </div>
+        </div>
+        <button @click="logout" class="bg-rose-50 text-rose-600 px-4 py-2 rounded-lg font-bold text-sm active:scale-95 transition-transform outline-none">登出</button>
+      </div>
+    </div>
+
+    <!-- 區塊 1: 選項顯示開關 -->
+    <div class="bg-white rounded-xl shadow-soft p-5 mb-6">
+      <h2 class="text-sm font-semibold text-zinc-400 mb-4 uppercase tracking-wider">預設顯示</h2>
+      
+      <!-- 拼音推桿開關：使用自製 Tailwind Peer 邏輯覆蓋傳統 Checkbox 外觀 -->
+      <div class="flex justify-between items-center py-3 border-b border-zinc-100">
+        <div>
+          <div class="font-medium text-zinc-900">顯示拼音</div>
+          <div class="text-xs text-zinc-500">在播放時顯示羅馬音 / 粵拼等輔助拼音</div>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer hit-area-lg">
+          <input type="checkbox" v-model="prefs.showPhonetic" class="sr-only peer">
+          <div class="w-11 h-6 bg-zinc-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-zinc-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-zinc-900"></div>
+        </label>
+      </div>
+
+      <!-- 翻譯推桿開關 -->
+      <div class="flex justify-between items-center py-3">
+        <div>
+          <div class="font-medium text-zinc-900">顯示翻譯</div>
+          <div class="text-xs text-zinc-500">在播放時顯示母語翻譯</div>
+        </div>
+        <label class="relative inline-flex items-center cursor-pointer hit-area-lg">
+          <input type="checkbox" v-model="prefs.showTranslation" class="sr-only peer">
+          <div class="w-11 h-6 bg-zinc-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-zinc-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-zinc-900"></div>
+        </label>
+      </div>
+    </div>
+
+    <!-- 區塊 2: 節奏設定 -->
+    <div class="bg-white rounded-xl shadow-soft p-5 mb-6">
+      <h2 class="text-sm font-semibold text-zinc-400 mb-4 uppercase tracking-wider">預設播放節奏</h2>
+      
+      <div class="flex justify-between items-center py-3">
+        <div>
+          <div class="font-medium text-zinc-900">翻譯後停頓</div>
+          <div class="text-xs text-zinc-500">與下一句之間的空白時間</div>
+        </div>
+      </div>
+      <!-- 直接呼叫組件，並建立資料流雙向綁定 -->
+      <pause-selector 
+        :duration="prefs.pauseDuration" 
+        @update:duration="val => prefs.pauseDuration = val"
+      />
+    </div>
+
+    <!-- 區塊 3: 尚未實作之保留區 -->
+    <div class="bg-white rounded-xl shadow-soft p-5 text-zinc-400">
+      <div class="flex justify-between items-center py-3">
+        <div>
+          <div class="font-medium">深色模式</div>
+          <div class="text-xs">即將推出</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { createApp, ref, onMounted, watch } from 'vue';
+    import PauseSelector from '/components/pause-selector.js';
+    import { StorageService } from '/js/storage-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+    import { FirebaseService } from '/js/firebase-service.js';
+
+    const App = {
+      components: {
+        PauseSelector
+      },
+      setup() {
+        const authUser = ref(null);
+        const prefs = ref({
+          pauseDuration: 2,
+          showPhonetic: true,
+          showTranslation: true
+        });
+
+        // 取出全域初始設定
+        onMounted(() => {
+          prefs.value = StorageService.getPreferences();
+          FirebaseService.onAuthChange((user) => {
+            if (user) {
+              authUser.value = user;
+            } else {
+              window.location.href = '/index.html';
+            }
+          });
+        });
+
+        // Vue Watcher: 當 UI 操作發生，立即深層偵測並利用 StorageService 同步進瀏覽器快取 (會自帶背景雲端同步)
+        watch(() => prefs.value, (newVal) => {
+          StorageService.savePreferences(newVal);
+        }, { deep: true });
+
+        const logout = async () => {
+          if (confirm('確定要登出嗎？本機進度將被清除。')) {
+            await FirebaseService.logout();
+          }
+        };
+
+        const goHome = () => {
+          RouterHelpers.navigateToHome();
+        };
+
+        return {
+          prefs, authUser, logout, goHome
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

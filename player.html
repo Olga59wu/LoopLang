@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 播放</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+
+<body class="mx-auto max-w-md min-h-screen flex flex-col selection:bg-indigo-100 bg-slate-50/50">
+
+  <div id="app" class="flex flex-col flex-1 relative px-4 sm:px-6" v-cloak>
+
+    <!-- 核心播放器 -->
+    <!-- 頂部資訊列 -->
+    <header class="pt-10 pb-4 flex justify-between items-center relative z-10 px-2 sm:px-0">
+      <button @click="goHome"
+        class="w-11 h-11 flex items-center justify-center rounded-full glass-panel text-slate-500 hover:text-slate-900 hit-area-lg">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+           stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+      </button>
+
+      <button @click="showTopicModal = true" class="text-center flex-1 px-4 flex flex-col items-center justify-center active:opacity-70 transition-opacity outline-none hit-area-lg group">
+        <div class="text-[10px] text-slate-400 font-bold tracking-widest uppercase mb-0.5">{{ langLabel }}</div>
+        <div class="flex items-center justify-center gap-1.5 bg-slate-200/40 px-3 py-1 rounded-full">
+          <div class="text-sm font-bold text-slate-800 line-clamp-1 decoration-dashed">{{ topicTitle }}</div>
+          <svg class="text-slate-400 group-hover:text-slate-600 transition-colors" xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+      </button>
+
+      <div class="flex items-center gap-2">
+        <button @click="toggleLearned"
+          class="w-11 h-11 flex items-center justify-center rounded-full glass-panel hit-area-lg"
+          :class="isLearned ? 'text-emerald-500' : 'text-slate-400 hover:text-emerald-400'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+        </button>
+        <button @click="toggleFavorite"
+          class="w-11 h-11 flex items-center justify-center rounded-full glass-panel hit-area-lg"
+          :class="isFavorite ? 'text-rose-500' : 'text-slate-400 hover:text-rose-400'">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"
+            :fill="isFavorite ? 'currentColor' : 'none'" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+          </svg>
+        </button>
+      </div>
+      </header>
+
+      <!-- 進度列檢視 -->
+      <div class="text-center mt-2 mb-2 relative z-10">
+        <span class="inline-flex items-center justify-center bg-slate-200/50 backdrop-blur-sm text-slate-500 text-[10px] font-bold px-3 py-1 rounded-full tracking-widest shadow-sm">
+          {{ currentIndex + 1 }} / {{ totalSentences }}
+        </span>
+      </div>
+
+      <!-- 中間顯示區 -->
+      <div class="flex-1 flex flex-col items-center justify-center px-4 relative z-0">
+        <sentence-display v-if="currentSentence" :sentence="currentSentence" :show-phonetic="prefs.showPhonetic"
+          :show-translation="prefs.showTranslation" :lang="lang" :playback-mode="prefs.playbackMode"></sentence-display>
+      </div>
+
+      <!-- 底部控制區 - 較大設計、減少多餘空間以求穩重 -->
+      <div class="pb-8 relative z-10 w-full max-w-sm mx-auto">
+        
+        <!-- 第一列：基礎顯示控制 -->
+        <div class="flex justify-between items-center glass-panel p-3.5 rounded-2xl mb-3">
+          <label class="flex items-center justify-center gap-3 text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-3 flex-1">
+            <input type="checkbox" v-model="prefs.showPhonetic" class="accent-slate-800 w-4 h-4 rounded">
+            <span>輔助注音</span>
+          </label>
+          <div class="w-[1px] h-6 bg-slate-300"></div>
+          <label class="flex items-center justify-center gap-3 text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-3 flex-1">
+            <input type="checkbox" v-model="prefs.showTranslation" class="accent-slate-800 w-4 h-4 rounded">
+            <span>中文對照</span>
+          </label>
+        </div>
+
+        <!-- 第二列：進階播放偏好 -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
+          <button @click="cycleFilter" class="glass-panel py-2 px-1 rounded-xl text-xs font-bold text-slate-500 flex flex-col items-center gap-1 active:scale-95 transition-all outline-none">
+            <span class="text-[10px] tracking-widest uppercase">播放範圍</span>
+            <span class="text-slate-800 text-sm">{{ filterLabel }}</span>
+          </button>
+          
+          <button @click="cycleMode" class="glass-panel py-2 px-1 rounded-xl text-xs font-bold text-slate-500 flex flex-col items-center gap-1 active:scale-95 transition-all outline-none">
+            <span class="text-[10px] tracking-widest uppercase">學習模式</span>
+            <span class="text-slate-800 text-sm">{{ modeLabel }}</span>
+          </button>
+          
+          <button @click="cycleSpeed" class="glass-panel py-2 px-1 rounded-xl text-xs font-bold text-slate-500 flex flex-col items-center gap-1 active:scale-95 transition-all outline-none">
+            <span class="text-[10px] tracking-widest uppercase">播放語速</span>
+            <span class="text-slate-800 text-sm">{{ prefs.playbackSpeed.toFixed(1) }}x</span>
+          </button>
+
+          <button @click="cycleLoop" class="glass-panel py-2 px-1 rounded-xl text-xs font-bold text-slate-500 flex flex-col items-center gap-1 active:scale-95 transition-all outline-none">
+            <span class="text-[10px] tracking-widest uppercase">單句循環</span>
+            <span class="text-slate-800 text-sm">{{ loopLabel }}</span>
+          </button>
+        </div>
+
+        <pause-selector :duration="prefs.pauseDuration" @update:duration="val => prefs.pauseDuration = val"></pause-selector>
+
+        <control-bar :is-playing="playerState.isPlaying" :play-phase="playerState.playPhase" @play="play" @pause="pause"
+          @next="next" @prev="prev"></control-bar>
+      </div>
+      
+    <!-- 彈出式主題清單 (Bottom Sheet) -->
+    <div v-show="showTopicModal" class="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4">
+      <div class="fixed inset-0 bg-slate-900/20 backdrop-blur-sm transition-opacity" @click="showTopicModal = false"></div>
+      <div class="bg-white/85 backdrop-blur-2xl w-full max-w-md rounded-[2rem] p-6 relative z-10 shadow-2xl flex flex-col max-h-[85vh] overflow-hidden border border-white/50">
+        <div class="flex justify-between items-center mb-6">
+          <h3 class="text-xl font-extrabold text-slate-800 tracking-tight">切換主題</h3>
+          <button @click="showTopicModal = false" class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 hit-area-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </button>
+        </div>
+        <div class="flex-1 overflow-y-auto flex flex-col gap-3 pb-6">
+          <topic-card 
+            v-for="topic in topics"
+            :key="topic.id"
+            :topic="topic"
+            @select="selectTopic"
+          ></topic-card>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { createApp, ref, computed, onMounted, onUnmounted, watch } from 'vue';
+    import SentenceDisplay from '/components/sentence-display.js';
+    import ControlBar from '/components/control-bar.js';
+    import PauseSelector from '/components/pause-selector.js';
+    import TopicCard from '/components/topic-card.js';
+    
+    import { DataService } from '/js/data-service.js';
+    import { StorageService } from '/js/storage-service.js';
+    import { FirebaseService } from '/js/firebase-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+    import { PlayerService } from '/js/player-service.js';
+    import { DeviceService } from '/js/device-service.js';
+
+    const App = {
+      components: {
+        SentenceDisplay, ControlBar, PauseSelector, TopicCard
+      },
+      setup() {
+        const showTopicModal = ref(false);
+        const topics = ref([]);
+
+        const lang = ref('');
+        const topicId = ref('');
+        const topicSlug = ref('');
+        const topicTitle = ref('Loading...');
+        const langLabel = ref('LoopLang');
+        const isFavorite = ref(false);
+        const isLearned = ref(false);
+
+        let baseSentences = []; // 全量主題資料
+
+        const prefs = ref({
+          pauseDuration: 2,
+          showPhonetic: true,
+          showTranslation: true,
+          playbackSpeed: 1.0,
+          loopMode: '1',
+          playbackMode: 'standard',
+          filterMode: 'all'
+        });
+
+        const playerState = PlayerService.state;
+
+        const currentSentence = computed(() => {
+          if (playerState.sentences.length === 0) return null;
+          return playerState.sentences[playerState.currentIndex];
+        });
+
+        const currentIndex = computed(() => playerState.currentIndex);
+        const totalSentences = computed(() => playerState.sentences.length);
+
+        onMounted(async () => {
+          FirebaseService.onAuthChange((user) => {
+            if (!user) {
+              window.location.href = '/index.html';
+              return;
+            }
+          });
+
+          lang.value = RouterHelpers.getQueryParam('lang') || '';
+          if (!lang.value) {
+            alert('缺少語言參數，返回首頁。');
+            RouterHelpers.navigateToHome();
+            return;
+          }
+
+          topicId.value = RouterHelpers.getQueryParam('topic') || '';
+          let initIdx = parseInt(RouterHelpers.getQueryParam('idx') || '0', 10);
+
+          prefs.value = StorageService.getPreferences();
+
+          const catalog = await DataService.getCatalog();
+          const lData = catalog.find(c => c.lang === lang.value);
+          if (lData) {
+            langLabel.value = lData.langLabel;
+            topics.value = lData.topics || [];
+          } else {
+            alert('找不到該語言庫，返回首頁。');
+            RouterHelpers.navigateToHome();
+            return;
+          }
+
+          if (!topicId.value && topics.value.length > 0) {
+            topicId.value = topics.value[0].id;
+          }
+
+          if (topicId.value) {
+            const tData = topics.value.find(t => t.id === topicId.value);
+            if (tData) {
+              topicTitle.value = tData.title;
+              topicSlug.value = tData.slug;
+              await initPlayer(initIdx);
+            } else {
+              alert('找不到指定的主題，返回首頁。');
+              RouterHelpers.navigateToHome();
+            }
+          }
+
+          // 鍵盤快捷鍵支援 (PC 版核心)
+          window.addEventListener('keydown', handleGlobalKeydown);
+
+          // 媒體鍵支援
+          if ('mediaSession' in navigator) {
+            navigator.mediaSession.setActionHandler('nexttrack', next);
+            navigator.mediaSession.setActionHandler('previoustrack', prev);
+          }
+        });
+
+        const handleGlobalKeydown = (e) => {
+          if (showTopicModal.value) return;
+          if (e.target.tagName === 'INPUT') return; 
+          if (e.code === 'ArrowRight') next();
+          if (e.code === 'ArrowLeft') prev();
+          if (e.code === 'Space') {
+            e.preventDefault();
+            playerState.isPlaying ? pause() : play();
+          }
+        };
+
+        const rebuildPlaylist = () => {
+          let newPlayList = baseSentences;
+          if (prefs.value.filterMode === 'unlearned') {
+             newPlayList = baseSentences.filter(s => !StorageService.isLearned(s.id));
+          } else if (prefs.value.filterMode === 'starred') {
+             newPlayList = baseSentences.filter(s => StorageService.isFavorite(s.id));
+          }
+          
+          if (newPlayList.length === 0 && baseSentences.length > 0) {
+             // 若過濾後無任何句子，妥協回歸全庫避免系統死機
+             newPlayList = baseSentences;
+          }
+          
+          // 嘗試維持原本正在播放的這句的 ID 索引
+          let currentId = playerState.sentences[playerState.currentIndex]?.id;
+          let newIdx = 0;
+          if (currentId) {
+             let found = newPlayList.findIndex(s => s.id === currentId);
+             if (found !== -1) newIdx = found;
+          }
+          
+          PlayerService.updatePlaylist(newPlayList, newIdx);
+        };
+
+        const initPlayer = async (initIdx) => {
+          const fetched = await DataService.getTopicData(lang.value, topicSlug.value);
+          if (fetched.length === 0) {
+            alert('此主題無句子。');
+            return;
+          }
+
+          baseSentences = fetched;
+          // 初始賦值，否則 rebuildPlaylist 時 playerState 裡甚麼都沒有
+          PlayerService.state.sentences = baseSentences;
+          PlayerService.state.currentIndex = initIdx >= baseSentences.length ? 0 : initIdx;
+          
+          rebuildPlaylist();
+          initIdx = PlayerService.state.currentIndex;
+          
+          DeviceService.requestWakeLock();
+          PlayerService.init(PlayerService.state.sentences, initIdx, lang.value);
+          PlayerService.setConfig(prefs.value);
+          
+          checkFavoriteAndLearned();
+          saveRecent();
+        };
+
+        onUnmounted(() => {
+          PlayerService.pause();
+          DeviceService.releaseWakeLock();
+          window.removeEventListener('keydown', handleGlobalKeydown);
+        });
+
+        watch(() => prefs.value, (newVal) => {
+          StorageService.savePreferences(newVal);
+          PlayerService.setConfig(newVal);
+        }, { deep: true });
+
+        watch(() => playerState.currentIndex, (newIdx, oldIdx) => {
+          checkFavoriteAndLearned();
+          saveRecent();
+          if (newIdx === 0 && oldIdx > 0 && playerState.sentences.length > 0) {
+             // 播放完一輪循環後，刷新過濾歌單（讓剛標記的星號或已學會生效）
+             rebuildPlaylist();
+          }
+        });
+
+        // --- Router 與狀態遷移 ---
+        const goHome = () => {
+          RouterHelpers.navigateToHome();
+        };
+
+        const selectTopic = async (topic) => {
+          topicId.value = topic.id;
+          topicTitle.value = topic.title;
+          topicSlug.value = topic.slug;
+          showTopicModal.value = false;
+          
+          const newUrl = new URL(window.location);
+          newUrl.searchParams.set('topic', topic.id);
+          newUrl.searchParams.set('idx', '0');
+          window.history.replaceState({}, '', newUrl);
+
+          pause();
+          window.speechSynthesis.cancel();
+          await initPlayer(0);
+        };
+
+        // --- 核心共用區塊 ---
+        const checkFavoriteAndLearned = () => {
+          if (!currentSentence.value) return;
+          isFavorite.value = StorageService.isFavorite(currentSentence.value.id);
+          isLearned.value = StorageService.isLearned(currentSentence.value.id);
+        };
+
+        const toggleFavorite = () => {
+          if (!currentSentence.value) return;
+          if (isFavorite.value) {
+            StorageService.removeFavorite(currentSentence.value.id);
+          } else {
+            StorageService.saveFavorite(currentSentence.value, lang.value, langLabel.value, topicId.value, topicTitle.value);
+          }
+          checkFavoriteAndLearned();
+        };
+
+        const toggleLearned = () => {
+          if (!currentSentence.value) return;
+          if (isLearned.value) {
+            StorageService.removeLearned(currentSentence.value.id);
+          } else {
+            StorageService.addLearned(currentSentence.value, lang.value, langLabel.value, topicId.value, topicTitle.value);
+          }
+          checkFavoriteAndLearned();
+        };
+
+        const saveRecent = () => {
+          if(topicId.value) {
+            StorageService.saveRecentLearning(lang.value, topicId.value, playerState.currentIndex);
+          }
+        };
+
+        const play = () => {
+          DeviceService.requestWakeLock();
+          PlayerService.play();
+        };
+        const pause = () => PlayerService.pause();
+        const next = () => PlayerService.next();
+        const prev = () => PlayerService.prev();
+
+        // --- 進階功能切換 ---
+        const cycleSpeed = () => {
+          const speeds = [0.8, 1.0, 1.2];
+          let idx = speeds.indexOf(prefs.value.playbackSpeed);
+          prefs.value.playbackSpeed = speeds[(idx + 1) % speeds.length];
+        };
+
+        const cycleLoop = () => {
+          const loops = ['1', '3', '5', 'inf'];
+          let idx = loops.indexOf(prefs.value.loopMode);
+          prefs.value.loopMode = loops[(idx + 1) % loops.length];
+        };
+
+        const cycleMode = () => {
+          const modes = ['standard', 'sprint', 'challenge'];
+          let idx = modes.indexOf(prefs.value.playbackMode);
+          prefs.value.playbackMode = modes[(idx + 1) % modes.length];
+        };
+
+        const cycleFilter = () => {
+          const filters = ['all', 'unlearned', 'starred'];
+          let idx = filters.indexOf(prefs.value.filterMode);
+          prefs.value.filterMode = filters[(idx + 1) % filters.length];
+          rebuildPlaylist();
+        };
+
+        const filterLabel = computed(() => {
+          if (prefs.value.filterMode === 'unlearned') return '排已學會';
+          if (prefs.value.filterMode === 'starred') return '僅播星星';
+          return '完整播放';
+        });
+
+        const loopLabel = computed(() => {
+          if (prefs.value.loopMode === 'inf') return '無限';
+          return prefs.value.loopMode + ' 次';
+        });
+
+        const modeLabel = computed(() => {
+          if (prefs.value.playbackMode === 'sprint') return '衝刺';
+          if (prefs.value.playbackMode === 'challenge') return '盲聽';
+          return '標準';
+        });
+
+        return {
+          topics, lang, topicTitle, langLabel,
+          prefs, playerState, currentSentence, currentIndex, totalSentences,
+          isFavorite, isLearned, toggleFavorite, toggleLearned,
+          play, pause, next, prev, 
+          cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
+          goHome, selectTopic, showTopicModal
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+
+</html>

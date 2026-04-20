@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 你的跟讀練習</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+<body class="mx-auto max-w-md pb-20 selection:bg-indigo-100 bg-slate-50/50">
+  <div id="app" class="breathing-container" v-cloak>
+    
+    <!-- 登入閘門 (Auth Gate) -->
+    <div v-if="!isAuthResolved" class="fixed inset-0 bg-slate-50 flex items-center justify-center z-50">
+      <div class="animate-pulse text-slate-400 font-bold tracking-widest text-sm">LOADING...</div>
+    </div>
+    
+    <div v-else-if="!isLoggedIn" class="fixed inset-0 bg-slate-50 flex flex-col items-center justify-center z-40 px-6">
+      <div class="max-w-sm w-full bg-white p-8 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 flex flex-col items-center text-center">
+        <h1 class="text-3xl font-extrabold tracking-tight text-gradient mb-2">LoopLang.</h1>
+        <p class="text-slate-500 text-sm mb-8">必須登入以建立您的專屬雲端學習進度。</p>
+        
+        <button @click="login" :disabled="isLoggingIn" class="w-full flex items-center justify-center gap-3 bg-slate-900 text-white font-bold py-3.5 rounded-xl hover:bg-slate-800 active:scale-95 transition-all outline-none">
+          <svg v-if="!isLoggingIn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="18px" height="18px"><path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/><path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/><path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"/><path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"/></svg>
+          <svg v-else class="animate-spin h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+          <span>使用 Google 帳戶登入</span>
+        </button>
+      </div>
+    </div>
+    
+    <!-- 原本的 App 內容 -->
+    <template v-else>
+      <div class="px-6">
+    <header class="flex justify-between items-center mb-10 pt-8 relative z-10">
+      <h1 class="text-3xl font-extrabold tracking-tight text-gradient">LoopLang.</h1>
+      <div class="flex gap-4">
+        <button @click="goFavorites" class="text-zinc-500 hover:text-zinc-900 hit-area-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+        </button>
+        <button @click="goSettings" class="text-zinc-500 hover:text-zinc-900 hit-area-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="mb-10 text-slate-500/80 text-sm leading-relaxed max-w-xs relative z-10">
+      極簡流暢的多語會話跟讀播放器。通勤、駕駛、碎片時間的最佳練習。
+    </div>
+
+    <!-- 最近學習區 -->
+    <div v-if="recent" class="mb-10 animate-fade-in relative">
+      <h2 class="text-sm font-semibold text-zinc-400 mb-3 uppercase tracking-wider">最近學習</h2>
+      <div 
+        @click="continueLearning" 
+        class="glass-btn-dark text-white p-5 rounded-xl flex justify-between items-center cursor-pointer hit-area-lg active:scale-95 transition-transform"
+      >
+        <div>
+          <div class="text-xs text-zinc-300 mb-1 opacity-80">繼續練習</div>
+          <div class="font-medium text-lg tracking-wide">{{ recentLabel }}</div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="10 8 16 12 10 16 10 8"></polygon></svg>
+      </div>
+    </div>
+
+    <!-- 語言選擇（點擊後直接跳轉） -->
+    <div class="mb-10 relative z-10 animate-fade-in" style="animation-delay: 0.1s;">
+      <h2 class="text-xs font-bold text-slate-400 mb-4 uppercase tracking-widest pl-1">選擇語言</h2>
+      <div class="grid grid-cols-2 gap-4">
+        <language-card 
+          v-for="item in catalog" 
+          :key="item.lang"
+          :lang="item.lang"
+          :label="item.langLabel"
+          :selected="false"
+          @select="goTopics"
+        ></language-card>
+      </div>
+    </div>
+
+      </div>
+    </template>
+  </div>
+
+  <script type="module">
+    import { createApp, ref, onMounted, computed } from 'vue';
+    import { StorageService } from '/js/storage-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+    import { FirebaseService } from '/js/firebase-service.js';
+    import { DataService } from '/js/data-service.js';
+    import LanguageCard from '/components/language-card.js';
+
+    const App = {
+      components: {
+        LanguageCard
+      },
+      setup() {
+        const isAuthResolved = ref(false);
+        const isLoggedIn = ref(false);
+        const isLoggingIn = ref(false);
+        const authUser = ref(null);
+        
+        const recent = ref(null);
+        const catalog = ref([]);
+
+        const recentLabel = computed(() => {
+          if (!recent.value || catalog.value.length === 0) return '';
+          const l = catalog.value.find(c => c.lang === recent.value.lang);
+          if (!l) return '未知的語言';
+          const t = l.topics.find(t => t.id === recent.value.topicId);
+          return t ? `${l.langLabel} - ${t.title}` : l.langLabel;
+        });
+
+        const loadData = async () => {
+          catalog.value = await DataService.getCatalog();
+          recent.value = StorageService.getRecentLearning();
+        };
+
+        const continueLearning = () => {
+          if (recent.value) {
+            RouterHelpers.navigateToPlayer(recent.value.lang, recent.value.topicId, recent.value.sentenceIndex || 0);
+          }
+        };
+
+        onMounted(() => {
+          FirebaseService.onAuthChange(async (user) => {
+            if (user) {
+              authUser.value = user;
+              isLoggedIn.value = true;
+              
+              try {
+                const cloudRoot = await FirebaseService.pullUserRoot();
+                const cloudFavorites = await FirebaseService.pullAllFavorites();
+                const cloudLearned = await FirebaseService.pullAllLearned();
+                await StorageService.syncFromCloud(cloudRoot, cloudFavorites, cloudLearned);
+              } catch(e) {
+                console.error("Cloud hydration failed", e);
+              }
+              
+              await loadData();
+              isAuthResolved.value = true;
+            } else {
+              authUser.value = null;
+              isLoggedIn.value = false;
+              StorageService.clearAll();
+              isAuthResolved.value = true;
+            }
+          });
+        });
+
+        const login = async () => {
+          isLoggingIn.value = true;
+          try {
+            await FirebaseService.loginWithGoogle();
+          } catch(e) {
+            alert('登入失敗，請重試');
+          } finally {
+            isLoggingIn.value = false;
+          }
+        };
+
+        const goTopics = (lang) => RouterHelpers.navigateToLanguageHub(lang);
+        const goFavorites = () => RouterHelpers.navigateToFavorites();
+        const goSettings = () => RouterHelpers.navigateToSettings();
+
+        return {
+          isAuthResolved, isLoggedIn, isLoggingIn, authUser, login,
+          catalog, recent, recentLabel,
+          goTopics, continueLearning, goFavorites, goSettings
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

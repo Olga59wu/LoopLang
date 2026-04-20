@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 收藏句子</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 mx-auto max-w-md pb-20">
+  <div id="app" class="breathing-container" v-cloak>
+    
+    <!-- 頂部與返回導覽 -->
+    <header class="flex items-center mb-8 pt-4">
+      <button @click="goHome" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+      </button>
+      <h1 class="text-2xl font-bold tracking-tight">收藏句子</h1>
+    </header>
+
+    <!-- 狀態一：空狀態 (Empty State) -->
+    <div v-if="favorites.length === 0" class="flex flex-col items-center justify-center mt-20 text-zinc-400">
+      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="mb-4 text-zinc-300"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+      <p>目前沒有收藏的句子。</p>
+    </div>
+
+    <!-- 狀態二：資料列表 -->
+    <div v-else class="flex flex-col">
+      <!-- 採用 transition-group 處理註銷單項時的抽離動畫 -->
+      <transition-group name="slide-up">
+        <favorite-item 
+          v-for="item in favorites" 
+          :key="item.id" 
+          :item="item"
+          @remove="removeFavorite"
+          @navigate="goToPlayer"
+        />
+      </transition-group>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { createApp, ref, onMounted } from 'vue';
+    import FavoriteItem from '/components/favorite-item.js';
+    import { StorageService } from '/js/storage-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+    import { FirebaseService } from '/js/firebase-service.js';
+
+    const App = {
+      components: {
+        FavoriteItem
+      },
+      setup() {
+        const favorites = ref([]);
+
+        // 初次掛載時從本地取出所有資料。呼叫 reverse 確保最晚操作的排在最上方
+        onMounted(() => {
+          FirebaseService.onAuthChange((user) => {
+            if (!user) {
+              window.location.href = '/index.html';
+              return;
+            }
+            favorites.value = StorageService.getFavorites().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+          });
+        });
+
+        // 移除邏輯代理
+        const removeFavorite = (id) => {
+          StorageService.removeFavorite(id);
+          favorites.value = StorageService.getFavorites().sort((a, b) => new Date(b.addedAt) - new Date(a.addedAt));
+        };
+
+        // 點擊卡片本體時，解構該句原先所在的字典與順位進行跳轉定位
+        const goToPlayer = (lang, topicId, idx) => {
+          RouterHelpers.navigateToPlayer(lang, topicId, idx);
+        };
+
+        const goHome = () => {
+          RouterHelpers.navigateToHome();
+        };
+
+        return {
+          favorites, removeFavorite, goToPlayer, goHome
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

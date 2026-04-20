@@ -1,0 +1,70 @@
+[
+  {
+    "lang": "jp",
+    "langLabel": "日文",
+    "topics": [
+      {
+        "id": "jp_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基本問候與初次見面句型",
+        "difficulty": "beginner",
+        "sentenceCount": 88,
+        "cover": "/assets/images/jp-greetings.jpg",
+        "dataFile": "/data/jp/greetings.json",
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "lang": "th",
+    "langLabel": "泰文",
+    "topics": [
+      {
+        "id": "th_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "赴泰旅遊基本禮貌用語",
+        "difficulty": "beginner",
+        "sentenceCount": 88,
+        "cover": "/assets/images/th-greetings.jpg",
+        "dataFile": "/data/th/greetings.json",
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "lang": "kr",
+    "langLabel": "韓文",
+    "topics": [
+      {
+        "id": "kr_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基礎問候與日常用語",
+        "difficulty": "beginner",
+        "sentenceCount": 88,
+        "cover": "/assets/images/kr-greetings.jpg",
+        "dataFile": "/data/kr/greetings.json",
+        "sortOrder": 1
+      }
+    ]
+  },
+  {
+    "lang": "hk",
+    "langLabel": "粵語",
+    "topics": [
+      {
+        "id": "hk_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "香港日常見面與道謝",
+        "difficulty": "beginner",
+        "sentenceCount": 88,
+        "cover": "/assets/images/hk-greetings.jpg",
+        "dataFile": "/data/hk/greetings.json",
+        "sortOrder": 1
+      }
+    ]
+  }
+]

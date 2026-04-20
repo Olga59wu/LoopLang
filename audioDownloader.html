@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoopLang - 萬用音檔下載器</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        [v-cloak] {
+            display: none;
+        }
+
+        .status-pending {
+            @apply text-zinc-400;
+        }
+
+        .status-downloading {
+            @apply text-blue-500 animate-pulse;
+        }
+
+        .status-success {
+            @apply text-emerald-500;
+        }
+
+        .status-skipped {
+            @apply text-zinc-300;
+        }
+
+        .status-error {
+            @apply text-rose-500;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-50 text-zinc-900 p-8">
+    <div id="app" v-cloak class="max-w-4xl mx-auto">
+        <header class="mb-10">
+            <h1 class="text-3xl font-bold tracking-tight mb-2">Universal Downloader.</h1>
+            <p class="text-zinc-500">內容治理內部工具：跨語系 JSON 內容與音檔同步</p>
+        </header>
+
+        <section class="bg-white p-6 rounded-2xl shadow-sm border border-zinc-200 mb-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-sm font-semibold mb-2">選擇語系</label>
+                    <select v-model="config.lang" class="w-full bg-zinc-100 border-none rounded-lg p-3 outline-none">
+                        <option value="jp">日文 (JP)</option>
+                        <option value="th">泰文 (TH)</option>
+                        <option value="kr">韓文 (KR)</option>
+                        <option value="hk">粵語 (HK)</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold mb-2">JSON 路徑</label>
+                    <input type="text" v-model="config.jsonPath"
+                        class="w-full bg-zinc-100 border-none rounded-lg p-3 outline-none"
+                        placeholder="/data/lang/topic.json">
+                </div>
+            </div>
+            <div class="mt-6 flex gap-4">
+                <button @click="loadJson"
+                    class="bg-zinc-900 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">載入
+                    JSON</button>
+                <button @click="startBatchDownload" v-if="sentences.length > 0"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">開始批次下載 (僅新檔)</button>
+                <button @click="clearHistory" v-if="sentences.length > 0"
+                    class="bg-zinc-200 text-zinc-600 px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform border border-zinc-300">清除下載紀錄</button>
+            </div>
+        </section>
+
+        <section v-if="sentences.length > 0"
+            class="bg-white rounded-2xl shadow-sm border border-zinc-200 overflow-hidden">
+            <div class="p-4 border-b border-zinc-100 bg-zinc-50 flex justify-between items-center text-sm font-medium">
+                <span>清單總計：{{ sentences.length }} 句</span>
+                <span class="text-zinc-400">進度：{{ progress.current }} / {{ progress.total }}</span>
+            </div>
+            <table class="w-full text-left">
+                <thead>
+                    <tr class="text-xs uppercase text-zinc-400 border-b border-zinc-100">
+                        <th class="p-4 font-semibold">ID</th>
+                        <th class="p-4 font-semibold">原文</th>
+                        <th class="p-4 font-semibold">下載狀態</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="item in sentences" :key="item.id"
+                        class="border-b border-zinc-50 hover:bg-zinc-50 transition-colors">
+                        <td class="p-4 text-xs font-mono text-zinc-400">{{ item.id }}</td>
+                        <td class="p-4">
+                            <div class="font-medium">{{ item.text }}</div>
+                            <div class="text-xs text-zinc-400">{{ item.translation }}</div>
+                        </td>
+                        <td class="p-4">
+                            <span :class="'status-' + (item.status || 'pending')" class="text-sm font-bold capitalize">
+                                {{ item.status || '等待中' }}
+                            </span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script type="module">
+        const { createApp, ref, reactive, watch } = Vue;
+
+        createApp({
+            setup() {
+                const config = reactive({
+                    lang: 'jp',
+                    jsonPath: '/data/jp/greetings.json'
+                });
+
+                const sentences = ref([]);
+                const progress = reactive({ current: 0, total: 0 });
+                const downloadHistory = reactive(JSON.parse(localStorage.getItem('looplang_audio_dl_track') || '{}'));
+
+                // 監聽語系切換，自動修正路徑
+                watch(() => config.lang, (newLang) => {
+                    config.jsonPath = `/data/${newLang}/greetings.json`;
+                });
+
+                const loadJson = async () => {
+                    try {
+                        const response = await fetch(config.jsonPath);
+                        const data = await response.json();
+                        // 檢查歷史紀錄，標記為 pending 或 skipped
+                        sentences.value = data.map(s => {
+                            const isDone = downloadHistory[s.id];
+                            return { ...s, status: isDone ? 'skipped' : 'pending' };
+                        });
+                        // 只計算 pending 跟 error 的為主
+                        progress.total = sentences.value.filter(s => s.status !== 'skipped').length;
+                        progress.current = 0;
+                    } catch (e) {
+                        alert('載入失敗，請確認檔案路徑是否正確');
+                    }
+                };
+
+                const clearHistory = () => {
+                    if (confirm('確定要清除紀錄？下次下載將會重新下載所有音檔。')) {
+                        Object.keys(downloadHistory).forEach(k => delete downloadHistory[k]);
+                        localStorage.removeItem('looplang_audio_dl_track');
+                        // 更新畫面狀態
+                        sentences.value.forEach(s => s.status = 'pending');
+                        progress.total = sentences.value.length;
+                        progress.current = 0;
+                    }
+                };
+
+                const downloadFile = async (url, filename) => {
+                    if (!url) return;
+                    
+                    // 若有跨網域存取需求，可在此補上 BASE_URL
+                    // const BASE_URL = 'https://your-server.com';
+                    // const fullUrl = url.startsWith('http') ? url : BASE_URL + url;
+                    
+                    try {
+                        const response = await fetch(url);
+                        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                        const blob = await response.blob();
+                        const blobUrl = window.URL.createObjectURL(blob);
+                        const link = document.createElement('a');
+                        link.href = blobUrl;
+                        link.download = filename;
+                        document.body.appendChild(link);
+                        link.click();
+                        document.body.removeChild(link);
+                        window.URL.revokeObjectURL(blobUrl);
+                    } catch (e) {
+                        throw e;
+                    }
+                };
+
+                const startBatchDownload = async () => {
+                    for (let item of sentences.value) {
+                        // 跳過已經下載過或是成功的
+                        if (item.status === 'skipped' || item.status === 'success') continue;
+                        
+                        item.status = 'downloading';
+                        try {
+                            // 動態從 URL 擷取正確檔名與副檔名，比寫死 .mp3 更加容錯
+                            const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
+
+                            // 下載原文音檔
+                            if (item.audioUrl) {
+                                const originalFileName = getFileName(item.audioUrl);
+                                await downloadFile(item.audioUrl, originalFileName);
+                            }
+
+                            // 若有翻譯音檔則下載
+                            if (item.translationAudioUrl) {
+                                const translationFileName = getFileName(item.translationAudioUrl);
+                                await downloadFile(item.translationAudioUrl, translationFileName);
+                            }
+
+                            item.status = 'success';
+                            // 寫入快取記憶
+                            downloadHistory[item.id] = true;
+                            localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
+                            
+                            progress.current++;
+                            // 延遲 500ms 避免瀏覽器判定為惡意腳本而阻擋多空下載
+                            await new Promise(r => setTimeout(r, 500));
+                        } catch (e) {
+                            item.status = 'error';
+                        }
+                    }
+                };
+
+                return { config, sentences, progress, loadJson, startBatchDownload, clearHistory };
+            }
+        }).mount('#app');
+    </script>
+</body>
+
+</html>
