@@ -19,7 +19,7 @@ export default {
     });
 
     const shouldMask = computed(() => {
-      return props.playbackMode === 'challenge' && !isRevealed.value;
+      return props.playbackMode === 'blind' && !isRevealed.value;
     });
 
     const textStyleClass = computed(() => {
