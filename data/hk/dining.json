@@ -1,0 +1,257 @@
+[
+  {
+    "id": "hk_phrase_011",
+    "text": "唔該，埋單。",
+    "phonetic": "m4 goi1, maai4 daan1",
+    "translation": "不好意思，結帳。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_011.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_011.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該埋單",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_012",
+    "text": "要呢個。",
+    "phonetic": "jiu3 ne1 go3",
+    "translation": "要這個。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_012.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "要呢個",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_013",
+    "text": "走青，唔該。",
+    "phonetic": "zau2 cing1, m4 goi1",
+    "translation": "不要蔥花/香菜。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_013.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "茶餐廳必備用語。",
+    "ttsText": "走青唔該",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_014",
+    "text": "凍檸茶少甜。",
+    "phonetic": "dung3 ning2 caa4 siu2 tim4",
+    "translation": "凍檸茶少糖。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_014.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "凍檸茶少甜",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_015",
+    "text": "有冇英文餐牌？",
+    "phonetic": "jau5 mou5 jing1 man4 caan1 paai4",
+    "translation": "有英文菜單嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_015.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "有冇英文餐牌",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_038",
+    "text": "唔該，俾杯水。",
+    "phonetic": "m4 goi1, bei2 bui1 seoi2",
+    "translation": "麻煩給我一杯水。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_038.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該俾杯水",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_063",
+    "text": "你想食咩呀？",
+    "phonetic": "nei5 soeng2 sik6 me1 aa3",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_063.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "你想食咩呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_064",
+    "text": "有咩推介呀？",
+    "phonetic": "jau5 me1 teoi1 gaai3 aa3",
+    "translation": "有什麼推薦？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_064.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "有咩推介呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_065",
+    "text": "呢個辣唔辣？",
+    "phonetic": "ne1 go3 laat6 m4 laat6",
+    "translation": "這個辣不辣？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_065.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "呢個辣唔辣",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_066",
+    "text": "可唔可以外賣？",
+    "phonetic": "ho2 m4 ho2 ji5 ngoi6 maai6",
+    "translation": "可以外帶嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_066.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "可唔可以外賣",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_067",
+    "text": "唔該，一杯咖啡。",
+    "phonetic": "m4 goi1, jat1 bui1 gaa3 fe1",
+    "translation": "麻煩一杯咖啡。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_067.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該，一杯咖啡",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_081",
+    "text": "唔該，一杯凍美式。",
+    "phonetic": "m4 goi1, jat1 bui1 dung3 mei5 sik1",
+    "translation": "麻煩一杯冰美式。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_081.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_081.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該，一杯凍美式",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_082",
+    "text": "我喺度飲。",
+    "phonetic": "ngo5 hai2 dou6 jam2",
+    "translation": "我在這裡喝。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_082.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_082.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "我喺度飲",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_083",
+    "text": "我要外賣。",
+    "phonetic": "ngo5 jiu3 ngoi6 maai6",
+    "translation": "我要外帶。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_083.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_083.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "我要外賣",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_084",
+    "text": "要熱嘅定凍嘅？",
+    "phonetic": "jiu3 jit6 ge3 ding6 dung3 ge3",
+    "translation": "要熱的還是冰的？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_084.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_084.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句。",
+    "ttsText": "要熱嘅定凍嘅",
+    "status": "published"
+  }
+]

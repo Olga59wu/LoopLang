@@ -170,193 +170,6 @@
     "status": "published"
   },
   {
-    "id": "jp_phrase_011",
-    "text": "チェックインをお[願|ねが]いします。",
-    "phonetic": "chekkuin o onegaishimasu",
-    "translation": "麻煩辦理入住。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_011.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_011.mp3",
-    "hasAudio": true,
-    "order": 11,
-    "tags": [
-      "travel",
-      "hotel"
-    ],
-    "note": "",
-    "ttsText": "チェックインをお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_012",
-    "text": "[荷物|にもつ]を[預|あず]かってもらえますか？",
-    "phonetic": "nimotsu o azukatte moraemasu ka",
-    "translation": "可以幫我寄放行李嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_012.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_012.mp3",
-    "hasAudio": true,
-    "order": 12,
-    "tags": [
-      "travel",
-      "hotel"
-    ],
-    "note": "",
-    "ttsText": "荷物を預かってもらえますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_013",
-    "text": "メニューをください。",
-    "phonetic": "menyuu o kudasai",
-    "translation": "請給我菜單。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_013.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_013.mp3",
-    "hasAudio": true,
-    "order": 13,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "メニューをください",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_014",
-    "text": "これをお[願|ねが]いします。",
-    "phonetic": "kore o onegaishimasu",
-    "translation": "請給我這個。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_014.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_014.mp3",
-    "hasAudio": true,
-    "order": 14,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "これをお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_015",
-    "text": "お[会計|かいけい]をお[願|ねが]いします。",
-    "phonetic": "okaikei o onegaishimasu",
-    "translation": "麻煩請結帳。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_015.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_015.mp3",
-    "hasAudio": true,
-    "order": 15,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "お会計をお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_016",
-    "text": "[袋|ふくろ]はいりません。",
-    "phonetic": "fukuro wa irimasen",
-    "translation": "我不需要袋子。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_016.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_016.mp3",
-    "hasAudio": true,
-    "order": 16,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "便利商店常用語。",
-    "ttsText": "袋はいりません",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_017",
-    "text": "[温|あたた]めてください。",
-    "phonetic": "atatamete kudasai",
-    "translation": "請幫我微波加熱。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_017.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_017.mp3",
-    "hasAudio": true,
-    "order": 17,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "温めてください",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_018",
-    "text": "[免税|めんぜい]できますか？",
-    "phonetic": "menzei dekimasu ka",
-    "translation": "可以免稅嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_018.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_018.mp3",
-    "hasAudio": true,
-    "order": 18,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "藥妝店購物必備。",
-    "ttsText": "免税できますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_019",
-    "text": "トイレはどこですか？",
-    "phonetic": "toire wa doko desu ka",
-    "translation": "廁所在哪裡？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_019.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_019.mp3",
-    "hasAudio": true,
-    "order": 19,
-    "tags": [
-      "travel",
-      "map"
-    ],
-    "note": "",
-    "ttsText": "トイレはどこですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_020",
-    "text": "[切符|きっぷ][売|う]り[場|ば]はどこですか？",
-    "phonetic": "kippu uriba wa doko desu ka",
-    "translation": "售票處在哪裡？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_020.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_020.mp3",
-    "hasAudio": true,
-    "order": 20,
-    "tags": [
-      "travel",
-      "transport"
-    ],
-    "note": "",
-    "ttsText": "切符売り場はどこですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_021",
-    "text": "[助|たす]けてください！",
-    "phonetic": "tasukete kudasai",
-    "translation": "請救救我！",
-    "audioUrl": "/assets/audio/jp/jp_phrase_021.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_021.mp3",
-    "hasAudio": true,
-    "order": 21,
-    "tags": [
-      "travel",
-      "emergency"
-    ],
-    "note": "",
-    "ttsText": "助けてください",
-    "status": "published"
-  },
-  {
     "id": "jp_phrase_022",
     "text": "[日本語|にほんご]がわかりません。",
     "phonetic": "nihongo ga wakarimasen",
@@ -364,7 +177,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_022.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_022.mp3",
     "hasAudio": true,
-    "order": 22,
+    "order": 11,
     "tags": [
       "social",
       "basic"
@@ -381,7 +194,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_023.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_023.mp3",
     "hasAudio": true,
-    "order": 23,
+    "order": 12,
     "tags": [
       "social",
       "basic"
@@ -398,7 +211,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_024.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_024.mp3",
     "hasAudio": true,
-    "order": 24,
+    "order": 13,
     "tags": [
       "social",
       "basic"
@@ -415,7 +228,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_025.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_025.mp3",
     "hasAudio": true,
-    "order": 25,
+    "order": 14,
     "tags": [
       "chat",
       "life"
@@ -432,30 +245,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_026.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_026.mp3",
     "hasAudio": true,
-    "order": 26,
+    "order": 15,
     "tags": [
       "intro",
       "social"
     ],
     "note": "",
     "ttsText": "よろしくお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_027",
-    "text": "いくらですか？",
-    "phonetic": "ikura desu ka",
-    "translation": "多少錢？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_027.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_027.mp3",
-    "hasAudio": true,
-    "order": 27,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "いくらですか",
     "status": "published"
   },
   {
@@ -466,30 +262,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_028.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_028.mp3",
     "hasAudio": true,
-    "order": 28,
+    "order": 16,
     "tags": [
       "social",
       "basic"
     ],
     "note": "",
     "ttsText": "大丈夫です",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_029",
-    "text": "[美味|おい]しいです。",
-    "phonetic": "oishii desu",
-    "translation": "很好吃。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_029.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_029.mp3",
-    "hasAudio": true,
-    "order": 29,
-    "tags": [
-      "chat",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "美味しいです",
     "status": "published"
   },
   {
@@ -500,7 +279,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_030.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_030.mp3",
     "hasAudio": true,
-    "order": 30,
+    "order": 17,
     "tags": [
       "greeting",
       "basic"
@@ -517,7 +296,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_031.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_031.mp3",
     "hasAudio": true,
-    "order": 31,
+    "order": 18,
     "tags": [
       "greeting",
       "basic"
@@ -534,7 +313,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_032.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_032.mp3",
     "hasAudio": true,
-    "order": 32,
+    "order": 19,
     "tags": [
       "intro",
       "basic"
@@ -551,7 +330,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_033.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_033.mp3",
     "hasAudio": true,
-    "order": 33,
+    "order": 20,
     "tags": [
       "apology",
       "basic"
@@ -568,7 +347,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_034.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_034.mp3",
     "hasAudio": true,
-    "order": 34,
+    "order": 21,
     "tags": [
       "chat",
       "life"
@@ -585,132 +364,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_035.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_035.mp3",
     "hasAudio": true,
-    "order": 35,
+    "order": 22,
     "tags": [
       "social",
       "basic"
     ],
     "note": "回應對方提案時常用。",
     "ttsText": "それでお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_036",
-    "text": "[入国審査|にゅうこくしんさ]はどこですか？",
-    "phonetic": "nyuukoku shinsa wa doko desu ka",
-    "translation": "入境審查在哪裡？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_036.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_036.mp3",
-    "hasAudio": true,
-    "order": 36,
-    "tags": [
-      "travel",
-      "airport"
-    ],
-    "note": "",
-    "ttsText": "入国審査はどこですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_037",
-    "text": "[朝食|ちょうしょく]は[何時|なんじ]からですか？",
-    "phonetic": "choushoku wa nanji kara desu ka",
-    "translation": "早餐幾點開始？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_037.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_037.mp3",
-    "hasAudio": true,
-    "order": 37,
-    "tags": [
-      "travel",
-      "hotel"
-    ],
-    "note": "",
-    "ttsText": "朝食は何時からですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_038",
-    "text": "[水|みず]をください。",
-    "phonetic": "mizu o kudasai",
-    "translation": "請給我水。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_038.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_038.mp3",
-    "hasAudio": true,
-    "order": 38,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "水をください",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_039",
-    "text": "レシートをください。",
-    "phonetic": "reshiito o kudasai",
-    "translation": "請給我收據。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_039.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_039.mp3",
-    "hasAudio": true,
-    "order": 39,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "レシートをください",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_040",
-    "text": "この[場所|ばしょ]へどうやって[行|い]きますか？",
-    "phonetic": "kono basho e douyatte ikimasu ka",
-    "translation": "這個地方要怎麼去？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_040.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_040.mp3",
-    "hasAudio": true,
-    "order": 40,
-    "tags": [
-      "travel",
-      "map"
-    ],
-    "note": "",
-    "ttsText": "この場所へどうやって行きますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_041",
-    "text": "[次|つぎ]の[駅|えき]で[降|お]ります。",
-    "phonetic": "tsugi no eki de orimasu",
-    "translation": "我在下一站下車。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_041.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_041.mp3",
-    "hasAudio": true,
-    "order": 41,
-    "tags": [
-      "travel",
-      "transport"
-    ],
-    "note": "",
-    "ttsText": "次の駅で降ります",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_042",
-    "text": "[警察|けいさつ]を[呼|よ]んでください。",
-    "phonetic": "keisatsu o yonde kudasai",
-    "translation": "請幫我叫警察。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_042.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_042.mp3",
-    "hasAudio": true,
-    "order": 42,
-    "tags": [
-      "travel",
-      "emergency"
-    ],
-    "note": "",
-    "ttsText": "警察を呼んでください",
     "status": "published"
   },
   {
@@ -721,7 +381,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_043.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_043.mp3",
     "hasAudio": true,
-    "order": 43,
+    "order": 23,
     "tags": [
       "intro",
       "basic"
@@ -738,7 +398,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_044.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_044.mp3",
     "hasAudio": true,
-    "order": 44,
+    "order": 24,
     "tags": [
       "social",
       "basic"
@@ -755,7 +415,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_045.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_045.mp3",
     "hasAudio": true,
-    "order": 45,
+    "order": 25,
     "tags": [
       "life",
       "chat"
@@ -772,7 +432,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_046.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_046.mp3",
     "hasAudio": true,
-    "order": 46,
+    "order": 26,
     "tags": [
       "life",
       "chat"
@@ -789,7 +449,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_047.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 27,
     "tags": [
       "social",
       "basic"
@@ -806,7 +466,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_048.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 28,
     "tags": [
       "social",
       "basic"
@@ -823,7 +483,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_049.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 29,
     "tags": [
       "life",
       "chat"
@@ -840,7 +500,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_050.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_050.mp3",
     "hasAudio": true,
-    "order": 50,
+    "order": 30,
     "tags": [
       "life",
       "chat"
@@ -857,7 +517,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_051.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 31,
     "tags": [
       "life",
       "chat"
@@ -874,7 +534,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_052.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_052.mp3",
     "hasAudio": true,
-    "order": 52,
+    "order": 32,
     "tags": [
       "life",
       "chat"
@@ -891,7 +551,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_053.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 33,
     "tags": [
       "life",
       "health"
@@ -908,7 +568,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_054.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 34,
     "tags": [
       "life",
       "health"
@@ -925,7 +585,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_055.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 35,
     "tags": [
       "life",
       "device"
@@ -942,47 +602,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_056.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_056.mp3",
     "hasAudio": true,
-    "order": 56,
+    "order": 36,
     "tags": [
       "life",
       "device"
     ],
     "note": "",
     "ttsText": "Wi-Fi を使えますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_057",
-    "text": "[現金|げんきん]だけですか？",
-    "phonetic": "genkin dake desu ka",
-    "translation": "只能付現金嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_057.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_057.mp3",
-    "hasAudio": true,
-    "order": 57,
-    "tags": [
-      "life",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "現金だけですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_058",
-    "text": "カードは[使|つか]えますか？",
-    "phonetic": "kaado wa tsukaemasu ka",
-    "translation": "可以刷卡嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_058.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_058.mp3",
-    "hasAudio": true,
-    "order": 58,
-    "tags": [
-      "life",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "カードは使えますか",
     "status": "published"
   },
   {
@@ -993,7 +619,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_059.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 37,
     "tags": [
       "chat",
       "life"
@@ -1010,7 +636,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_060.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_060.mp3",
     "hasAudio": true,
-    "order": 60,
+    "order": 38,
     "tags": [
       "chat",
       "life"
@@ -1027,7 +653,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_061.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 39,
     "tags": [
       "chat",
       "social"
@@ -1044,98 +670,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_062.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 40,
     "tags": [
       "chat",
       "social"
     ],
     "note": "",
     "ttsText": "一緒に行きますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_063",
-    "text": "[何|なに]を[食|た]べたいですか？",
-    "phonetic": "nani o tabetai desu ka",
-    "translation": "你想吃什麼？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_063.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_063.mp3",
-    "hasAudio": true,
-    "order": 63,
-    "tags": [
-      "chat",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "何を食べたいですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_064",
-    "text": "[おすすめ]はありますか？",
-    "phonetic": "osusume wa arimasu ka",
-    "translation": "有推薦的嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_064.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_064.mp3",
-    "hasAudio": true,
-    "order": 64,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "餐廳、咖啡店都很常用。",
-    "ttsText": "おすすめはありますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_065",
-    "text": "これは[辛|から]いですか？",
-    "phonetic": "kore wa karai desu ka",
-    "translation": "這個會辣嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_065.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_065.mp3",
-    "hasAudio": true,
-    "order": 65,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "これは辛いですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_066",
-    "text": "[持|も]ち[帰|かえ]りできますか？",
-    "phonetic": "mochi kaeri dekimasu ka",
-    "translation": "可以外帶嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_066.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_066.mp3",
-    "hasAudio": true,
-    "order": 66,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "持ち帰りできますか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_067",
-    "text": "コーヒーを[一杯|いっぱい]ください。",
-    "phonetic": "koohii o ippai kudasai",
-    "translation": "請給我一杯咖啡。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_067.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_067.mp3",
-    "hasAudio": true,
-    "order": 67,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "コーヒーを一杯ください",
     "status": "published"
   },
   {
@@ -1146,7 +687,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_068.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 41,
     "tags": [
       "life",
       "health"
@@ -1163,7 +704,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_069.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 42,
     "tags": [
       "life",
       "health"
@@ -1180,7 +721,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_070.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_070.mp3",
     "hasAudio": true,
-    "order": 70,
+    "order": 43,
     "tags": [
       "life",
       "health"
@@ -1197,7 +738,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_071.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_071.mp3",
     "hasAudio": true,
-    "order": 71,
+    "order": 44,
     "tags": [
       "life",
       "health"
@@ -1214,7 +755,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_072.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_072.mp3",
     "hasAudio": true,
-    "order": 72,
+    "order": 45,
     "tags": [
       "life",
       "health"
@@ -1231,7 +772,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_073.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_073.mp3",
     "hasAudio": true,
-    "order": 73,
+    "order": 46,
     "tags": [
       "chat",
       "social"
@@ -1248,7 +789,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_074.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_074.mp3",
     "hasAudio": true,
-    "order": 74,
+    "order": 47,
     "tags": [
       "chat",
       "social"
@@ -1265,7 +806,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_075.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_075.mp3",
     "hasAudio": true,
-    "order": 75,
+    "order": 48,
     "tags": [
       "chat",
       "social"
@@ -1282,7 +823,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_076.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_076.mp3",
     "hasAudio": true,
-    "order": 76,
+    "order": 49,
     "tags": [
       "chat",
       "social"
@@ -1299,7 +840,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_077.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_077.mp3",
     "hasAudio": true,
-    "order": 77,
+    "order": 50,
     "tags": [
       "chat",
       "social"
@@ -1316,7 +857,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_078.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_078.mp3",
     "hasAudio": true,
-    "order": 78,
+    "order": 51,
     "tags": [
       "chat",
       "social"
@@ -1333,7 +874,7 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_079.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_079.mp3",
     "hasAudio": true,
-    "order": 79,
+    "order": 52,
     "tags": [
       "chat",
       "social"
@@ -1350,149 +891,13 @@
     "audioUrl": "/assets/audio/jp/jp_phrase_080.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_080.mp3",
     "hasAudio": true,
-    "order": 80,
+    "order": 53,
     "tags": [
       "chat",
       "social"
     ],
     "note": "",
     "ttsText": "了解です",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_081",
-    "text": "アイスコーヒーをお[願|ねが]いします。",
-    "phonetic": "aisu koohii o onegaishimasu",
-    "translation": "請給我冰咖啡。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_081.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_081.mp3",
-    "hasAudio": true,
-    "order": 81,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "咖啡店高頻句。",
-    "ttsText": "アイスコーヒーをお願いします",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_082",
-    "text": "ここで[飲|の]みます。",
-    "phonetic": "koko de nomimasu",
-    "translation": "我在這裡喝。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_082.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_082.mp3",
-    "hasAudio": true,
-    "order": 82,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "內用。",
-    "ttsText": "ここで飲みます",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_083",
-    "text": "[持|も]ち[帰|かえ]ります。",
-    "phonetic": "mochi kaerimasu",
-    "translation": "我要外帶。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_083.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_083.mp3",
-    "hasAudio": true,
-    "order": 83,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "",
-    "ttsText": "持ち帰ります",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_084",
-    "text": "[温|あたた]かいのと[冷|つめ]たいの、どちらですか？",
-    "phonetic": "atatakai no to tsumetai no, dochira desu ka",
-    "translation": "熱的和冰的，要哪一個？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_084.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_084.mp3",
-    "hasAudio": true,
-    "order": 84,
-    "tags": [
-      "travel",
-      "restaurant"
-    ],
-    "note": "店員常用句，也可收進學習資料。",
-    "ttsText": "温かいのと冷たいの、どちらですか",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_085",
-    "text": "[袋|ふくろ]をください。",
-    "phonetic": "fukuro o kudasai",
-    "translation": "請給我袋子。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_085.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_085.mp3",
-    "hasAudio": true,
-    "order": 85,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "袋をください",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_086",
-    "text": "このままでいいです。",
-    "phonetic": "kono mama de ii desu",
-    "translation": "這樣就可以了。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_086.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_086.mp3",
-    "hasAudio": true,
-    "order": 86,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "不加熱、不分裝時可用。",
-    "ttsText": "このままでいいです",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_087",
-    "text": "ポイントカードはありません。",
-    "phonetic": "pointo kaado wa arimasen",
-    "translation": "我沒有點數卡。",
-    "audioUrl": "/assets/audio/jp/jp_phrase_087.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_087.mp3",
-    "hasAudio": true,
-    "order": 87,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "日本便利商店超常聽到。",
-    "ttsText": "ポイントカードはありません",
-    "status": "published"
-  },
-  {
-    "id": "jp_phrase_088",
-    "text": "[別々|べつべつ]でお[会計|かいけい]できますか？",
-    "phonetic": "betsubetsu de okaikei dekimasu ka",
-    "translation": "可以分開結帳嗎？",
-    "audioUrl": "/assets/audio/jp/jp_phrase_088.mp3",
-    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_088.mp3",
-    "hasAudio": true,
-    "order": 88,
-    "tags": [
-      "travel",
-      "store"
-    ],
-    "note": "",
-    "ttsText": "別々でお会計できますか",
     "status": "published"
   }
 ]

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "kr_phrase_013",
+    "text": "메뉴판 좀 주세요.",
+    "phonetic": "me-nyu-pan jom ju-se-yo",
+    "translation": "請給我菜單。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_013.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "메뉴판 좀 주세요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_014",
+    "text": "이거 주세요.",
+    "phonetic": "i-geo ju-se-yo",
+    "translation": "請給我這個。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_014.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "이거 주세요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_015",
+    "text": "덜 맵게 해주세요.",
+    "phonetic": "deol maep-ge hae-ju-se-yo",
+    "translation": "請幫我做不辣一點。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_015.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "韓國點餐必備。",
+    "ttsText": "덜 맵게 해주세요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_016",
+    "text": "계산해 주세요.",
+    "phonetic": "gye-san-hae ju-se-yo",
+    "translation": "請幫我結帳。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_016.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_016.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "계산해 주세요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_027",
+    "text": "맛있어요.",
+    "phonetic": "ma-si-sseo-yo",
+    "translation": "很好吃。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_027.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_027.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "맛있어요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_038",
+    "text": "물 좀 주세요.",
+    "phonetic": "mul jom ju-se-yo",
+    "translation": "請給我水。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_038.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "물 좀 주세요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_063",
+    "text": "뭐 먹고 싶어요?",
+    "phonetic": "mwo meok-go si-peo-yo",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_063.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "뭐 먹고 싶어요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_064",
+    "text": "추천 메뉴가 뭐예요?",
+    "phonetic": "chu-cheon मे-nyu-ga mwo-ye-yo",
+    "translation": "推薦餐點是什麼？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_064.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "추천 메뉴가 뭐예요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_065",
+    "text": "이거 매워요?",
+    "phonetic": "i-geo mae-wo-yo",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_065.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "이거 매워요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_066",
+    "text": "포장 돼요?",
+    "phonetic": "po-jang dwae-yo",
+    "translation": "可以外帶嗎？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_066.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "포장 돼요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_067",
+    "text": "커피 한 잔 주세요.",
+    "phonetic": "keo-pi han jan ju-se-yo",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_067.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "커피 한 잔 주세요",
+    "status": "published"
+  }
+]

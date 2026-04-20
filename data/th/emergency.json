@@ -1,0 +1,36 @@
+[
+  {
+    "id": "th_phrase_026",
+    "text": "ช่วยด้วยค่ะ!",
+    "phonetic": "chuay-duay kha",
+    "translation": "救命！/ 請幫幫我！",
+    "audioUrl": "/assets/audio/th/th_phrase_026.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_026.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "ช่วยด้วยค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_042",
+    "text": "เรียกตำรวจให้หน่อยค่ะ",
+    "phonetic": "riak tam-ruat hai-noi kha",
+    "translation": "請幫我叫警察。",
+    "audioUrl": "/assets/audio/th/th_phrase_042.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_042.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "เรียกตำรวจให้หน่อยค่ะ",
+    "status": "published"
+  }
+]

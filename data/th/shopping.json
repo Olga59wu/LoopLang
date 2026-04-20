@@ -1,0 +1,172 @@
+[
+  {
+    "id": "th_phrase_019",
+    "text": "เท่าไหร่คะ?",
+    "phonetic": "tao-rai kha",
+    "translation": "多少錢？",
+    "audioUrl": "/assets/audio/th/th_phrase_019.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_019.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "เท่าไหร่คะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_020",
+    "text": "ลดหน่อยได้ไหมคะ?",
+    "phonetic": "lod-noi-dai-mai kha",
+    "translation": "可以算便宜一點嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_020.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_020.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "逛市集必備。",
+    "ttsText": "ลดหน่อยได้ไหมคะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_021",
+    "text": "สแกนจ่ายได้ไหมคะ?",
+    "phonetic": "sa-gan-jai-dai-mai kha",
+    "translation": "可以掃碼支付嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_021.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "泰國現在流行 QR Code 支付。",
+    "ttsText": "สแกนจ่ายได้ไหมคะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_039",
+    "text": "ขอใบเสร็จด้วยค่ะ",
+    "phonetic": "khor-bai-set-duay kha",
+    "translation": "請給我收據。",
+    "audioUrl": "/assets/audio/th/th_phrase_039.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอใบเสร็จด้วยค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_057",
+    "text": "รับแต่เงินสดใช่ไหมคะ?",
+    "phonetic": "rap-tae-ngern-sot chai-mai kha",
+    "translation": "只能收現金對嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_057.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "รับแต่เงินสดใช่ไหมคะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_058",
+    "text": "ใช้บัตรได้ไหมคะ?",
+    "phonetic": "chai-bat-dai-mai kha",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_058.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ใช้บัตรได้ไหมคะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_085",
+    "text": "ขอถุงค่ะ",
+    "phonetic": "khor-thung kha",
+    "translation": "請給我袋子。",
+    "audioUrl": "/assets/audio/th/th_phrase_085.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_085.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอถุงค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_086",
+    "text": "แบบนี้ก็ได้ค่ะ",
+    "phonetic": "baep-nee gor dai kha",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/assets/audio/th/th_phrase_086.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_086.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แบบนี้ก็ได้ค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_087",
+    "text": "ไม่มีสมาชิกค่ะ",
+    "phonetic": "mai mee sa-ma-chik kha",
+    "translation": "我沒有會員。",
+    "audioUrl": "/assets/audio/th/th_phrase_087.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_087.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ไม่มีสมาชิกค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_088",
+    "text": "แยกจ่ายได้ไหมคะ?",
+    "phonetic": "yaek-jai dai mai kha",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_088.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_088.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แยกจ่ายได้ไหมคะ",
+    "status": "published"
+  }
+]

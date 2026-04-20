@@ -1,0 +1,172 @@
+[
+  {
+    "id": "hk_phrase_016",
+    "text": "唔使要膠袋。",
+    "phonetic": "m4 sai2 jiu3 gaau1 doi2",
+    "translation": "不需要塑膠袋。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_016.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_016.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "唔使要膠袋",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_017",
+    "text": "收唔收八達通？",
+    "phonetic": "sau1 m4 sau1 baat3 daat6 tung1",
+    "translation": "收八達通嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_017.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_017.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "收唔收八達通",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_018",
+    "text": "幾錢話？",
+    "phonetic": "gei2 cin2 waa2",
+    "translation": "請問多少錢？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_018.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_018.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "幾錢話",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_039",
+    "text": "可唔可以俾收據？",
+    "phonetic": "ho2 m4 ho2 ji5 bei2 sau1 geoi3",
+    "translation": "可以給我收據嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_039.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以俾收據",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_057",
+    "text": "淨係收現金？",
+    "phonetic": "zing6 hai6 sau1 jin6 gam1",
+    "translation": "只收現金嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_057.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "淨係收現金",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_058",
+    "text": "可唔可以碌卡？",
+    "phonetic": "ho2 m4 ho2 ji5 luk1 kaat1",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_058.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以碌卡",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_085",
+    "text": "唔該，俾個袋我。",
+    "phonetic": "m4 goi1, bei2 go3 doi2 ngo5",
+    "translation": "麻煩給我一個袋子。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_085.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_085.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "唔該，俾個袋我",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_086",
+    "text": "咁樣就得㗎喇。",
+    "phonetic": "gam2 joeng6 zau6 dak1 gaa3 laa3",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_086.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_086.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "咁樣就得㗎喇",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_087",
+    "text": "我冇會員。",
+    "phonetic": "ngo5 mou5 wui6 jyun4",
+    "translation": "我沒有會員。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_087.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_087.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "我冇會員",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_088",
+    "text": "可唔可以分開埋單？",
+    "phonetic": "ho2 m4 ho2 ji5 fan1 hoi1 maai4 daan1",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_088.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_088.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以分開埋單",
+    "status": "published"
+  }
+]

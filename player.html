@@ -22,6 +22,11 @@
 <body class="mx-auto max-w-md min-h-screen flex flex-col selection:bg-indigo-100 bg-slate-50/50">
 
   <div id="app" class="flex flex-col flex-1 relative px-4 sm:px-6" v-cloak>
+  
+    <!-- 警告與通知彈窗 -->
+    <div v-show="popupMessage" class="fixed top-20 left-1/2 -translate-x-1/2 z-[100] px-6 py-3 rounded-full bg-slate-800/95 backdrop-blur-md text-white shadow-2xl text-sm font-bold tracking-wide pointer-events-none transition-opacity duration-300" :class="popupMessage ? 'opacity-100' : 'opacity-0'">
+      {{ popupMessage }}
+    </div>
 
     <!-- 核心播放器 -->
     <!-- 頂部資訊列 -->
@@ -175,6 +180,7 @@
         const langLabel = ref('LoopLang');
         const isFavorite = ref(false);
         const isLearned = ref(false);
+        const popupMessage = ref('');
 
         let baseSentences = []; // 全量主題資料
 
@@ -198,6 +204,14 @@
         const currentIndex = computed(() => playerState.currentIndex);
         const totalSentences = computed(() => playerState.sentences.length);
 
+        const showPopup = (msg, callback) => {
+          popupMessage.value = msg;
+          setTimeout(() => {
+            popupMessage.value = '';
+            if (callback) callback();
+          }, 2000);
+        };
+
         onMounted(async () => {
           FirebaseService.onAuthChange((user) => {
             if (!user) {
@@ -208,8 +222,7 @@
 
           lang.value = RouterHelpers.getQueryParam('lang') || '';
           if (!lang.value) {
-            alert('缺少語言參數，返回首頁。');
-            RouterHelpers.navigateToHome();
+            showPopup('缺少語言參數，返回首頁。', () => RouterHelpers.navigateToHome());
             return;
           }
 
@@ -224,8 +237,7 @@
             langLabel.value = lData.langLabel;
             topics.value = lData.topics || [];
           } else {
-            alert('找不到該語言庫，返回首頁。');
-            RouterHelpers.navigateToHome();
+            showPopup('找不到該語言庫，返回首頁。', () => RouterHelpers.navigateToHome());
             return;
           }
 
@@ -240,8 +252,7 @@
               topicSlug.value = tData.slug;
               await initPlayer(initIdx);
             } else {
-              alert('找不到指定的主題，返回首頁。');
-              RouterHelpers.navigateToHome();
+              showPopup('找不到指定的主題，返回首頁。', () => RouterHelpers.navigateToHome());
             }
           }
 
@@ -293,7 +304,7 @@
         const initPlayer = async (initIdx) => {
           const fetched = await DataService.getTopicData(lang.value, topicSlug.value);
           if (fetched.length === 0) {
-            alert('此主題無句子。');
+            showPopup('此主題尚無內容。');
             return;
           }
 
@@ -339,10 +350,18 @@
         };
 
         const selectTopic = async (topic) => {
+          showTopicModal.value = false;
+          
+          // 預先取得資料，如果沒資料就阻斷，不改變當前 UI 分類與狀態
+          const fetched = await DataService.getTopicData(lang.value, topic.slug);
+          if (!fetched || fetched.length === 0) {
+            showPopup('此主題尚無內容，將維持目前分類。');
+            return;
+          }
+          
           topicId.value = topic.id;
           topicTitle.value = topic.title;
           topicSlug.value = topic.slug;
-          showTopicModal.value = false;
           
           const newUrl = new URL(window.location);
           newUrl.searchParams.set('topic', topic.id);
@@ -351,7 +370,14 @@
 
           pause();
           window.speechSynthesis.cancel();
-          await initPlayer(0);
+          
+          // 載入新資料
+          baseSentences = fetched;
+          rebuildPlaylist();
+          PlayerService.init(PlayerService.state.sentences, 0, lang.value);
+          PlayerService.setConfig(prefs.value);
+          checkFavoriteAndLearned();
+          saveRecent();
         };
 
         // --- 核心共用區塊 ---
@@ -442,7 +468,7 @@
           topics, lang, topicTitle, langLabel,
           prefs, playerState, currentSentence, currentIndex, totalSentences,
           isFavorite, isLearned, toggleFavorite, toggleLearned,
-          play, pause, next, prev, 
+          play, pause, next, prev, popupMessage,
           cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
           goHome, selectTopic, showTopicModal
         };

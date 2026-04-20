@@ -1,0 +1,53 @@
+[
+  {
+    "id": "th_phrase_012",
+    "text": "ขอเช็คอินค่ะ",
+    "phonetic": "khor-check-in kha",
+    "translation": "我要辦理入住。",
+    "audioUrl": "/assets/audio/th/th_phrase_012.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "ขอเช็คอินค่ะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_013",
+    "text": "ฝากกระเป๋าได้ไหมคะ?",
+    "phonetic": "fak-kra-pao-dai-mai kha",
+    "translation": "可以寄放行李嗎？",
+    "audioUrl": "/assets/audio/th/th_phrase_013.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "ฝากกระเป๋าได้ไหมคะ",
+    "status": "published"
+  },
+  {
+    "id": "th_phrase_037",
+    "text": "อาหารเช้าเริ่มกี่โมงคะ?",
+    "phonetic": "a-han-chao-reum-gee-mong kha",
+    "translation": "早餐幾點開始？",
+    "audioUrl": "/assets/audio/th/th_phrase_037.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_th_phrase_037.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "อาหารเช้าเริ่มกี่โมงคะ",
+    "status": "published"
+  }
+]

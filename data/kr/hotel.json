@@ -1,0 +1,36 @@
+[
+  {
+    "id": "kr_phrase_012",
+    "text": "예약했어요.",
+    "phonetic": "ye-yak-hae-sseo-yo",
+    "translation": "我有預約。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_012.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "예약했어요",
+    "status": "published"
+  },
+  {
+    "id": "kr_phrase_037",
+    "text": "조식은 몇 시부터예요?",
+    "phonetic": "jo-sik-eun myeot si-bu-teo-ye-yo",
+    "translation": "早餐從幾點開始？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_037.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_037.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "조식은 몇 시부터예요",
+    "status": "published"
+  }
+]

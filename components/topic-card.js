@@ -9,7 +9,7 @@ export default {
   },
   template: `
     <button 
-      @click="$emit('select', topic.id)"
+      @click="$emit('select', topic)"
       class="p-5 glass-panel rounded-xl text-left w-full transition-all btn-active hit-area-lg"
     >
       <div class="flex justify-between items-center mb-2">

@@ -1,1498 +1,818 @@
 [
-    {
-        "id": "hk_phrase_001",
-        "text": "早晨。",
-        "phonetic": "zou2 san4",
-        "translation": "早安。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_001.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_001.mp3",
-        "hasAudio": true,
-        "order": 1,
-        "tags": [
-            "greeting",
-            "basic"
-        ],
-        "note": "香港最常用的早晨問候。",
-        "ttsText": "早晨",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_002",
-        "text": "你好。",
-        "phonetic": "nei5 hou2",
-        "translation": "你好。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_002.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_002.mp3",
-        "hasAudio": true,
-        "order": 2,
-        "tags": [
-            "greeting",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "你好",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_003",
-        "text": "我係台灣人。",
-        "phonetic": "ngo5 hai6 toi4 waan1 jan4",
-        "translation": "我是台灣人。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_003.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_003.mp3",
-        "hasAudio": true,
-        "order": 3,
-        "tags": [
-            "intro",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "我係台灣人",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_004",
-        "text": "你叫咩名？",
-        "phonetic": "nei5 giu3 me1 meng2",
-        "translation": "你叫什麼名字？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_004.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_004.mp3",
-        "hasAudio": true,
-        "order": 4,
-        "tags": [
-            "intro",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "你叫咩名",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_005",
-        "text": "多謝晒。",
-        "phonetic": "do1 ze6 saai3",
-        "translation": "非常感謝。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_005.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_005.mp3",
-        "hasAudio": true,
-        "order": 5,
-        "tags": [
-            "thanks",
-            "basic"
-        ],
-        "note": "收禮物或正式道謝用多謝。",
-        "ttsText": "多謝晒",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_006",
-        "text": "唔該。",
-        "phonetic": "m4 goi1",
-        "translation": "謝謝 / 麻煩了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_006.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_006.mp3",
-        "hasAudio": true,
-        "order": 6,
-        "tags": [
-            "thanks",
-            "basic"
-        ],
-        "note": "接受服務或拜託他人時用唔該。",
-        "ttsText": "唔該",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_007",
-        "text": "對唔住。",
-        "phonetic": "deoi3 m4 zyu6",
-        "translation": "對不起。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_007.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_007.mp3",
-        "hasAudio": true,
-        "order": 7,
-        "tags": [
-            "apology",
-            "basic"
-        ],
-        "note": "正式道歉用。",
-        "ttsText": "對唔住",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_008",
-        "text": "係呀 / 唔係。",
-        "phonetic": "hai6 aa3 / m4 hai6",
-        "translation": "是啊 / 不是。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_008.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_008.mp3",
-        "hasAudio": true,
-        "order": 8,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "係呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_009",
-        "text": "冇問題。",
-        "phonetic": "mou5 man6 tai4",
-        "translation": "沒問題。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_009.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_009.mp3",
-        "hasAudio": true,
-        "order": 9,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "冇問題",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_010",
-        "text": "食咗飯未？",
-        "phonetic": "sik6 zo2 faan6 mei6",
-        "translation": "吃飯了嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_010.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_010.mp3",
-        "hasAudio": true,
-        "order": 10,
-        "tags": [
-            "chat",
-            "life"
-        ],
-        "note": "",
-        "ttsText": "食咗飯未",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_011",
-        "text": "唔該，埋單。",
-        "phonetic": "m4 goi1, maai4 daan1",
-        "translation": "不好意思，結帳。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_011.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_011.mp3",
-        "hasAudio": true,
-        "order": 11,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "唔該埋單",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_012",
-        "text": "要呢個。",
-        "phonetic": "jiu3 ne1 go3",
-        "translation": "要這個。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_012.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_012.mp3",
-        "hasAudio": true,
-        "order": 12,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "要呢個",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_013",
-        "text": "走青，唔該。",
-        "phonetic": "zau2 cing1, m4 goi1",
-        "translation": "不要蔥花/香菜。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_013.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_013.mp3",
-        "hasAudio": true,
-        "order": 13,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "茶餐廳必備用語。",
-        "ttsText": "走青唔該",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_014",
-        "text": "凍檸茶少甜。",
-        "phonetic": "dung3 ning2 caa4 siu2 tim4",
-        "translation": "凍檸茶少糖。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_014.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_014.mp3",
-        "hasAudio": true,
-        "order": 14,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "凍檸茶少甜",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_015",
-        "text": "有冇英文餐牌？",
-        "phonetic": "jau5 mou5 jing1 man4 caan1 paai4",
-        "translation": "有英文菜單嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_015.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_015.mp3",
-        "hasAudio": true,
-        "order": 15,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "有冇英文餐牌",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_016",
-        "text": "唔使要膠袋。",
-        "phonetic": "m4 sai2 jiu3 gaau1 doi2",
-        "translation": "不需要塑膠袋。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_016.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_016.mp3",
-        "hasAudio": true,
-        "order": 16,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "唔使要膠袋",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_017",
-        "text": "收唔收八達通？",
-        "phonetic": "sau1 m4 sau1 baat3 daat6 tung1",
-        "translation": "收八達通嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_017.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_017.mp3",
-        "hasAudio": true,
-        "order": 17,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "收唔收八達通",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_018",
-        "text": "幾錢話？",
-        "phonetic": "gei2 cin2 waa2",
-        "translation": "請問多少錢？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_018.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_018.mp3",
-        "hasAudio": true,
-        "order": 18,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "幾錢話",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_019",
-        "text": "我想辦理入住。",
-        "phonetic": "ngo5 soeng2 baan6 lei5 jap6 zyu6",
-        "translation": "我想辦理入住。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_019.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_019.mp3",
-        "hasAudio": true,
-        "order": 19,
-        "tags": [
-            "travel",
-            "hotel"
-        ],
-        "note": "",
-        "ttsText": "我想辦理入住",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_020",
-        "text": "可唔可以寄存行李？",
-        "phonetic": "ho2 m4 ho2 ji5 gei3 cyun4 hang4 lei5",
-        "translation": "可以寄放行李嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_020.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_020.mp3",
-        "hasAudio": true,
-        "order": 20,
-        "tags": [
-            "travel",
-            "hotel"
-        ],
-        "note": "",
-        "ttsText": "可唔可以寄存行李",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_021",
-        "text": "廁所喺邊度？",
-        "phonetic": "ci3 so2 hai2 bin1 dou6",
-        "translation": "廁所在哪裡？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_021.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_021.mp3",
-        "hasAudio": true,
-        "order": 21,
-        "tags": [
-            "travel",
-            "map"
-        ],
-        "note": "",
-        "ttsText": "廁所喺邊度",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_022",
-        "text": "點樣去地鐵站？",
-        "phonetic": "dim2 joeng2 heoi3 dei6 tit3 zaam6",
-        "translation": "地鐵站怎麼走？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_022.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_022.mp3",
-        "hasAudio": true,
-        "order": 22,
-        "tags": [
-            "travel",
-            "map"
-        ],
-        "note": "",
-        "ttsText": "點樣去地鐵站",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_023",
-        "text": "我要去呢個地址。",
-        "phonetic": "ngo5 jiu3 heoi3 ne1 go3 dei6 zi2",
-        "translation": "我要去這個地址。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_023.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_023.mp3",
-        "hasAudio": true,
-        "order": 23,
-        "tags": [
-            "travel",
-            "transport"
-        ],
-        "note": "給計程車司機看時用。",
-        "ttsText": "我要去呢個地址",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_024",
-        "text": "唔該，轉右。",
-        "phonetic": "m4 goi1, zyun3 jau6",
-        "translation": "麻煩右轉。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_024.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_024.mp3",
-        "hasAudio": true,
-        "order": 24,
-        "tags": [
-            "travel",
-            "transport"
-        ],
-        "note": "",
-        "ttsText": "唔該轉右",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_025",
-        "text": "呢架車去唔去中環？",
-        "phonetic": "ne1 gaa3 ce1 heoi3 m4 heoi3 zung1 waan4",
-        "translation": "這輛車去中環嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_025.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_025.mp3",
-        "hasAudio": true,
-        "order": 25,
-        "tags": [
-            "travel",
-            "transport"
-        ],
-        "note": "",
-        "ttsText": "呢架車去唔去中環",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_026",
-        "text": "幫我叫醫生。",
-        "phonetic": "bong1 ngo5 giu3 ji1 sang1",
-        "translation": "幫我叫醫生。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_026.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_026.mp3",
-        "hasAudio": true,
-        "order": 26,
-        "tags": [
-            "travel",
-            "emergency"
-        ],
-        "note": "",
-        "ttsText": "幫我叫醫生",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_027",
-        "text": "我唔見咗銀包。",
-        "phonetic": "ngo5 m4 gin3 zo2 ngan4 baau1",
-        "translation": "我的錢包掉了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_027.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_027.mp3",
-        "hasAudio": true,
-        "order": 27,
-        "tags": [
-            "travel",
-            "emergency"
-        ],
-        "note": "",
-        "ttsText": "我唔見咗銀包",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_028",
-        "text": "唔該，借過。",
-        "phonetic": "m4 goi1, ze3 gwo3",
-        "translation": "不好意思，借過。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_028.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_028.mp3",
-        "hasAudio": true,
-        "order": 28,
-        "tags": [
-            "travel",
-            "transport"
-        ],
-        "note": "在擁擠的地鐵或街頭常用。",
-        "ttsText": "唔該借過",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_029",
-        "text": "聽唔明，講多次？",
-        "phonetic": "teng1 m4 ming4, gong2 do1 ci3",
-        "translation": "聽不懂，能再說一次嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_029.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_029.mp3",
-        "hasAudio": true,
-        "order": 29,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "聽唔明講多次",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_030",
-        "text": "早唞。",
-        "phonetic": "zou2 tau2",
-        "translation": "晚安 / 好眠。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_030.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_030.mp3",
-        "hasAudio": true,
-        "order": 30,
-        "tags": [
-            "greeting",
-            "basic"
-        ],
-        "note": "睡前使用。",
-        "ttsText": "早唞",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_031",
-        "text": "你好呀。",
-        "phonetic": "nei5 hou2 aa3",
-        "translation": "你好呀。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_031.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_031.mp3",
-        "hasAudio": true,
-        "order": 31,
-        "tags": [
-            "greeting",
-            "basic"
-        ],
-        "note": "較口語自然的打招呼。",
-        "ttsText": "你好呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_032",
-        "text": "我叫歐嘎。",
-        "phonetic": "ngo5 giu3 au1 gaa3",
-        "translation": "我叫歐嘎。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_032.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_032.mp3",
-        "hasAudio": true,
-        "order": 32,
-        "tags": [
-            "intro",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "我叫歐嘎",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_033",
-        "text": "真係唔好意思。",
-        "phonetic": "zan1 hai6 m4 hou2 ji3 si3",
-        "translation": "真的不好意思。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_033.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_033.mp3",
-        "hasAudio": true,
-        "order": 33,
-        "tags": [
-            "apology",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "真係唔好意思",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_034",
-        "text": "今天天氣幾好喎。",
-        "phonetic": "gam1 tin1 tin1 hei3 gei2 hou2 wo3",
-        "translation": "今天天氣真不錯呢。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_034.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_034.mp3",
-        "hasAudio": true,
-        "order": 34,
-        "tags": [
-            "chat",
-            "life"
-        ],
-        "note": "日常寒暄很自然。",
-        "ttsText": "今天天氣幾好喎",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_035",
-        "text": "就咁啦，唔該。",
-        "phonetic": "zau6 gam2 laa1, m4 goi1",
-        "translation": "就這樣，麻煩你。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_035.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_035.mp3",
-        "hasAudio": true,
-        "order": 35,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "就咁啦唔該",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_036",
-        "text": "入境櫃位喺邊？",
-        "phonetic": "jap6 ging2 gwai6 wai2 hai2 bin1",
-        "translation": "入境櫃位在哪裡？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_036.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_036.mp3",
-        "hasAudio": true,
-        "order": 36,
-        "tags": [
-            "travel",
-            "airport"
-        ],
-        "note": "",
-        "ttsText": "入境櫃位喺邊",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_037",
-        "text": "早餐幾點開始？",
-        "phonetic": "zou2 caan1 gei2 dim2 hoi1 ci2",
-        "translation": "早餐幾點開始？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_037.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_037.mp3",
-        "hasAudio": true,
-        "order": 37,
-        "tags": [
-            "travel",
-            "hotel"
-        ],
-        "note": "",
-        "ttsText": "早餐幾點開始",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_038",
-        "text": "唔該，俾杯水。",
-        "phonetic": "m4 goi1, bei2 bui1 seoi2",
-        "translation": "麻煩給我一杯水。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_038.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_038.mp3",
-        "hasAudio": true,
-        "order": 38,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "唔該俾杯水",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_039",
-        "text": "可唔可以俾收據？",
-        "phonetic": "ho2 m4 ho2 ji5 bei2 sau1 geoi3",
-        "translation": "可以給我收據嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_039.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_039.mp3",
-        "hasAudio": true,
-        "order": 39,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "可唔可以俾收據",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_040",
-        "text": "去呢度點行？",
-        "phonetic": "heoi3 ne1 dou6 dim2 haang4",
-        "translation": "去這裡要怎麼走？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_040.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_040.mp3",
-        "hasAudio": true,
-        "order": 40,
-        "tags": [
-            "travel",
-            "map"
-        ],
-        "note": "",
-        "ttsText": "去呢度點行",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_041",
-        "text": "我下一個站落車。",
-        "phonetic": "ngo5 haa6 jat1 go3 zaam6 lok6 ce1",
-        "translation": "我下一站下車。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_041.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_041.mp3",
-        "hasAudio": true,
-        "order": 41,
-        "tags": [
-            "travel",
-            "transport"
-        ],
-        "note": "",
-        "ttsText": "我下一個站落車",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_042",
-        "text": "幫我報警。",
-        "phonetic": "bong1 ngo5 bou3 ging2",
-        "translation": "幫我報警。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_042.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_042.mp3",
-        "hasAudio": true,
-        "order": 42,
-        "tags": [
-            "travel",
-            "emergency"
-        ],
-        "note": "",
-        "ttsText": "幫我報警",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_043",
-        "text": "你叫咩名呀？",
-        "phonetic": "nei5 giu3 me1 meng2 aa3",
-        "translation": "你叫什麼名字？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_043.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_043.mp3",
-        "hasAudio": true,
-        "order": 43,
-        "tags": [
-            "intro",
-            "basic"
-        ],
-        "note": "口語自然。",
-        "ttsText": "你叫咩名呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_044",
-        "text": "等一等先。",
-        "phonetic": "dang2 jat1 dang2 sin1",
-        "translation": "等一下先。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_044.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_044.mp3",
-        "hasAudio": true,
-        "order": 44,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "等一等先",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_045",
-        "text": "我而家過嚟。",
-        "phonetic": "ngo5 ji4 gaa1 gwo3 lai4",
-        "translation": "我現在過去。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_045.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_045.mp3",
-        "hasAudio": true,
-        "order": 45,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我而家過嚟",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_046",
-        "text": "我而家有啲忙。",
-        "phonetic": "ngo5 ji4 gaa1 jau5 di1 mong4",
-        "translation": "我現在有點忙。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_046.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_046.mp3",
-        "hasAudio": true,
-        "order": 46,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我而家有啲忙",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_047",
-        "text": "冇事呀，多謝你。",
-        "phonetic": "mou5 si6 aa3, do1 ze6 nei5",
-        "translation": "沒事，謝謝你。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_047.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_047.mp3",
-        "hasAudio": true,
-        "order": 47,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "冇事呀，多謝你",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_048",
-        "text": "而家唔使住。",
-        "phonetic": "ji4 gaa1 m4 sai2 zyu6",
-        "translation": "現在先不用。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_048.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_048.mp3",
-        "hasAudio": true,
-        "order": 48,
-        "tags": [
-            "social",
-            "basic"
-        ],
-        "note": "",
-        "ttsText": "而家唔使住",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_049",
-        "text": "我口渴呀。",
-        "phonetic": "ngo5 hau2 hot3 aa3",
-        "translation": "我口渴。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_049.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_049.mp3",
-        "hasAudio": true,
-        "order": 49,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我口渴呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_050",
-        "text": "我肚餓呀。",
-        "phonetic": "ngo5 tou5 ngo6 aa3",
-        "translation": "我肚子餓了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_050.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_050.mp3",
-        "hasAudio": true,
-        "order": 50,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我肚餓呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_051",
-        "text": "我好攰。",
-        "phonetic": "ngo5 hou2 gui6",
-        "translation": "我很累。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_051.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_051.mp3",
-        "hasAudio": true,
-        "order": 51,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我好攰",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_052",
-        "text": "我好眼瞓。",
-        "phonetic": "ngo5 hou2 ngaan5 fan3",
-        "translation": "我很想睡。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_052.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_052.mp3",
-        "hasAudio": true,
-        "order": 52,
-        "tags": [
-            "life",
-            "chat"
-        ],
-        "note": "",
-        "ttsText": "我好眼瞓",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_053",
-        "text": "我有啲唔舒服。",
-        "phonetic": "ngo5 jau5 di1 m4 syu1 fuk6",
-        "translation": "我有點不舒服。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_053.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_053.mp3",
-        "hasAudio": true,
-        "order": 53,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "我有啲唔舒服",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_054",
-        "text": "我頭痛。",
-        "phonetic": "ngo5 tau4 tung3",
-        "translation": "我頭痛。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_054.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_054.mp3",
-        "hasAudio": true,
-        "order": 54,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "我頭痛",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_055",
-        "text": "我手機冇電。",
-        "phonetic": "ngo5 sau2 gei1 mou5 din6",
-        "translation": "我手機沒電了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_055.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_055.mp3",
-        "hasAudio": true,
-        "order": 55,
-        "tags": [
-            "life",
-            "device"
-        ],
-        "note": "",
-        "ttsText": "我手機冇電",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_056",
-        "text": "Wi-Fi 密碼係咩？",
-        "phonetic": "wai-fai mat6 maa5 hai6 me1",
-        "translation": "Wi-Fi 密碼是什麼？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_056.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_056.mp3",
-        "hasAudio": true,
-        "order": 56,
-        "tags": [
-            "life",
-            "device"
-        ],
-        "note": "",
-        "ttsText": "Wi-Fi 密碼係咩",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_057",
-        "text": "淨係收現金？",
-        "phonetic": "zing6 hai6 sau1 jin6 gam1",
-        "translation": "只收現金嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_057.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_057.mp3",
-        "hasAudio": true,
-        "order": 57,
-        "tags": [
-            "life",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "淨係收現金",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_058",
-        "text": "可唔可以碌卡？",
-        "phonetic": "ho2 m4 ho2 ji5 luk1 kaat1",
-        "translation": "可以刷卡嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_058.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_058.mp3",
-        "hasAudio": true,
-        "order": 58,
-        "tags": [
-            "life",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "可唔可以碌卡",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_059",
-        "text": "你而家做緊咩呀？",
-        "phonetic": "nei5 ji4 gaa1 zou6 gan2 me1 aa3",
-        "translation": "你現在在做什麼？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_059.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_059.mp3",
-        "hasAudio": true,
-        "order": 59,
-        "tags": [
-            "chat",
-            "life"
-        ],
-        "note": "",
-        "ttsText": "你而家做緊咩呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_060",
-        "text": "我而家喺屋企。",
-        "phonetic": "ngo5 ji4 gaa1 hai2 uk1 kei2",
-        "translation": "我現在在家。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_060.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_060.mp3",
-        "hasAudio": true,
-        "order": 60,
-        "tags": [
-            "chat",
-            "life"
-        ],
-        "note": "",
-        "ttsText": "我而家喺屋企",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_061",
-        "text": "我遲啲聯絡你。",
-        "phonetic": "ngo5 ci4 di1 lyun4 lok6 nei5",
-        "translation": "我晚點聯絡你。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_061.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_061.mp3",
-        "hasAudio": true,
-        "order": 61,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "我遲啲聯絡你",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_062",
-        "text": "一齊去好唔好？",
-        "phonetic": "jat1 cai4 heoi3 hou2 m4 hou2",
-        "translation": "要不要一起去？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_062.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_062.mp3",
-        "hasAudio": true,
-        "order": 62,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "一齊去好唔好",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_063",
-        "text": "你想食咩呀？",
-        "phonetic": "nei5 soeng2 sik6 me1 aa3",
-        "translation": "你想吃什麼？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_063.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_063.mp3",
-        "hasAudio": true,
-        "order": 63,
-        "tags": [
-            "chat",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "你想食咩呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_064",
-        "text": "有咩推介呀？",
-        "phonetic": "jau5 me1 teoi1 gaai3 aa3",
-        "translation": "有什麼推薦？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_064.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_064.mp3",
-        "hasAudio": true,
-        "order": 64,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "有咩推介呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_065",
-        "text": "呢個辣唔辣？",
-        "phonetic": "ne1 go3 laat6 m4 laat6",
-        "translation": "這個辣不辣？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_065.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_065.mp3",
-        "hasAudio": true,
-        "order": 65,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "呢個辣唔辣",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_066",
-        "text": "可唔可以外賣？",
-        "phonetic": "ho2 m4 ho2 ji5 ngoi6 maai6",
-        "translation": "可以外帶嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_066.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_066.mp3",
-        "hasAudio": true,
-        "order": 66,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "可唔可以外賣",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_067",
-        "text": "唔該，一杯咖啡。",
-        "phonetic": "m4 goi1, jat1 bui1 gaa3 fe1",
-        "translation": "麻煩一杯咖啡。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_067.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_067.mp3",
-        "hasAudio": true,
-        "order": 67,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "唔該，一杯咖啡",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_068",
-        "text": "有冇感冒藥？",
-        "phonetic": "jau5 mou5 gam2 mou6 joek6",
-        "translation": "有感冒藥嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_068.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_068.mp3",
-        "hasAudio": true,
-        "order": 68,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "有冇感冒藥",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_069",
-        "text": "我發燒。",
-        "phonetic": "ngo5 faat3 siu1",
-        "translation": "我發燒了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_069.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_069.mp3",
-        "hasAudio": true,
-        "order": 69,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "我發燒",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_070",
-        "text": "我咳。",
-        "phonetic": "ngo5 kat1",
-        "translation": "我有咳嗽。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_070.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_070.mp3",
-        "hasAudio": true,
-        "order": 70,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "我咳",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_071",
-        "text": "唔該，俾止痛藥我。",
-        "phonetic": "m4 goi1, bei2 zi2 tung3 joek6 ngo5",
-        "translation": "麻煩給我止痛藥。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_071.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_071.mp3",
-        "hasAudio": true,
-        "order": 71,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "唔該，俾止痛藥我",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_072",
-        "text": "邊隻藥好啲？",
-        "phonetic": "bin1 zek3 joek6 hou2 di1",
-        "translation": "哪一種藥比較好？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_072.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_072.mp3",
-        "hasAudio": true,
-        "order": 72,
-        "tags": [
-            "life",
-            "health"
-        ],
-        "note": "",
-        "ttsText": "邊隻藥好啲",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_073",
-        "text": "你而家喺邊呀？",
-        "phonetic": "nei5 ji4 gaa1 hai2 bin1 aa3",
-        "translation": "你現在在哪裡？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_073.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_073.mp3",
-        "hasAudio": true,
-        "order": 73,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "你而家喺邊呀",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_074",
-        "text": "我而家過緊嚟。",
-        "phonetic": "ngo5 ji4 gaa1 gwo3 gan2 lai4",
-        "translation": "我現在正在過去。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_074.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_074.mp3",
-        "hasAudio": true,
-        "order": 74,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "我而家過緊嚟",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_075",
-        "text": "我可能會遲少少。",
-        "phonetic": "ngo5 ho2 nang4 wui5 ci4 siu2 siu2",
-        "translation": "我可能會晚一點到。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_075.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_075.mp3",
-        "hasAudio": true,
-        "order": 75,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "我可能會遲少少",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_076",
-        "text": "我到咗再搵你。",
-        "phonetic": "ngo5 dou3 zo2 zoi3 wan2 nei5",
-        "translation": "我到了再找你。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_076.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_076.mp3",
-        "hasAudio": true,
-        "order": 76,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "我到咗再搵你",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_077",
-        "text": "你冇事呀嘛？",
-        "phonetic": "nei5 mou5 si6 aa3 maa3",
-        "translation": "你還好吧？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_077.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_077.mp3",
-        "hasAudio": true,
-        "order": 77,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "你冇事呀嘛",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_078",
-        "text": "下次再約啦。",
-        "phonetic": "haa6 ci3 zoi3 joek3 laa1",
-        "translation": "下次再約啦。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_078.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_078.mp3",
-        "hasAudio": true,
-        "order": 78,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "下次再約啦",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_079",
-        "text": "你聽日得唔得閒？",
-        "phonetic": "nei5 ting1 jat6 dak1 m4 dak1 haan4",
-        "translation": "你明天有空嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_079.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_079.mp3",
-        "hasAudio": true,
-        "order": 79,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "你聽日得唔得閒",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_080",
-        "text": "知道啦。",
-        "phonetic": "zi1 dou6 laa1",
-        "translation": "知道了 / 了解。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_080.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_080.mp3",
-        "hasAudio": true,
-        "order": 80,
-        "tags": [
-            "chat",
-            "social"
-        ],
-        "note": "",
-        "ttsText": "知道啦",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_081",
-        "text": "唔該，一杯凍美式。",
-        "phonetic": "m4 goi1, jat1 bui1 dung3 mei5 sik1",
-        "translation": "麻煩一杯冰美式。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_081.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_081.mp3",
-        "hasAudio": true,
-        "order": 81,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "唔該，一杯凍美式",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_082",
-        "text": "我喺度飲。",
-        "phonetic": "ngo5 hai2 dou6 jam2",
-        "translation": "我在這裡喝。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_082.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_082.mp3",
-        "hasAudio": true,
-        "order": 82,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "內用。",
-        "ttsText": "我喺度飲",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_083",
-        "text": "我要外賣。",
-        "phonetic": "ngo5 jiu3 ngoi6 maai6",
-        "translation": "我要外帶。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_083.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_083.mp3",
-        "hasAudio": true,
-        "order": 83,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "",
-        "ttsText": "我要外賣",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_084",
-        "text": "要熱嘅定凍嘅？",
-        "phonetic": "jiu3 jit6 ge3 ding6 dung3 ge3",
-        "translation": "要熱的還是冰的？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_084.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_084.mp3",
-        "hasAudio": true,
-        "order": 84,
-        "tags": [
-            "travel",
-            "restaurant"
-        ],
-        "note": "店員常用句。",
-        "ttsText": "要熱嘅定凍嘅",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_085",
-        "text": "唔該，俾個袋我。",
-        "phonetic": "m4 goi1, bei2 go3 doi2 ngo5",
-        "translation": "麻煩給我一個袋子。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_085.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_085.mp3",
-        "hasAudio": true,
-        "order": 85,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "唔該，俾個袋我",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_086",
-        "text": "咁樣就得㗎喇。",
-        "phonetic": "gam2 joeng6 zau6 dak1 gaa3 laa3",
-        "translation": "這樣就可以了。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_086.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_086.mp3",
-        "hasAudio": true,
-        "order": 86,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "咁樣就得㗎喇",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_087",
-        "text": "我冇會員。",
-        "phonetic": "ngo5 mou5 wui6 jyun4",
-        "translation": "我沒有會員。",
-        "audioUrl": "/assets/audio/hk/hk_phrase_087.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_087.mp3",
-        "hasAudio": true,
-        "order": 87,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "我冇會員",
-        "status": "published"
-    },
-    {
-        "id": "hk_phrase_088",
-        "text": "可唔可以分開埋單？",
-        "phonetic": "ho2 m4 ho2 ji5 fan1 hoi1 maai4 daan1",
-        "translation": "可以分開結帳嗎？",
-        "audioUrl": "/assets/audio/hk/hk_phrase_088.mp3",
-        "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_088.mp3",
-        "hasAudio": true,
-        "order": 88,
-        "tags": [
-            "travel",
-            "store"
-        ],
-        "note": "",
-        "ttsText": "可唔可以分開埋單",
-        "status": "published"
-    }
+  {
+    "id": "hk_phrase_001",
+    "text": "早晨。",
+    "phonetic": "zou2 san4",
+    "translation": "早安。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_001.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "香港最常用的早晨問候。",
+    "ttsText": "早晨",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_002",
+    "text": "你好。",
+    "phonetic": "nei5 hou2",
+    "translation": "你好。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_002.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "你好",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_003",
+    "text": "我係台灣人。",
+    "phonetic": "ngo5 hai6 toi4 waan1 jan4",
+    "translation": "我是台灣人。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_003.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "我係台灣人",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_004",
+    "text": "你叫咩名？",
+    "phonetic": "nei5 giu3 me1 meng2",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_004.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "你叫咩名",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_005",
+    "text": "多謝晒。",
+    "phonetic": "do1 ze6 saai3",
+    "translation": "非常感謝。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_005.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_005.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "收禮物或正式道謝用多謝。",
+    "ttsText": "多謝晒",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_006",
+    "text": "唔該。",
+    "phonetic": "m4 goi1",
+    "translation": "謝謝 / 麻煩了。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_006.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "接受服務或拜託他人時用唔該。",
+    "ttsText": "唔該",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_007",
+    "text": "對唔住。",
+    "phonetic": "deoi3 m4 zyu6",
+    "translation": "對不起。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_007.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "正式道歉用。",
+    "ttsText": "對唔住",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_008",
+    "text": "係呀 / 唔係。",
+    "phonetic": "hai6 aa3 / m4 hai6",
+    "translation": "是啊 / 不是。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_008.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "係呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_009",
+    "text": "冇問題。",
+    "phonetic": "mou5 man6 tai4",
+    "translation": "沒問題。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_009.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "冇問題",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_010",
+    "text": "食咗飯未？",
+    "phonetic": "sik6 zo2 faan6 mei6",
+    "translation": "吃飯了嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_010.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "食咗飯未",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_029",
+    "text": "聽唔明，講多次？",
+    "phonetic": "teng1 m4 ming4, gong2 do1 ci3",
+    "translation": "聽不懂，能再說一次嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_029.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "聽唔明講多次",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_030",
+    "text": "早唞。",
+    "phonetic": "zou2 tau2",
+    "translation": "晚安 / 好眠。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_030.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "睡前使用。",
+    "ttsText": "早唞",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_031",
+    "text": "你好呀。",
+    "phonetic": "nei5 hou2 aa3",
+    "translation": "你好呀。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_031.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "較口語自然的打招呼。",
+    "ttsText": "你好呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_032",
+    "text": "我叫歐嘎。",
+    "phonetic": "ngo5 giu3 au1 gaa3",
+    "translation": "我叫歐嘎。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_032.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "我叫歐嘎",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_033",
+    "text": "真係唔好意思。",
+    "phonetic": "zan1 hai6 m4 hou2 ji3 si3",
+    "translation": "真的不好意思。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_033.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "真係唔好意思",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_034",
+    "text": "今天天氣幾好喎。",
+    "phonetic": "gam1 tin1 tin1 hei3 gei2 hou2 wo3",
+    "translation": "今天天氣真不錯呢。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_034.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 16,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "日常寒暄很自然。",
+    "ttsText": "今天天氣幾好喎",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_035",
+    "text": "就咁啦，唔該。",
+    "phonetic": "zau6 gam2 laa1, m4 goi1",
+    "translation": "就這樣，麻煩你。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_035.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "就咁啦唔該",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_043",
+    "text": "你叫咩名呀？",
+    "phonetic": "nei5 giu3 me1 meng2 aa3",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_043.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "口語自然。",
+    "ttsText": "你叫咩名呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_044",
+    "text": "等一等先。",
+    "phonetic": "dang2 jat1 dang2 sin1",
+    "translation": "等一下先。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_044.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_044.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "等一等先",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_045",
+    "text": "我而家過嚟。",
+    "phonetic": "ngo5 ji4 gaa1 gwo3 lai4",
+    "translation": "我現在過去。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_045.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我而家過嚟",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_046",
+    "text": "我而家有啲忙。",
+    "phonetic": "ngo5 ji4 gaa1 jau5 di1 mong4",
+    "translation": "我現在有點忙。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_046.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_046.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我而家有啲忙",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_047",
+    "text": "冇事呀，多謝你。",
+    "phonetic": "mou5 si6 aa3, do1 ze6 nei5",
+    "translation": "沒事，謝謝你。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_047.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "冇事呀，多謝你",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_048",
+    "text": "而家唔使住。",
+    "phonetic": "ji4 gaa1 m4 sai2 zyu6",
+    "translation": "現在先不用。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_048.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "而家唔使住",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_049",
+    "text": "我口渴呀。",
+    "phonetic": "ngo5 hau2 hot3 aa3",
+    "translation": "我口渴。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_049.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我口渴呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_050",
+    "text": "我肚餓呀。",
+    "phonetic": "ngo5 tou5 ngo6 aa3",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_050.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我肚餓呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_051",
+    "text": "我好攰。",
+    "phonetic": "ngo5 hou2 gui6",
+    "translation": "我很累。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_051.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我好攰",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_052",
+    "text": "我好眼瞓。",
+    "phonetic": "ngo5 hou2 ngaan5 fan3",
+    "translation": "我很想睡。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_052.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_052.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "我好眼瞓",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_053",
+    "text": "我有啲唔舒服。",
+    "phonetic": "ngo5 jau5 di1 m4 syu1 fuk6",
+    "translation": "我有點不舒服。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_053.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "我有啲唔舒服",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_054",
+    "text": "我頭痛。",
+    "phonetic": "ngo5 tau4 tung3",
+    "translation": "我頭痛。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_054.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "我頭痛",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_055",
+    "text": "我手機冇電。",
+    "phonetic": "ngo5 sau2 gei1 mou5 din6",
+    "translation": "我手機沒電了。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_055.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "我手機冇電",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_056",
+    "text": "Wi-Fi 密碼係咩？",
+    "phonetic": "wai-fai mat6 maa5 hai6 me1",
+    "translation": "Wi-Fi 密碼是什麼？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_056.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_056.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "Wi-Fi 密碼係咩",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_059",
+    "text": "你而家做緊咩呀？",
+    "phonetic": "nei5 ji4 gaa1 zou6 gan2 me1 aa3",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_059.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "你而家做緊咩呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_060",
+    "text": "我而家喺屋企。",
+    "phonetic": "ngo5 ji4 gaa1 hai2 uk1 kei2",
+    "translation": "我現在在家。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_060.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_060.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "我而家喺屋企",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_061",
+    "text": "我遲啲聯絡你。",
+    "phonetic": "ngo5 ci4 di1 lyun4 lok6 nei5",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_061.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "我遲啲聯絡你",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_062",
+    "text": "一齊去好唔好？",
+    "phonetic": "jat1 cai4 heoi3 hou2 m4 hou2",
+    "translation": "要不要一起去？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_062.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "一齊去好唔好",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_068",
+    "text": "有冇感冒藥？",
+    "phonetic": "jau5 mou5 gam2 mou6 joek6",
+    "translation": "有感冒藥嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_068.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 36,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "有冇感冒藥",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_069",
+    "text": "我發燒。",
+    "phonetic": "ngo5 faat3 siu1",
+    "translation": "我發燒了。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_069.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "我發燒",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_070",
+    "text": "我咳。",
+    "phonetic": "ngo5 kat1",
+    "translation": "我有咳嗽。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_070.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "我咳",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_071",
+    "text": "唔該，俾止痛藥我。",
+    "phonetic": "m4 goi1, bei2 zi2 tung3 joek6 ngo5",
+    "translation": "麻煩給我止痛藥。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_071.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "唔該，俾止痛藥我",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_072",
+    "text": "邊隻藥好啲？",
+    "phonetic": "bin1 zek3 joek6 hou2 di1",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_072.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "邊隻藥好啲",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_073",
+    "text": "你而家喺邊呀？",
+    "phonetic": "nei5 ji4 gaa1 hai2 bin1 aa3",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_073.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "你而家喺邊呀",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_074",
+    "text": "我而家過緊嚟。",
+    "phonetic": "ngo5 ji4 gaa1 gwo3 gan2 lai4",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_074.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "我而家過緊嚟",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_075",
+    "text": "我可能會遲少少。",
+    "phonetic": "ngo5 ho2 nang4 wui5 ci4 siu2 siu2",
+    "translation": "我可能會晚一點到。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_075.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "我可能會遲少少",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_076",
+    "text": "我到咗再搵你。",
+    "phonetic": "ngo5 dou3 zo2 zoi3 wan2 nei5",
+    "translation": "我到了再找你。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_076.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_076.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "我到咗再搵你",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_077",
+    "text": "你冇事呀嘛？",
+    "phonetic": "nei5 mou5 si6 aa3 maa3",
+    "translation": "你還好吧？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_077.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_077.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "你冇事呀嘛",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_078",
+    "text": "下次再約啦。",
+    "phonetic": "haa6 ci3 zoi3 joek3 laa1",
+    "translation": "下次再約啦。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_078.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_078.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "下次再約啦",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_079",
+    "text": "你聽日得唔得閒？",
+    "phonetic": "nei5 ting1 jat6 dak1 m4 dak1 haan4",
+    "translation": "你明天有空嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_079.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_079.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "你聽日得唔得閒",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_080",
+    "text": "知道啦。",
+    "phonetic": "zi1 dou6 laa1",
+    "translation": "知道了 / 了解。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_080.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_080.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "知道啦",
+    "status": "published"
+  }
 ]

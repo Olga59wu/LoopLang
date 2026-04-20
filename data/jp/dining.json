@@ -1,0 +1,240 @@
+[
+  {
+    "id": "jp_phrase_013",
+    "text": "メニューをください。",
+    "phonetic": "menyuu o kudasai",
+    "translation": "請給我菜單。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_013.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "メニューをください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_014",
+    "text": "これをお[願|ねが]いします。",
+    "phonetic": "kore o onegaishimasu",
+    "translation": "請給我這個。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_014.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これをお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_015",
+    "text": "お[会計|かいけい]をお[願|ねが]いします。",
+    "phonetic": "okaikei o onegaishimasu",
+    "translation": "麻煩請結帳。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_015.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "お会計をお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_029",
+    "text": "[美味|おい]しいです。",
+    "phonetic": "oishii desu",
+    "translation": "很好吃。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_029.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "美味しいです",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_038",
+    "text": "[水|みず]をください。",
+    "phonetic": "mizu o kudasai",
+    "translation": "請給我水。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_038.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "水をください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_063",
+    "text": "[何|なに]を[食|た]べたいですか？",
+    "phonetic": "nani o tabetai desu ka",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_063.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "何を食べたいですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_064",
+    "text": "[おすすめ]はありますか？",
+    "phonetic": "osusume wa arimasu ka",
+    "translation": "有推薦的嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_064.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "餐廳、咖啡店都很常用。",
+    "ttsText": "おすすめはありますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_065",
+    "text": "これは[辛|から]いですか？",
+    "phonetic": "kore wa karai desu ka",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_065.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これは辛いですか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_066",
+    "text": "[持|も]ち[帰|かえ]りできますか？",
+    "phonetic": "mochi kaeri dekimasu ka",
+    "translation": "可以外帶嗎？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_066.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰りできますか",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_067",
+    "text": "コーヒーを[一杯|いっぱい]ください。",
+    "phonetic": "koohii o ippai kudasai",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_067.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "コーヒーを一杯ください",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_081",
+    "text": "アイスコーヒーをお[願|ねが]いします。",
+    "phonetic": "aisu koohii o onegaishimasu",
+    "translation": "請給我冰咖啡。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_081.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_081.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "咖啡店高頻句。",
+    "ttsText": "アイスコーヒーをお願いします",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_082",
+    "text": "ここで[飲|の]みます。",
+    "phonetic": "koko de nomimasu",
+    "translation": "我在這裡喝。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_082.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_082.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "ここで飲みます",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_083",
+    "text": "[持|も]ち[帰|かえ]ります。",
+    "phonetic": "mochi kaerimasu",
+    "translation": "我要外帶。",
+    "audioUrl": "/assets/audio/jp/jp_phrase_083.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_083.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰ります",
+    "status": "published"
+  },
+  {
+    "id": "jp_phrase_084",
+    "text": "[温|あたた]かいのと[冷|つめ]たいの、どちらですか？",
+    "phonetic": "atatakai no to tsumetai no, dochira desu ka",
+    "translation": "熱的和冰的，要哪一個？",
+    "audioUrl": "/assets/audio/jp/jp_phrase_084.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_jp_phrase_084.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句，也可收進學習資料。",
+    "ttsText": "温かいのと冷たいの、どちらですか",
+    "status": "published"
+  }
+]

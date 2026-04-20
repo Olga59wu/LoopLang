@@ -1,0 +1,155 @@
+[
+  {
+    "id": "hk_phrase_021",
+    "text": "廁所喺邊度？",
+    "phonetic": "ci3 so2 hai2 bin1 dou6",
+    "translation": "廁所在哪裡？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_021.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "廁所喺邊度",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_022",
+    "text": "點樣去地鐵站？",
+    "phonetic": "dim2 joeng2 heoi3 dei6 tit3 zaam6",
+    "translation": "地鐵站怎麼走？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_022.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_022.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "點樣去地鐵站",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_023",
+    "text": "我要去呢個地址。",
+    "phonetic": "ngo5 jiu3 heoi3 ne1 go3 dei6 zi2",
+    "translation": "我要去這個地址。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_023.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_023.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "給計程車司機看時用。",
+    "ttsText": "我要去呢個地址",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_024",
+    "text": "唔該，轉右。",
+    "phonetic": "m4 goi1, zyun3 jau6",
+    "translation": "麻煩右轉。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_024.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "唔該轉右",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_025",
+    "text": "呢架車去唔去中環？",
+    "phonetic": "ne1 gaa3 ce1 heoi3 m4 heoi3 zung1 waan4",
+    "translation": "這輛車去中環嗎？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_025.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "呢架車去唔去中環",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_028",
+    "text": "唔該，借過。",
+    "phonetic": "m4 goi1, ze3 gwo3",
+    "translation": "不好意思，借過。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_028.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_028.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "在擁擠的地鐵或街頭常用。",
+    "ttsText": "唔該借過",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_036",
+    "text": "入境櫃位喺邊？",
+    "phonetic": "jap6 ging2 gwai6 wai2 hai2 bin1",
+    "translation": "入境櫃位在哪裡？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_036.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_036.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "入境櫃位喺邊",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_040",
+    "text": "去呢度點行？",
+    "phonetic": "heoi3 ne1 dou6 dim2 haang4",
+    "translation": "去這裡要怎麼走？",
+    "audioUrl": "/assets/audio/hk/hk_phrase_040.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_040.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "去呢度點行",
+    "status": "published"
+  },
+  {
+    "id": "hk_phrase_041",
+    "text": "我下一個站落車。",
+    "phonetic": "ngo5 haa6 jat1 go3 zaam6 lok6 ce1",
+    "translation": "我下一站下車。",
+    "audioUrl": "/assets/audio/hk/hk_phrase_041.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_hk_phrase_041.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "我下一個站落車",
+    "status": "published"
+  }
+]
