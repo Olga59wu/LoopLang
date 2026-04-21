@@ -146,7 +146,7 @@
                 const config = reactive({
                     lang: 'jp',
                     topic: 'jp_greetings',
-                    jsonPath: '/data/jp/greetings.json'
+                    jsonPath: '/data/jp.json'
                 });
 
                 const sentences = ref([]);
@@ -163,7 +163,9 @@
 
                 const currentTopics = computed(() => {
                     const c = catalog.value.find(x => x.lang === config.lang);
-                    return c ? c.topics : [];
+                    if (!c) return [];
+                    const allTopic = { id: `${config.lang}_all`, title: '✨ 全部主題 (打包總檔)', slug: 'all' };
+                    return [allTopic, ...c.topics];
                 });
 
                 onMounted(async () => {
@@ -179,22 +181,19 @@
 
                 // 監聽語系切換，自動修正路徑與主題
                 watch(() => config.lang, (newLang) => {
-                    const c = catalog.value.find(x => x.lang === newLang);
-                    if (c && c.topics.length > 0) {
-                        config.topic = c.topics[0].id;
-                        config.jsonPath = c.topics[0].dataFile;
-                        // 切換語系後自動載入句子
-                        setTimeout(() => loadJson(), 50);
-                    }
+                    config.jsonPath = `/data/${newLang}.json`;
+                    // 設定 topic 會觸發 topic 的 watcher 自動執行 loadJson
+                    setTimeout(() => {
+                        if (currentTopics.value.length > 0) {
+                            config.topic = currentTopics.value[0].id;
+                        }
+                    }, 50);
                 });
 
-                // 監聽主題切換，修改對應的路徑
-                watch(() => config.topic, (newTopic) => {
-                    const t = currentTopics.value.find(x => x.id === newTopic);
-                    // 加上判斷避免被語系切換觸發時重複載入
-                    if (t && config.jsonPath !== t.dataFile) {
-                        config.jsonPath = t.dataFile;
-                        // 切換分類後自動載入句子
+                // 監聽主題切換，觸發資料過濾
+                watch(() => config.topic, (newTopic, oldTopic) => {
+                    // 主題改變時就重新載入 (因為現在不改 jsonPath，所以直接載入即可過濾)
+                    if (newTopic && newTopic !== oldTopic) {
                         setTimeout(() => loadJson(), 50);
                     }
                 });
@@ -202,7 +201,16 @@
                 const loadJson = async () => {
                     try {
                         const response = await fetch(config.jsonPath);
-                        const data = await response.json();
+                        const allData = await response.json();
+                        
+                        // 依據目前選擇的 topic 進行過濾
+                        const currentTopicObj = currentTopics.value.find(t => t.id === config.topic);
+                        const filterSlug = currentTopicObj ? currentTopicObj.slug : '';
+                        let data = allData;
+                        if (filterSlug && filterSlug !== 'all') {
+                            data = allData.filter(s => s.category === filterSlug);
+                        }
+
                         // 檢查歷史紀錄，標記為 pending 或 skipped
                         sentences.value = data.map(s => {
                             const isDone = downloadHistory[s.id];

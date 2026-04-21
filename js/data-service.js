@@ -29,40 +29,15 @@ export const DataService = {
    */
   async getTopicData(lang, topicSlug) {
     try {
+      const resp = await fetch(`/data/${lang}.json`);
+      if (!resp.ok) throw new Error('Failed to fetch topic data');
+      const allData = await resp.json();
+
       if (topicSlug === 'all') {
-        const catalog = await DataService.getCatalog();
-        const lData = catalog.find(c => c.lang === lang);
-        if (!lData || !lData.topics) {
-          console.error('[DataService] all: lData or lData.topics not found for lang', lang);
-          return [];
-        }
-        
-        // 過濾掉可能為全部內容的虛擬標籤 (保險起見)
-        const validTopics = lData.topics.filter(t => t.slug !== 'all');
-
-        // 使用 DataService 本體並發請求，並用 reduce 替代 flat
-        const requests = validTopics.map(t => 
-          fetch(`/data/${lang}/${t.slug}.json`)
-            .then(r => r.ok ? r.json() : [])
-            .catch(err => {
-              console.error('[DataService] fetch failed', t.slug, err);
-              return [];
-            })
-        );
-        const results = await Promise.all(requests);
-        const flattened = results.reduce((acc, val) => acc.concat(val), []);
-        
-        if (flattened.length === 0) {
-           console.error('[DataService] all: flattened results are completely empty', results);
-        }
-
-        return flattened;
+        return allData;
       }
 
-      // 依據專案結構推導 JSON 實體路徑
-      const resp = await fetch(`/data/${lang}/${topicSlug}.json`);
-      if (!resp.ok) throw new Error('Failed to fetch topic data');
-      return await resp.json();
+      return allData.filter(item => item.category === topicSlug);
     } catch (error) {
       console.error(`[DataService] getTopicData error (${lang}/${topicSlug}):`, error);
       return [];
