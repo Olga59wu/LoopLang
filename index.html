@@ -144,7 +144,9 @@
           const l = catalog.value.find(c => c.lang === recent.value.lang);
           if (!l) return '未知的語言';
           const t = l.topics.find(t => t.id === recent.value.topicId);
-          return t ? `${l.langLabel} - ${t.title}` : l.langLabel;
+          if (t) return `${l.langLabel} - ${t.title}`;
+          if (recent.value.topicId === `${recent.value.lang}_all`) return `${l.langLabel} - 全部內容`;
+          return l.langLabel;
         });
 
         const toggleCloud = () => {

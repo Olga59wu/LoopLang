@@ -121,31 +121,95 @@ export const StorageService = {
     return this.getFavorites().some(f => f.id === sentenceId);
   },
 
+  // 防抖計時器
+  _recentSyncTimer: null,
+
   // --------- 學習進度區塊 ---------
 
   /**
-   * 取得最近一次學習之語言、進度
+   * 取得學習進度
+   * @param {string} targetLang - 可選，特定語言代碼
+   * @returns {Object|null} 針對特定語言的回傳其進度，若無帶參數則回傳時間戳最晚的全域進度
    */
-  getRecentLearning() {
-    const data = localStorage.getItem(KEYS.RECENT);
-    return data ? JSON.parse(data) : null;
+  getRecentLearning(targetLang = null) {
+    let data = localStorage.getItem(KEYS.RECENT);
+    if (!data) return null;
+    try {
+      const parsed = JSON.parse(data);
+      // 相容舊版存成單一物件的寫法 (判斷是否有 updatedAt 而且有 lang 存在最外層)
+      let dict = parsed;
+      if (parsed.lang && typeof parsed.lang === 'string' && !parsed[parsed.lang]) {
+        dict = { [parsed.lang]: parsed };
+      }
+      
+      if (targetLang) {
+        if (dict[targetLang] && typeof dict[targetLang] === 'object') {
+           return dict[targetLang];
+        }
+        return null;
+      }
+      
+      // 無指定語言時，找出 updatedAt 時間最晚（最近使用）的那筆資料
+      let latest = null;
+      for (const langKey in dict) {
+        const item = dict[langKey];
+        // 嚴格安全過濾：排除從舊版 Firebase merge 過來的純字串殘留鍵 (例如 "lang": "jp")
+        if (item && typeof item === 'object' && item.updatedAt) {
+          if (!latest || new Date(item.updatedAt) > new Date(latest.updatedAt)) {
+            latest = item;
+          }
+        }
+      }
+      return latest;
+    } catch (e) {
+      console.warn('getRecentLearning parse error', e);
+      return null;
+    }
   },
 
   /**
-   * 儲存當前閱讀位置作為「繼續學習」的跳轉端點
+   * 儲存特定語言的當前閱讀位置作為「繼續學習」的跳轉端點
    */
   saveRecentLearning(lang, topicId, sentenceIndex) {
-    const recentData = {
+    const newData = {
       lang,
       topicId,
       sentenceIndex,
       updatedAt: new Date().toISOString()
     };
-    localStorage.setItem(KEYS.RECENT, JSON.stringify(recentData));
     
-    // 雲端同步
-    FirebaseService.syncUserRoot({ recent: recentData })
-      .catch(e => console.warn('Recent sync failed', e));
+    let dict = {};
+    const rawData = localStorage.getItem(KEYS.RECENT);
+    if (rawData) {
+      try {
+        const parsed = JSON.parse(rawData);
+        // 相容處理
+        if (parsed.lang && typeof parsed.lang === 'string' && !parsed[parsed.lang]) {
+          dict = { [parsed.lang]: parsed };
+        } else {
+          // 強制清理被 Firebase merge 污染的純字串屬性
+          for (const k in parsed) {
+            if (parsed[k] && typeof parsed[k] === 'object' && parsed[k].updatedAt) {
+              dict[k] = parsed[k];
+            }
+          }
+        }
+      } catch(e) {}
+    }
+    
+    // 寫入/更新對應語言
+    dict[lang] = newData;
+    localStorage.setItem(KEYS.RECENT, JSON.stringify(dict));
+    
+    // 雲端同步防抖 (Debounce)：避免連續播放時每換一句話就觸發一次 Firebase 寫入，導致帳單與配額爆表
+    if (this._recentSyncTimer) {
+      clearTimeout(this._recentSyncTimer);
+    }
+    
+    this._recentSyncTimer = setTimeout(() => {
+      FirebaseService.syncUserRoot({ recent: dict })
+        .catch(e => console.warn('Recent sync failed', e));
+    }, 10000); // 延遲 10 秒執行，這段期間的快速切換將只會保留最後一次狀態上傳
   },
 
   // --------- 偏好設定區塊 ---------

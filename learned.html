@@ -41,19 +41,26 @@
     <!-- 狀態二：資料列表 -->
     <div v-else class="flex flex-col gap-6 px-4">
       <div v-for="group in groupedLearned" :key="group.lang" class="flex flex-col">
-        <h2 class="text-sm font-bold text-zinc-500 uppercase tracking-widest mb-3 flex items-center gap-2 pl-2 border-l-2 border-emerald-400">
-           {{ group.langLabel }} <span class="text-zinc-400 text-xs ml-1 font-mono">({{ group.items.length }} 句)</span>
+        <h2 @click="toggleGroup(group.lang)" class="text-sm font-bold text-zinc-500 uppercase tracking-widest mb-3 flex items-center justify-between pl-2 border-l-2 border-emerald-400 cursor-pointer hit-area select-none active:opacity-70 transition-opacity">
+           <div class="flex items-center gap-2">
+             {{ group.langLabel }} <span class="text-zinc-400 text-xs ml-1 font-mono">({{ group.items.length }} 句)</span>
+           </div>
+           <svg :class="{'rotate-180': !collapsedGroups[group.lang]}" class="w-5 h-5 text-zinc-400 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+             <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+           </svg>
         </h2>
-        <transition-group name="slide-up">
-          <learned-item 
-            v-for="item in group.items" 
-            :key="item.id" 
-            :item="item"
-            @remove="removeLearned"
-            @navigate="goToPlayer"
-            @play="playAudio"
-          />
-        </transition-group>
+        <div v-show="!collapsedGroups[group.lang]">
+          <transition-group name="slide-up">
+            <learned-item 
+              v-for="item in group.items" 
+              :key="item.id" 
+              :item="item"
+              @remove="removeLearned"
+              @navigate="goToPlayer"
+              @play="playAudio"
+            />
+          </transition-group>
+        </div>
       </div>
     </div>
 
@@ -82,6 +89,11 @@
       },
       setup() {
         const learned = ref([]);
+        const collapsedGroups = ref({});
+
+        const toggleGroup = (lang) => {
+          collapsedGroups.value[lang] = !collapsedGroups.value[lang];
+        };
 
         onMounted(() => {
           FirebaseService.onAuthChange((user) => {
@@ -126,7 +138,8 @@
         });
 
         return {
-          learned, groupedLearned, removeLearned, goToPlayer, goHome, playAudio
+          learned, groupedLearned, removeLearned, goToPlayer, goHome, playAudio,
+          collapsedGroups, toggleGroup
         };
       }
     };

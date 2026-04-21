@@ -46,7 +46,7 @@
       </button>
 
       <button @click="showTopicModal = true"
-        class="text-center flex-1 px-4 flex flex-col items-center justify-center active:opacity-70 transition-opacity outline-none hit-area-lg group">
+        class="text-center flex-1 px-4 flex flex-col items-center justify-center active:opacity-70 transition-opacity outline-none group">
         <div class="text-[10px] text-slate-400 font-bold tracking-widest uppercase mb-0.5">{{ langLabel }}</div>
         <div class="flex items-center justify-center gap-1.5 bg-slate-200/40 px-3 py-1 rounded-full">
           <div class="text-sm font-bold text-slate-800 line-clamp-1 decoration-dashed">{{ topicTitle }}</div>
@@ -81,11 +81,17 @@
     </header>
 
     <!-- 進度列檢視 -->
-    <div class="text-center mt-2 mb-2 relative z-10">
+    <div class="flex justify-center items-center mt-2 mb-2 relative z-10 gap-2">
       <span
         class="inline-flex items-center justify-center bg-slate-200/50 backdrop-blur-sm text-slate-500 text-[10px] font-bold px-3 py-1 rounded-full tracking-widest shadow-sm">
         {{ currentIndex + 1 }} / {{ totalSentences }}
       </span>
+      <button @click="resetProgress" class="w-7 h-7 flex items-center justify-center rounded-full bg-slate-200/50 text-slate-500 hover:bg-slate-300 hover:text-slate-800 transition-colors hit-area" title="重頭開始">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+           <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+           <polyline points="3 3 3 8 8 8"></polyline>
+        </svg>
+      </button>
     </div>
 
     <!-- 中間顯示區 -->
@@ -269,8 +275,18 @@
             return;
           }
 
+          let initIdxParam = RouterHelpers.getQueryParam('idx');
+          let initIdx = initIdxParam !== null ? parseInt(initIdxParam, 10) : -1;
           topicId.value = RouterHelpers.getQueryParam('topic') || '';
-          let initIdx = parseInt(RouterHelpers.getQueryParam('idx') || '0', 10);
+
+          // 若沒有從網址帶入特定分類 (代表從語言卡片直接進入)，則嘗試載入記憶
+          if (!topicId.value) {
+            const memory = StorageService.getRecentLearning(lang.value);
+            if (memory && memory.topicId) {
+              topicId.value = memory.topicId;
+              initIdx = memory.sentenceIndex || 0;
+            }
+          }
 
           prefs.value = StorageService.getPreferences(lang.value);
 
@@ -278,7 +294,18 @@
           const lData = catalog.find(c => c.lang === lang.value);
           if (lData) {
             langLabel.value = lData.langLabel;
-            topics.value = lData.topics || [];
+            
+            const allTopic = {
+              id: `${lang.value}_all`,
+              title: `全部內容`,
+              slug: 'all',
+              description: `播放涵蓋所有情境的完整學習句型`,
+              sentenceCount: (lData.topics || []).reduce((sum, t) => sum + (t.sentenceCount || 0), 0),
+              cover: '/assets/icons/icon-192x192.png',
+              sortOrder: 0
+            };
+            
+            topics.value = [allTopic, ...(lData.topics || [])];
           } else {
             showPopup('找不到該語言庫，返回首頁。', () => RouterHelpers.navigateToHome());
             return;
@@ -289,11 +316,19 @@
           }
 
           if (topicId.value) {
-            const tData = topics.value.find(t => t.id === topicId.value);
+            let tData = topics.value.find(t => t.id === topicId.value);
+            
+            // 如果記憶的主題已經不存在，回退到第一個可用的主題
+            if (!tData && topics.value.length > 0) {
+              tData = topics.value[0];
+              topicId.value = tData.id;
+              initIdx = 0;
+            }
+
             if (tData) {
               topicTitle.value = tData.title;
               topicSlug.value = tData.slug;
-              await initPlayer(initIdx);
+              await initPlayer(initIdx === -1 ? 0 : initIdx);
             } else {
               showPopup('找不到指定的主題，返回首頁。', () => RouterHelpers.navigateToHome());
             }
@@ -470,6 +505,13 @@
           }
         };
 
+        const resetProgress = () => {
+          PlayerService.pause();
+          PlayerService.state.currentIndex = 0;
+          saveRecent();
+          showPopup('已重設為第一句');
+        };
+
         // --- 進階功能切換 ---
         const cycleSpeed = () => {
           const speeds = [0.8, 1.0, 1.2];
@@ -517,7 +559,7 @@
           topics, lang, topicTitle, langLabel,
           prefs, playerState, currentSentence, currentIndex, totalSentences,
           isFavorite, isLearned, toggleFavorite, toggleLearned,
-          play, pause, next, prev, playInteractive, popupMessage,
+          play, pause, next, prev, playInteractive, popupMessage, resetProgress,
           cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
           goHome, selectTopic, showTopicModal
         };
