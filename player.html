@@ -381,8 +381,8 @@
         watch(() => playerState.currentIndex, (newIdx, oldIdx) => {
           checkFavoriteAndLearned();
           saveRecent();
-          if (newIdx === 0 && oldIdx > 0 && playerState.sentences.length > 0) {
-            // 播放完一輪循環後，刷新過濾歌單（讓剛標記的星號或已學會生效）
+          if (newIdx === 0 && oldIdx === playerState.sentences.length - 1 && playerState.sentences.length > 1) {
+            // 真正確認是從最後一句跨越到第一句（一輪循環結束），而非單純手動按[上一首]
             rebuildPlaylist();
           }
         });

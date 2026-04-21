@@ -28,15 +28,30 @@ function resolveAudioUrl(path) {
  * 讓每一段音效的播放都達到如同本地檔案一般的瞬發順暢度。
  */
 const blobCache = new Map();
+const MAX_CACHE_SIZE = 30; // 快取上限
 
 async function getAudioBlobUrl(url) {
   if (!url) return null;
-  if (blobCache.has(url)) return blobCache.get(url);
+  if (blobCache.has(url)) {
+    // 依據 LRU 原則，重新放入以更新順序
+    const objectUrl = blobCache.get(url);
+    blobCache.delete(url);
+    blobCache.set(url, objectUrl);
+    return objectUrl;
+  }
   try {
     const resp = await fetch(url);
     if (!resp.ok) throw new Error();
     const blob = await resp.blob();
     const objectUrl = URL.createObjectURL(blob);
+    
+    // 控制記憶體：如果超過上限，釋放最舊的 Blob
+    if (blobCache.size >= MAX_CACHE_SIZE) {
+      const firstKey = blobCache.keys().next().value;
+      URL.revokeObjectURL(blobCache.get(firstKey));
+      blobCache.delete(firstKey);
+    }
+    
     blobCache.set(url, objectUrl);
     return objectUrl;
   } catch (e) {
@@ -193,17 +208,19 @@ export const PlayerService = {
     this._stopAllAudio();
     this.state.currentLoopIter = 1; // reset loop when directly changing track
 
+    if (this.state.sentences.length === 0) return;
+
     if (this.state.currentIndex < this.state.sentences.length - 1) {
       this.state.currentIndex++;
-      if (this.state.isPlaying) {
-        this._startSentenceEngine();
-      } else {
-        this.state.playPhase = 'idle';
-      }
     } else {
-      this.state.isPlaying = false;
+      // 抵達清單底部時自動繞回第零首，達成全歌單循環
+      this.state.currentIndex = 0;
+    }
+
+    if (this.state.isPlaying) {
+      this._startSentenceEngine();
+    } else {
       this.state.playPhase = 'idle';
-      DeviceService.setPlaybackState('none');
     }
   },
 
@@ -501,14 +518,18 @@ export const PlayerService = {
     this._stopAllAudio();
     this.state.playPhase = 'playingOriginal';
 
+    const currentSessionId = this.playbackSessionId;
+
     const targetUrl = resolveAudioUrl(sentence.audioUrl);
     const langCode = sentence.lang || this.config.lang;
 
     this._playAudioFileOrFallback(targetUrl, sentence.ttsText || sentence.text, langCode, () => {
+      if (this.playbackSessionId !== currentSessionId) return;
       if (this.config.playTranslationAudio) {
         this.state.playPhase = 'playingTranslation';
         const transUrl = resolveAudioUrl(sentence.translationAudioUrl);
         this._playAudioFileOrFallback(transUrl, sentence.translation, 'zh-TW', () => {
+          if (this.playbackSessionId !== currentSessionId) return;
           this.state.playPhase = 'idle';
         });
       } else {

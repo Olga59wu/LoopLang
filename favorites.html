@@ -22,7 +22,7 @@
   <div id="app" class="breathing-container" v-cloak>
     
     <!-- 頂部與返回導覽 -->
-    <header class="flex items-center mb-8 pt-4">
+    <header class="flex items-center mb-8 pt-4 px-4">
       <button @click="goHome" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
       </button>
@@ -36,24 +36,29 @@
     </div>
 
     <!-- 狀態二：資料列表 -->
-    <div v-else class="flex flex-col">
-      <!-- 採用 transition-group 處理註銷單項時的抽離動畫 -->
-      <transition-group name="slide-up">
-        <favorite-item 
-          v-for="item in favorites" 
-          :key="item.id" 
-          :item="item"
-          @remove="removeFavorite"
-          @navigate="goToPlayer"
-          @play="playAudio"
-        />
-      </transition-group>
+    <div v-else class="flex flex-col gap-6 px-4">
+      <div v-for="group in groupedFavorites" :key="group.lang" class="flex flex-col">
+        <h2 class="text-sm font-bold text-zinc-500 uppercase tracking-widest mb-3 flex items-center gap-2 pl-2 border-l-2 border-indigo-400">
+           {{ group.langLabel }} <span class="text-zinc-400 text-xs ml-1 font-mono hover:text-indigo-400 transition-colors">({{ group.items.length }} 句)</span>
+        </h2>
+        <!-- 採用 transition-group 處理註銷單項時的抽離動畫 -->
+        <transition-group name="slide-up">
+          <favorite-item 
+            v-for="item in group.items" 
+            :key="item.id" 
+            :item="item"
+            @remove="removeFavorite"
+            @navigate="goToPlayer"
+            @play="playAudio"
+          />
+        </transition-group>
+      </div>
     </div>
 
   </div>
 
   <script type="module">
-    import { createApp, ref, onMounted } from 'vue';
+    import { createApp, ref, onMounted, computed } from 'vue';
     import FavoriteItem from '/components/favorite-item.js';
     import { StorageService } from '/js/storage-service.js';
     import { RouterHelpers } from '/js/router-helpers.js';
@@ -106,8 +111,23 @@
           PlayerService.playSingleTarget(item);
         };
 
+        const groupedFavorites = computed(() => {
+          const groups = {};
+          favorites.value.forEach(item => {
+            if (!groups[item.lang]) {
+              groups[item.lang] = {
+                lang: item.lang,
+                langLabel: item.langLabel,
+                items: []
+              };
+            }
+            groups[item.lang].items.push(item);
+          });
+          return Object.values(groups);
+        });
+
         return {
-          favorites, removeFavorite, goToPlayer, goHome, playAudio
+          favorites, groupedFavorites, removeFavorite, goToPlayer, goHome, playAudio
         };
       }
     };

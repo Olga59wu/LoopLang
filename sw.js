@@ -1,4 +1,4 @@
-const CACHE_NAME = 'looplang-cache-v5';
+const CACHE_NAME = 'looplang-cache-v6';
 
 // 預先快取核心資源，提升首屏載入速度
 const PRECACHE_URLS = [

@@ -11,6 +11,7 @@ const KEYS = {
   LEARNED: 'looplang_learned',
   PREF_PAUSE: 'looplang_pref_pause_duration',
   PREF_PHONETIC: 'looplang_pref_show_phonetic',
+  PREF_TRANSLATION: 'looplang_pref_show_translation',
   PREF_PLAY_AUDIO: 'looplang_pref_play_audio',
   PREF_CLOUD_AUDIO: 'looplang_pref_cloud_audio',
   PREF_SPEED: 'looplang_pref_speed',
