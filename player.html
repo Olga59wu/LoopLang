@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>LoopLang - 播放</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap"
@@ -88,7 +91,8 @@
     <!-- 中間顯示區 -->
     <div class="flex-1 flex flex-col items-center justify-center px-4 relative z-0">
       <sentence-display v-if="currentSentence" :sentence="currentSentence" :show-phonetic="prefs.showPhonetic"
-        :show-translation="prefs.showTranslation" :lang="lang" :playback-mode="prefs.playbackMode"></sentence-display>
+        :show-translation="prefs.showTranslation" :lang="lang" :playback-mode="prefs.playbackMode"
+        @play-audio="playInteractive"></sentence-display>
     </div>
 
     <!-- 底部控制區 - 較大設計、減少多餘空間以求穩重 -->
@@ -102,18 +106,24 @@
 
       <!-- 第一列：基礎顯示控制 -->
       <div class="flex justify-between items-center glass-panel p-3.5 rounded-2xl mb-3">
-        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
-          <input type="checkbox" v-model="prefs.showPhonetic" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+        <label
+          class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.showPhonetic"
+            class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
           <span class="whitespace-nowrap">注音</span>
         </label>
         <div class="w-[1px] h-6 bg-slate-300"></div>
-        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
-          <input type="checkbox" v-model="prefs.showTranslation" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+        <label
+          class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.showTranslation"
+            class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
           <span class="whitespace-nowrap">中文</span>
         </label>
         <div class="w-[1px] h-6 bg-slate-300"></div>
-        <label class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
-          <input type="checkbox" v-model="prefs.playTranslationAudio" class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
+        <label
+          class="flex items-center justify-center gap-2 text-xs sm:text-sm font-bold text-slate-600 hit-area-lg cursor-pointer px-1 sm:px-2 flex-1">
+          <input type="checkbox" v-model="prefs.playTranslationAudio"
+            class="accent-slate-800 w-3.5 h-3.5 sm:w-4 sm:h-4 rounded shrink-0">
           <span class="whitespace-nowrap">唸中文</span>
         </label>
       </div>
@@ -187,6 +197,15 @@
     import { RouterHelpers } from '/js/router-helpers.js';
     import { PlayerService } from '/js/player-service.js';
     import { DeviceService } from '/js/device-service.js';
+
+    // PWA Service Worker 註冊
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(err => {
+          console.error('[PWA] Service Worker registration failed:', err);
+        });
+      });
+    }
 
     const App = {
       components: {
@@ -445,6 +464,12 @@
         const next = () => PlayerService.next();
         const prev = () => PlayerService.prev();
 
+        const playInteractive = () => {
+          if (currentSentence.value) {
+            PlayerService.playSingleInteractive(currentSentence.value);
+          }
+        };
+
         // --- 進階功能切換 ---
         const cycleSpeed = () => {
           const speeds = [0.8, 1.0, 1.2];
@@ -473,7 +498,7 @@
 
         const filterLabel = computed(() => {
           if (prefs.value.filterMode === 'unlearned') return '排已學會';
-          if (prefs.value.filterMode === 'starred') return '僅播星星';
+          if (prefs.value.filterMode === 'starred') return '僅播標記';
           return '完整播放';
         });
 
@@ -492,7 +517,7 @@
           topics, lang, topicTitle, langLabel,
           prefs, playerState, currentSentence, currentIndex, totalSentences,
           isFavorite, isLearned, toggleFavorite, toggleLearned,
-          play, pause, next, prev, popupMessage,
+          play, pause, next, prev, playInteractive, popupMessage,
           cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
           goHome, selectTopic, showTopicModal
         };

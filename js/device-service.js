@@ -75,11 +75,7 @@ export const DeviceService = {
       navigator.mediaSession.metadata = new MediaMetadata({
         title: metadata.title || '未知內容',
         artist: metadata.artist || 'LoopLang',
-        album: metadata.album || '多語跟讀練習',
-        artwork: [
-          // 預設可給定固定的 Logo 或留白以防畫面破圖
-          { src: 'https://via.placeholder.com/512x512.png?text=LoopLang', sizes: '512x512', type: 'image/png' }
-        ]
+        album: metadata.album || '多語跟讀練習'
       });
     }
   },

@@ -11,7 +11,8 @@ export default {
       default: 'standard'
     }
   },
-  setup(props) {
+  emits: ['play-audio'],
+  setup(props, { emit }) {
     const isRevealed = ref(false);
 
     watch(() => props.sentence, () => {
@@ -59,12 +60,18 @@ export default {
       return props.sentence.text.replace(/\[([^\|\]]+)\|([^\]]+)\]/g, '<ruby>$1<rt>$2</rt></ruby>');
     });
 
+    const handleSentenceClick = () => {
+      isRevealed.value = true;
+      emit('play-audio', props.sentence);
+    };
+
     return {
       isRevealed,
       shouldMask,
       textStyleClass,
       phoneticStyleClass,
-      parsedTextHtml
+      parsedTextHtml,
+      handleSentenceClick
     };
   },
   template: `
@@ -75,7 +82,7 @@ export default {
           <!-- 直接以 v-html 疊加渲染 Ruby 結構 -->
           <div 
             class="relative w-full cursor-pointer group"
-            @click="isRevealed = true"
+            @click="handleSentenceClick"
           >
             <!-- 遮罩覆蓋層 (挑戰模式下未解鎖時顯示) -->
             <div v-if="shouldMask" class="absolute inset-0 z-10 flex items-center justify-center bg-slate-100/60 backdrop-blur-md rounded-2xl border border-slate-200 shadow-sm transition-all group-hover:bg-slate-100/40">

@@ -229,10 +229,10 @@ export const StorageService = {
         }
       });
     }
-    if (cloudFavorites && cloudFavorites.length > 0) {
+    if (Array.isArray(cloudFavorites)) {
       localStorage.setItem(KEYS.FAVORITES, JSON.stringify(cloudFavorites));
     }
-    if (cloudLearned && cloudLearned.length > 0) {
+    if (Array.isArray(cloudLearned)) {
       localStorage.setItem(KEYS.LEARNED, JSON.stringify(cloudLearned));
     }
   }

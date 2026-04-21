@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>LoopLang - 你的跟讀練習</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.css">
@@ -43,10 +46,14 @@
       <h1 class="text-3xl font-extrabold tracking-tight text-gradient">LoopLang.</h1>
       <div class="flex gap-4">
         <!-- 雲端/本地音檔切換 -->
-        <button @click="toggleCloud" class="hit-area-lg transition-colors" :class="useCloudAudio ? 'text-indigo-500 hover:text-indigo-600' : 'text-zinc-400 hover:text-zinc-600'" title="切換音檔來源 (雲端/本地)">
+        <button v-if="!isMobile" @click="toggleCloud" class="hit-area-lg transition-colors" :class="useCloudAudio ? 'text-indigo-500 hover:text-indigo-600' : 'text-zinc-400 hover:text-zinc-600'" title="切換音檔來源 (雲端/本地)">
             <svg v-if="useCloudAudio" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
             <svg v-else xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="2" y1="12" y2="12"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/><line x1="6" x2="6.01" y1="16" y2="16"/><line x1="10" x2="10.01" y1="16" y2="16"/></svg>
         </button>
+        <!-- 音檔下載與同步工具 (僅限電腦版) -->
+        <a href="/audioDownloader.html" target="_blank" class="hidden md:block text-zinc-500 hover:text-zinc-900 hit-area-lg transition-colors" title="音檔下載與同步工具">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </a>
         <button @click="goLearned" class="text-zinc-500 hover:text-zinc-900 hit-area-lg">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
@@ -108,6 +115,15 @@
     import { DataService } from '/js/data-service.js';
     import LanguageCard from '/components/language-card.js';
 
+    // PWA Service Worker 註冊
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(err => {
+          console.error('[PWA] Service Worker registration failed:', err);
+        });
+      });
+    }
+
     const App = {
       components: {
         LanguageCard
@@ -118,6 +134,7 @@
         const isLoggingIn = ref(false);
         const authUser = ref(null);
         const useCloudAudio = ref(true);
+        const isMobile = ref(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
         
         const recent = ref(null);
         const catalog = ref([]);
@@ -192,7 +209,7 @@
         return {
           isAuthResolved, isLoggedIn, isLoggingIn, authUser, login,
           catalog, recent, recentLabel, useCloudAudio, toggleCloud,
-          goTopics, continueLearning, goLearned, goFavorites, goSettings
+          goTopics, continueLearning, goLearned, goFavorites, goSettings, isMobile
         };
       }
     };

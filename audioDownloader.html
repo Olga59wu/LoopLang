@@ -281,11 +281,13 @@
                             // 動態從 URL 擷取正確檔名與副檔名
                             const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
 
-                            // 支援日文特殊讀音與停頓轉換
+                            // 支援跨語系的停頓轉換 (防範 Google TTS 讀到斜線直接截斷斷句)
                             let originalQueryText = item.ttsText || item.text;
                             if (config.lang === 'jp') {
                                 const ttsFixMap = { '暇': 'ひま', '何': 'なに' };
                                 originalQueryText = (ttsFixMap[originalQueryText] || originalQueryText).replace(/\s*\/\s*/g, '。');
+                            } else {
+                                originalQueryText = originalQueryText.replace(/\s*\/\s*/g, '，');
                             }
                             currentWordDisplay.value = `[外] ${originalQueryText}`;
 
@@ -350,6 +352,8 @@
                         if (config.lang === 'jp') {
                             const ttsFixMap = { '暇': 'ひま', '何': 'なに' };
                             originalQueryText = (ttsFixMap[originalQueryText] || originalQueryText).replace(/\s*\/\s*/g, '。');
+                        } else {
+                            originalQueryText = originalQueryText.replace(/\s*\/\s*/g, '，');
                         }
 
                         if (item.audioUrl) {

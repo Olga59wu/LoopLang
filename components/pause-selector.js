@@ -12,7 +12,7 @@ export default {
       <span class="text-sm text-zinc-500 mr-2">停頓秒數</span>
       <!-- 以點擊選項切換，確保行動端上單手可選 (不必下拉或拖拉) -->
       <button 
-        v-for="sec in [0, 2, 5]" 
+        v-for="sec in [0, 1, 2, 3]" 
         :key="sec"
         @click="$emit('update:duration', sec)"
         class="w-10 h-10 rounded-full font-medium transition-all hit-area-lg"

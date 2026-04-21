@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>LoopLang - 設定</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles/main.css">
@@ -104,6 +107,15 @@
     import { StorageService } from '/js/storage-service.js';
     import { RouterHelpers } from '/js/router-helpers.js';
     import { FirebaseService } from '/js/firebase-service.js';
+
+    // PWA Service Worker 註冊
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(err => {
+          console.error('[PWA] Service Worker registration failed:', err);
+        });
+      });
+    }
 
     const App = {
       components: {
