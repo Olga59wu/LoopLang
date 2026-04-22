@@ -1,0 +1,5546 @@
+[
+  {
+    "id": "th_phrase_089",
+    "text": "ไม่ใช่",
+    "phonetic": "mai-chai",
+    "translation": "不是",
+    "audioUrl": "/audio/th/th_phrase_089.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_089.mp3",
+    "hasAudio": false,
+    "order": 89,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใช่",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_090",
+    "text": "เข้าใจ",
+    "phonetic": "kao-jai",
+    "translation": "明白/理解",
+    "audioUrl": "/audio/th/th_phrase_090.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_090.mp3",
+    "hasAudio": false,
+    "order": 90,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เข้าใจ",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_091",
+    "text": "ผม",
+    "phonetic": "pom",
+    "translation": "我 (男用)",
+    "audioUrl": "/audio/th/th_phrase_091.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_091.mp3",
+    "hasAudio": false,
+    "order": 91,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ผม",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_092",
+    "text": "ฉัน",
+    "phonetic": "chan",
+    "translation": "我 (女用)",
+    "audioUrl": "/audio/th/th_phrase_092.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_092.mp3",
+    "hasAudio": false,
+    "order": 92,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ฉัน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_093",
+    "text": "คุณ",
+    "phonetic": "kun",
+    "translation": "你",
+    "audioUrl": "/audio/th/th_phrase_093.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_093.mp3",
+    "hasAudio": false,
+    "order": 93,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "คุณ",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_094",
+    "text": "เรา",
+    "phonetic": "rao",
+    "translation": "我們",
+    "audioUrl": "/audio/th/th_phrase_094.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_094.mp3",
+    "hasAudio": false,
+    "order": 94,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เรา",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_095",
+    "text": "เขา",
+    "phonetic": "kao",
+    "translation": "他",
+    "audioUrl": "/audio/th/th_phrase_095.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_095.mp3",
+    "hasAudio": false,
+    "order": 95,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เขา",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_096",
+    "text": "พี่",
+    "phonetic": "pee",
+    "translation": "哥哥/姐姐",
+    "audioUrl": "/audio/th/th_phrase_096.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_096.mp3",
+    "hasAudio": false,
+    "order": 96,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "พี่",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_097",
+    "text": "น้อง",
+    "phonetic": "nong",
+    "translation": "弟弟/妹妹",
+    "audioUrl": "/audio/th/th_phrase_097.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_097.mp3",
+    "hasAudio": false,
+    "order": 97,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "น้อง",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_098",
+    "text": "ลุง",
+    "phonetic": "lung",
+    "translation": "叔叔",
+    "audioUrl": "/audio/th/th_phrase_098.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_098.mp3",
+    "hasAudio": false,
+    "order": 98,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ลุง",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_099",
+    "text": "ป้า",
+    "phonetic": "pa",
+    "translation": "阿姨",
+    "audioUrl": "/audio/th/th_phrase_099.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_099.mp3",
+    "hasAudio": false,
+    "order": 99,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ป้า",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_100",
+    "text": "เพื่อน",
+    "phonetic": "peuan",
+    "translation": "朋友",
+    "audioUrl": "/audio/th/th_phrase_100.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_100.mp3",
+    "hasAudio": false,
+    "order": 100,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เพื่อน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_101",
+    "text": "คนไทย",
+    "phonetic": "kon-thai",
+    "translation": "泰國人",
+    "audioUrl": "/audio/th/th_phrase_101.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_101.mp3",
+    "hasAudio": false,
+    "order": 101,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "คนไทย",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_102",
+    "text": "คนไต้หวัน",
+    "phonetic": "kon-tai-wan",
+    "translation": "台灣人",
+    "audioUrl": "/audio/th/th_phrase_102.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_102.mp3",
+    "hasAudio": false,
+    "order": 102,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "คนไต้หวัน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_103",
+    "text": "ชื่อ",
+    "phonetic": "cheu",
+    "translation": "名字",
+    "audioUrl": "/audio/th/th_phrase_103.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_103.mp3",
+    "hasAudio": false,
+    "order": 103,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ชื่อ",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_104",
+    "text": "ชื่ออะไร",
+    "phonetic": "cheu a-rai",
+    "translation": "叫什麼名字",
+    "audioUrl": "/audio/th/th_phrase_104.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_104.mp3",
+    "hasAudio": false,
+    "order": 104,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ชื่ออะไร",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_105",
+    "text": "นะ",
+    "phonetic": "na",
+    "translation": "呢 (語氣柔和助詞)",
+    "audioUrl": "/audio/th/th_phrase_105.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_105.mp3",
+    "hasAudio": false,
+    "order": 105,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "นะ",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_106",
+    "text": "ฝันดี",
+    "phonetic": "fan-dee",
+    "translation": "晚安 (祝好夢)",
+    "audioUrl": "/audio/th/th_phrase_106.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_106.mp3",
+    "hasAudio": false,
+    "order": 106,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ฝันดี",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_107",
+    "text": "เอง",
+    "phonetic": "eng",
+    "translation": "自己/親自",
+    "audioUrl": "/audio/th/th_phrase_107.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_107.mp3",
+    "hasAudio": false,
+    "order": 107,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เอง",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_108",
+    "text": "ทุกคน",
+    "phonetic": "tuk-kon",
+    "translation": "大家",
+    "audioUrl": "/audio/th/th_phrase_108.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_108.mp3",
+    "hasAudio": false,
+    "order": 108,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ทุกคน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_109",
+    "text": "แฟน",
+    "phonetic": "faen",
+    "translation": "男友/女友",
+    "audioUrl": "/audio/th/th_phrase_109.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_109.mp3",
+    "hasAudio": false,
+    "order": 109,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "แฟน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_110",
+    "text": "คน",
+    "phonetic": "kon",
+    "translation": "人",
+    "audioUrl": "/audio/th/th_phrase_110.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_110.mp3",
+    "hasAudio": false,
+    "order": 110,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "คน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_111",
+    "text": "ภาษาไทย",
+    "phonetic": "pa-sa-thai",
+    "translation": "泰文",
+    "audioUrl": "/audio/th/th_phrase_111.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_111.mp3",
+    "hasAudio": false,
+    "order": 111,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ภาษาไทย",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_112",
+    "text": "ภาษาจีน",
+    "phonetic": "pa-sa-jeen",
+    "translation": "中文",
+    "audioUrl": "/audio/th/th_phrase_112.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_112.mp3",
+    "hasAudio": false,
+    "order": 112,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ภาษาจีน",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_113",
+    "text": "ภาษาอังกฤษ",
+    "phonetic": "pa-sa-ang-grit",
+    "translation": "英文",
+    "audioUrl": "/audio/th/th_phrase_113.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_113.mp3",
+    "hasAudio": false,
+    "order": 113,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ภาษาอังกฤษ",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_114",
+    "text": "ผู้ชาย",
+    "phonetic": "poo-chai",
+    "translation": "男人",
+    "audioUrl": "/audio/th/th_phrase_114.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_114.mp3",
+    "hasAudio": false,
+    "order": 114,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ผู้ชาย",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_115",
+    "text": "ผู้หญิง",
+    "phonetic": "poo-ying",
+    "translation": "女人",
+    "audioUrl": "/audio/th/th_phrase_115.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_115.mp3",
+    "hasAudio": false,
+    "order": 115,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ผู้หญิง",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_116",
+    "text": "ไม่เป็นปัญหา",
+    "phonetic": "mai pen pan-ha",
+    "translation": "沒問題",
+    "audioUrl": "/audio/th/th_phrase_116.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_116.mp3",
+    "hasAudio": false,
+    "order": 116,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นปัญหา",
+    "status": "published",
+    "category": "basic_pronouns"
+  },
+  {
+    "id": "th_phrase_117",
+    "text": "อะไร",
+    "phonetic": "a-rai",
+    "translation": "什麼",
+    "audioUrl": "/audio/th/th_phrase_117.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_117.mp3",
+    "hasAudio": false,
+    "order": 117,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อะไร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_118",
+    "text": "ที่ไหน",
+    "phonetic": "tee-nai",
+    "translation": "在哪裡",
+    "audioUrl": "/audio/th/th_phrase_118.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_118.mp3",
+    "hasAudio": false,
+    "order": 118,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ที่ไหน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_119",
+    "text": "เมื่อไหร่",
+    "phonetic": "meua-rai",
+    "translation": "什麼時候",
+    "audioUrl": "/audio/th/th_phrase_119.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_119.mp3",
+    "hasAudio": false,
+    "order": 119,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "เมื่อไหร่",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_120",
+    "text": "ใคร",
+    "phonetic": "krai",
+    "translation": "誰",
+    "audioUrl": "/audio/th/th_phrase_120.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_120.mp3",
+    "hasAudio": false,
+    "order": 120,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ใคร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_121",
+    "text": "ทำไม",
+    "phonetic": "tam-mai",
+    "translation": "為什麼",
+    "audioUrl": "/audio/th/th_phrase_121.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_121.mp3",
+    "hasAudio": false,
+    "order": 121,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ทำไม",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_122",
+    "text": "อย่างไร",
+    "phonetic": "yang-rai",
+    "translation": "如何/怎樣",
+    "audioUrl": "/audio/th/th_phrase_122.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_122.mp3",
+    "hasAudio": false,
+    "order": 122,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อย่างไร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_123",
+    "text": "ยังไง",
+    "phonetic": "yang-ngai",
+    "translation": "怎麼樣/怎麼做",
+    "audioUrl": "/audio/th/th_phrase_123.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_123.mp3",
+    "hasAudio": false,
+    "order": 123,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ยังไง",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_124",
+    "text": "เท่าไร",
+    "phonetic": "tao-rai",
+    "translation": "多少",
+    "audioUrl": "/audio/th/th_phrase_124.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_124.mp3",
+    "hasAudio": false,
+    "order": 124,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "เท่าไร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_125",
+    "text": "กี่",
+    "phonetic": "gee",
+    "translation": "幾",
+    "audioUrl": "/audio/th/th_phrase_125.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_125.mp3",
+    "hasAudio": false,
+    "order": 125,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "กี่",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_126",
+    "text": "กี่โมง",
+    "phonetic": "gee mong",
+    "translation": "幾點",
+    "audioUrl": "/audio/th/th_phrase_126.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_126.mp3",
+    "hasAudio": false,
+    "order": 126,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "กี่โมง",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_127",
+    "text": "กี่คน",
+    "phonetic": "gee kon",
+    "translation": "幾個人",
+    "audioUrl": "/audio/th/th_phrase_127.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_127.mp3",
+    "hasAudio": false,
+    "order": 127,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "กี่คน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_128",
+    "text": "อันไหน",
+    "phonetic": "an nai",
+    "translation": "哪一個",
+    "audioUrl": "/audio/th/th_phrase_128.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_128.mp3",
+    "hasAudio": false,
+    "order": 128,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อันไหน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_129",
+    "text": "อันนี้",
+    "phonetic": "an nee",
+    "translation": "這個",
+    "audioUrl": "/audio/th/th_phrase_129.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_129.mp3",
+    "hasAudio": false,
+    "order": 129,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อันนี้",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_130",
+    "text": "อันนั้น",
+    "phonetic": "an nan",
+    "translation": "那個",
+    "audioUrl": "/audio/th/th_phrase_130.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_130.mp3",
+    "hasAudio": false,
+    "order": 130,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อันนั้น",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_131",
+    "text": "ที่นี่",
+    "phonetic": "tee nee",
+    "translation": "這裡",
+    "audioUrl": "/audio/th/th_phrase_131.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_131.mp3",
+    "hasAudio": false,
+    "order": 131,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ที่นี่",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_132",
+    "text": "ตรงไหน",
+    "phonetic": "trong nai",
+    "translation": "哪裡/哪一個位置",
+    "audioUrl": "/audio/th/th_phrase_132.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_132.mp3",
+    "hasAudio": false,
+    "order": 132,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ตรงไหน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_133",
+    "text": "แบบไหน",
+    "phonetic": "baeb nai",
+    "translation": "哪一種",
+    "audioUrl": "/audio/th/th_phrase_133.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_133.mp3",
+    "hasAudio": false,
+    "order": 133,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "แบบไหน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_134",
+    "text": "ไหม",
+    "phonetic": "mai",
+    "translation": "嗎？",
+    "audioUrl": "/audio/th/th_phrase_134.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_134.mp3",
+    "hasAudio": false,
+    "order": 134,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ไหม",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_135",
+    "text": "ใช่ไหม",
+    "phonetic": "chai mai",
+    "translation": "對吧/是嗎",
+    "audioUrl": "/audio/th/th_phrase_135.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_135.mp3",
+    "hasAudio": false,
+    "order": 135,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ใช่ไหม",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_136",
+    "text": "ได้ไหม",
+    "phonetic": "dai mai",
+    "translation": "可以嗎",
+    "audioUrl": "/audio/th/th_phrase_136.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_136.mp3",
+    "hasAudio": false,
+    "order": 136,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ได้ไหม",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_137",
+    "text": "หรือ",
+    "phonetic": "reu",
+    "translation": "還是/或者",
+    "audioUrl": "/audio/th/th_phrase_137.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_137.mp3",
+    "hasAudio": false,
+    "order": 137,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "หรือ",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_138",
+    "text": "อยู่ไหม",
+    "phonetic": "yuu mai",
+    "translation": "在嗎",
+    "audioUrl": "/audio/th/th_phrase_138.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_138.mp3",
+    "hasAudio": false,
+    "order": 138,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อยู่ไหม",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_139",
+    "text": "จริงเหรอ",
+    "phonetic": "jing ror",
+    "translation": "真的嗎",
+    "audioUrl": "/audio/th/th_phrase_139.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_139.mp3",
+    "hasAudio": false,
+    "order": 139,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "จริงเหรอ",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_140",
+    "text": "ใช่หรือเปล่า",
+    "phonetic": "chai reu-plao",
+    "translation": "是不是",
+    "audioUrl": "/audio/th/th_phrase_140.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_140.mp3",
+    "hasAudio": false,
+    "order": 140,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ใช่หรือเปล่า",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_141",
+    "text": "ของใคร",
+    "phonetic": "kong krai",
+    "translation": "誰的",
+    "audioUrl": "/audio/th/th_phrase_141.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_141.mp3",
+    "hasAudio": false,
+    "order": 141,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ของใคร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_142",
+    "text": "กี่วัน",
+    "phonetic": "gee wan",
+    "translation": "幾天",
+    "audioUrl": "/audio/th/th_phrase_142.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_142.mp3",
+    "hasAudio": false,
+    "order": 142,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "กี่วัน",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_143",
+    "text": "ยังไงดี",
+    "phonetic": "yang-ngai dee",
+    "translation": "該怎麼辦",
+    "audioUrl": "/audio/th/th_phrase_143.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_143.mp3",
+    "hasAudio": false,
+    "order": 143,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ยังไงดี",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_144",
+    "text": "หมายความว่าอะไร",
+    "phonetic": "mai-kwam-wa a-rai",
+    "translation": "是什麼意思",
+    "audioUrl": "/audio/th/th_phrase_144.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_144.mp3",
+    "hasAudio": false,
+    "order": 144,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "หมายความว่าอะไร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_145",
+    "text": "พูดว่าอะไรนะ",
+    "phonetic": "poot-wa a-rai na",
+    "translation": "你剛剛說什麼",
+    "audioUrl": "/audio/th/th_phrase_145.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_145.mp3",
+    "hasAudio": false,
+    "order": 145,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "พูดว่าอะไรนะ",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_146",
+    "text": "เรียกว่าอะไร",
+    "phonetic": "riak-wa a-rai",
+    "translation": "這叫什麼",
+    "audioUrl": "/audio/th/th_phrase_146.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_146.mp3",
+    "hasAudio": false,
+    "order": 146,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "เรียกว่าอะไร",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_147",
+    "text": "ทำยังไง",
+    "phonetic": "tam yang-ngai",
+    "translation": "怎麼做",
+    "audioUrl": "/audio/th/th_phrase_147.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_147.mp3",
+    "hasAudio": false,
+    "order": 147,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ทำยังไง",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_148",
+    "text": "เอายังไง",
+    "phonetic": "ao yang-ngai",
+    "translation": "要怎麼辦",
+    "audioUrl": "/audio/th/th_phrase_148.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_148.mp3",
+    "hasAudio": false,
+    "order": 148,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "เอายังไง",
+    "status": "published",
+    "category": "questions"
+  },
+  {
+    "id": "th_phrase_149",
+    "text": "ไป",
+    "phonetic": "pai",
+    "translation": "去",
+    "audioUrl": "/audio/th/th_phrase_149.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_149.mp3",
+    "hasAudio": false,
+    "order": 149,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ไป",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_150",
+    "text": "มา",
+    "phonetic": "ma",
+    "translation": "來",
+    "audioUrl": "/audio/th/th_phrase_150.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_150.mp3",
+    "hasAudio": false,
+    "order": 150,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "มา",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_151",
+    "text": "กลับ",
+    "phonetic": "glap",
+    "translation": "回去/返回",
+    "audioUrl": "/audio/th/th_phrase_151.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_151.mp3",
+    "hasAudio": false,
+    "order": 151,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "กลับ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_152",
+    "text": "กิน",
+    "phonetic": "gin",
+    "translation": "吃",
+    "audioUrl": "/audio/th/th_phrase_152.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_152.mp3",
+    "hasAudio": false,
+    "order": 152,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "กิน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_153",
+    "text": "ดื่ม",
+    "phonetic": "deum",
+    "translation": "喝",
+    "audioUrl": "/audio/th/th_phrase_153.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_153.mp3",
+    "hasAudio": false,
+    "order": 153,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ดื่ม",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_154",
+    "text": "ดู",
+    "phonetic": "doo",
+    "translation": "看",
+    "audioUrl": "/audio/th/th_phrase_154.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_154.mp3",
+    "hasAudio": false,
+    "order": 154,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ดู",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_155",
+    "text": "ฟัง",
+    "phonetic": "fang",
+    "translation": "聽",
+    "audioUrl": "/audio/th/th_phrase_155.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_155.mp3",
+    "hasAudio": false,
+    "order": 155,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ฟัง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_156",
+    "text": "พูด",
+    "phonetic": "poot",
+    "translation": "說",
+    "audioUrl": "/audio/th/th_phrase_156.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_156.mp3",
+    "hasAudio": false,
+    "order": 156,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "พูด",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_157",
+    "text": "เขียน",
+    "phonetic": "kian",
+    "translation": "寫",
+    "audioUrl": "/audio/th/th_phrase_157.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_157.mp3",
+    "hasAudio": false,
+    "order": 157,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เขียน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_158",
+    "text": "อ่าน",
+    "phonetic": "aan",
+    "translation": "讀",
+    "audioUrl": "/audio/th/th_phrase_158.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_158.mp3",
+    "hasAudio": false,
+    "order": 158,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "อ่าน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_159",
+    "text": "ทำ",
+    "phonetic": "tam",
+    "translation": "做",
+    "audioUrl": "/audio/th/th_phrase_159.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_159.mp3",
+    "hasAudio": false,
+    "order": 159,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ทำ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_160",
+    "text": "ทำงาน",
+    "phonetic": "tam-ngan",
+    "translation": "工作",
+    "audioUrl": "/audio/th/th_phrase_160.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_160.mp3",
+    "hasAudio": false,
+    "order": 160,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ทำงาน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_161",
+    "text": "ชอบ",
+    "phonetic": "chop",
+    "translation": "喜歡",
+    "audioUrl": "/audio/th/th_phrase_161.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_161.mp3",
+    "hasAudio": false,
+    "order": 161,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ชอบ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_162",
+    "text": "รัก",
+    "phonetic": "rak",
+    "translation": "愛",
+    "audioUrl": "/audio/th/th_phrase_162.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_162.mp3",
+    "hasAudio": false,
+    "order": 162,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "รัก",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_163",
+    "text": "อยาก",
+    "phonetic": "yak",
+    "translation": "想要",
+    "audioUrl": "/audio/th/th_phrase_163.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_163.mp3",
+    "hasAudio": false,
+    "order": 163,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "อยาก",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_164",
+    "text": "เอา",
+    "phonetic": "ao",
+    "translation": "拿/要",
+    "audioUrl": "/audio/th/th_phrase_164.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_164.mp3",
+    "hasAudio": false,
+    "order": 164,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เอา",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_165",
+    "text": "ต้องการ",
+    "phonetic": "dtong-gan",
+    "translation": "需要",
+    "audioUrl": "/audio/th/th_phrase_165.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_165.mp3",
+    "hasAudio": false,
+    "order": 165,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ต้องการ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_166",
+    "text": "มี",
+    "phonetic": "mee",
+    "translation": "有",
+    "audioUrl": "/audio/th/th_phrase_166.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_166.mp3",
+    "hasAudio": false,
+    "order": 166,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "มี",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_167",
+    "text": "นอน",
+    "phonetic": "non",
+    "translation": "睡覺",
+    "audioUrl": "/audio/th/th_phrase_167.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_167.mp3",
+    "hasAudio": false,
+    "order": 167,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "นอน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_168",
+    "text": "พักผ่อน",
+    "phonetic": "pak-pon",
+    "translation": "休息",
+    "audioUrl": "/audio/th/th_phrase_168.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_168.mp3",
+    "hasAudio": false,
+    "order": 168,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "พักผ่อน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_169",
+    "text": "อาบน้ำ",
+    "phonetic": "ab-nam",
+    "translation": "洗澡",
+    "audioUrl": "/audio/th/th_phrase_169.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_169.mp3",
+    "hasAudio": false,
+    "order": 169,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "อาบน้ำ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_170",
+    "text": "แปรงฟัน",
+    "phonetic": "praeng-fan",
+    "translation": "刷牙",
+    "audioUrl": "/audio/th/th_phrase_170.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_170.mp3",
+    "hasAudio": false,
+    "order": 170,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "แปรงฟัน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_171",
+    "text": "เรียน",
+    "phonetic": "rian",
+    "translation": "學習",
+    "audioUrl": "/audio/th/th_phrase_171.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_171.mp3",
+    "hasAudio": false,
+    "order": 171,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เรียน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_172",
+    "text": "รอ",
+    "phonetic": "ror",
+    "translation": "等",
+    "audioUrl": "/audio/th/th_phrase_172.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_172.mp3",
+    "hasAudio": false,
+    "order": 172,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "รอ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_173",
+    "text": "รอแป๊บนึง",
+    "phonetic": "ror paep-neung",
+    "translation": "等一下下",
+    "audioUrl": "/audio/th/th_phrase_173.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_173.mp3",
+    "hasAudio": false,
+    "order": 173,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "รอแป๊บนึง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_174",
+    "text": "เดิน",
+    "phonetic": "dern",
+    "translation": "走",
+    "audioUrl": "/audio/th/th_phrase_174.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_174.mp3",
+    "hasAudio": false,
+    "order": 174,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เดิน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_175",
+    "text": "วิ่ง",
+    "phonetic": "wing",
+    "translation": "跑",
+    "audioUrl": "/audio/th/th_phrase_175.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_175.mp3",
+    "hasAudio": false,
+    "order": 175,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "วิ่ง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_176",
+    "text": "นั่ง",
+    "phonetic": "nang",
+    "translation": "坐",
+    "audioUrl": "/audio/th/th_phrase_176.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_176.mp3",
+    "hasAudio": false,
+    "order": 176,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "นั่ง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_177",
+    "text": "ยืน",
+    "phonetic": "yeun",
+    "translation": "站",
+    "audioUrl": "/audio/th/th_phrase_177.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_177.mp3",
+    "hasAudio": false,
+    "order": 177,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ยืน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_178",
+    "text": "เจอ",
+    "phonetic": "jer",
+    "translation": "遇到/見到",
+    "audioUrl": "/audio/th/th_phrase_178.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_178.mp3",
+    "hasAudio": false,
+    "order": 178,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เจอ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_179",
+    "text": "หา",
+    "phonetic": "ha",
+    "translation": "找",
+    "audioUrl": "/audio/th/th_phrase_179.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_179.mp3",
+    "hasAudio": false,
+    "order": 179,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "หา",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_180",
+    "text": "รู้",
+    "phonetic": "roo",
+    "translation": "知道",
+    "audioUrl": "/audio/th/th_phrase_180.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_180.mp3",
+    "hasAudio": false,
+    "order": 180,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "รู้",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_181",
+    "text": "รู้จัก",
+    "phonetic": "roo-jak",
+    "translation": "認識",
+    "audioUrl": "/audio/th/th_phrase_181.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_181.mp3",
+    "hasAudio": false,
+    "order": 181,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "รู้จัก",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_182",
+    "text": "ลืม",
+    "phonetic": "leum",
+    "translation": "忘記",
+    "audioUrl": "/audio/th/th_phrase_182.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_182.mp3",
+    "hasAudio": false,
+    "order": 182,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ลืม",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_183",
+    "text": "จำ",
+    "phonetic": "jam",
+    "translation": "記得",
+    "audioUrl": "/audio/th/th_phrase_183.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_183.mp3",
+    "hasAudio": false,
+    "order": 183,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "จำ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_184",
+    "text": "ถาม",
+    "phonetic": "tam",
+    "translation": "問",
+    "audioUrl": "/audio/th/th_phrase_184.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_184.mp3",
+    "hasAudio": false,
+    "order": 184,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ถาม",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_185",
+    "text": "ตอบ",
+    "phonetic": "dtop",
+    "translation": "回答",
+    "audioUrl": "/audio/th/th_phrase_185.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_185.mp3",
+    "hasAudio": false,
+    "order": 185,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ตอบ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_186",
+    "text": "ช่วย",
+    "phonetic": "chuay",
+    "translation": "幫忙",
+    "audioUrl": "/audio/th/th_phrase_186.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_186.mp3",
+    "hasAudio": false,
+    "order": 186,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ช่วย",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_187",
+    "text": "ลอง",
+    "phonetic": "long",
+    "translation": "試試看",
+    "audioUrl": "/audio/th/th_phrase_187.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_187.mp3",
+    "hasAudio": false,
+    "order": 187,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ลอง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_188",
+    "text": "เปลี่ยน",
+    "phonetic": "plian",
+    "translation": "更換/改變",
+    "audioUrl": "/audio/th/th_phrase_188.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_188.mp3",
+    "hasAudio": false,
+    "order": 188,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เปลี่ยน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_189",
+    "text": "ซื้อ",
+    "phonetic": "seu",
+    "translation": "買",
+    "audioUrl": "/audio/th/th_phrase_189.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_189.mp3",
+    "hasAudio": false,
+    "order": 189,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ซื้อ",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_190",
+    "text": "จ่าย",
+    "phonetic": "jai",
+    "translation": "付款",
+    "audioUrl": "/audio/th/th_phrase_190.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_190.mp3",
+    "hasAudio": false,
+    "order": 190,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "จ่าย",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_191",
+    "text": "จอง",
+    "phonetic": "jong",
+    "translation": "預約/預訂",
+    "audioUrl": "/audio/th/th_phrase_191.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_191.mp3",
+    "hasAudio": false,
+    "order": 191,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "จอง",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_192",
+    "text": "โทร",
+    "phonetic": "to",
+    "translation": "打電話",
+    "audioUrl": "/audio/th/th_phrase_192.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_192.mp3",
+    "hasAudio": false,
+    "order": 192,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "โทร",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_193",
+    "text": "ถ่ายรูป",
+    "phonetic": "tai-roop",
+    "translation": "拍照",
+    "audioUrl": "/audio/th/th_phrase_193.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_193.mp3",
+    "hasAudio": false,
+    "order": 193,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ถ่ายรูป",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_194",
+    "text": "เปิด",
+    "phonetic": "perd",
+    "translation": "打開/營業",
+    "audioUrl": "/audio/th/th_phrase_194.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_194.mp3",
+    "hasAudio": false,
+    "order": 194,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เปิด",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_195",
+    "text": "ปิด",
+    "phonetic": "pit",
+    "translation": "關閉/打烊",
+    "audioUrl": "/audio/th/th_phrase_195.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_195.mp3",
+    "hasAudio": false,
+    "order": 195,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ปิด",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_196",
+    "text": "คุย",
+    "phonetic": "kui",
+    "translation": "聊天",
+    "audioUrl": "/audio/th/th_phrase_196.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_196.mp3",
+    "hasAudio": false,
+    "order": 196,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "คุย",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_197",
+    "text": "คิด",
+    "phonetic": "kid",
+    "translation": "想/思考",
+    "audioUrl": "/audio/th/th_phrase_197.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_197.mp3",
+    "hasAudio": false,
+    "order": 197,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "คิด",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_198",
+    "text": "เที่ยว",
+    "phonetic": "tiao",
+    "translation": "玩/旅遊",
+    "audioUrl": "/audio/th/th_phrase_198.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_198.mp3",
+    "hasAudio": false,
+    "order": 198,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เที่ยว",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_199",
+    "text": "เล่น",
+    "phonetic": "len",
+    "translation": "玩樂/滑(手機)",
+    "audioUrl": "/audio/th/th_phrase_199.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_199.mp3",
+    "hasAudio": false,
+    "order": 199,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "เล่น",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_200",
+    "text": "ขาย",
+    "phonetic": "kai",
+    "translation": "賣",
+    "audioUrl": "/audio/th/th_phrase_200.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_200.mp3",
+    "hasAudio": false,
+    "order": 200,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ขาย",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_201",
+    "text": "ให้",
+    "phonetic": "hai",
+    "translation": "給",
+    "audioUrl": "/audio/th/th_phrase_201.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_201.mp3",
+    "hasAudio": false,
+    "order": 201,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "ให้",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_202",
+    "text": "กลับบ้าน",
+    "phonetic": "glap-ban",
+    "translation": "回家",
+    "audioUrl": "/audio/th/th_phrase_202.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_202.mp3",
+    "hasAudio": false,
+    "order": 202,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "กลับบ้าน",
+    "status": "published",
+    "category": "common_verbs"
+  },
+  {
+    "id": "th_phrase_203",
+    "text": "มาก",
+    "phonetic": "mak",
+    "translation": "很/非常",
+    "audioUrl": "/audio/th/th_phrase_203.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_203.mp3",
+    "hasAudio": false,
+    "order": 203,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "มาก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_204",
+    "text": "ที่สุด",
+    "phonetic": "tee-sut",
+    "translation": "最...",
+    "audioUrl": "/audio/th/th_phrase_204.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_204.mp3",
+    "hasAudio": false,
+    "order": 204,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ที่สุด",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_205",
+    "text": "นิดหน่อย",
+    "phonetic": "nit-noi",
+    "translation": "一點點",
+    "audioUrl": "/audio/th/th_phrase_205.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_205.mp3",
+    "hasAudio": false,
+    "order": 205,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "นิดหน่อย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_206",
+    "text": "เกินไป",
+    "phonetic": "gern-pai",
+    "translation": "太...了",
+    "audioUrl": "/audio/th/th_phrase_206.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_206.mp3",
+    "hasAudio": false,
+    "order": 206,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เกินไป",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_207",
+    "text": "สวย",
+    "phonetic": "suay",
+    "translation": "漂亮",
+    "audioUrl": "/audio/th/th_phrase_207.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_207.mp3",
+    "hasAudio": false,
+    "order": 207,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สวย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_208",
+    "text": "หล่อ",
+    "phonetic": "lor",
+    "translation": "帥",
+    "audioUrl": "/audio/th/th_phrase_208.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_208.mp3",
+    "hasAudio": false,
+    "order": 208,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หล่อ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_209",
+    "text": "น่ารัก",
+    "phonetic": "na-rak",
+    "translation": "可愛",
+    "audioUrl": "/audio/th/th_phrase_209.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_209.mp3",
+    "hasAudio": false,
+    "order": 209,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "น่ารัก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_210",
+    "text": "ร้อน",
+    "phonetic": "ron",
+    "translation": "熱",
+    "audioUrl": "/audio/th/th_phrase_210.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_210.mp3",
+    "hasAudio": false,
+    "order": 210,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ร้อน",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_211",
+    "text": "หนาว",
+    "phonetic": "nao",
+    "translation": "冷",
+    "audioUrl": "/audio/th/th_phrase_211.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_211.mp3",
+    "hasAudio": false,
+    "order": 211,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หนาว",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_212",
+    "text": "เย็น",
+    "phonetic": "yen",
+    "translation": "涼/冷的",
+    "audioUrl": "/audio/th/th_phrase_212.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_212.mp3",
+    "hasAudio": false,
+    "order": 212,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เย็น",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_213",
+    "text": "หิว",
+    "phonetic": "hiew",
+    "translation": "餓",
+    "audioUrl": "/audio/th/th_phrase_213.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_213.mp3",
+    "hasAudio": false,
+    "order": 213,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หิว",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_214",
+    "text": "อิ่ม",
+    "phonetic": "im",
+    "translation": "飽",
+    "audioUrl": "/audio/th/th_phrase_214.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_214.mp3",
+    "hasAudio": false,
+    "order": 214,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "อิ่ม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_215",
+    "text": "เผ็ด",
+    "phonetic": "pet",
+    "translation": "辣",
+    "audioUrl": "/audio/th/th_phrase_215.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_215.mp3",
+    "hasAudio": false,
+    "order": 215,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เผ็ด",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_216",
+    "text": "อร่อย",
+    "phonetic": "a-roi",
+    "translation": "好吃",
+    "audioUrl": "/audio/th/th_phrase_216.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_216.mp3",
+    "hasAudio": false,
+    "order": 216,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "อร่อย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_217",
+    "text": "หวาน",
+    "phonetic": "wan",
+    "translation": "甜",
+    "audioUrl": "/audio/th/th_phrase_217.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_217.mp3",
+    "hasAudio": false,
+    "order": 217,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หวาน",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_218",
+    "text": "เค็ม",
+    "phonetic": "kem",
+    "translation": "鹹",
+    "audioUrl": "/audio/th/th_phrase_218.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_218.mp3",
+    "hasAudio": false,
+    "order": 218,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เค็ม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_219",
+    "text": "เปรี้ยว",
+    "phonetic": "priao",
+    "translation": "酸",
+    "audioUrl": "/audio/th/th_phrase_219.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_219.mp3",
+    "hasAudio": false,
+    "order": 219,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เปรี้ยว",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_220",
+    "text": "ขม",
+    "phonetic": "kom",
+    "translation": "苦",
+    "audioUrl": "/audio/th/th_phrase_220.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_220.mp3",
+    "hasAudio": false,
+    "order": 220,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ขม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_221",
+    "text": "แพง",
+    "phonetic": "paeng",
+    "translation": "貴",
+    "audioUrl": "/audio/th/th_phrase_221.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_221.mp3",
+    "hasAudio": false,
+    "order": 221,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "แพง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_222",
+    "text": "ถูก",
+    "phonetic": "took",
+    "translation": "便宜",
+    "audioUrl": "/audio/th/th_phrase_222.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_222.mp3",
+    "hasAudio": false,
+    "order": 222,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ถูก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_223",
+    "text": "สะอาด",
+    "phonetic": "sa-at",
+    "translation": "乾淨",
+    "audioUrl": "/audio/th/th_phrase_223.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_223.mp3",
+    "hasAudio": false,
+    "order": 223,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สะอาด",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_224",
+    "text": "ยาก",
+    "phonetic": "yak",
+    "translation": "難",
+    "audioUrl": "/audio/th/th_phrase_224.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_224.mp3",
+    "hasAudio": false,
+    "order": 224,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ยาก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_225",
+    "text": "ง่าย",
+    "phonetic": "ngai",
+    "translation": "簡單",
+    "audioUrl": "/audio/th/th_phrase_225.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_225.mp3",
+    "hasAudio": false,
+    "order": 225,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ง่าย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_226",
+    "text": "เร็ว",
+    "phonetic": "reo",
+    "translation": "快",
+    "audioUrl": "/audio/th/th_phrase_226.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_226.mp3",
+    "hasAudio": false,
+    "order": 226,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เร็ว",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_227",
+    "text": "ช้า",
+    "phonetic": "cha",
+    "translation": "慢",
+    "audioUrl": "/audio/th/th_phrase_227.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_227.mp3",
+    "hasAudio": false,
+    "order": 227,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ช้า",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_228",
+    "text": "ใหญ่",
+    "phonetic": "yai",
+    "translation": "大",
+    "audioUrl": "/audio/th/th_phrase_228.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_228.mp3",
+    "hasAudio": false,
+    "order": 228,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ใหญ่",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_229",
+    "text": "เล็ก",
+    "phonetic": "lek",
+    "translation": "小",
+    "audioUrl": "/audio/th/th_phrase_229.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_229.mp3",
+    "hasAudio": false,
+    "order": 229,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เล็ก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_230",
+    "text": "ใหม่",
+    "phonetic": "mai",
+    "translation": "新的",
+    "audioUrl": "/audio/th/th_phrase_230.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_230.mp3",
+    "hasAudio": false,
+    "order": 230,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ใหม่",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_231",
+    "text": "เก่า",
+    "phonetic": "gao",
+    "translation": "舊的",
+    "audioUrl": "/audio/th/th_phrase_231.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_231.mp3",
+    "hasAudio": false,
+    "order": 231,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เก่า",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_232",
+    "text": "หนัก",
+    "phonetic": "nak",
+    "translation": "重",
+    "audioUrl": "/audio/th/th_phrase_232.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_232.mp3",
+    "hasAudio": false,
+    "order": 232,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หนัก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_233",
+    "text": "เบา",
+    "phonetic": "bao",
+    "translation": "輕",
+    "audioUrl": "/audio/th/th_phrase_233.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_233.mp3",
+    "hasAudio": false,
+    "order": 233,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เบา",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_234",
+    "text": "รวย",
+    "phonetic": "ruay",
+    "translation": "有錢",
+    "audioUrl": "/audio/th/th_phrase_234.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_234.mp3",
+    "hasAudio": false,
+    "order": 234,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "รวย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_235",
+    "text": "จน",
+    "phonetic": "jon",
+    "translation": "窮",
+    "audioUrl": "/audio/th/th_phrase_235.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_235.mp3",
+    "hasAudio": false,
+    "order": 235,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "จน",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_236",
+    "text": "สุข",
+    "phonetic": "suk",
+    "translation": "幸福",
+    "audioUrl": "/audio/th/th_phrase_236.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_236.mp3",
+    "hasAudio": false,
+    "order": 236,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สุข",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_237",
+    "text": "สนุก",
+    "phonetic": "sa-nuk",
+    "translation": "有趣/快樂",
+    "audioUrl": "/audio/th/th_phrase_237.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_237.mp3",
+    "hasAudio": false,
+    "order": 237,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สนุก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_238",
+    "text": "เศร้า",
+    "phonetic": "srao",
+    "translation": "難過",
+    "audioUrl": "/audio/th/th_phrase_238.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_238.mp3",
+    "hasAudio": false,
+    "order": 238,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เศร้า",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_239",
+    "text": "โกรธ",
+    "phonetic": "grot",
+    "translation": "生氣",
+    "audioUrl": "/audio/th/th_phrase_239.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_239.mp3",
+    "hasAudio": false,
+    "order": 239,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "โกรธ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_240",
+    "text": "กลัว",
+    "phonetic": "glua",
+    "translation": "害怕",
+    "audioUrl": "/audio/th/th_phrase_240.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_240.mp3",
+    "hasAudio": false,
+    "order": 240,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "กลัว",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_241",
+    "text": "ตกใจ",
+    "phonetic": "dtok-jai",
+    "translation": "嚇一跳",
+    "audioUrl": "/audio/th/th_phrase_241.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_241.mp3",
+    "hasAudio": false,
+    "order": 241,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ตกใจ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_242",
+    "text": "ป่วย",
+    "phonetic": "puay",
+    "translation": "生病",
+    "audioUrl": "/audio/th/th_phrase_242.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_242.mp3",
+    "hasAudio": false,
+    "order": 242,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ป่วย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_243",
+    "text": "ว่าง",
+    "phonetic": "wang",
+    "translation": "有空",
+    "audioUrl": "/audio/th/th_phrase_243.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_243.mp3",
+    "hasAudio": false,
+    "order": 243,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ว่าง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_244",
+    "text": "ยุ่ง",
+    "phonetic": "yung",
+    "translation": "忙",
+    "audioUrl": "/audio/th/th_phrase_244.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_244.mp3",
+    "hasAudio": false,
+    "order": 244,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ยุ่ง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_245",
+    "text": "สำคัญ",
+    "phonetic": "sam-kan",
+    "translation": "重要",
+    "audioUrl": "/audio/th/th_phrase_245.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_245.mp3",
+    "hasAudio": false,
+    "order": 245,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สำคัญ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_246",
+    "text": "โชคดี",
+    "phonetic": "chok-dee",
+    "translation": "好運",
+    "audioUrl": "/audio/th/th_phrase_246.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_246.mp3",
+    "hasAudio": false,
+    "order": 246,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "โชคดี",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_247",
+    "text": "อันตราย",
+    "phonetic": "an-dta-rai",
+    "translation": "危險",
+    "audioUrl": "/audio/th/th_phrase_247.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_247.mp3",
+    "hasAudio": false,
+    "order": 247,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "อันตราย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_248",
+    "text": "ปลอดภัย",
+    "phonetic": "bplot-pai",
+    "translation": "安全",
+    "audioUrl": "/audio/th/th_phrase_248.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_248.mp3",
+    "hasAudio": false,
+    "order": 248,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ปลอดภัย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_249",
+    "text": "สุดยอด",
+    "phonetic": "sut-yot",
+    "translation": "超棒",
+    "audioUrl": "/audio/th/th_phrase_249.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_249.mp3",
+    "hasAudio": false,
+    "order": 249,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สุดยอด",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_250",
+    "text": "ตลก",
+    "phonetic": "dta-lok",
+    "translation": "好笑",
+    "audioUrl": "/audio/th/th_phrase_250.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_250.mp3",
+    "hasAudio": false,
+    "order": 250,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ตลก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_251",
+    "text": "หอม",
+    "phonetic": "hom",
+    "translation": "香",
+    "audioUrl": "/audio/th/th_phrase_251.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_251.mp3",
+    "hasAudio": false,
+    "order": 251,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "หอม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_252",
+    "text": "เหม็น",
+    "phonetic": "men",
+    "translation": "臭",
+    "audioUrl": "/audio/th/th_phrase_252.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_252.mp3",
+    "hasAudio": false,
+    "order": 252,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เหม็น",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_253",
+    "text": "แปลก",
+    "phonetic": "plaek",
+    "translation": "奇怪",
+    "audioUrl": "/audio/th/th_phrase_253.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_253.mp3",
+    "hasAudio": false,
+    "order": 253,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "แปลก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_254",
+    "text": "พร้อม",
+    "phonetic": "prom",
+    "translation": "準備好了",
+    "audioUrl": "/audio/th/th_phrase_254.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_254.mp3",
+    "hasAudio": false,
+    "order": 254,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "พร้อม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_255",
+    "text": "ยังไม่พร้อม",
+    "phonetic": "yang mai prom",
+    "translation": "還沒準備好",
+    "audioUrl": "/audio/th/th_phrase_255.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_255.mp3",
+    "hasAudio": false,
+    "order": 255,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ยังไม่พร้อม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_256",
+    "text": "สบาย",
+    "phonetic": "sa-bai",
+    "translation": "舒服/輕鬆",
+    "audioUrl": "/audio/th/th_phrase_256.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_256.mp3",
+    "hasAudio": false,
+    "order": 256,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สบาย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_257",
+    "text": "ไม่สบาย",
+    "phonetic": "mai sa-bai",
+    "translation": "不舒服/生病",
+    "audioUrl": "/audio/th/th_phrase_257.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_257.mp3",
+    "hasAudio": false,
+    "order": 257,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ไม่สบาย",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_258",
+    "text": "จริง",
+    "phonetic": "jing",
+    "translation": "真的/真實",
+    "audioUrl": "/audio/th/th_phrase_258.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_258.mp3",
+    "hasAudio": false,
+    "order": 258,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "จริง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_259",
+    "text": "แน่",
+    "phonetic": "nae",
+    "translation": "確定",
+    "audioUrl": "/audio/th/th_phrase_259.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_259.mp3",
+    "hasAudio": false,
+    "order": 259,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "แน่",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_260",
+    "text": "แน่นอน",
+    "phonetic": "nae-non",
+    "translation": "當然/確定",
+    "audioUrl": "/audio/th/th_phrase_260.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_260.mp3",
+    "hasAudio": false,
+    "order": 260,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "แน่นอน",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_261",
+    "text": "พิเศษ",
+    "phonetic": "pi-set",
+    "translation": "特別",
+    "audioUrl": "/audio/th/th_phrase_261.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_261.mp3",
+    "hasAudio": false,
+    "order": 261,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "พิเศษ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_262",
+    "text": "ธรรมดา",
+    "phonetic": "tam-ma-da",
+    "translation": "普通",
+    "audioUrl": "/audio/th/th_phrase_262.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_262.mp3",
+    "hasAudio": false,
+    "order": 262,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ธรรมดา",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_263",
+    "text": "เต็ม",
+    "phonetic": "dtem",
+    "translation": "滿的",
+    "audioUrl": "/audio/th/th_phrase_263.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_263.mp3",
+    "hasAudio": false,
+    "order": 263,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เต็ม",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_264",
+    "text": "ว่างเปล่า",
+    "phonetic": "wang-plao",
+    "translation": "空的",
+    "audioUrl": "/audio/th/th_phrase_264.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_264.mp3",
+    "hasAudio": false,
+    "order": 264,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ว่างเปล่า",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_265",
+    "text": "ไกลมาก",
+    "phonetic": "glai mak",
+    "translation": "很遠",
+    "audioUrl": "/audio/th/th_phrase_265.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_265.mp3",
+    "hasAudio": false,
+    "order": 265,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ไกลมาก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_266",
+    "text": "ใกล้มาก",
+    "phonetic": "glai mak",
+    "translation": "很近",
+    "audioUrl": "/audio/th/th_phrase_266.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_266.mp3",
+    "hasAudio": false,
+    "order": 266,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ใกล้มาก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_267",
+    "text": "เหมือน",
+    "phonetic": "meuan",
+    "translation": "像/相似",
+    "audioUrl": "/audio/th/th_phrase_267.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_267.mp3",
+    "hasAudio": false,
+    "order": 267,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เหมือน",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_268",
+    "text": "ต่าง",
+    "phonetic": "dtang",
+    "translation": "不同",
+    "audioUrl": "/audio/th/th_phrase_268.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_268.mp3",
+    "hasAudio": false,
+    "order": 268,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ต่าง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_269",
+    "text": "ถูกต้อง",
+    "phonetic": "took-dtong",
+    "translation": "正確",
+    "audioUrl": "/audio/th/th_phrase_269.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_269.mp3",
+    "hasAudio": false,
+    "order": 269,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ถูกต้อง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_270",
+    "text": "ผิด",
+    "phonetic": "pit",
+    "translation": "錯的",
+    "audioUrl": "/audio/th/th_phrase_270.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_270.mp3",
+    "hasAudio": false,
+    "order": 270,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ผิด",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_271",
+    "text": "เงียบ",
+    "phonetic": "ngiap",
+    "translation": "安靜",
+    "audioUrl": "/audio/th/th_phrase_271.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_271.mp3",
+    "hasAudio": false,
+    "order": 271,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เงียบ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_272",
+    "text": "ดัง",
+    "phonetic": "dang",
+    "translation": "大聲/吵",
+    "audioUrl": "/audio/th/th_phrase_272.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_272.mp3",
+    "hasAudio": false,
+    "order": 272,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ดัง",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_273",
+    "text": "สบายใจ",
+    "phonetic": "sa-bai-jai",
+    "translation": "安心",
+    "audioUrl": "/audio/th/th_phrase_273.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_273.mp3",
+    "hasAudio": false,
+    "order": 273,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สบายใจ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_274",
+    "text": "รีบ",
+    "phonetic": "reep",
+    "translation": "趕/急",
+    "audioUrl": "/audio/th/th_phrase_274.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_274.mp3",
+    "hasAudio": false,
+    "order": 274,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "รีบ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_275",
+    "text": "ไม่รีบ",
+    "phonetic": "mai reep",
+    "translation": "不急",
+    "audioUrl": "/audio/th/th_phrase_275.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_275.mp3",
+    "hasAudio": false,
+    "order": 275,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ไม่รีบ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_276",
+    "text": "ปกติ",
+    "phonetic": "bpo-ga-dti",
+    "translation": "平常/正常",
+    "audioUrl": "/audio/th/th_phrase_276.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_276.mp3",
+    "hasAudio": false,
+    "order": 276,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ปกติ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_277",
+    "text": "สะดวก",
+    "phonetic": "sa-duak",
+    "translation": "方便",
+    "audioUrl": "/audio/th/th_phrase_277.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_277.mp3",
+    "hasAudio": false,
+    "order": 277,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สะดวก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_278",
+    "text": "ไม่สะดวก",
+    "phonetic": "mai sa-duak",
+    "translation": "不方便",
+    "audioUrl": "/audio/th/th_phrase_278.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_278.mp3",
+    "hasAudio": false,
+    "order": 278,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ไม่สะดวก",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_279",
+    "text": "จำเป็น",
+    "phonetic": "jam-bpen",
+    "translation": "必要",
+    "audioUrl": "/audio/th/th_phrase_279.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_279.mp3",
+    "hasAudio": false,
+    "order": 279,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "จำเป็น",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_280",
+    "text": "เสร็จ",
+    "phonetic": "set",
+    "translation": "完成了/好了",
+    "audioUrl": "/audio/th/th_phrase_280.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_280.mp3",
+    "hasAudio": false,
+    "order": 280,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "เสร็จ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_281",
+    "text": "ไม่เข้าใจ",
+    "phonetic": "mai kao-jai",
+    "translation": "不懂",
+    "audioUrl": "/audio/th/th_phrase_281.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_281.mp3",
+    "hasAudio": false,
+    "order": 281,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "ไม่เข้าใจ",
+    "status": "published",
+    "category": "adjectives_feelings"
+  },
+  {
+    "id": "th_phrase_282",
+    "text": "ศูนย์",
+    "phonetic": "soon",
+    "translation": "0",
+    "audioUrl": "/audio/th/th_phrase_282.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_282.mp3",
+    "hasAudio": false,
+    "order": 282,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ศูนย์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_283",
+    "text": "หนึ่ง",
+    "phonetic": "neung",
+    "translation": "1",
+    "audioUrl": "/audio/th/th_phrase_283.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_283.mp3",
+    "hasAudio": false,
+    "order": 283,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "หนึ่ง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_284",
+    "text": "สอง",
+    "phonetic": "song",
+    "translation": "2",
+    "audioUrl": "/audio/th/th_phrase_284.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_284.mp3",
+    "hasAudio": false,
+    "order": 284,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สอง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_285",
+    "text": "สาม",
+    "phonetic": "sam",
+    "translation": "3",
+    "audioUrl": "/audio/th/th_phrase_285.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_285.mp3",
+    "hasAudio": false,
+    "order": 285,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สาม",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_286",
+    "text": "สี่",
+    "phonetic": "see",
+    "translation": "4",
+    "audioUrl": "/audio/th/th_phrase_286.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_286.mp3",
+    "hasAudio": false,
+    "order": 286,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สี่",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_287",
+    "text": "หก",
+    "phonetic": "hok",
+    "translation": "6",
+    "audioUrl": "/audio/th/th_phrase_287.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_287.mp3",
+    "hasAudio": false,
+    "order": 287,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "หก",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_288",
+    "text": "เจ็ด",
+    "phonetic": "jet",
+    "translation": "7",
+    "audioUrl": "/audio/th/th_phrase_288.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_288.mp3",
+    "hasAudio": false,
+    "order": 288,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เจ็ด",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_289",
+    "text": "แปด",
+    "phonetic": "paet",
+    "translation": "8",
+    "audioUrl": "/audio/th/th_phrase_289.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_289.mp3",
+    "hasAudio": false,
+    "order": 289,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "แปด",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_290",
+    "text": "สิบ",
+    "phonetic": "sip",
+    "translation": "10",
+    "audioUrl": "/audio/th/th_phrase_290.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_290.mp3",
+    "hasAudio": false,
+    "order": 290,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สิบ",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_291",
+    "text": "ร้อย",
+    "phonetic": "roi",
+    "translation": "百",
+    "audioUrl": "/audio/th/th_phrase_291.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_291.mp3",
+    "hasAudio": false,
+    "order": 291,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ร้อย",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_292",
+    "text": "พัน",
+    "phonetic": "pan",
+    "translation": "千",
+    "audioUrl": "/audio/th/th_phrase_292.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_292.mp3",
+    "hasAudio": false,
+    "order": 292,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "พัน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_293",
+    "text": "วันนี้",
+    "phonetic": "wan-nee",
+    "translation": "今天",
+    "audioUrl": "/audio/th/th_phrase_293.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_293.mp3",
+    "hasAudio": false,
+    "order": 293,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันนี้",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_294",
+    "text": "พรุ่งนี้",
+    "phonetic": "prung-nee",
+    "translation": "明天",
+    "audioUrl": "/audio/th/th_phrase_294.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_294.mp3",
+    "hasAudio": false,
+    "order": 294,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "พรุ่งนี้",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_295",
+    "text": "เมื่อวาน",
+    "phonetic": "meua-wan",
+    "translation": "昨天",
+    "audioUrl": "/audio/th/th_phrase_295.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_295.mp3",
+    "hasAudio": false,
+    "order": 295,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เมื่อวาน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_296",
+    "text": "ตอนนี้",
+    "phonetic": "dton-nee",
+    "translation": "現在",
+    "audioUrl": "/audio/th/th_phrase_296.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_296.mp3",
+    "hasAudio": false,
+    "order": 296,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_297",
+    "text": "เวลา",
+    "phonetic": "we-la",
+    "translation": "時間",
+    "audioUrl": "/audio/th/th_phrase_297.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_297.mp3",
+    "hasAudio": false,
+    "order": 297,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เวลา",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_298",
+    "text": "ชั่วโมง",
+    "phonetic": "chua-mong",
+    "translation": "小時",
+    "audioUrl": "/audio/th/th_phrase_298.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_298.mp3",
+    "hasAudio": false,
+    "order": 298,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ชั่วโมง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_299",
+    "text": "นาที",
+    "phonetic": "na-tee",
+    "translation": "分鐘",
+    "audioUrl": "/audio/th/th_phrase_299.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_299.mp3",
+    "hasAudio": false,
+    "order": 299,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "นาที",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_300",
+    "text": "เช้า",
+    "phonetic": "chao",
+    "translation": "早上",
+    "audioUrl": "/audio/th/th_phrase_300.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_300.mp3",
+    "hasAudio": false,
+    "order": 300,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เช้า",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_301",
+    "text": "สาย",
+    "phonetic": "sai",
+    "translation": "上午稍晚",
+    "audioUrl": "/audio/th/th_phrase_301.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_301.mp3",
+    "hasAudio": false,
+    "order": 301,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สาย",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_302",
+    "text": "เที่ยง",
+    "phonetic": "tiang",
+    "translation": "中午",
+    "audioUrl": "/audio/th/th_phrase_302.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_302.mp3",
+    "hasAudio": false,
+    "order": 302,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เที่ยง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_303",
+    "text": "บ่าย",
+    "phonetic": "bai",
+    "translation": "下午",
+    "audioUrl": "/audio/th/th_phrase_303.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_303.mp3",
+    "hasAudio": false,
+    "order": 303,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "บ่าย",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_304",
+    "text": "กลางคืน",
+    "phonetic": "glang-keun",
+    "translation": "晚上",
+    "audioUrl": "/audio/th/th_phrase_304.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_304.mp3",
+    "hasAudio": false,
+    "order": 304,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "กลางคืน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_305",
+    "text": "วัน",
+    "phonetic": "wan",
+    "translation": "天",
+    "audioUrl": "/audio/th/th_phrase_305.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_305.mp3",
+    "hasAudio": false,
+    "order": 305,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วัน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_306",
+    "text": "สัปดาห์",
+    "phonetic": "sap-da",
+    "translation": "星期/週",
+    "audioUrl": "/audio/th/th_phrase_306.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_306.mp3",
+    "hasAudio": false,
+    "order": 306,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "สัปดาห์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_307",
+    "text": "เดือน",
+    "phonetic": "duean",
+    "translation": "月",
+    "audioUrl": "/audio/th/th_phrase_307.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_307.mp3",
+    "hasAudio": false,
+    "order": 307,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เดือน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_308",
+    "text": "ปี",
+    "phonetic": "bpee",
+    "translation": "年",
+    "audioUrl": "/audio/th/th_phrase_308.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_308.mp3",
+    "hasAudio": false,
+    "order": 308,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ปี",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_309",
+    "text": "วันจันทร์",
+    "phonetic": "wan-jan",
+    "translation": "星期一",
+    "audioUrl": "/audio/th/th_phrase_309.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_309.mp3",
+    "hasAudio": false,
+    "order": 309,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันจันทร์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_310",
+    "text": "วันอังคาร",
+    "phonetic": "wan-ang-kan",
+    "translation": "星期二",
+    "audioUrl": "/audio/th/th_phrase_310.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_310.mp3",
+    "hasAudio": false,
+    "order": 310,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันอังคาร",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_311",
+    "text": "วันพุธ",
+    "phonetic": "wan-put",
+    "translation": "星期三",
+    "audioUrl": "/audio/th/th_phrase_311.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_311.mp3",
+    "hasAudio": false,
+    "order": 311,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันพุธ",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_312",
+    "text": "วันพฤหัสบดี",
+    "phonetic": "wan-pa-reu-hat",
+    "translation": "星期四",
+    "audioUrl": "/audio/th/th_phrase_312.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_312.mp3",
+    "hasAudio": false,
+    "order": 312,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันพฤหัสบดี",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_313",
+    "text": "วันศุกร์",
+    "phonetic": "wan-suk",
+    "translation": "星期五",
+    "audioUrl": "/audio/th/th_phrase_313.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_313.mp3",
+    "hasAudio": false,
+    "order": 313,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันศุกร์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_314",
+    "text": "วันเสาร์",
+    "phonetic": "wan-sao",
+    "translation": "星期六",
+    "audioUrl": "/audio/th/th_phrase_314.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_314.mp3",
+    "hasAudio": false,
+    "order": 314,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันเสาร์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_315",
+    "text": "วันอาทิตย์",
+    "phonetic": "wan-a-tit",
+    "translation": "星期日",
+    "audioUrl": "/audio/th/th_phrase_315.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_315.mp3",
+    "hasAudio": false,
+    "order": 315,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "วันอาทิตย์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_316",
+    "text": "บางครั้ง",
+    "phonetic": "bang-krang",
+    "translation": "有時候",
+    "audioUrl": "/audio/th/th_phrase_316.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_316.mp3",
+    "hasAudio": false,
+    "order": 316,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "บางครั้ง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_317",
+    "text": "บ่อยๆ",
+    "phonetic": "boi-boi",
+    "translation": "經常",
+    "audioUrl": "/audio/th/th_phrase_317.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_317.mp3",
+    "hasAudio": false,
+    "order": 317,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "บ่อยๆ",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_318",
+    "text": "เพิ่ง",
+    "phonetic": "perng",
+    "translation": "剛剛",
+    "audioUrl": "/audio/th/th_phrase_318.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_318.mp3",
+    "hasAudio": false,
+    "order": 318,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เพิ่ง",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_319",
+    "text": "คืนนี้",
+    "phonetic": "keun-nee",
+    "translation": "今晚",
+    "audioUrl": "/audio/th/th_phrase_319.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_319.mp3",
+    "hasAudio": false,
+    "order": 319,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "คืนนี้",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_320",
+    "text": "มะรืนนี้",
+    "phonetic": "ma-reun-nee",
+    "translation": "後天",
+    "audioUrl": "/audio/th/th_phrase_320.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_320.mp3",
+    "hasAudio": false,
+    "order": 320,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "มะรืนนี้",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_321",
+    "text": "ทุกวัน",
+    "phonetic": "tuk-wan",
+    "translation": "每天",
+    "audioUrl": "/audio/th/th_phrase_321.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_321.mp3",
+    "hasAudio": false,
+    "order": 321,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ทุกวัน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_322",
+    "text": "ทุกสัปดาห์",
+    "phonetic": "tuk-sap-da",
+    "translation": "每週",
+    "audioUrl": "/audio/th/th_phrase_322.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_322.mp3",
+    "hasAudio": false,
+    "order": 322,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ทุกสัปดาห์",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_323",
+    "text": "ทุกเดือน",
+    "phonetic": "tuk-duean",
+    "translation": "每個月",
+    "audioUrl": "/audio/th/th_phrase_323.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_323.mp3",
+    "hasAudio": false,
+    "order": 323,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ทุกเดือน",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_324",
+    "text": "เสมอ",
+    "phonetic": "sa-mer",
+    "translation": "總是",
+    "audioUrl": "/audio/th/th_phrase_324.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_324.mp3",
+    "hasAudio": false,
+    "order": 324,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เสมอ",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_325",
+    "text": "ไม่เคย",
+    "phonetic": "mai-koey",
+    "translation": "從來沒",
+    "audioUrl": "/audio/th/th_phrase_325.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_325.mp3",
+    "hasAudio": false,
+    "order": 325,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "ไม่เคย",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_326",
+    "text": "เคย",
+    "phonetic": "koey",
+    "translation": "曾經",
+    "audioUrl": "/audio/th/th_phrase_326.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_326.mp3",
+    "hasAudio": false,
+    "order": 326,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เคย",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_327",
+    "text": "เป็นประจำ",
+    "phonetic": "bpen pra-jam",
+    "translation": "經常/固定地",
+    "audioUrl": "/audio/th/th_phrase_327.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_327.mp3",
+    "hasAudio": false,
+    "order": 327,
+    "tags": [
+      "basic",
+      "numbers_time"
+    ],
+    "note": "",
+    "ttsText": "เป็นประจำ",
+    "status": "published",
+    "category": "numbers_time"
+  },
+  {
+    "id": "th_phrase_328",
+    "text": "อาหาร",
+    "phonetic": "a-han",
+    "translation": "食物",
+    "audioUrl": "/audio/th/th_phrase_328.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_328.mp3",
+    "hasAudio": false,
+    "order": 328,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "อาหาร",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_329",
+    "text": "เมนู",
+    "phonetic": "me-noo",
+    "translation": "菜單",
+    "audioUrl": "/audio/th/th_phrase_329.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_329.mp3",
+    "hasAudio": false,
+    "order": 329,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เมนู",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_330",
+    "text": "ข้าว",
+    "phonetic": "kao",
+    "translation": "飯",
+    "audioUrl": "/audio/th/th_phrase_330.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_330.mp3",
+    "hasAudio": false,
+    "order": 330,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ข้าว",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_331",
+    "text": "หมู",
+    "phonetic": "moo",
+    "translation": "豬肉",
+    "audioUrl": "/audio/th/th_phrase_331.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_331.mp3",
+    "hasAudio": false,
+    "order": 331,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "หมู",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_332",
+    "text": "ไก่",
+    "phonetic": "gai",
+    "translation": "雞肉",
+    "audioUrl": "/audio/th/th_phrase_332.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_332.mp3",
+    "hasAudio": false,
+    "order": 332,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไก่",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_333",
+    "text": "ปลา",
+    "phonetic": "pla",
+    "translation": "魚",
+    "audioUrl": "/audio/th/th_phrase_333.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_333.mp3",
+    "hasAudio": false,
+    "order": 333,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ปลา",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_334",
+    "text": "กุ้ง",
+    "phonetic": "gung",
+    "translation": "蝦",
+    "audioUrl": "/audio/th/th_phrase_334.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_334.mp3",
+    "hasAudio": false,
+    "order": 334,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "กุ้ง",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_335",
+    "text": "ผัก",
+    "phonetic": "pak",
+    "translation": "蔬菜",
+    "audioUrl": "/audio/th/th_phrase_335.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_335.mp3",
+    "hasAudio": false,
+    "order": 335,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ผัก",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_336",
+    "text": "ผลไม้",
+    "phonetic": "pon-la-mai",
+    "translation": "水果",
+    "audioUrl": "/audio/th/th_phrase_336.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_336.mp3",
+    "hasAudio": false,
+    "order": 336,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ผลไม้",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_337",
+    "text": "น้ำ",
+    "phonetic": "nam",
+    "translation": "水",
+    "audioUrl": "/audio/th/th_phrase_337.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_337.mp3",
+    "hasAudio": false,
+    "order": 337,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "น้ำ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_338",
+    "text": "น้ำแข็ง",
+    "phonetic": "nam-khaeng",
+    "translation": "冰塊",
+    "audioUrl": "/audio/th/th_phrase_338.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_338.mp3",
+    "hasAudio": false,
+    "order": 338,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "น้ำแข็ง",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_339",
+    "text": "กาแฟ",
+    "phonetic": "ga-fae",
+    "translation": "咖啡",
+    "audioUrl": "/audio/th/th_phrase_339.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_339.mp3",
+    "hasAudio": false,
+    "order": 339,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "กาแฟ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_340",
+    "text": "ชาเย็น",
+    "phonetic": "cha-yen",
+    "translation": "泰奶",
+    "audioUrl": "/audio/th/th_phrase_340.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_340.mp3",
+    "hasAudio": false,
+    "order": 340,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ชาเย็น",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_341",
+    "text": "เครื่องดื่ม",
+    "phonetic": "kreuang-deum",
+    "translation": "飲料",
+    "audioUrl": "/audio/th/th_phrase_341.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_341.mp3",
+    "hasAudio": false,
+    "order": 341,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เครื่องดื่ม",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_342",
+    "text": "น้ำตาล",
+    "phonetic": "nam-dtan",
+    "translation": "糖",
+    "audioUrl": "/audio/th/th_phrase_342.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_342.mp3",
+    "hasAudio": false,
+    "order": 342,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "น้ำตาล",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_343",
+    "text": "เกลือ",
+    "phonetic": "gleua",
+    "translation": "鹽",
+    "audioUrl": "/audio/th/th_phrase_343.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_343.mp3",
+    "hasAudio": false,
+    "order": 343,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เกลือ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_344",
+    "text": "น้ำปลา",
+    "phonetic": "nam-bpla",
+    "translation": "魚露",
+    "audioUrl": "/audio/th/th_phrase_344.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_344.mp3",
+    "hasAudio": false,
+    "order": 344,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "น้ำปลา",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_345",
+    "text": "น้ำพริก",
+    "phonetic": "nam-prik",
+    "translation": "辣椒醬",
+    "audioUrl": "/audio/th/th_phrase_345.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_345.mp3",
+    "hasAudio": false,
+    "order": 345,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "น้ำพริก",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_346",
+    "text": "มังสวิรัติ",
+    "phonetic": "mang-sa-wi-rat",
+    "translation": "素食",
+    "audioUrl": "/audio/th/th_phrase_346.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_346.mp3",
+    "hasAudio": false,
+    "order": 346,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "มังสวิรัติ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_347",
+    "text": "อร่อยมาก",
+    "phonetic": "a-roi mak",
+    "translation": "非常好吃",
+    "audioUrl": "/audio/th/th_phrase_347.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_347.mp3",
+    "hasAudio": false,
+    "order": 347,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "อร่อยมาก",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_348",
+    "text": "เผ็ดน้อย",
+    "phonetic": "pet noi",
+    "translation": "小辣",
+    "audioUrl": "/audio/th/th_phrase_348.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_348.mp3",
+    "hasAudio": false,
+    "order": 348,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เผ็ดน้อย",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_349",
+    "text": "ไม่ใส่น้ำแข็ง",
+    "phonetic": "mai sai nam-khaeng",
+    "translation": "不要加冰",
+    "audioUrl": "/audio/th/th_phrase_349.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_349.mp3",
+    "hasAudio": false,
+    "order": 349,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใส่น้ำแข็ง",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_350",
+    "text": "ไม่หวาน",
+    "phonetic": "mai wan",
+    "translation": "不甜",
+    "audioUrl": "/audio/th/th_phrase_350.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_350.mp3",
+    "hasAudio": false,
+    "order": 350,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไม่หวาน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_351",
+    "text": "หวานน้อย",
+    "phonetic": "wan noi",
+    "translation": "少糖",
+    "audioUrl": "/audio/th/th_phrase_351.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_351.mp3",
+    "hasAudio": false,
+    "order": 351,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "หวานน้อย",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_352",
+    "text": "ไม่เอา",
+    "phonetic": "mai ao",
+    "translation": "不要",
+    "audioUrl": "/audio/th/th_phrase_352.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_352.mp3",
+    "hasAudio": false,
+    "order": 352,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไม่เอา",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_353",
+    "text": "ถุง",
+    "phonetic": "toong",
+    "translation": "袋子",
+    "audioUrl": "/audio/th/th_phrase_353.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_353.mp3",
+    "hasAudio": false,
+    "order": 353,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ถุง",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_354",
+    "text": "ตะเกียบ",
+    "phonetic": "dta-giap",
+    "translation": "筷子",
+    "audioUrl": "/audio/th/th_phrase_354.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_354.mp3",
+    "hasAudio": false,
+    "order": 354,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ตะเกียบ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_355",
+    "text": "ช้อน",
+    "phonetic": "chon",
+    "translation": "湯匙",
+    "audioUrl": "/audio/th/th_phrase_355.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_355.mp3",
+    "hasAudio": false,
+    "order": 355,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ช้อน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_356",
+    "text": "จาน",
+    "phonetic": "jan",
+    "translation": "盤子",
+    "audioUrl": "/audio/th/th_phrase_356.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_356.mp3",
+    "hasAudio": false,
+    "order": 356,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "จาน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_357",
+    "text": "แก้ว",
+    "phonetic": "gaew",
+    "translation": "杯子",
+    "audioUrl": "/audio/th/th_phrase_357.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_357.mp3",
+    "hasAudio": false,
+    "order": 357,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "แก้ว",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_358",
+    "text": "ขวด",
+    "phonetic": "kuat",
+    "translation": "瓶",
+    "audioUrl": "/audio/th/th_phrase_358.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_358.mp3",
+    "hasAudio": false,
+    "order": 358,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ขวด",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_359",
+    "text": "โต๊ะ",
+    "phonetic": "dtoe",
+    "translation": "桌子",
+    "audioUrl": "/audio/th/th_phrase_359.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_359.mp3",
+    "hasAudio": false,
+    "order": 359,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "โต๊ะ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_360",
+    "text": "คิดเงิน",
+    "phonetic": "kit-ngern",
+    "translation": "買單/結帳",
+    "audioUrl": "/audio/th/th_phrase_360.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_360.mp3",
+    "hasAudio": false,
+    "order": 360,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "คิดเงิน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_361",
+    "text": "บิล",
+    "phonetic": "bin",
+    "translation": "帳單",
+    "audioUrl": "/audio/th/th_phrase_361.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_361.mp3",
+    "hasAudio": false,
+    "order": 361,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "บิล",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_362",
+    "text": "เงินสด",
+    "phonetic": "ngern-sot",
+    "translation": "現金",
+    "audioUrl": "/audio/th/th_phrase_362.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_362.mp3",
+    "hasAudio": false,
+    "order": 362,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เงินสด",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_363",
+    "text": "บัตรเครดิต",
+    "phonetic": "bat-kre-dit",
+    "translation": "信用卡",
+    "audioUrl": "/audio/th/th_phrase_363.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_363.mp3",
+    "hasAudio": false,
+    "order": 363,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "บัตรเครดิต",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_364",
+    "text": "โรงแรม",
+    "phonetic": "rong-raem",
+    "translation": "飯店",
+    "audioUrl": "/audio/th/th_phrase_364.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_364.mp3",
+    "hasAudio": false,
+    "order": 364,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "โรงแรม",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_365",
+    "text": "กุญแจ",
+    "phonetic": "goon-jae",
+    "translation": "鑰匙",
+    "audioUrl": "/audio/th/th_phrase_365.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_365.mp3",
+    "hasAudio": false,
+    "order": 365,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "กุญแจ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_366",
+    "text": "บ้าน",
+    "phonetic": "baan",
+    "translation": "家",
+    "audioUrl": "/audio/th/th_phrase_366.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_366.mp3",
+    "hasAudio": false,
+    "order": 366,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "บ้าน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_367",
+    "text": "ห้องน้ำ",
+    "phonetic": "hong-nam",
+    "translation": "廁所",
+    "audioUrl": "/audio/th/th_phrase_367.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_367.mp3",
+    "hasAudio": false,
+    "order": 367,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ห้องน้ำ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_368",
+    "text": "ตลาด",
+    "phonetic": "dta-lat",
+    "translation": "市場",
+    "audioUrl": "/audio/th/th_phrase_368.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_368.mp3",
+    "hasAudio": false,
+    "order": 368,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ตลาด",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_369",
+    "text": "ห้างสรรพสินค้า",
+    "phonetic": "hang-sap-pa-sin-ka",
+    "translation": "百貨公司",
+    "audioUrl": "/audio/th/th_phrase_369.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_369.mp3",
+    "hasAudio": false,
+    "order": 369,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ห้างสรรพสินค้า",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_370",
+    "text": "โรงพยาบาล",
+    "phonetic": "rong-pa-ya-ban",
+    "translation": "醫院",
+    "audioUrl": "/audio/th/th_phrase_370.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_370.mp3",
+    "hasAudio": false,
+    "order": 370,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "โรงพยาบาล",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_371",
+    "text": "สถานี",
+    "phonetic": "sa-ta-nee",
+    "translation": "車站",
+    "audioUrl": "/audio/th/th_phrase_371.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_371.mp3",
+    "hasAudio": false,
+    "order": 371,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "สถานี",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_372",
+    "text": "สนามบิน",
+    "phonetic": "sa-nam-bin",
+    "translation": "機場",
+    "audioUrl": "/audio/th/th_phrase_372.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_372.mp3",
+    "hasAudio": false,
+    "order": 372,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "สนามบิน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_373",
+    "text": "รถเมล์",
+    "phonetic": "rot-may",
+    "translation": "公車",
+    "audioUrl": "/audio/th/th_phrase_373.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_373.mp3",
+    "hasAudio": false,
+    "order": 373,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "รถเมล์",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_374",
+    "text": "ป้ายรถเมล์",
+    "phonetic": "bpai-rot-may",
+    "translation": "公車站牌",
+    "audioUrl": "/audio/th/th_phrase_374.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_374.mp3",
+    "hasAudio": false,
+    "order": 374,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ป้ายรถเมล์",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_375",
+    "text": "รถไฟฟ้า",
+    "phonetic": "rot-fai-fa",
+    "translation": "捷運",
+    "audioUrl": "/audio/th/th_phrase_375.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_375.mp3",
+    "hasAudio": false,
+    "order": 375,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "รถไฟฟ้า",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_376",
+    "text": "แท็กซี่",
+    "phonetic": "taek-see",
+    "translation": "計程車",
+    "audioUrl": "/audio/th/th_phrase_376.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_376.mp3",
+    "hasAudio": false,
+    "order": 376,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "แท็กซี่",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_377",
+    "text": "มอเตอร์ไซค์",
+    "phonetic": "mo-dtor-sai",
+    "translation": "機車",
+    "audioUrl": "/audio/th/th_phrase_377.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_377.mp3",
+    "hasAudio": false,
+    "order": 377,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "มอเตอร์ไซค์",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_378",
+    "text": "เรือ",
+    "phonetic": "reua",
+    "translation": "船",
+    "audioUrl": "/audio/th/th_phrase_378.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_378.mp3",
+    "hasAudio": false,
+    "order": 378,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เรือ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_379",
+    "text": "ทางออก",
+    "phonetic": "tang-ok",
+    "translation": "出口",
+    "audioUrl": "/audio/th/th_phrase_379.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_379.mp3",
+    "hasAudio": false,
+    "order": 379,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ทางออก",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_380",
+    "text": "ทางเข้า",
+    "phonetic": "tang-kao",
+    "translation": "入口",
+    "audioUrl": "/audio/th/th_phrase_380.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_380.mp3",
+    "hasAudio": false,
+    "order": 380,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ทางเข้า",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_381",
+    "text": "ซ้าย",
+    "phonetic": "sai",
+    "translation": "左邊",
+    "audioUrl": "/audio/th/th_phrase_381.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_381.mp3",
+    "hasAudio": false,
+    "order": 381,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ซ้าย",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_382",
+    "text": "ขวา",
+    "phonetic": "kwa",
+    "translation": "右邊",
+    "audioUrl": "/audio/th/th_phrase_382.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_382.mp3",
+    "hasAudio": false,
+    "order": 382,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ขวา",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_383",
+    "text": "ตรงไป",
+    "phonetic": "dtrong-pai",
+    "translation": "直走",
+    "audioUrl": "/audio/th/th_phrase_383.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_383.mp3",
+    "hasAudio": false,
+    "order": 383,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ตรงไป",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_384",
+    "text": "เลี้ยวซ้าย",
+    "phonetic": "liao-sai",
+    "translation": "左轉",
+    "audioUrl": "/audio/th/th_phrase_384.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_384.mp3",
+    "hasAudio": false,
+    "order": 384,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เลี้ยวซ้าย",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_385",
+    "text": "เลี้ยวขวา",
+    "phonetic": "liao-kwa",
+    "translation": "右轉",
+    "audioUrl": "/audio/th/th_phrase_385.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_385.mp3",
+    "hasAudio": false,
+    "order": 385,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เลี้ยวขวา",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_386",
+    "text": "ใกล้",
+    "phonetic": "glai",
+    "translation": "近",
+    "audioUrl": "/audio/th/th_phrase_386.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_386.mp3",
+    "hasAudio": false,
+    "order": 386,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ใกล้",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_387",
+    "text": "ไกล",
+    "phonetic": "glai",
+    "translation": "遠",
+    "audioUrl": "/audio/th/th_phrase_387.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_387.mp3",
+    "hasAudio": false,
+    "order": 387,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไกล",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_388",
+    "text": "ลงที่นี่",
+    "phonetic": "long tee-nee",
+    "translation": "在這裡下車",
+    "audioUrl": "/audio/th/th_phrase_388.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_388.mp3",
+    "hasAudio": false,
+    "order": 388,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ลงที่นี่",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_389",
+    "text": "ไปโรงแรม",
+    "phonetic": "pai rong-raem",
+    "translation": "去飯店",
+    "audioUrl": "/audio/th/th_phrase_389.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_389.mp3",
+    "hasAudio": false,
+    "order": 389,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไปโรงแรม",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_390",
+    "text": "ที่จอดรถ",
+    "phonetic": "tee-jot-rot",
+    "translation": "停車場",
+    "audioUrl": "/audio/th/th_phrase_390.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_390.mp3",
+    "hasAudio": false,
+    "order": 390,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ที่จอดรถ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_391",
+    "text": "เนื้อ",
+    "phonetic": "neua",
+    "translation": "牛肉",
+    "audioUrl": "/audio/th/th_phrase_391.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_391.mp3",
+    "hasAudio": false,
+    "order": 391,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เนื้อ",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_392",
+    "text": "ไข่",
+    "phonetic": "kai",
+    "translation": "蛋",
+    "audioUrl": "/audio/th/th_phrase_392.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_392.mp3",
+    "hasAudio": false,
+    "order": 392,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไข่",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_393",
+    "text": "เอากลับบ้าน",
+    "phonetic": "ao glap ban",
+    "translation": "外帶",
+    "audioUrl": "/audio/th/th_phrase_393.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_393.mp3",
+    "hasAudio": false,
+    "order": 393,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "เอากลับบ้าน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_394",
+    "text": "กินที่ร้าน",
+    "phonetic": "gin tee ran",
+    "translation": "內用",
+    "audioUrl": "/audio/th/th_phrase_394.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_394.mp3",
+    "hasAudio": false,
+    "order": 394,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "กินที่ร้าน",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_395",
+    "text": "ไม่กินเผ็ด",
+    "phonetic": "mai gin pet",
+    "translation": "不吃辣",
+    "audioUrl": "/audio/th/th_phrase_395.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_395.mp3",
+    "hasAudio": false,
+    "order": 395,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "ไม่กินเผ็ด",
+    "status": "published",
+    "category": "restaurant_transportation"
+  },
+  {
+    "id": "th_phrase_396",
+    "text": "อิ่มแล้ว",
+    "phonetic": "im laew",
+    "translation": "吃飽了",
+    "audioUrl": "/audio/th/th_phrase_396.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_396.mp3",
+    "hasAudio": false,
+    "order": 396,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "อิ่มแล้ว",
+    "status": "published",
+    "category": "restaurant_transportation"
+  }
+]

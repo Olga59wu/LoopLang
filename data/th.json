@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "th_phrase_001",
+    "text": "สวัสดี",
+    "phonetic": "sa-wat-dee",
+    "translation": "你好。",
+    "audioUrl": "/audio/th/th_phrase_001.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "女性結尾詞用 kha。",
+    "ttsText": "สวัสดี",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_002",
+    "text": "ขอบคุณ",
+    "phonetic": "khob-khun",
+    "translation": "謝謝。",
+    "audioUrl": "/audio/th/th_phrase_002.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอบคุณ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_003",
+    "text": "ขอโทษ",
+    "phonetic": "khor-thot",
+    "translation": "對不起 / 不好意思。",
+    "audioUrl": "/audio/th/th_phrase_003.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_004",
+    "text": "ไม่เป็นไร",
+    "phonetic": "mai-pen-rai",
+    "translation": "沒關係。",
+    "audioUrl": "/audio/th/th_phrase_004.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "泰國人的口頭禪。",
+    "ttsText": "ไม่เป็นไร",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_005",
+    "text": "ใช่ / ไม่ใช่",
+    "phonetic": "chai / mai-chai",
+    "translation": "是 / 不是。",
+    "audioUrl": "/audio/th/th_phrase_005.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_005.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ใช่",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_006",
+    "text": "ยินดีที่ได้รู้จัก",
+    "phonetic": "yin-dee-tee-dai-roo-jak",
+    "translation": "很高興認識你。",
+    "audioUrl": "/audio/th/th_phrase_006.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ยินดีที่ได้รู้จัก",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_007",
+    "text": "ฉันเป็นคนไต้หวัน",
+    "phonetic": "chan-pen-khon-tai-wan",
+    "translation": "我是台灣人。",
+    "audioUrl": "/audio/th/th_phrase_007.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "女性自稱用 chan。",
+    "ttsText": "ฉันเป็นคนไต้หวัน",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_008",
+    "text": "ฉันเป็นวิศวกร",
+    "phonetic": "chan-pen-wit-sa-wa-korn",
+    "translation": "我是工程師。",
+    "audioUrl": "/audio/th/th_phrase_008.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "intro",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "ฉันเป็นวิศวกร",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_009",
+    "text": "สบายดีไหม?",
+    "phonetic": "sa-bai-dee-mai",
+    "translation": "你好嗎？",
+    "audioUrl": "/audio/th/th_phrase_009.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "chat",
+      "basic"
+    ],
+    "note": "問句結尾用高聲 kha (คะ)。",
+    "ttsText": "สบายดีไหม",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_010",
+    "text": "สุขสันต์วันคริสต์มาส",
+    "phonetic": "suk-san-wan-kris-mas",
+    "translation": "聖誕快樂。",
+    "audioUrl": "/audio/th/th_phrase_010.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "適合 12 月曼谷行使用。",
+    "ttsText": "สุขสันต์วันคริสต์มาส",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_011",
+    "text": "ที่แลกเงินอยู่ที่ไหน?",
+    "phonetic": "tee-lak-ngern-yu-tee-nai",
+    "translation": "換錢所在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_011.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_011.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "ที่แลกเงินอยู่ที่ไหน",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_012",
+    "text": "ขอเช็คอิน",
+    "phonetic": "khor-check-in",
+    "translation": "我要辦理入住。",
+    "audioUrl": "/audio/th/th_phrase_012.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "ขอเช็คอิน",
+    "status": "published",
+    "category": "hotel"
+  },
+  {
+    "id": "th_phrase_013",
+    "text": "ฝากกระเป๋าได้ไหม?",
+    "phonetic": "fak-kra-pao-dai-mai",
+    "translation": "可以寄放行李嗎？",
+    "audioUrl": "/audio/th/th_phrase_013.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "ฝากกระเป๋าได้ไหม",
+    "status": "published",
+    "category": "hotel"
+  },
+  {
+    "id": "th_phrase_014",
+    "text": "ขอเมนูภาษาอังกฤษหน่อย",
+    "phonetic": "khor-me-nu-pha-sa-ang-grit-noi",
+    "translation": "請給我英文菜單。",
+    "audioUrl": "/audio/th/th_phrase_014.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอเมนูภาษาอังกฤษหน่อย",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_015",
+    "text": "เอาอันนี้",
+    "phonetic": "ao-an-nee",
+    "translation": "我要這個。",
+    "audioUrl": "/audio/th/th_phrase_015.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "點餐最實用語句。",
+    "ttsText": "เอาอันนี้",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_016",
+    "text": "ไม่เผ็ด",
+    "phonetic": "mai-phed",
+    "translation": "不加辣。",
+    "audioUrl": "/audio/th/th_phrase_016.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_016.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ไม่เผ็ด",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_017",
+    "text": "ไม่ใส่ผักชี",
+    "phonetic": "mai-sai-phak-chee",
+    "translation": "不加香菜。",
+    "audioUrl": "/audio/th/th_phrase_017.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_017.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใส่ผักชี",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_018",
+    "text": "เช็คบิลด้วย",
+    "phonetic": "check-bill-duay",
+    "translation": "請結帳。",
+    "audioUrl": "/audio/th/th_phrase_018.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_018.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เช็คบิลด้วย",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_019",
+    "text": "เท่าไหร่?",
+    "phonetic": "tao-rai",
+    "translation": "多少錢？",
+    "audioUrl": "/audio/th/th_phrase_019.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_019.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "เท่าไหร่",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_020",
+    "text": "ลดหน่อยได้ไหม?",
+    "phonetic": "lod-noi-dai-mai",
+    "translation": "可以算便宜一點嗎？",
+    "audioUrl": "/audio/th/th_phrase_020.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_020.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "逛市集必備。",
+    "ttsText": "ลดหน่อยได้ไหม",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_021",
+    "text": "สแกนจ่ายได้ไหม?",
+    "phonetic": "sa-gan-jai-dai-mai",
+    "translation": "可以掃碼支付嗎？",
+    "audioUrl": "/audio/th/th_phrase_021.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "泰國現在流行 QR Code 支付。",
+    "ttsText": "สแกนจ่ายได้ไหม",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_022",
+    "text": "ห้องน้ำไปทางไหน?",
+    "phonetic": "hong-nam-pai-tang-nai",
+    "translation": "廁所往哪邊走？",
+    "audioUrl": "/audio/th/th_phrase_022.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_022.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "ห้องน้ำไปทางไหน",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_023",
+    "text": "ไปสนามบิน",
+    "phonetic": "pai-sa-nam-bin",
+    "translation": "去機場。",
+    "audioUrl": "/audio/th/th_phrase_023.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_023.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "ไปสนามบิน",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_024",
+    "text": "เปิดมิเตอร์ด้วย",
+    "phonetic": "perd-mi-ter-duay",
+    "translation": "請跳錶計費。",
+    "audioUrl": "/audio/th/th_phrase_024.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "搭計程車時確保權益。",
+    "ttsText": "เปิดมิเตอร์ด้วย",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_025",
+    "text": "จอดตรงนี้",
+    "phonetic": "jord-trong-nee",
+    "translation": "請停在這裡。",
+    "audioUrl": "/audio/th/th_phrase_025.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "จอดตรงนี้",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_026",
+    "text": "ช่วยด้วย!",
+    "phonetic": "chuay-duay",
+    "translation": "救命！/ 請幫幫我！",
+    "audioUrl": "/audio/th/th_phrase_026.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_026.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "ช่วยด้วย",
+    "status": "published",
+    "category": "emergency"
+  },
+  {
+    "id": "th_phrase_027",
+    "text": "เอานวดเท้า",
+    "phonetic": "ao-nuad-tao",
+    "translation": "我要腳底按摩。",
+    "audioUrl": "/audio/th/th_phrase_027.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_027.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "social"
+    ],
+    "note": "曼谷旅行放鬆必備語句。",
+    "ttsText": "เอานวดเท้า",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_028",
+    "text": "เบาๆ หน่อย",
+    "phonetic": "bao-bao-noi",
+    "translation": "輕一點。",
+    "audioUrl": "/audio/th/th_phrase_028.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_028.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "social"
+    ],
+    "note": "按摩時調整力道。",
+    "ttsText": "เบาๆ หน่อย",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_029",
+    "text": "พูดช้าๆ หน่อย",
+    "phonetic": "poot-cha-cha-noi",
+    "translation": "請講慢一點。",
+    "audioUrl": "/audio/th/th_phrase_029.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "พูดช้าๆ หน่อย",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_030",
+    "text": "ลาก่อน",
+    "phonetic": "la-gon",
+    "translation": "再見。",
+    "audioUrl": "/audio/th/th_phrase_030.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ลาก่อน",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_031",
+    "text": "สวัสดีตอนเช้า",
+    "phonetic": "sa-wat-dee-ton-chao",
+    "translation": "早安。",
+    "audioUrl": "/audio/th/th_phrase_031.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "較明確的早安說法。",
+    "ttsText": "สวัสดีตอนเช้า",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_032",
+    "text": "ฉันชื่อโอ๋กะ",
+    "phonetic": "chan-chue Oga",
+    "translation": "我叫歐嘎。",
+    "audioUrl": "/audio/th/th_phrase_032.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 16,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ฉันชื่อโอ๋กะ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_033",
+    "text": "ขอโทษจริงๆ",
+    "phonetic": "khor-thot jing-jing",
+    "translation": "真的很抱歉。",
+    "audioUrl": "/audio/th/th_phrase_033.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษจริงๆ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_034",
+    "text": "วันนี้อากาศดีนะ",
+    "phonetic": "wan-nee aa-gat dee na",
+    "translation": "今天天氣很好呢。",
+    "audioUrl": "/audio/th/th_phrase_034.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "วันนี้อากาศดีนะ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_035",
+    "text": "เอาแบบนั้น",
+    "phonetic": "ao-baep-nan",
+    "translation": "那就照那樣吧。",
+    "audioUrl": "/audio/th/th_phrase_035.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "เอาแบบนั้น",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_036",
+    "text": "ด่านตรวจคนเข้าเมืองอยู่ที่ไหน?",
+    "phonetic": "dan-truat-khon-khao-mueang-yu-tee-nai",
+    "translation": "入境檢查在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_036.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_036.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "ด่านตรวจคนเข้าเมืองอยู่ที่ไหน",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_037",
+    "text": "อาหารเช้าเริ่มกี่โมง?",
+    "phonetic": "a-han-chao-reum-gee-mong",
+    "translation": "早餐幾點開始？",
+    "audioUrl": "/audio/th/th_phrase_037.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_037.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "อาหารเช้าเริ่มกี่โมง",
+    "status": "published",
+    "category": "hotel"
+  },
+  {
+    "id": "th_phrase_038",
+    "text": "ขอน้ำเปล่า",
+    "phonetic": "khor-nam-plao",
+    "translation": "請給我白開水。",
+    "audioUrl": "/audio/th/th_phrase_038.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอน้ำเปล่า",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_039",
+    "text": "ขอใบเสร็จด้วย",
+    "phonetic": "khor-bai-set-duay",
+    "translation": "請給我收據。",
+    "audioUrl": "/audio/th/th_phrase_039.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอใบเสร็จด้วย",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_040",
+    "text": "ไปที่นี่อย่างไร?",
+    "phonetic": "pai-tee-nee-yang-rai",
+    "translation": "要怎麼去這裡呢？",
+    "audioUrl": "/audio/th/th_phrase_040.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_040.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "ไปที่นี่อย่างไร",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_041",
+    "text": "ลงสถานีหน้า",
+    "phonetic": "long-sa-tha-nee-na",
+    "translation": "我在下一站下車。",
+    "audioUrl": "/audio/th/th_phrase_041.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_041.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "ลงสถานีหน้า",
+    "status": "published",
+    "category": "transport"
+  },
+  {
+    "id": "th_phrase_042",
+    "text": "เรียกตำรวจให้หน่อย",
+    "phonetic": "riak tam-ruat hai-noi",
+    "translation": "請幫我叫警察。",
+    "audioUrl": "/audio/th/th_phrase_042.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_042.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "เรียกตำรวจให้หน่อย",
+    "status": "published",
+    "category": "emergency"
+  },
+  {
+    "id": "th_phrase_043",
+    "text": "คุณชื่ออะไร?",
+    "phonetic": "khun-chue-a-rai",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/audio/th/th_phrase_043.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "คุณชื่ออะไร",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_044",
+    "text": "รอสักครู่นะ",
+    "phonetic": "ror-sak-kru na",
+    "translation": "請等一下。",
+    "audioUrl": "/audio/th/th_phrase_044.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_044.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "รอสักครู่นะ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_045",
+    "text": "ตอนนี้ไป",
+    "phonetic": "ton-nee pai",
+    "translation": "我現在過去 / 馬上去。",
+    "audioUrl": "/audio/th/th_phrase_045.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ไป",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_046",
+    "text": "ตอนนี้ยุ่งอยู่",
+    "phonetic": "ton-nee yung-yu",
+    "translation": "我現在在忙。",
+    "audioUrl": "/audio/th/th_phrase_046.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_046.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ยุ่งอยู่",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_047",
+    "text": "ไม่เป็นไร ขอบคุณ",
+    "phonetic": "mai-pen-rai, khob-khun",
+    "translation": "沒關係，謝謝。",
+    "audioUrl": "/audio/th/th_phrase_047.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นไร ขอบคุณ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_048",
+    "text": "ตอนนี้ไม่เอา",
+    "phonetic": "ton-nee mai-ao",
+    "translation": "現在先不用。",
+    "audioUrl": "/audio/th/th_phrase_048.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ไม่เอา",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_049",
+    "text": "หิวน้ำ",
+    "phonetic": "hiu-nam",
+    "translation": "我口渴了。",
+    "audioUrl": "/audio/th/th_phrase_049.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "หิวน้ำ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_050",
+    "text": "หิวข้าว",
+    "phonetic": "hiu-khao",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/audio/th/th_phrase_050.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "หิวข้าว",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_051",
+    "text": "เหนื่อย",
+    "phonetic": "neuay",
+    "translation": "我累了。",
+    "audioUrl": "/audio/th/th_phrase_051.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "เหนื่อย",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_052",
+    "text": "ง่วง",
+    "phonetic": "nguang",
+    "translation": "我想睡了。",
+    "audioUrl": "/audio/th/th_phrase_052.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_052.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "ง่วง",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_053",
+    "text": "ไม่ค่อยสบาย",
+    "phonetic": "mai-khoi-sa-bai",
+    "translation": "我不太舒服。",
+    "audioUrl": "/audio/th/th_phrase_053.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ไม่ค่อยสบาย",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_054",
+    "text": "ปวดหัว",
+    "phonetic": "puat-hua",
+    "translation": "我頭痛。",
+    "audioUrl": "/audio/th/th_phrase_054.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ปวดหัว",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_055",
+    "text": "โทรศัพท์แบตหมด",
+    "phonetic": "tho-ra-sap baet mot",
+    "translation": "我手機沒電了。",
+    "audioUrl": "/audio/th/th_phrase_055.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "โทรศัพท์แบตหมด",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_056",
+    "text": "รหัสไวไฟคืออะไร?",
+    "phonetic": "ra-hat wai-fai kheu a-rai",
+    "translation": "Wi-Fi 密碼是什麼？",
+    "audioUrl": "/audio/th/th_phrase_056.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_056.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "รหัสไวไฟคืออะไร",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_057",
+    "text": "รับแต่เงินสดใช่ไหม?",
+    "phonetic": "rap-tae-ngern-sot chai-mai",
+    "translation": "只能收現金對嗎？",
+    "audioUrl": "/audio/th/th_phrase_057.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "รับแต่เงินสดใช่ไหม",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_058",
+    "text": "ใช้บัตรได้ไหม?",
+    "phonetic": "chai-bat-dai-mai",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/audio/th/th_phrase_058.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ใช้บัตรได้ไหม",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_059",
+    "text": "ตอนนี้ทำอะไรอยู่?",
+    "phonetic": "ton-nee tham-a-rai yu",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/audio/th/th_phrase_059.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ทำอะไรอยู่",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_060",
+    "text": "ตอนนี้อยู่บ้าน",
+    "phonetic": "ton-nee yu-ban",
+    "translation": "我現在在家。",
+    "audioUrl": "/audio/th/th_phrase_060.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_060.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้อยู่บ้าน",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_061",
+    "text": "เดี๋ยวติดต่อไปนะ",
+    "phonetic": "diao-tit-to-pai na",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/audio/th/th_phrase_061.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 36,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวติดต่อไปนะ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_062",
+    "text": "ไปด้วยกันไหม?",
+    "phonetic": "pai-duay-gan mai",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/audio/th/th_phrase_062.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ไปด้วยกันไหม",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_063",
+    "text": "อยากกินอะไร?",
+    "phonetic": "yak-gin-a-rai",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/audio/th/th_phrase_063.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "อยากกินอะไร",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_064",
+    "text": "เมนูแนะนำคืออะไร?",
+    "phonetic": "me-nu nae-nam kheu a-rai",
+    "translation": "推薦的餐點是什麼？",
+    "audioUrl": "/audio/th/th_phrase_064.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เมนูแนะนำคืออะไร",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_065",
+    "text": "อันนี้เผ็ดไหม?",
+    "phonetic": "an-nee phed mai",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/audio/th/th_phrase_065.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "อันนี้เผ็ดไหม",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_066",
+    "text": "ใส่กล่องกลับบ้านได้ไหม?",
+    "phonetic": "sai-glong-glap-ban dai mai",
+    "translation": "可以打包外帶嗎？",
+    "audioUrl": "/audio/th/th_phrase_066.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ใส่กล่องกลับบ้านได้ไหม",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_067",
+    "text": "ขอกาแฟหนึ่งแก้ว",
+    "phonetic": "khor-ga-fae neung-kaew",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/audio/th/th_phrase_067.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอกาแฟหนึ่งแก้ว",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_068",
+    "text": "มียาแก้หวัดไหม?",
+    "phonetic": "mee-ya-gae-wat mai",
+    "translation": "有感冒藥嗎？",
+    "audioUrl": "/audio/th/th_phrase_068.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "มียาแก้หวัดไหม",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_069",
+    "text": "มีไข้",
+    "phonetic": "mee-khai",
+    "translation": "我發燒了。",
+    "audioUrl": "/audio/th/th_phrase_069.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "มีไข้",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_070",
+    "text": "ไอ",
+    "phonetic": "ai",
+    "translation": "我有咳嗽。",
+    "audioUrl": "/audio/th/th_phrase_070.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ไอ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_071",
+    "text": "ขอยาแก้ปวด",
+    "phonetic": "khor-ya-gae-puat",
+    "translation": "請給我止痛藥。",
+    "audioUrl": "/audio/th/th_phrase_071.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ขอยาแก้ปวด",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_072",
+    "text": "ยาแบบไหนดี?",
+    "phonetic": "ya-baep-dai dee",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/audio/th/th_phrase_072.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ยาแบบไหนดี",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_073",
+    "text": "ตอนนี้อยู่ไหน?",
+    "phonetic": "ton-nee yu-nai",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_073.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้อยู่ไหน",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_074",
+    "text": "ตอนนี้กำลังไป",
+    "phonetic": "ton-nee gam-lang pai",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/audio/th/th_phrase_074.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้กำลังไป",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_075",
+    "text": "อาจจะไปช้านิดหน่อย",
+    "phonetic": "at-ja pai-cha nit-noi",
+    "translation": "我可能會晚一點到。",
+    "audioUrl": "/audio/th/th_phrase_075.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "อาจจะไปช้านิดหน่อย",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_076",
+    "text": "ถึงแล้วจะติดต่อไป",
+    "phonetic": "thueng-laeo ja tit-to pai",
+    "translation": "我到了再聯絡你。",
+    "audioUrl": "/audio/th/th_phrase_076.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_076.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ถึงแล้วจะติดต่อไป",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_077",
+    "text": "โอเคไหม?",
+    "phonetic": "o-kay mai",
+    "translation": "你還好嗎？ / 可以嗎？",
+    "audioUrl": "/audio/th/th_phrase_077.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_077.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "โอเคไหม",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_078",
+    "text": "ไว้เจอกันคราวหน้านะ",
+    "phonetic": "wai jer-gan krao-na na",
+    "translation": "下次再見喔。",
+    "audioUrl": "/audio/th/th_phrase_078.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_078.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ไว้เจอกันคราวหน้านะ",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_079",
+    "text": "พรุ่งนี้ว่างไหม?",
+    "phonetic": "phrung-nee wang mai",
+    "translation": "你明天有空嗎？",
+    "audioUrl": "/audio/th/th_phrase_079.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_079.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "พรุ่งนี้ว่างไหม",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_080",
+    "text": "เข้าใจแล้ว",
+    "phonetic": "khao-jai laeo",
+    "translation": "了解了。",
+    "audioUrl": "/audio/th/th_phrase_080.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_080.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "เข้าใจแล้ว",
+    "status": "published",
+    "category": "greetings"
+  },
+  {
+    "id": "th_phrase_081",
+    "text": "ขออเมริกาโน่เย็นหนึ่งแก้ว",
+    "phonetic": "khor a-me-ri-ga-no yen neung-kaew",
+    "translation": "請給我一杯冰美式。",
+    "audioUrl": "/audio/th/th_phrase_081.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_081.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขออเมริกาโน่เย็นหนึ่งแก้ว",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_082",
+    "text": "กินที่นี่",
+    "phonetic": "gin tee-nee",
+    "translation": "我要在這裡用。",
+    "audioUrl": "/audio/th/th_phrase_082.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_082.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "กินที่นี่",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_083",
+    "text": "เอากลับ",
+    "phonetic": "ao-glap",
+    "translation": "我要外帶。",
+    "audioUrl": "/audio/th/th_phrase_083.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_083.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เอากลับ",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_084",
+    "text": "เอาแบบร้อนหรือเย็น?",
+    "phonetic": "ao baep ron rue yen",
+    "translation": "要熱的還是冰的呢？",
+    "audioUrl": "/audio/th/th_phrase_084.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_084.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句。",
+    "ttsText": "เอาแบบร้อนหรือเย็น",
+    "status": "published",
+    "category": "dining"
+  },
+  {
+    "id": "th_phrase_085",
+    "text": "ขอถุง",
+    "phonetic": "khor-thung",
+    "translation": "請給我袋子。",
+    "audioUrl": "/audio/th/th_phrase_085.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_085.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอถุง",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_086",
+    "text": "แบบนี้ก็ได้",
+    "phonetic": "baep-nee gor dai",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/audio/th/th_phrase_086.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_086.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แบบนี้ก็ได้",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_087",
+    "text": "ไม่มีสมาชิก",
+    "phonetic": "mai mee sa-ma-chik",
+    "translation": "我沒有會員。",
+    "audioUrl": "/audio/th/th_phrase_087.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_087.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ไม่มีสมาชิก",
+    "status": "published",
+    "category": "shopping"
+  },
+  {
+    "id": "th_phrase_088",
+    "text": "แยกจ่ายได้ไหม?",
+    "phonetic": "yaek-jai dai mai",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/audio/th/th_phrase_088.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_088.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แยกจ่ายได้ไหม",
+    "status": "published",
+    "category": "shopping"
+  }
+]
