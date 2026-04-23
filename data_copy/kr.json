@@ -187,7 +187,7 @@
     "audioUrl": "/audio/kr/kr_phrase_011.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_011.mp3",
     "hasAudio": true,
-    "order": 11,
+    "order": 1,
     "tags": [
       "travel",
       "airport"
@@ -205,7 +205,7 @@
     "audioUrl": "/audio/kr/kr_phrase_012.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_012.mp3",
     "hasAudio": true,
-    "order": 12,
+    "order": 1,
     "tags": [
       "travel",
       "hotel"
@@ -223,7 +223,7 @@
     "audioUrl": "/audio/kr/kr_phrase_013.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_013.mp3",
     "hasAudio": true,
-    "order": 13,
+    "order": 1,
     "tags": [
       "travel",
       "restaurant"
@@ -241,7 +241,7 @@
     "audioUrl": "/audio/kr/kr_phrase_014.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_014.mp3",
     "hasAudio": true,
-    "order": 14,
+    "order": 2,
     "tags": [
       "travel",
       "restaurant"
@@ -259,7 +259,7 @@
     "audioUrl": "/audio/kr/kr_phrase_015.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_015.mp3",
     "hasAudio": true,
-    "order": 15,
+    "order": 3,
     "tags": [
       "travel",
       "restaurant"
@@ -277,7 +277,7 @@
     "audioUrl": "/audio/kr/kr_phrase_016.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_016.mp3",
     "hasAudio": true,
-    "order": 16,
+    "order": 4,
     "tags": [
       "travel",
       "restaurant"
@@ -295,7 +295,7 @@
     "audioUrl": "/audio/kr/kr_phrase_017.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_017.mp3",
     "hasAudio": true,
-    "order": 17,
+    "order": 1,
     "tags": [
       "travel",
       "store"
@@ -313,7 +313,7 @@
     "audioUrl": "/audio/kr/kr_phrase_018.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_018.mp3",
     "hasAudio": true,
-    "order": 18,
+    "order": 2,
     "tags": [
       "travel",
       "store"
@@ -331,7 +331,7 @@
     "audioUrl": "/audio/kr/kr_phrase_019.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_019.mp3",
     "hasAudio": true,
-    "order": 19,
+    "order": 3,
     "tags": [
       "travel",
       "store"
@@ -349,7 +349,7 @@
     "audioUrl": "/audio/kr/kr_phrase_020.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_020.mp3",
     "hasAudio": true,
-    "order": 20,
+    "order": 2,
     "tags": [
       "travel",
       "map"
@@ -367,7 +367,7 @@
     "audioUrl": "/audio/kr/kr_phrase_021.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_021.mp3",
     "hasAudio": true,
-    "order": 21,
+    "order": 3,
     "tags": [
       "travel",
       "transport"
@@ -385,7 +385,7 @@
     "audioUrl": "/audio/kr/kr_phrase_022.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_022.mp3",
     "hasAudio": true,
-    "order": 22,
+    "order": 1,
     "tags": [
       "travel",
       "emergency"
@@ -403,7 +403,7 @@
     "audioUrl": "/audio/kr/kr_phrase_023.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_023.mp3",
     "hasAudio": true,
-    "order": 23,
+    "order": 2,
     "tags": [
       "travel",
       "emergency"
@@ -421,7 +421,7 @@
     "audioUrl": "/audio/kr/kr_phrase_024.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_024.mp3",
     "hasAudio": true,
-    "order": 24,
+    "order": 11,
     "tags": [
       "social",
       "basic"
@@ -439,7 +439,7 @@
     "audioUrl": "/audio/kr/kr_phrase_025.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_025.mp3",
     "hasAudio": true,
-    "order": 25,
+    "order": 12,
     "tags": [
       "social",
       "basic"
@@ -457,7 +457,7 @@
     "audioUrl": "/audio/kr/kr_phrase_026.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_026.mp3",
     "hasAudio": true,
-    "order": 26,
+    "order": 13,
     "tags": [
       "chat",
       "life"
@@ -475,7 +475,7 @@
     "audioUrl": "/audio/kr/kr_phrase_027.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_027.mp3",
     "hasAudio": true,
-    "order": 27,
+    "order": 5,
     "tags": [
       "chat",
       "restaurant"
@@ -493,7 +493,7 @@
     "audioUrl": "/audio/kr/kr_phrase_028.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_028.mp3",
     "hasAudio": true,
-    "order": 28,
+    "order": 4,
     "tags": [
       "travel",
       "map"
@@ -511,7 +511,7 @@
     "audioUrl": "/audio/kr/kr_phrase_029.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_029.mp3",
     "hasAudio": true,
-    "order": 29,
+    "order": 14,
     "tags": [
       "social",
       "basic"
@@ -529,7 +529,7 @@
     "audioUrl": "/audio/kr/kr_phrase_030.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_030.mp3",
     "hasAudio": true,
-    "order": 30,
+    "order": 15,
     "tags": [
       "greeting",
       "basic"
@@ -547,7 +547,7 @@
     "audioUrl": "/audio/kr/kr_phrase_031.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_031.mp3",
     "hasAudio": true,
-    "order": 31,
+    "order": 16,
     "tags": [
       "greeting",
       "basic"
@@ -565,7 +565,7 @@
     "audioUrl": "/audio/kr/kr_phrase_032.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_032.mp3",
     "hasAudio": true,
-    "order": 32,
+    "order": 17,
     "tags": [
       "intro",
       "basic"
@@ -583,7 +583,7 @@
     "audioUrl": "/audio/kr/kr_phrase_033.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_033.mp3",
     "hasAudio": true,
-    "order": 33,
+    "order": 18,
     "tags": [
       "apology",
       "basic"
@@ -601,7 +601,7 @@
     "audioUrl": "/audio/kr/kr_phrase_034.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_034.mp3",
     "hasAudio": true,
-    "order": 34,
+    "order": 19,
     "tags": [
       "chat",
       "life"
@@ -619,7 +619,7 @@
     "audioUrl": "/audio/kr/kr_phrase_035.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_035.mp3",
     "hasAudio": true,
-    "order": 35,
+    "order": 20,
     "tags": [
       "social",
       "basic"
@@ -637,7 +637,7 @@
     "audioUrl": "/audio/kr/kr_phrase_036.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_036.mp3",
     "hasAudio": true,
-    "order": 36,
+    "order": 5,
     "tags": [
       "travel",
       "airport"
@@ -655,7 +655,7 @@
     "audioUrl": "/audio/kr/kr_phrase_037.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_037.mp3",
     "hasAudio": true,
-    "order": 37,
+    "order": 2,
     "tags": [
       "travel",
       "hotel"
@@ -673,7 +673,7 @@
     "audioUrl": "/audio/kr/kr_phrase_038.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_038.mp3",
     "hasAudio": true,
-    "order": 38,
+    "order": 6,
     "tags": [
       "travel",
       "restaurant"
@@ -691,7 +691,7 @@
     "audioUrl": "/audio/kr/kr_phrase_039.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_039.mp3",
     "hasAudio": true,
-    "order": 39,
+    "order": 4,
     "tags": [
       "travel",
       "store"
@@ -709,7 +709,7 @@
     "audioUrl": "/audio/kr/kr_phrase_040.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_040.mp3",
     "hasAudio": true,
-    "order": 40,
+    "order": 6,
     "tags": [
       "travel",
       "map"
@@ -727,7 +727,7 @@
     "audioUrl": "/audio/kr/kr_phrase_041.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_041.mp3",
     "hasAudio": true,
-    "order": 41,
+    "order": 7,
     "tags": [
       "travel",
       "transport"
@@ -745,7 +745,7 @@
     "audioUrl": "/audio/kr/kr_phrase_042.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_042.mp3",
     "hasAudio": true,
-    "order": 42,
+    "order": 3,
     "tags": [
       "travel",
       "emergency"
@@ -763,7 +763,7 @@
     "audioUrl": "/audio/kr/kr_phrase_043.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_043.mp3",
     "hasAudio": true,
-    "order": 43,
+    "order": 21,
     "tags": [
       "intro",
       "basic"
@@ -781,7 +781,7 @@
     "audioUrl": "/audio/kr/kr_phrase_044.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_044.mp3",
     "hasAudio": true,
-    "order": 44,
+    "order": 22,
     "tags": [
       "social",
       "basic"
@@ -799,7 +799,7 @@
     "audioUrl": "/audio/kr/kr_phrase_045.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_045.mp3",
     "hasAudio": true,
-    "order": 45,
+    "order": 23,
     "tags": [
       "life",
       "chat"
@@ -817,7 +817,7 @@
     "audioUrl": "/audio/kr/kr_phrase_046.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_046.mp3",
     "hasAudio": true,
-    "order": 46,
+    "order": 24,
     "tags": [
       "life",
       "chat"
@@ -835,7 +835,7 @@
     "audioUrl": "/audio/kr/kr_phrase_047.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 25,
     "tags": [
       "social",
       "basic"
@@ -853,7 +853,7 @@
     "audioUrl": "/audio/kr/kr_phrase_048.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 26,
     "tags": [
       "social",
       "basic"
@@ -871,7 +871,7 @@
     "audioUrl": "/audio/kr/kr_phrase_049.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 27,
     "tags": [
       "life",
       "chat"
@@ -889,7 +889,7 @@
     "audioUrl": "/audio/kr/kr_phrase_050.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_050.mp3",
     "hasAudio": true,
-    "order": 50,
+    "order": 28,
     "tags": [
       "life",
       "chat"
@@ -907,7 +907,7 @@
     "audioUrl": "/audio/kr/kr_phrase_051.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 29,
     "tags": [
       "life",
       "chat"
@@ -925,7 +925,7 @@
     "audioUrl": "/audio/kr/kr_phrase_052.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_052.mp3",
     "hasAudio": true,
-    "order": 52,
+    "order": 30,
     "tags": [
       "life",
       "chat"
@@ -943,7 +943,7 @@
     "audioUrl": "/audio/kr/kr_phrase_053.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 31,
     "tags": [
       "life",
       "health"
@@ -961,7 +961,7 @@
     "audioUrl": "/audio/kr/kr_phrase_054.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 32,
     "tags": [
       "life",
       "health"
@@ -979,7 +979,7 @@
     "audioUrl": "/audio/kr/kr_phrase_055.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 33,
     "tags": [
       "life",
       "device"
@@ -997,7 +997,7 @@
     "audioUrl": "/audio/kr/kr_phrase_056.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_056.mp3",
     "hasAudio": true,
-    "order": 56,
+    "order": 34,
     "tags": [
       "life",
       "device"
@@ -1015,7 +1015,7 @@
     "audioUrl": "/audio/kr/kr_phrase_057.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_057.mp3",
     "hasAudio": true,
-    "order": 57,
+    "order": 5,
     "tags": [
       "life",
       "store"
@@ -1033,7 +1033,7 @@
     "audioUrl": "/audio/kr/kr_phrase_058.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_058.mp3",
     "hasAudio": true,
-    "order": 58,
+    "order": 6,
     "tags": [
       "life",
       "store"
@@ -1051,7 +1051,7 @@
     "audioUrl": "/audio/kr/kr_phrase_059.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 35,
     "tags": [
       "chat",
       "life"
@@ -1069,7 +1069,7 @@
     "audioUrl": "/audio/kr/kr_phrase_060.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_060.mp3",
     "hasAudio": true,
-    "order": 60,
+    "order": 36,
     "tags": [
       "chat",
       "life"
@@ -1087,7 +1087,7 @@
     "audioUrl": "/audio/kr/kr_phrase_061.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 37,
     "tags": [
       "chat",
       "social"
@@ -1105,7 +1105,7 @@
     "audioUrl": "/audio/kr/kr_phrase_062.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 38,
     "tags": [
       "chat",
       "social"
@@ -1123,7 +1123,7 @@
     "audioUrl": "/audio/kr/kr_phrase_063.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_063.mp3",
     "hasAudio": true,
-    "order": 63,
+    "order": 7,
     "tags": [
       "chat",
       "restaurant"
@@ -1141,7 +1141,7 @@
     "audioUrl": "/audio/kr/kr_phrase_064.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_064.mp3",
     "hasAudio": true,
-    "order": 64,
+    "order": 8,
     "tags": [
       "travel",
       "restaurant"
@@ -1159,7 +1159,7 @@
     "audioUrl": "/audio/kr/kr_phrase_065.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_065.mp3",
     "hasAudio": true,
-    "order": 65,
+    "order": 9,
     "tags": [
       "travel",
       "restaurant"
@@ -1177,7 +1177,7 @@
     "audioUrl": "/audio/kr/kr_phrase_066.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_066.mp3",
     "hasAudio": true,
-    "order": 66,
+    "order": 10,
     "tags": [
       "travel",
       "restaurant"
@@ -1195,7 +1195,7 @@
     "audioUrl": "/audio/kr/kr_phrase_067.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_067.mp3",
     "hasAudio": true,
-    "order": 67,
+    "order": 11,
     "tags": [
       "travel",
       "restaurant"
@@ -1213,7 +1213,7 @@
     "audioUrl": "/audio/kr/kr_phrase_068.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 39,
     "tags": [
       "life",
       "health"
@@ -1231,7 +1231,7 @@
     "audioUrl": "/audio/kr/kr_phrase_069.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 40,
     "tags": [
       "life",
       "health"
@@ -1249,7 +1249,7 @@
     "audioUrl": "/audio/kr/kr_phrase_070.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_070.mp3",
     "hasAudio": true,
-    "order": 70,
+    "order": 41,
     "tags": [
       "life",
       "health"
@@ -1267,7 +1267,7 @@
     "audioUrl": "/audio/kr/kr_phrase_071.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_071.mp3",
     "hasAudio": true,
-    "order": 71,
+    "order": 42,
     "tags": [
       "life",
       "health"
@@ -1285,7 +1285,7 @@
     "audioUrl": "/audio/kr/kr_phrase_072.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_072.mp3",
     "hasAudio": true,
-    "order": 72,
+    "order": 43,
     "tags": [
       "life",
       "health"

@@ -1,0 +1,290 @@
+[
+  {
+    "lang": "jp",
+    "langLabel": "日文",
+    "topics": [
+      {
+        "id": "jp_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基本問候與初次見面句型",
+        "difficulty": "beginner",
+        "sentenceCount": 53,
+        "cover": "/assets/images/jp-greetings.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 1
+      },
+      {
+        "id": "jp_dining",
+        "title": "餐廳點餐",
+        "slug": "dining",
+        "description": "訂位、點餐與結帳實用會話",
+        "difficulty": "beginner",
+        "sentenceCount": 14,
+        "cover": "/assets/images/jp-dining.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 2
+      },
+      {
+        "id": "jp_shopping",
+        "title": "購物與商場",
+        "slug": "shopping",
+        "description": "找商品、試穿與免稅必備",
+        "difficulty": "beginner",
+        "sentenceCount": 11,
+        "cover": "/assets/images/jp-shopping.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 3
+      },
+      {
+        "id": "jp_transport",
+        "title": "交通與問路",
+        "slug": "transport",
+        "description": "搭車買票、轉乘與尋找方向",
+        "difficulty": "intermediate",
+        "sentenceCount": 5,
+        "cover": "/assets/images/jp-transport.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 4
+      },
+      {
+        "id": "jp_hotel",
+        "title": "飯店住宿",
+        "slug": "hotel",
+        "description": "辦理入住、寄放行李與客房服務",
+        "difficulty": "intermediate",
+        "sentenceCount": 3,
+        "cover": "/assets/images/jp-hotel.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 5
+      },
+      {
+        "id": "jp_emergency",
+        "title": "緊急求助",
+        "slug": "emergency",
+        "description": "就醫、報警與突發狀況應對",
+        "difficulty": "advanced",
+        "sentenceCount": 2,
+        "cover": "/assets/images/jp-emergency.jpg",
+        "dataFile": "/data/jp.json",
+        "sortOrder": 6
+      }
+    ]
+  },
+  {
+    "lang": "th",
+    "langLabel": "泰文",
+    "topics": [
+      {
+        "id": "th_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基本問候與初次見面句型",
+        "difficulty": "beginner",
+        "sentenceCount": 50,
+        "cover": "/assets/images/th-greetings.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 1
+      },
+      {
+        "id": "th_dining",
+        "title": "餐廳點餐",
+        "slug": "dining",
+        "description": "訂位、點餐與結帳實用會話",
+        "difficulty": "beginner",
+        "sentenceCount": 15,
+        "cover": "/assets/images/th-dining.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 2
+      },
+      {
+        "id": "th_shopping",
+        "title": "購物與商場",
+        "slug": "shopping",
+        "description": "找商品、殺價與結帳必備",
+        "difficulty": "beginner",
+        "sentenceCount": 10,
+        "cover": "/assets/images/th-shopping.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 3
+      },
+      {
+        "id": "th_transport",
+        "title": "交通與問路",
+        "slug": "transport",
+        "description": "搭嘟嘟車、BTS 與找方向",
+        "difficulty": "intermediate",
+        "sentenceCount": 8,
+        "cover": "/assets/images/th-transport.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 4
+      },
+      {
+        "id": "th_hotel",
+        "title": "飯店住宿",
+        "slug": "hotel",
+        "description": "辦理入住、寄放行李與客房服務",
+        "difficulty": "intermediate",
+        "sentenceCount": 3,
+        "cover": "/assets/images/th-hotel.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 5
+      },
+      {
+        "id": "th_emergency",
+        "title": "緊急求助",
+        "slug": "emergency",
+        "description": "就醫、報警與突發狀況應對",
+        "difficulty": "advanced",
+        "sentenceCount": 2,
+        "cover": "/assets/images/th-emergency.jpg",
+        "dataFile": "/data/th.json",
+        "sortOrder": 6
+      }
+    ]
+  },
+  {
+    "lang": "kr",
+    "langLabel": "韓文",
+    "topics": [
+      {
+        "id": "kr_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基本問候與初次見面句型",
+        "difficulty": "beginner",
+        "sentenceCount": 43,
+        "cover": "/assets/images/kr-greetings.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 1
+      },
+      {
+        "id": "kr_dining",
+        "title": "餐廳點餐",
+        "slug": "dining",
+        "description": "訂位、點餐與結帳實用會話",
+        "difficulty": "beginner",
+        "sentenceCount": 11,
+        "cover": "/assets/images/kr-dining.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 2
+      },
+      {
+        "id": "kr_shopping",
+        "title": "購物與商場",
+        "slug": "shopping",
+        "description": "找商品、試穿與免稅必備",
+        "difficulty": "beginner",
+        "sentenceCount": 6,
+        "cover": "/assets/images/kr-shopping.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 3
+      },
+      {
+        "id": "kr_transport",
+        "title": "交通與問路",
+        "slug": "transport",
+        "description": "搭車買票、轉乘與尋找方向",
+        "difficulty": "intermediate",
+        "sentenceCount": 7,
+        "cover": "/assets/images/kr-transport.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 4
+      },
+      {
+        "id": "kr_hotel",
+        "title": "飯店住宿",
+        "slug": "hotel",
+        "description": "辦理入住、寄放行李與客房服務",
+        "difficulty": "intermediate",
+        "sentenceCount": 2,
+        "cover": "/assets/images/kr-hotel.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 5
+      },
+      {
+        "id": "kr_emergency",
+        "title": "緊急求助",
+        "slug": "emergency",
+        "description": "就醫、報警與突發狀況應對",
+        "difficulty": "advanced",
+        "sentenceCount": 3,
+        "cover": "/assets/images/kr-emergency.jpg",
+        "dataFile": "/data/kr.json",
+        "sortOrder": 6
+      }
+    ]
+  },
+  {
+    "lang": "hk",
+    "langLabel": "粵語",
+    "topics": [
+      {
+        "id": "hk_greetings",
+        "title": "打招呼",
+        "slug": "greetings",
+        "description": "基本問候與初次見面句型",
+        "difficulty": "beginner",
+        "sentenceCount": 48,
+        "cover": "/assets/images/hk-greetings.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 1
+      },
+      {
+        "id": "hk_dining",
+        "title": "餐廳點餐",
+        "slug": "dining",
+        "description": "茶餐廳、茶樓點心實用會話",
+        "difficulty": "beginner",
+        "sentenceCount": 15,
+        "cover": "/assets/images/hk-dining.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 2
+      },
+      {
+        "id": "hk_shopping",
+        "title": "購物與商場",
+        "slug": "shopping",
+        "description": "找商品、殺價與結帳必備",
+        "difficulty": "beginner",
+        "sentenceCount": 10,
+        "cover": "/assets/images/hk-shopping.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 3
+      },
+      {
+        "id": "hk_transport",
+        "title": "交通與問路",
+        "slug": "transport",
+        "description": "搭港鐵、小巴與找方向",
+        "difficulty": "intermediate",
+        "sentenceCount": 9,
+        "cover": "/assets/images/hk-transport.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 4
+      },
+      {
+        "id": "hk_hotel",
+        "title": "飯店住宿",
+        "slug": "hotel",
+        "description": "辦理入住、寄放行李與客房",
+        "difficulty": "intermediate",
+        "sentenceCount": 3,
+        "cover": "/assets/images/hk-hotel.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 5
+      },
+      {
+        "id": "hk_emergency",
+        "title": "緊急求助",
+        "slug": "emergency",
+        "description": "看病、報警與突發狀況應對",
+        "difficulty": "advanced",
+        "sentenceCount": 3,
+        "cover": "/assets/images/hk-emergency.jpg",
+        "dataFile": "/data/hk.json",
+        "sortOrder": 6
+      }
+    ]
+  }
+]
