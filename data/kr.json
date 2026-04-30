@@ -15,7 +15,13 @@
     "note": "最通用的打招呼。",
     "ttsText": "안녕하세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_002",
@@ -33,7 +39,13 @@
     "note": "",
     "ttsText": "반갑습니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_003",
@@ -51,7 +63,13 @@
     "note": "",
     "ttsText": "대만 사람이에요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_004",
@@ -69,7 +87,13 @@
     "note": "",
     "ttsText": "제 이름은",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_005",
@@ -87,7 +111,13 @@
     "note": "正式敬語。",
     "ttsText": "감사합니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_006",
@@ -105,7 +135,13 @@
     "note": "日常敬語。",
     "ttsText": "고마워요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_007",
@@ -123,7 +159,13 @@
     "note": "",
     "ttsText": "죄송합니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_008",
@@ -141,7 +183,13 @@
     "note": "問路或藉過時使用。",
     "ttsText": "실례합니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_009",
@@ -159,7 +207,13 @@
     "note": "附和他人時常用。",
     "ttsText": "맞아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_010",
@@ -177,7 +231,13 @@
     "note": "",
     "ttsText": "진짜요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_011",
@@ -195,7 +255,13 @@
     "note": "",
     "ttsText": "와이파이 있어요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_012",
@@ -213,7 +279,12 @@
     "note": "",
     "ttsText": "예약했어요",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "kr_phrase_013",
@@ -231,7 +302,13 @@
     "note": "",
     "ttsText": "메뉴판 좀 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_014",
@@ -249,7 +326,13 @@
     "note": "",
     "ttsText": "이거 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_015",
@@ -267,7 +350,13 @@
     "note": "韓國點餐必備。",
     "ttsText": "덜 맵게 해주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_016",
@@ -285,7 +374,13 @@
     "note": "",
     "ttsText": "계산해 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_017",
@@ -303,7 +398,13 @@
     "note": "",
     "ttsText": "얼마예요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_018",
@@ -321,7 +422,13 @@
     "note": "",
     "ttsText": "봉투 필요 없어요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_019",
@@ -339,7 +446,13 @@
     "note": "",
     "ttsText": "깎아 주세요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_020",
@@ -357,7 +470,13 @@
     "note": "",
     "ttsText": "화장실 어디예요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_021",
@@ -375,7 +494,12 @@
     "note": "搭計程車時用。",
     "ttsText": "여기서 내려주세요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_022",
@@ -393,7 +517,12 @@
     "note": "",
     "ttsText": "도와주세요",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "kr_phrase_023",
@@ -411,7 +540,12 @@
     "note": "",
     "ttsText": "지갑을 잃어버렸어요",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "kr_phrase_024",
@@ -429,7 +563,13 @@
     "note": "拒絕推銷時也很好用。",
     "ttsText": "괜찮아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_025",
@@ -447,7 +587,13 @@
     "note": "",
     "ttsText": "천천히 말씀해 주세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_026",
@@ -465,7 +611,13 @@
     "note": "",
     "ttsText": "배고파요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_027",
@@ -483,7 +635,13 @@
     "note": "",
     "ttsText": "맛있어요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_028",
@@ -501,7 +659,13 @@
     "note": "",
     "ttsText": "어디예요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_029",
@@ -519,7 +683,13 @@
     "note": "下電鐵藉過必備。",
     "ttsText": "잠시만요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_030",
@@ -537,7 +707,13 @@
     "note": "對留在原地的人說再見。",
     "ttsText": "안녕히 계세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_031",
@@ -555,7 +731,13 @@
     "note": "較正式的初次見面說法。",
     "ttsText": "처음 뵙겠습니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_032",
@@ -573,7 +755,13 @@
     "note": "",
     "ttsText": "저는 오가예요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_033",
@@ -591,7 +779,13 @@
     "note": "",
     "ttsText": "정말 죄송합니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_034",
@@ -609,7 +803,13 @@
     "note": "輕鬆閒聊常用。",
     "ttsText": "오늘 날씨 좋네요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_035",
@@ -627,7 +827,13 @@
     "note": "",
     "ttsText": "그렇게 해 주세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_036",
@@ -645,7 +851,13 @@
     "note": "",
     "ttsText": "입국 심사는 어디예요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_037",
@@ -663,7 +875,12 @@
     "note": "",
     "ttsText": "조식은 몇 시부터예요",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "kr_phrase_038",
@@ -681,7 +898,13 @@
     "note": "",
     "ttsText": "물 좀 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_039",
@@ -699,7 +922,13 @@
     "note": "",
     "ttsText": "영수증 주세요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_040",
@@ -717,7 +946,13 @@
     "note": "",
     "ttsText": "여기 어떻게 가요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_041",
@@ -735,7 +970,12 @@
     "note": "",
     "ttsText": "다음 역에서 내릴게요",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "kr_phrase_042",
@@ -753,7 +993,12 @@
     "note": "",
     "ttsText": "경찰을 불러 주세요",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "kr_phrase_043",
@@ -771,7 +1016,13 @@
     "note": "",
     "ttsText": "이름이 뭐예요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_044",
@@ -789,7 +1040,13 @@
     "note": "禮貌請人稍候。",
     "ttsText": "잠시만 기다려 주세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_045",
@@ -807,25 +1064,13 @@
     "note": "",
     "ttsText": "지금 갈게요",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "kr_phrase_046",
-    "text": "지금 좀 바빠요.",
-    "phonetic": "ji-geum jom ba-ppa-yo",
-    "translation": "我現在有點忙。",
-    "audioUrl": "/audio/kr/kr_phrase_046.mp3",
-    "translationAudioUrl": "/audio/kr/kr_zh_phrase_046.mp3",
-    "hasAudio": true,
-    "order": 46,
-    "tags": [
-      "life",
-      "chat"
-    ],
-    "note": "",
-    "ttsText": "지금 좀 바빠요",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_047",
@@ -835,7 +1080,7 @@
     "audioUrl": "/audio/kr/kr_phrase_047.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 46,
     "tags": [
       "social",
       "basic"
@@ -843,7 +1088,13 @@
     "note": "",
     "ttsText": "괜찮아요, 감사합니다",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_048",
@@ -853,7 +1104,7 @@
     "audioUrl": "/audio/kr/kr_phrase_048.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 47,
     "tags": [
       "social",
       "basic"
@@ -861,7 +1112,13 @@
     "note": "",
     "ttsText": "지금은 괜찮아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_049",
@@ -871,7 +1128,7 @@
     "audioUrl": "/audio/kr/kr_phrase_049.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 48,
     "tags": [
       "life",
       "chat"
@@ -879,7 +1136,13 @@
     "note": "",
     "ttsText": "목말라요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_050",
@@ -889,7 +1152,7 @@
     "audioUrl": "/audio/kr/kr_phrase_050.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_050.mp3",
     "hasAudio": true,
-    "order": 50,
+    "order": 49,
     "tags": [
       "life",
       "chat"
@@ -897,7 +1160,13 @@
     "note": "",
     "ttsText": "배고파요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_051",
@@ -907,7 +1176,7 @@
     "audioUrl": "/audio/kr/kr_phrase_051.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 50,
     "tags": [
       "life",
       "chat"
@@ -915,7 +1184,13 @@
     "note": "",
     "ttsText": "피곤해요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_052",
@@ -925,7 +1200,7 @@
     "audioUrl": "/audio/kr/kr_phrase_052.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_052.mp3",
     "hasAudio": true,
-    "order": 52,
+    "order": 51,
     "tags": [
       "life",
       "chat"
@@ -933,7 +1208,13 @@
     "note": "",
     "ttsText": "졸려요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_053",
@@ -943,7 +1224,7 @@
     "audioUrl": "/audio/kr/kr_phrase_053.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 52,
     "tags": [
       "life",
       "health"
@@ -951,7 +1232,13 @@
     "note": "",
     "ttsText": "몸이 안 좋아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_054",
@@ -961,7 +1248,7 @@
     "audioUrl": "/audio/kr/kr_phrase_054.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 53,
     "tags": [
       "life",
       "health"
@@ -969,7 +1256,13 @@
     "note": "",
     "ttsText": "머리가 아파요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_055",
@@ -979,7 +1272,7 @@
     "audioUrl": "/audio/kr/kr_phrase_055.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 54,
     "tags": [
       "life",
       "device"
@@ -987,7 +1280,13 @@
     "note": "",
     "ttsText": "휴대폰 배터리가 없어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_056",
@@ -997,7 +1296,7 @@
     "audioUrl": "/audio/kr/kr_phrase_056.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_056.mp3",
     "hasAudio": true,
-    "order": 56,
+    "order": 55,
     "tags": [
       "life",
       "device"
@@ -1005,7 +1304,13 @@
     "note": "",
     "ttsText": "와이파이 비밀번호가 뭐예요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_057",
@@ -1015,7 +1320,7 @@
     "audioUrl": "/audio/kr/kr_phrase_057.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_057.mp3",
     "hasAudio": true,
-    "order": 57,
+    "order": 56,
     "tags": [
       "life",
       "store"
@@ -1023,7 +1328,13 @@
     "note": "",
     "ttsText": "현금만 되나요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_058",
@@ -1033,7 +1344,7 @@
     "audioUrl": "/audio/kr/kr_phrase_058.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_058.mp3",
     "hasAudio": true,
-    "order": 58,
+    "order": 57,
     "tags": [
       "life",
       "store"
@@ -1041,7 +1352,13 @@
     "note": "",
     "ttsText": "카드 결제 되나요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_059",
@@ -1051,7 +1368,7 @@
     "audioUrl": "/audio/kr/kr_phrase_059.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 58,
     "tags": [
       "chat",
       "life"
@@ -1059,25 +1376,13 @@
     "note": "",
     "ttsText": "지금 뭐 해요",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "kr_phrase_060",
-    "text": "지금 집에 있어요.",
-    "phonetic": "ji-geum jib-e i-sseo-yo",
-    "translation": "我現在在家。",
-    "audioUrl": "/audio/kr/kr_phrase_060.mp3",
-    "translationAudioUrl": "/audio/kr/kr_zh_phrase_060.mp3",
-    "hasAudio": true,
-    "order": 60,
-    "tags": [
-      "chat",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "지금 집에 있어요",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_061",
@@ -1087,7 +1392,7 @@
     "audioUrl": "/audio/kr/kr_phrase_061.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 59,
     "tags": [
       "chat",
       "social"
@@ -1095,7 +1400,13 @@
     "note": "",
     "ttsText": "이따가 연락할게요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_062",
@@ -1105,7 +1416,7 @@
     "audioUrl": "/audio/kr/kr_phrase_062.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 60,
     "tags": [
       "chat",
       "social"
@@ -1113,7 +1424,13 @@
     "note": "",
     "ttsText": "같이 갈래요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_063",
@@ -1123,7 +1440,7 @@
     "audioUrl": "/audio/kr/kr_phrase_063.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_063.mp3",
     "hasAudio": true,
-    "order": 63,
+    "order": 61,
     "tags": [
       "chat",
       "restaurant"
@@ -1131,7 +1448,13 @@
     "note": "",
     "ttsText": "뭐 먹고 싶어요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_064",
@@ -1141,7 +1464,7 @@
     "audioUrl": "/audio/kr/kr_phrase_064.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_064.mp3",
     "hasAudio": true,
-    "order": 64,
+    "order": 62,
     "tags": [
       "travel",
       "restaurant"
@@ -1149,7 +1472,13 @@
     "note": "",
     "ttsText": "추천 메뉴가 뭐예요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_065",
@@ -1159,7 +1488,7 @@
     "audioUrl": "/audio/kr/kr_phrase_065.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_065.mp3",
     "hasAudio": true,
-    "order": 65,
+    "order": 63,
     "tags": [
       "travel",
       "restaurant"
@@ -1167,7 +1496,13 @@
     "note": "",
     "ttsText": "이거 매워요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_066",
@@ -1177,7 +1512,7 @@
     "audioUrl": "/audio/kr/kr_phrase_066.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_066.mp3",
     "hasAudio": true,
-    "order": 66,
+    "order": 64,
     "tags": [
       "travel",
       "restaurant"
@@ -1185,7 +1520,13 @@
     "note": "",
     "ttsText": "포장 돼요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_067",
@@ -1195,7 +1536,7 @@
     "audioUrl": "/audio/kr/kr_phrase_067.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_067.mp3",
     "hasAudio": true,
-    "order": 67,
+    "order": 65,
     "tags": [
       "travel",
       "restaurant"
@@ -1203,7 +1544,13 @@
     "note": "",
     "ttsText": "커피 한 잔 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_068",
@@ -1213,7 +1560,7 @@
     "audioUrl": "/audio/kr/kr_phrase_068.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 66,
     "tags": [
       "life",
       "health"
@@ -1221,7 +1568,13 @@
     "note": "",
     "ttsText": "감기약 있어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_069",
@@ -1231,7 +1584,7 @@
     "audioUrl": "/audio/kr/kr_phrase_069.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 67,
     "tags": [
       "life",
       "health"
@@ -1239,7 +1592,13 @@
     "note": "",
     "ttsText": "열이 있어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_070",
@@ -1249,7 +1608,7 @@
     "audioUrl": "/audio/kr/kr_phrase_070.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_070.mp3",
     "hasAudio": true,
-    "order": 70,
+    "order": 68,
     "tags": [
       "life",
       "health"
@@ -1257,7 +1616,13 @@
     "note": "",
     "ttsText": "기침이 나요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_071",
@@ -1267,7 +1632,7 @@
     "audioUrl": "/audio/kr/kr_phrase_071.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_071.mp3",
     "hasAudio": true,
-    "order": 71,
+    "order": 69,
     "tags": [
       "life",
       "health"
@@ -1275,7 +1640,13 @@
     "note": "",
     "ttsText": "진통제 주세요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_072",
@@ -1285,7 +1656,7 @@
     "audioUrl": "/audio/kr/kr_phrase_072.mp3",
     "translationAudioUrl": "/audio/kr/kr_zh_phrase_072.mp3",
     "hasAudio": true,
-    "order": 72,
+    "order": 70,
     "tags": [
       "life",
       "health"
@@ -1293,7 +1664,13 @@
     "note": "",
     "ttsText": "어떤 약이 좋아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_073",
@@ -1303,7 +1680,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_073.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_073.mp3",
     "hasAudio": true,
-    "order": 73,
+    "order": 71,
     "tags": [
       "chat",
       "social"
@@ -1311,7 +1688,13 @@
     "note": "",
     "ttsText": "지금 어디예요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_074",
@@ -1321,7 +1704,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_074.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_074.mp3",
     "hasAudio": true,
-    "order": 74,
+    "order": 72,
     "tags": [
       "chat",
       "social"
@@ -1329,7 +1712,13 @@
     "note": "",
     "ttsText": "지금 가고 있어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_075",
@@ -1339,7 +1728,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_075.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_075.mp3",
     "hasAudio": true,
-    "order": 75,
+    "order": 73,
     "tags": [
       "chat",
       "social"
@@ -1347,7 +1736,13 @@
     "note": "",
     "ttsText": "조금 늦을 것 같아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_076",
@@ -1357,7 +1752,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_076.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_076.mp3",
     "hasAudio": true,
-    "order": 76,
+    "order": 74,
     "tags": [
       "chat",
       "social"
@@ -1365,7 +1760,13 @@
     "note": "",
     "ttsText": "도착하면 연락할게요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_077",
@@ -1375,7 +1776,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_077.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_077.mp3",
     "hasAudio": true,
-    "order": 77,
+    "order": 75,
     "tags": [
       "chat",
       "social"
@@ -1383,7 +1784,13 @@
     "note": "",
     "ttsText": "괜찮아요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_078",
@@ -1393,7 +1800,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_078.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_078.mp3",
     "hasAudio": true,
-    "order": 78,
+    "order": 76,
     "tags": [
       "chat",
       "social"
@@ -1401,7 +1808,13 @@
     "note": "",
     "ttsText": "다음에 봐요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_079",
@@ -1411,7 +1824,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_079.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_079.mp3",
     "hasAudio": true,
-    "order": 79,
+    "order": 77,
     "tags": [
       "chat",
       "social"
@@ -1419,7 +1832,13 @@
     "note": "",
     "ttsText": "내일 시간 있어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_080",
@@ -1429,7 +1848,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_080.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_080.mp3",
     "hasAudio": true,
-    "order": 80,
+    "order": 78,
     "tags": [
       "chat",
       "social"
@@ -1437,7 +1856,13 @@
     "note": "",
     "ttsText": "알겠어요",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "kr_phrase_081",
@@ -1447,7 +1872,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_081.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_081.mp3",
     "hasAudio": true,
-    "order": 81,
+    "order": 79,
     "tags": [
       "travel",
       "restaurant"
@@ -1455,7 +1880,13 @@
     "note": "",
     "ttsText": "아이스 아메리카노 주세요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_082",
@@ -1465,7 +1896,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_082.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_082.mp3",
     "hasAudio": true,
-    "order": 82,
+    "order": 80,
     "tags": [
       "travel",
       "restaurant"
@@ -1473,7 +1904,13 @@
     "note": "內用。",
     "ttsText": "여기서 마실게요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_083",
@@ -1483,7 +1920,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_083.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_083.mp3",
     "hasAudio": true,
-    "order": 83,
+    "order": 81,
     "tags": [
       "travel",
       "restaurant"
@@ -1491,7 +1928,13 @@
     "note": "",
     "ttsText": "포장할게요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_084",
@@ -1501,7 +1944,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_084.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_084.mp3",
     "hasAudio": true,
-    "order": 84,
+    "order": 82,
     "tags": [
       "travel",
       "restaurant"
@@ -1509,7 +1952,13 @@
     "note": "店員常用句。",
     "ttsText": "따뜻한 거랑 차가운 거, 뭐로 드릴까요",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "kr_phrase_085",
@@ -1519,7 +1968,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_085.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_085.mp3",
     "hasAudio": true,
-    "order": 85,
+    "order": 83,
     "tags": [
       "travel",
       "store"
@@ -1527,7 +1976,13 @@
     "note": "",
     "ttsText": "봉투 주세요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_086",
@@ -1537,7 +1992,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_086.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_086.mp3",
     "hasAudio": true,
-    "order": 86,
+    "order": 84,
     "tags": [
       "travel",
       "store"
@@ -1545,7 +2000,13 @@
     "note": "",
     "ttsText": "그냥 이대로 주세요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_087",
@@ -1555,7 +2016,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_087.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_087.mp3",
     "hasAudio": true,
-    "order": 87,
+    "order": 85,
     "tags": [
       "travel",
       "store"
@@ -1563,7 +2024,13 @@
     "note": "便利商店常用。",
     "ttsText": "멤버십 없어요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "kr_phrase_088",
@@ -1573,7 +2040,7 @@
     "audioUrl": "/assets/audio/kr/kr_phrase_088.mp3",
     "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_088.mp3",
     "hasAudio": true,
-    "order": 88,
+    "order": 86,
     "tags": [
       "travel",
       "store"
@@ -1581,6 +2048,81 @@
     "note": "",
     "ttsText": "따로 계산할 수 있어요",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "kr_phrase_089",
+    "text": "사진 좀 찍어주실 수 있나요?",
+    "phonetic": "sajin jom jjigeojusil su innayo",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_089.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_089.mp3",
+    "hasAudio": false,
+    "order": 87,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "사진 좀 찍어주실 수 있나요?",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
+  },
+  {
+    "id": "kr_phrase_090",
+    "text": "티머니 카드 충전해 주세요.",
+    "phonetic": "timeoni kadeu chungjeonhae juseyo",
+    "translation": "請幫我儲值 T-money 卡。",
+    "audioUrl": "/audio/kr/kr_phrase_090.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_090.mp3",
+    "hasAudio": false,
+    "order": 88,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "티머니 카드 충전해 주세요.",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "kr_phrase_091",
+    "text": "텍스 리펀 되나요?",
+    "phonetic": "tekseu ripeon doenayo",
+    "translation": "可以退稅嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_091.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_091.mp3",
+    "hasAudio": false,
+    "order": 89,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "note": "",
+    "ttsText": "텍스 리펀 되나요?",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#shopping"
+    ]
   }
 ]

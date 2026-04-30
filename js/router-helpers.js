@@ -38,5 +38,9 @@ export const RouterHelpers = {
 
   navigateToLearned() {
     window.location.href = 'learned.html';
+  },
+
+  navigateToList(lang) {
+    window.location.href = `list.html?lang=${encodeURIComponent(lang)}`;
   }
 };

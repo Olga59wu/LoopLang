@@ -1,0 +1,265 @@
+[
+  {
+    "id": "hk_phrase_008",
+    "text": "唔該，埋單。",
+    "phonetic": "m4 goi1, maai4 daan1",
+    "translation": "不好意思，結帳。",
+    "audioUrl": "/audio/hk/hk_phrase_008.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該埋單",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_009",
+    "text": "要呢個。",
+    "phonetic": "jiu3 ne1 go3",
+    "translation": "要這個。",
+    "audioUrl": "/audio/hk/hk_phrase_009.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "要呢個",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_010",
+    "text": "凍檸茶少甜。",
+    "phonetic": "dung3 ning2 caa4 siu2 tim4",
+    "translation": "凍檸茶少糖。",
+    "audioUrl": "/audio/hk/hk_phrase_010.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "凍檸茶少甜",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_031",
+    "text": "唔該，俾杯水。",
+    "phonetic": "m4 goi1, bei2 bui1 seoi2",
+    "translation": "麻煩給我一杯水。",
+    "audioUrl": "/audio/hk/hk_phrase_031.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "唔該俾杯水",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_053",
+    "text": "你想食咩呀？",
+    "phonetic": "nei5 soeng2 sik6 me1 aa3",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/audio/hk/hk_phrase_053.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 51,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "你想食咩呀",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_054",
+    "text": "有咩推介呀？",
+    "phonetic": "jau5 me1 teoi1 gaai3 aa3",
+    "translation": "有什麼推薦？",
+    "audioUrl": "/audio/hk/hk_phrase_054.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 52,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "有咩推介呀",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_055",
+    "text": "呢個辣唔辣？",
+    "phonetic": "ne1 go3 laat6 m4 laat6",
+    "translation": "這個辣不辣？",
+    "audioUrl": "/audio/hk/hk_phrase_055.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "呢個辣唔辣",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_063",
+    "text": "我喺度飲。",
+    "phonetic": "ngo5 hai2 dou6 jam2",
+    "translation": "我在這裡喝。",
+    "audioUrl": "/audio/hk/hk_phrase_063.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 61,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "我喺度飲",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_064",
+    "text": "我要外賣。",
+    "phonetic": "ngo5 jiu3 ngoi6 maai6",
+    "translation": "我要外帶。",
+    "audioUrl": "/audio/hk/hk_phrase_064.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 62,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "我要外賣",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_065",
+    "text": "要熱嘅定凍嘅？",
+    "phonetic": "jiu3 jit6 ge3 ding6 dung3 ge3",
+    "translation": "要熱的還是冰的？",
+    "audioUrl": "/audio/hk/hk_phrase_065.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 63,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句。",
+    "ttsText": "要熱嘅定凍嘅",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_076",
+    "text": "唔該，我想加單。",
+    "phonetic": "m4 goi1, ngo5 soeng2 gaa1 daan1",
+    "translation": "不好意思，我想加點餐。",
+    "audioUrl": "/audio/hk/hk_phrase_076.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_076.mp3",
+    "hasAudio": false,
+    "order": 73,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "唔該，我想加單。",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  }
+]

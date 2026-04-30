@@ -1,0 +1,25 @@
+[
+  {
+    "id": "hk_phrase_021",
+    "text": "我唔見咗銀包。",
+    "phonetic": "ngo5 m4 gin3 zo2 ngan4 baau1",
+    "translation": "我的錢包掉了。",
+    "audioUrl": "/audio/hk/hk_phrase_021.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "我唔見咗銀包",
+    "status": "published",
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
+  }
+]

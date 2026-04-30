@@ -1,0 +1,48 @@
+[
+  {
+    "id": "th_phrase_092",
+    "text": "พร้อม",
+    "phonetic": "prom",
+    "translation": "準備好了",
+    "audioUrl": "/audio/th/th_phrase_092.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_092.mp3",
+    "hasAudio": false,
+    "order": 89,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "พร้อม",
+    "status": "published",
+    "category": "adjectives_feelings",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#adjectives_feelings"
+    ]
+  },
+  {
+    "id": "th_phrase_093",
+    "text": "สบาย",
+    "phonetic": "sa-bai",
+    "translation": "舒服/輕鬆",
+    "audioUrl": "/audio/th/th_phrase_093.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_093.mp3",
+    "hasAudio": false,
+    "order": 90,
+    "tags": [
+      "basic",
+      "adjectives_feelings"
+    ],
+    "note": "",
+    "ttsText": "สบาย",
+    "status": "published",
+    "category": "adjectives_feelings",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#adjectives_feelings"
+    ]
+  }
+]

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "th_phrase_080",
+    "text": "อะไร",
+    "phonetic": "a-rai",
+    "translation": "什麼",
+    "audioUrl": "/audio/th/th_phrase_080.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_080.mp3",
+    "hasAudio": false,
+    "order": 77,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อะไร",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_081",
+    "text": "ที่ไหน",
+    "phonetic": "tee-nai",
+    "translation": "在哪裡",
+    "audioUrl": "/audio/th/th_phrase_081.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_081.mp3",
+    "hasAudio": false,
+    "order": 78,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ที่ไหน",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_082",
+    "text": "เมื่อไหร่",
+    "phonetic": "meua-rai",
+    "translation": "什麼時候",
+    "audioUrl": "/audio/th/th_phrase_082.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_082.mp3",
+    "hasAudio": false,
+    "order": 79,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "เมื่อไหร่",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_083",
+    "text": "ทำไม",
+    "phonetic": "tam-mai",
+    "translation": "為什麼",
+    "audioUrl": "/audio/th/th_phrase_083.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_083.mp3",
+    "hasAudio": false,
+    "order": 80,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ทำไม",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_084",
+    "text": "อย่างไร",
+    "phonetic": "yang-rai",
+    "translation": "如何/怎樣",
+    "audioUrl": "/audio/th/th_phrase_084.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_084.mp3",
+    "hasAudio": false,
+    "order": 81,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "อย่างไร",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_085",
+    "text": "ใช่ไหม",
+    "phonetic": "chai mai",
+    "translation": "對吧/是嗎",
+    "audioUrl": "/audio/th/th_phrase_085.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_085.mp3",
+    "hasAudio": false,
+    "order": 82,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ใช่ไหม",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_086",
+    "text": "ได้ไหม",
+    "phonetic": "dai mai",
+    "translation": "可以嗎",
+    "audioUrl": "/audio/th/th_phrase_086.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_086.mp3",
+    "hasAudio": false,
+    "order": 83,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ได้ไหม",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_087",
+    "text": "จริงเหรอ",
+    "phonetic": "jing ror",
+    "translation": "真的嗎",
+    "audioUrl": "/audio/th/th_phrase_087.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_087.mp3",
+    "hasAudio": false,
+    "order": 84,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "จริงเหรอ",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_088",
+    "text": "ใช่หรือเปล่า",
+    "phonetic": "chai reu-plao",
+    "translation": "是不是",
+    "audioUrl": "/audio/th/th_phrase_088.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_088.mp3",
+    "hasAudio": false,
+    "order": 85,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ใช่หรือเปล่า",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_089",
+    "text": "ของใคร",
+    "phonetic": "kong krai",
+    "translation": "誰的",
+    "audioUrl": "/audio/th/th_phrase_089.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_089.mp3",
+    "hasAudio": false,
+    "order": 86,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "ของใคร",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_090",
+    "text": "หมายความว่าอะไร",
+    "phonetic": "mai-kwam-wa a-rai",
+    "translation": "是什麼意思",
+    "audioUrl": "/audio/th/th_phrase_090.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_090.mp3",
+    "hasAudio": false,
+    "order": 87,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "หมายความว่าอะไร",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "th_phrase_091",
+    "text": "พูดว่าอะไรนะ",
+    "phonetic": "poot-wa a-rai na",
+    "translation": "你剛剛說什麼",
+    "audioUrl": "/audio/th/th_phrase_091.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_091.mp3",
+    "hasAudio": false,
+    "order": 88,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "พูดว่าอะไรนะ",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "th_phrase_018",
+    "text": "เท่าไหร่?",
+    "phonetic": "tao-rai",
+    "translation": "多少錢？",
+    "audioUrl": "/audio/th/th_phrase_018.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_018.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "เท่าไหร่",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_019",
+    "text": "ลดหน่อยได้ไหม?",
+    "phonetic": "lod-noi-dai-mai",
+    "translation": "可以算便宜一點嗎？",
+    "audioUrl": "/audio/th/th_phrase_019.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_019.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "逛市集必備。",
+    "ttsText": "ลดหน่อยได้ไหม",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_020",
+    "text": "สแกนจ่ายได้ไหม?",
+    "phonetic": "sa-gan-jai-dai-mai",
+    "translation": "可以掃碼支付嗎？",
+    "audioUrl": "/audio/th/th_phrase_020.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_020.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "泰國現在流行 QR Code 支付。",
+    "ttsText": "สแกนจ่ายได้ไหม",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_034",
+    "text": "ขอใบเสร็จด้วย",
+    "phonetic": "khor-bai-set-duay",
+    "translation": "請給我收據。",
+    "audioUrl": "/audio/th/th_phrase_034.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอใบเสร็จด้วย",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_049",
+    "text": "รับแต่เงินสดใช่ไหม?",
+    "phonetic": "rap-tae-ngern-sot chai-mai",
+    "translation": "只能收現金對嗎？",
+    "audioUrl": "/audio/th/th_phrase_049.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "รับแต่เงินสดใช่ไหม",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_050",
+    "text": "ใช้บัตรได้ไหม?",
+    "phonetic": "chai-bat-dai-mai",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/audio/th/th_phrase_050.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ใช้บัตรได้ไหม",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_072",
+    "text": "ขอถุง",
+    "phonetic": "khor-thung",
+    "translation": "請給我袋子。",
+    "audioUrl": "/audio/th/th_phrase_072.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 69,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ขอถุง",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_073",
+    "text": "แบบนี้ก็ได้",
+    "phonetic": "baep-nee gor dai",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/audio/th/th_phrase_073.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 70,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แบบนี้ก็ได้",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_074",
+    "text": "ไม่มีสมาชิก",
+    "phonetic": "mai mee sa-ma-chik",
+    "translation": "我沒有會員。",
+    "audioUrl": "/audio/th/th_phrase_074.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 71,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "ไม่มีสมาชิก",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "th_phrase_075",
+    "text": "แยกจ่ายได้ไหม?",
+    "phonetic": "yaek-jai dai mai",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/audio/th/th_phrase_075.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 72,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "แยกจ่ายได้ไหม",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  }
+]

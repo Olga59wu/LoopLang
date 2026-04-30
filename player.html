@@ -59,6 +59,10 @@
       </button>
 
       <div class="flex items-center gap-2">
+        <button @click="goList"
+          class="w-11 h-11 flex items-center justify-center rounded-full glass-panel hit-area-lg text-slate-400 hover:text-indigo-400 transition-colors" title="搜尋與清單">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </button>
         <button @click="toggleLearned"
           class="w-11 h-11 flex items-center justify-center rounded-full glass-panel hit-area-lg"
           :class="isLearned ? 'text-emerald-500' : 'text-slate-400 hover:text-emerald-400'">
@@ -555,13 +559,17 @@
           return '標準';
         });
 
+        const goList = () => {
+          RouterHelpers.navigateToList(lang.value);
+        };
+
         return {
           topics, lang, topicTitle, langLabel,
           prefs, playerState, currentSentence, currentIndex, totalSentences,
           isFavorite, isLearned, toggleFavorite, toggleLearned,
           play, pause, next, prev, playInteractive, popupMessage, resetProgress,
           cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
-          goHome, selectTopic, showTopicModal
+          goHome, goList, selectTopic, showTopicModal
         };
       }
     };

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "th_phrase_097",
+    "text": "ถ่ายรูปให้หน่อยได้ไหม",
+    "phonetic": "thai rup hai noi dai mai",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/th/th_phrase_097.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_097.mp3",
+    "hasAudio": false,
+    "order": 94,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "ถ่ายรูปให้หน่อยได้ไหม",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
+  }
+]

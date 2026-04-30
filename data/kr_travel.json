@@ -1,0 +1,25 @@
+[
+  {
+    "id": "kr_phrase_089",
+    "text": "사진 좀 찍어주실 수 있나요?",
+    "phonetic": "sajin jom jjigeojusil su innayo",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_089.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_089.mp3",
+    "hasAudio": false,
+    "order": 87,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "사진 좀 찍어주실 수 있나요?",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
+  }
+]

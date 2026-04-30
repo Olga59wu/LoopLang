@@ -1,0 +1,338 @@
+[
+  {
+    "id": "jp_phrase_012",
+    "text": "メニューをください。",
+    "phonetic": "menyuu o kudasai",
+    "translation": "請給我菜單。",
+    "audioUrl": "/audio/jp/jp_phrase_012.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "メニューをください",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_013",
+    "text": "これをお[願|ねが]いします。",
+    "phonetic": "kore o onegaishimasu",
+    "translation": "請給我這個。",
+    "audioUrl": "/audio/jp/jp_phrase_013.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これをお願いします",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_014",
+    "text": "お[会計|かいけい]をお[願|ねが]いします。",
+    "phonetic": "okaikei o onegaishimasu",
+    "translation": "麻煩請結帳。",
+    "audioUrl": "/audio/jp/jp_phrase_014.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "お会計をお願いします",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_028",
+    "text": "[美味|おい]しいです。",
+    "phonetic": "oishii desu",
+    "translation": "很好吃。",
+    "audioUrl": "/audio/jp/jp_phrase_028.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_028.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "美味しいです",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_036",
+    "text": "[水|みず]をください。",
+    "phonetic": "mizu o kudasai",
+    "translation": "請給我水。",
+    "audioUrl": "/audio/jp/jp_phrase_036.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_036.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "水をください",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_059",
+    "text": "[何|なに]を[食|た]べたいですか？",
+    "phonetic": "nani o tabetai desu ka",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/audio/jp/jp_phrase_059.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 56,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "何を食べたいですか",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_060",
+    "text": "[おすすめ]はありますか？",
+    "phonetic": "osusume wa arimasu ka",
+    "translation": "有推薦的嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_060.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_060.mp3",
+    "hasAudio": true,
+    "order": 57,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "餐廳、咖啡店都很常用。",
+    "ttsText": "おすすめはありますか",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_061",
+    "text": "これは[辛|から]いですか？",
+    "phonetic": "kore wa karai desu ka",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_061.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 58,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "これは辛いですか",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_062",
+    "text": "[持|も]ち[帰|かえ]りできますか？",
+    "phonetic": "mochi kaeri dekimasu ka",
+    "translation": "可以外帶嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_062.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 59,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰りできますか",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_063",
+    "text": "コーヒーを[一杯|いっぱい]ください。",
+    "phonetic": "koohii o ippai kudasai",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/audio/jp/jp_phrase_063.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 60,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "コーヒーを一杯ください",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_073",
+    "text": "アイスコーヒーをお[願|ねが]いします。",
+    "phonetic": "aisu koohii o onegaishimasu",
+    "translation": "請給我冰咖啡。",
+    "audioUrl": "/audio/jp/jp_phrase_073.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 70,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "咖啡店高頻句。",
+    "ttsText": "アイスコーヒーをお願いします",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_074",
+    "text": "ここで[飲|の]みます。",
+    "phonetic": "koko de nomimasu",
+    "translation": "我在這裡喝。",
+    "audioUrl": "/audio/jp/jp_phrase_074.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 71,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "ここで飲みます",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_075",
+    "text": "[持|も]ち[帰|かえ]ります。",
+    "phonetic": "mochi kaerimasu",
+    "translation": "我要外帶。",
+    "audioUrl": "/audio/jp/jp_phrase_075.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 72,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "持ち帰ります",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "jp_phrase_076",
+    "text": "[温|あたた]かいのと[冷|つめ]たいの、どちらですか？",
+    "phonetic": "atatakai no to tsumetai no, dochira desu ka",
+    "translation": "熱的和冰的，要哪一個？",
+    "audioUrl": "/audio/jp/jp_phrase_076.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_076.mp3",
+    "hasAudio": true,
+    "order": 73,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句，也可收進學習資料。",
+    "ttsText": "温かいのと冷たいの、どちらですか",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  }
+]

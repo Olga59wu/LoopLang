@@ -1,0 +1,25 @@
+[
+  {
+    "id": "th_phrase_094",
+    "text": "อิ่มแล้ว",
+    "phonetic": "im laew",
+    "translation": "吃飽了",
+    "audioUrl": "/audio/th/th_phrase_094.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_094.mp3",
+    "hasAudio": false,
+    "order": 91,
+    "tags": [
+      "basic",
+      "restaurant_transportation"
+    ],
+    "note": "",
+    "ttsText": "อิ่มแล้ว",
+    "status": "published",
+    "category": "restaurant_transportation",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#restaurant_transportation"
+    ]
+  }
+]

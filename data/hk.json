@@ -15,7 +15,13 @@
     "note": "香港最常用的早晨問候。",
     "ttsText": "早晨",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_002",
@@ -33,7 +39,13 @@
     "note": "",
     "ttsText": "你叫咩名",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_003",
@@ -51,7 +63,13 @@
     "note": "收禮物或正式道謝用多謝。",
     "ttsText": "多謝晒",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_004",
@@ -69,7 +87,13 @@
     "note": "接受服務或拜託他人時用唔該。",
     "ttsText": "唔該",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_005",
@@ -87,7 +111,13 @@
     "note": "正式道歉用。",
     "ttsText": "對唔住",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_006",
@@ -105,7 +135,13 @@
     "note": "",
     "ttsText": "冇問題",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_007",
@@ -123,7 +159,13 @@
     "note": "",
     "ttsText": "食咗飯未",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_008",
@@ -141,7 +183,13 @@
     "note": "",
     "ttsText": "唔該埋單",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_009",
@@ -159,7 +207,13 @@
     "note": "",
     "ttsText": "要呢個",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_010",
@@ -177,7 +231,13 @@
     "note": "",
     "ttsText": "凍檸茶少甜",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_011",
@@ -195,7 +255,13 @@
     "note": "",
     "ttsText": "唔使要膠袋",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_012",
@@ -213,7 +279,13 @@
     "note": "",
     "ttsText": "收唔收八達通",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_013",
@@ -231,7 +303,13 @@
     "note": "",
     "ttsText": "幾錢話",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_014",
@@ -249,7 +327,12 @@
     "note": "",
     "ttsText": "我想辦理入住",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "hk_phrase_015",
@@ -267,7 +350,12 @@
     "note": "",
     "ttsText": "可唔可以寄存行李",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "hk_phrase_016",
@@ -285,7 +373,13 @@
     "note": "",
     "ttsText": "廁所喺邊度",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_017",
@@ -303,7 +397,13 @@
     "note": "",
     "ttsText": "點樣去地鐵站",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_018",
@@ -321,7 +421,12 @@
     "note": "給計程車司機看時用。",
     "ttsText": "我要去呢個地址",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_019",
@@ -339,7 +444,12 @@
     "note": "",
     "ttsText": "唔該轉右",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_020",
@@ -357,7 +467,12 @@
     "note": "",
     "ttsText": "呢架車去唔去中環",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_021",
@@ -375,7 +490,12 @@
     "note": "",
     "ttsText": "我唔見咗銀包",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "hk_phrase_022",
@@ -393,7 +513,12 @@
     "note": "在擁擠的地鐵或街頭常用。",
     "ttsText": "唔該借過",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_023",
@@ -411,7 +536,13 @@
     "note": "",
     "ttsText": "聽唔明講多次",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_024",
@@ -429,7 +560,13 @@
     "note": "睡前使用。",
     "ttsText": "早唞",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_025",
@@ -447,7 +584,13 @@
     "note": "較口語自然的打招呼。",
     "ttsText": "你好呀",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_026",
@@ -465,7 +608,13 @@
     "note": "",
     "ttsText": "真係唔好意思",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_027",
@@ -483,7 +632,13 @@
     "note": "日常寒暄很自然。",
     "ttsText": "今天天氣幾好喎",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_028",
@@ -501,7 +656,13 @@
     "note": "",
     "ttsText": "就咁啦唔該",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_029",
@@ -519,7 +680,13 @@
     "note": "",
     "ttsText": "入境櫃位喺邊",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_030",
@@ -537,7 +704,12 @@
     "note": "",
     "ttsText": "早餐幾點開始",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "hk_phrase_031",
@@ -555,7 +727,13 @@
     "note": "",
     "ttsText": "唔該俾杯水",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_032",
@@ -573,7 +751,13 @@
     "note": "",
     "ttsText": "可唔可以俾收據",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_033",
@@ -591,7 +775,13 @@
     "note": "",
     "ttsText": "去呢度點行",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_034",
@@ -609,7 +799,12 @@
     "note": "",
     "ttsText": "我下一個站落車",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_035",
@@ -627,7 +822,13 @@
     "note": "",
     "ttsText": "等一等先",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_036",
@@ -645,25 +846,13 @@
     "note": "",
     "ttsText": "我而家過嚟",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "hk_phrase_037",
-    "text": "我而家有啲忙。",
-    "phonetic": "ngo5 ji4 gaa1 jau5 di1 mong4",
-    "translation": "我現在有點忙。",
-    "audioUrl": "/audio/hk/hk_phrase_037.mp3",
-    "translationAudioUrl": "/audio/hk/hk_zh_phrase_037.mp3",
-    "hasAudio": true,
-    "order": 37,
-    "tags": [
-      "life",
-      "chat"
-    ],
-    "note": "",
-    "ttsText": "我而家有啲忙",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_038",
@@ -673,7 +862,7 @@
     "audioUrl": "/audio/hk/hk_phrase_038.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_038.mp3",
     "hasAudio": true,
-    "order": 38,
+    "order": 37,
     "tags": [
       "social",
       "basic"
@@ -681,7 +870,13 @@
     "note": "",
     "ttsText": "冇事呀，多謝你",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_039",
@@ -691,7 +886,7 @@
     "audioUrl": "/audio/hk/hk_phrase_039.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_039.mp3",
     "hasAudio": true,
-    "order": 39,
+    "order": 38,
     "tags": [
       "social",
       "basic"
@@ -699,7 +894,13 @@
     "note": "",
     "ttsText": "而家唔使住",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_040",
@@ -709,7 +910,7 @@
     "audioUrl": "/audio/hk/hk_phrase_040.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_040.mp3",
     "hasAudio": true,
-    "order": 40,
+    "order": 39,
     "tags": [
       "life",
       "chat"
@@ -717,7 +918,13 @@
     "note": "",
     "ttsText": "我口渴呀",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_041",
@@ -727,7 +934,7 @@
     "audioUrl": "/audio/hk/hk_phrase_041.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_041.mp3",
     "hasAudio": true,
-    "order": 41,
+    "order": 40,
     "tags": [
       "life",
       "chat"
@@ -735,7 +942,13 @@
     "note": "",
     "ttsText": "我肚餓呀",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_042",
@@ -745,7 +958,7 @@
     "audioUrl": "/audio/hk/hk_phrase_042.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_042.mp3",
     "hasAudio": true,
-    "order": 42,
+    "order": 41,
     "tags": [
       "life",
       "chat"
@@ -753,7 +966,13 @@
     "note": "",
     "ttsText": "我好攰",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_043",
@@ -763,7 +982,7 @@
     "audioUrl": "/audio/hk/hk_phrase_043.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_043.mp3",
     "hasAudio": true,
-    "order": 43,
+    "order": 42,
     "tags": [
       "life",
       "chat"
@@ -771,7 +990,13 @@
     "note": "",
     "ttsText": "我好眼瞓",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_044",
@@ -781,7 +1006,7 @@
     "audioUrl": "/audio/hk/hk_phrase_044.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_044.mp3",
     "hasAudio": true,
-    "order": 44,
+    "order": 43,
     "tags": [
       "life",
       "health"
@@ -789,7 +1014,13 @@
     "note": "",
     "ttsText": "我有啲唔舒服",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_045",
@@ -799,7 +1030,7 @@
     "audioUrl": "/audio/hk/hk_phrase_045.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_045.mp3",
     "hasAudio": true,
-    "order": 45,
+    "order": 44,
     "tags": [
       "life",
       "health"
@@ -807,7 +1038,13 @@
     "note": "",
     "ttsText": "我頭痛",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_046",
@@ -817,7 +1054,7 @@
     "audioUrl": "/audio/hk/hk_phrase_046.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_046.mp3",
     "hasAudio": true,
-    "order": 46,
+    "order": 45,
     "tags": [
       "life",
       "device"
@@ -825,7 +1062,13 @@
     "note": "",
     "ttsText": "我手機冇電",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_047",
@@ -835,7 +1078,7 @@
     "audioUrl": "/audio/hk/hk_phrase_047.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 46,
     "tags": [
       "life",
       "store"
@@ -843,7 +1086,13 @@
     "note": "",
     "ttsText": "淨係收現金",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_048",
@@ -853,7 +1102,7 @@
     "audioUrl": "/audio/hk/hk_phrase_048.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 47,
     "tags": [
       "life",
       "store"
@@ -861,7 +1110,13 @@
     "note": "",
     "ttsText": "可唔可以碌卡",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_049",
@@ -871,7 +1126,7 @@
     "audioUrl": "/audio/hk/hk_phrase_049.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 48,
     "tags": [
       "chat",
       "life"
@@ -879,25 +1134,13 @@
     "note": "",
     "ttsText": "你而家做緊咩呀",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "hk_phrase_050",
-    "text": "我而家喺屋企。",
-    "phonetic": "ngo5 ji4 gaa1 hai2 uk1 kei2",
-    "translation": "我現在在家。",
-    "audioUrl": "/audio/hk/hk_phrase_050.mp3",
-    "translationAudioUrl": "/audio/hk/hk_zh_phrase_050.mp3",
-    "hasAudio": true,
-    "order": 50,
-    "tags": [
-      "chat",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "我而家喺屋企",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_051",
@@ -907,7 +1150,7 @@
     "audioUrl": "/audio/hk/hk_phrase_051.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 49,
     "tags": [
       "chat",
       "social"
@@ -915,7 +1158,13 @@
     "note": "",
     "ttsText": "我遲啲聯絡你",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_052",
@@ -925,7 +1174,7 @@
     "audioUrl": "/audio/hk/hk_phrase_052.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_052.mp3",
     "hasAudio": true,
-    "order": 52,
+    "order": 50,
     "tags": [
       "chat",
       "social"
@@ -933,7 +1182,13 @@
     "note": "",
     "ttsText": "一齊去好唔好",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_053",
@@ -943,7 +1198,7 @@
     "audioUrl": "/audio/hk/hk_phrase_053.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 51,
     "tags": [
       "chat",
       "restaurant"
@@ -951,7 +1206,13 @@
     "note": "",
     "ttsText": "你想食咩呀",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_054",
@@ -961,7 +1222,7 @@
     "audioUrl": "/audio/hk/hk_phrase_054.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 52,
     "tags": [
       "travel",
       "restaurant"
@@ -969,7 +1230,13 @@
     "note": "",
     "ttsText": "有咩推介呀",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_055",
@@ -979,7 +1246,7 @@
     "audioUrl": "/audio/hk/hk_phrase_055.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 53,
     "tags": [
       "travel",
       "restaurant"
@@ -987,7 +1254,13 @@
     "note": "",
     "ttsText": "呢個辣唔辣",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_056",
@@ -997,7 +1270,7 @@
     "audioUrl": "/audio/hk/hk_phrase_056.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_056.mp3",
     "hasAudio": true,
-    "order": 56,
+    "order": 54,
     "tags": [
       "chat",
       "social"
@@ -1005,7 +1278,13 @@
     "note": "",
     "ttsText": "你而家喺邊呀",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_057",
@@ -1015,7 +1294,7 @@
     "audioUrl": "/audio/hk/hk_phrase_057.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_057.mp3",
     "hasAudio": true,
-    "order": 57,
+    "order": 55,
     "tags": [
       "chat",
       "social"
@@ -1023,7 +1302,13 @@
     "note": "",
     "ttsText": "我可能會遲少少",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_058",
@@ -1033,7 +1318,7 @@
     "audioUrl": "/audio/hk/hk_phrase_058.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_058.mp3",
     "hasAudio": true,
-    "order": 58,
+    "order": 56,
     "tags": [
       "chat",
       "social"
@@ -1041,7 +1326,13 @@
     "note": "",
     "ttsText": "我到咗再搵你",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_059",
@@ -1051,7 +1342,7 @@
     "audioUrl": "/audio/hk/hk_phrase_059.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 57,
     "tags": [
       "chat",
       "social"
@@ -1059,7 +1350,13 @@
     "note": "",
     "ttsText": "你冇事呀嘛",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_060",
@@ -1069,7 +1366,7 @@
     "audioUrl": "/audio/hk/hk_phrase_060.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_060.mp3",
     "hasAudio": true,
-    "order": 60,
+    "order": 58,
     "tags": [
       "chat",
       "social"
@@ -1077,7 +1374,13 @@
     "note": "",
     "ttsText": "下次再約啦",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_061",
@@ -1087,7 +1390,7 @@
     "audioUrl": "/audio/hk/hk_phrase_061.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 59,
     "tags": [
       "chat",
       "social"
@@ -1095,7 +1398,13 @@
     "note": "",
     "ttsText": "你聽日得唔得閒",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_062",
@@ -1105,7 +1414,7 @@
     "audioUrl": "/audio/hk/hk_phrase_062.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 60,
     "tags": [
       "chat",
       "social"
@@ -1113,7 +1422,13 @@
     "note": "",
     "ttsText": "知道啦",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "hk_phrase_063",
@@ -1123,7 +1438,7 @@
     "audioUrl": "/audio/hk/hk_phrase_063.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_063.mp3",
     "hasAudio": true,
-    "order": 63,
+    "order": 61,
     "tags": [
       "travel",
       "restaurant"
@@ -1131,7 +1446,13 @@
     "note": "內用。",
     "ttsText": "我喺度飲",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_064",
@@ -1141,7 +1462,7 @@
     "audioUrl": "/audio/hk/hk_phrase_064.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_064.mp3",
     "hasAudio": true,
-    "order": 64,
+    "order": 62,
     "tags": [
       "travel",
       "restaurant"
@@ -1149,7 +1470,13 @@
     "note": "",
     "ttsText": "我要外賣",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_065",
@@ -1159,7 +1486,7 @@
     "audioUrl": "/audio/hk/hk_phrase_065.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_065.mp3",
     "hasAudio": true,
-    "order": 65,
+    "order": 63,
     "tags": [
       "travel",
       "restaurant"
@@ -1167,7 +1494,13 @@
     "note": "店員常用句。",
     "ttsText": "要熱嘅定凍嘅",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "hk_phrase_066",
@@ -1177,7 +1510,7 @@
     "audioUrl": "/audio/hk/hk_phrase_066.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_066.mp3",
     "hasAudio": true,
-    "order": 66,
+    "order": 64,
     "tags": [
       "travel",
       "store"
@@ -1185,7 +1518,13 @@
     "note": "",
     "ttsText": "唔該，俾個袋我",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_067",
@@ -1195,7 +1534,7 @@
     "audioUrl": "/audio/hk/hk_phrase_067.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_067.mp3",
     "hasAudio": true,
-    "order": 67,
+    "order": 65,
     "tags": [
       "travel",
       "store"
@@ -1203,7 +1542,13 @@
     "note": "",
     "ttsText": "咁樣就得㗎喇",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_068",
@@ -1213,7 +1558,7 @@
     "audioUrl": "/audio/hk/hk_phrase_068.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 66,
     "tags": [
       "travel",
       "store"
@@ -1221,7 +1566,13 @@
     "note": "",
     "ttsText": "我冇會員",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_069",
@@ -1231,7 +1582,7 @@
     "audioUrl": "/audio/hk/hk_phrase_069.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 67,
     "tags": [
       "travel",
       "store"
@@ -1239,7 +1590,13 @@
     "note": "",
     "ttsText": "可唔可以分開埋單",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "hk_phrase_070",
@@ -1249,7 +1606,7 @@
     "audioUrl": "/audio/hk/hk_phrase_070.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_070.mp3",
     "hasAudio": false,
-    "order": 70,
+    "order": 68,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1257,7 +1614,12 @@
     "note": "",
     "ttsText": "唔緊要",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "hk_phrase_071",
@@ -1267,7 +1629,7 @@
     "audioUrl": "/audio/hk/hk_phrase_071.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_071.mp3",
     "hasAudio": false,
-    "order": 71,
+    "order": 69,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1275,25 +1637,12 @@
     "note": "",
     "ttsText": "你近排點呀",
     "status": "published",
-    "category": "basic_pronouns"
-  },
-  {
-    "id": "hk_phrase_072",
-    "text": "返工",
-    "phonetic": "faan1 gung1",
-    "translation": "工作",
-    "audioUrl": "/audio/hk/hk_phrase_072.mp3",
-    "translationAudioUrl": "/audio/hk/hk_zh_phrase_072.mp3",
-    "hasAudio": false,
-    "order": 72,
-    "tags": [
-      "basic",
-      "common_verbs"
-    ],
-    "note": "",
-    "ttsText": "返工",
-    "status": "published",
-    "category": "common_verbs"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "hk_phrase_073",
@@ -1303,7 +1652,7 @@
     "audioUrl": "/audio/hk/hk_phrase_073.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_073.mp3",
     "hasAudio": false,
-    "order": 73,
+    "order": 70,
     "tags": [
       "basic",
       "common_verbs"
@@ -1311,7 +1660,12 @@
     "note": "",
     "ttsText": "鍾意",
     "status": "published",
-    "category": "common_verbs"
+    "category": "common_verbs",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#common_verbs"
+    ]
   },
   {
     "id": "hk_phrase_074",
@@ -1321,7 +1675,7 @@
     "audioUrl": "/audio/hk/hk_phrase_074.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_074.mp3",
     "hasAudio": false,
-    "order": 74,
+    "order": 71,
     "tags": [
       "travel",
       "transport"
@@ -1329,7 +1683,12 @@
     "note": "搭的士（計程車）必備。",
     "ttsText": "唔該直行",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "hk_phrase_075",
@@ -1339,7 +1698,7 @@
     "audioUrl": "/audio/hk/hk_phrase_075.mp3",
     "translationAudioUrl": "/audio/hk/hk_zh_phrase_075.mp3",
     "hasAudio": false,
-    "order": 75,
+    "order": 72,
     "tags": [
       "travel",
       "transport"
@@ -1347,6 +1706,80 @@
     "note": "",
     "ttsText": "前面轉左",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "hk_phrase_076",
+    "text": "唔該，我想加單。",
+    "phonetic": "m4 goi1, ngo5 soeng2 gaa1 daan1",
+    "translation": "不好意思，我想加點餐。",
+    "audioUrl": "/audio/hk/hk_phrase_076.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_076.mp3",
+    "hasAudio": false,
+    "order": 73,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "唔該，我想加單。",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  },
+  {
+    "id": "hk_phrase_077",
+    "text": "請問八達通喺邊度增值？",
+    "phonetic": "cing2 man6 baat3 daat6 tung1 hai2 bin1 dou6 zang1 zik6",
+    "translation": "請問八達通在哪裡加值？",
+    "audioUrl": "/audio/hk/hk_phrase_077.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_077.mp3",
+    "hasAudio": false,
+    "order": 74,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "請問八達通喺邊度增值？",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "hk_phrase_078",
+    "text": "呢度可唔可以影相呀？",
+    "phonetic": "ni1 dou6 ho2 m4 ho2 ji5 jing2 soeng2 aa3",
+    "translation": "這裡可以拍照嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_078.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_078.mp3",
+    "hasAudio": false,
+    "order": 75,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "呢度可唔可以影相呀？",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
   }
 ]

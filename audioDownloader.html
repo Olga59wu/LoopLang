@@ -40,7 +40,11 @@
 
 <body class="bg-zinc-50 text-zinc-900 p-8">
     <div id="app" v-cloak class="max-w-4xl mx-auto">
-        <header class="mb-10">
+        <header class="mb-10 relative">
+            <a href="/index.html" class="inline-flex items-center gap-2 text-zinc-500 hover:text-zinc-900 transition-colors mb-4 hit-area-lg font-medium text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                返回首頁
+            </a>
             <h1 class="text-3xl font-bold tracking-tight mb-2">Universal Downloader.</h1>
             <p class="text-zinc-500">內容治理內部工具：跨語系 JSON 內容與音檔同步</p>
         </header>
@@ -99,7 +103,7 @@
                     <tr class="text-xs uppercase text-zinc-400 border-b border-zinc-100">
                         <th class="p-4 font-semibold">ID</th>
                         <th class="p-4 font-semibold">原文</th>
-                        <th class="p-4 font-semibold">狀態 / 操作</th>
+                        <th class="p-4 font-semibold w-40">狀態 / 操作</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -107,12 +111,12 @@
                         class="border-b border-zinc-50 hover:bg-zinc-50 transition-colors">
                         <td class="p-4 text-xs font-mono text-zinc-400">{{ item.id }}</td>
                         <td class="p-4">
-                            <div class="font-medium">{{ item.text }}</div>
+                            <div class="font-medium" v-html="parseFurigana(item.text)"></div>
                             <div class="text-xs text-zinc-400">{{ item.translation }}</div>
                         </td>
                         <td class="p-4">
                             <div class="flex items-center gap-4">
-                                <span :class="'status-' + (item.status || 'pending')" class="text-sm font-bold capitalize whitespace-nowrap min-w-[60px]">
+                                <span :class="'status-' + (item.status || 'pending')" class="text-sm font-bold capitalize inline-block w-24">
                                     {{ item.status || '等待中' }}
                                 </span>
                                 <button @click="downloadSingle(item)" :disabled="item.status === 'downloading' || isDownloading" title="單獨抓取" class="p-2 text-zinc-400 hover:text-blue-500 hover:bg-blue-50 rounded-lg transition-all active:scale-95 disabled:opacity-30 disabled:pointer-events-none">
@@ -134,6 +138,20 @@
             <div class="w-full bg-slate-100 h-2 rounded-full overflow-hidden mb-2"><div class="progress-fill h-full" :style="{ width: progressPercent + '%' }"></div></div>
             <div class="text-[9px] text-slate-400 font-bold truncate" v-if="isDownloading">處理中: {{ currentWordDisplay }}</div>
             <div class="text-[9px] text-emerald-500 font-bold" v-else>✅ ZIP 檔案已產生。</div>
+        </div>
+
+        <!-- Custom Modal Overlay -->
+        <div v-if="dialog.show" class="fixed inset-0 z-[200] flex items-center justify-center bg-zinc-900/40 backdrop-blur-sm transition-opacity">
+            <div class="bg-white rounded-2xl shadow-xl w-full max-w-sm overflow-hidden transform transition-all scale-100">
+                <div class="p-6">
+                    <h3 class="text-lg font-bold text-zinc-900 mb-2">{{ dialog.title }}</h3>
+                    <p class="text-zinc-500 text-sm mb-6">{{ dialog.message }}</p>
+                    <div class="flex gap-3 justify-end">
+                        <button v-if="dialog.type === 'confirm'" @click="dialog.onCancel()" class="px-4 py-2 rounded-xl text-zinc-600 bg-zinc-100 hover:bg-zinc-200 font-medium transition-colors">取消</button>
+                        <button @click="dialog.onConfirm()" class="px-4 py-2 rounded-xl text-white bg-zinc-900 hover:bg-zinc-800 font-medium transition-colors">確定</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -160,6 +178,40 @@
                     return Math.round((progress.current / progress.total) * 100);
                 });
                 const downloadHistory = reactive(JSON.parse(localStorage.getItem('looplang_audio_dl_track') || '{}'));
+
+                const parseFurigana = (text) => {
+                    if (!text) return '';
+                    return text.replace(/\[([^\|\]]+)\|([^\]]+)\]/g, '<ruby>$1<rt>$2</rt></ruby>');
+                };
+
+                const dialog = reactive({
+                    show: false,
+                    type: 'alert', // 'alert' | 'confirm'
+                    title: '',
+                    message: '',
+                    onConfirm: () => {},
+                    onCancel: () => {}
+                });
+
+                const showAlert = (message, title = '提示') => {
+                    dialog.title = title;
+                    dialog.message = message;
+                    dialog.type = 'alert';
+                    dialog.show = true;
+                    dialog.onConfirm = () => { dialog.show = false; };
+                };
+
+                const showConfirm = (message, title = '確認', onConfirmCallback) => {
+                    dialog.title = title;
+                    dialog.message = message;
+                    dialog.type = 'confirm';
+                    dialog.show = true;
+                    dialog.onConfirm = () => { 
+                        dialog.show = false; 
+                        if (onConfirmCallback) onConfirmCallback();
+                    };
+                    dialog.onCancel = () => { dialog.show = false; };
+                };
 
                 const currentTopics = computed(() => {
                     const c = catalog.value.find(x => x.lang === config.lang);
@@ -220,12 +272,12 @@
                         progress.total = sentences.value.filter(s => s.status !== 'skipped').length;
                         progress.current = 0;
                     } catch (e) {
-                        alert('載入失敗，請確認檔案路徑是否正確');
+                        showAlert('載入失敗，請確認檔案路徑是否正確', '錯誤');
                     }
                 };
 
                 const clearHistory = () => {
-                    if (confirm(`確定要清除 [${config.lang.toUpperCase()}] 語系的下載紀錄？下次下載將會重新獲取音檔。`)) {
+                    showConfirm(`確定要清除 [${config.lang.toUpperCase()}] 語系的下載紀錄？下次下載將會重新獲取音檔。`, '清除紀錄', () => {
                         let changed = false;
                         Object.keys(downloadHistory).forEach(k => {
                             if (k.startsWith(config.lang + '_')) {
@@ -234,15 +286,15 @@
                             }
                         });
                         
-                        if (changed) {
-                            localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
-                        }
+                        // 無論 changed 是否為 true，強制寫入並重新刷新畫面狀態
+                        localStorage.setItem('looplang_audio_dl_track', JSON.stringify(downloadHistory));
                         
-                        // 更新畫面狀態
-                        sentences.value.forEach(s => s.status = 'pending');
+                        // 透過重建陣列確保 Vue 強制渲染 UI
+                        sentences.value = sentences.value.map(s => ({ ...s, status: 'pending' }));
+                        
                         progress.total = sentences.value.length;
                         progress.current = 0;
-                    }
+                    });
                 };
 
                 const fetchMp3Blob = async (text, lang, retry = 2) => {
@@ -399,7 +451,7 @@
                     }
                 };
 
-                return { config, sentences, isDownloading, isFinished, progress, progressPercent, currentWordDisplay, catalog, currentTopics, loadJson, startBatchDownload, downloadSingle, clearHistory };
+                return { config, sentences, isDownloading, isFinished, progress, progressPercent, currentWordDisplay, catalog, currentTopics, loadJson, startBatchDownload, downloadSingle, clearHistory, dialog, parseFurigana };
             }
         }).mount('#app');
     </script>

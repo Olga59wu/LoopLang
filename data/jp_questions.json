@@ -1,0 +1,163 @@
+[
+  {
+    "id": "jp_phrase_085",
+    "text": "いくつですか",
+    "phonetic": "ikutsu desu ka",
+    "translation": "幾個",
+    "audioUrl": "/audio/jp/jp_phrase_085.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_085.mp3",
+    "hasAudio": false,
+    "order": 82,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "いくつですか",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_086",
+    "text": "どうして",
+    "phonetic": "doushite",
+    "translation": "為什麼",
+    "audioUrl": "/audio/jp/jp_phrase_086.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_086.mp3",
+    "hasAudio": false,
+    "order": 83,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "どうして",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_087",
+    "text": "どのくらい",
+    "phonetic": "dono kurai",
+    "translation": "大概多久",
+    "audioUrl": "/audio/jp/jp_phrase_087.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_087.mp3",
+    "hasAudio": false,
+    "order": 84,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "どのくらい",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_088",
+    "text": "[空|あ]いていますか",
+    "phonetic": "aiteimasu ka",
+    "translation": "有空位嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_088.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_088.mp3",
+    "hasAudio": false,
+    "order": 85,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "空いていますか",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_089",
+    "text": "どこで[乗|の]り[換|か]えますか",
+    "phonetic": "doko de norikaemasu ka",
+    "translation": "要在哪裡轉車？",
+    "audioUrl": "/audio/jp/jp_phrase_089.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_089.mp3",
+    "hasAudio": false,
+    "order": 86,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "どこで乗り換えますか",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_090",
+    "text": "[試着|しちゃく]できますか",
+    "phonetic": "shichaku dekimasu ka",
+    "translation": "可以試穿嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_090.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_090.mp3",
+    "hasAudio": false,
+    "order": 87,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "試着できますか",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  },
+  {
+    "id": "jp_phrase_091",
+    "text": "[別|べつ]のサイズはありますか",
+    "phonetic": "betsu no saizu wa arimasu ka",
+    "translation": "有其他尺寸嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_091.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_091.mp3",
+    "hasAudio": false,
+    "order": 88,
+    "tags": [
+      "basic",
+      "questions"
+    ],
+    "note": "",
+    "ttsText": "別のサイズはありますか",
+    "status": "published",
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
+  }
+]

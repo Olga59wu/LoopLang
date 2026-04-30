@@ -1,0 +1,25 @@
+[
+  {
+    "id": "hk_phrase_073",
+    "text": "鍾意",
+    "phonetic": "zung1 ji3",
+    "translation": "喜歡",
+    "audioUrl": "/audio/hk/hk_phrase_073.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_073.mp3",
+    "hasAudio": false,
+    "order": 70,
+    "tags": [
+      "basic",
+      "common_verbs"
+    ],
+    "note": "",
+    "ttsText": "鍾意",
+    "status": "published",
+    "category": "common_verbs",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#common_verbs"
+    ]
+  }
+]

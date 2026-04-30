@@ -1,0 +1,190 @@
+[
+  {
+    "id": "th_phrase_010",
+    "text": "ที่แลกเงินอยู่ที่ไหน?",
+    "phonetic": "tee-lak-ngern-yu-tee-nai",
+    "translation": "換錢所在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_010.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "ที่แลกเงินอยู่ที่ไหน",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_021",
+    "text": "ห้องน้ำไปทางไหน?",
+    "phonetic": "hong-nam-pai-tang-nai",
+    "translation": "廁所往哪邊走？",
+    "audioUrl": "/audio/th/th_phrase_021.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "ห้องน้ำไปทางไหน",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_022",
+    "text": "ไปสนามบิน",
+    "phonetic": "pai-sa-nam-bin",
+    "translation": "去機場。",
+    "audioUrl": "/audio/th/th_phrase_022.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_022.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "ไปสนามบิน",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_023",
+    "text": "เปิดมิเตอร์ด้วย",
+    "phonetic": "perd-mi-ter-duay",
+    "translation": "請跳錶計費。",
+    "audioUrl": "/audio/th/th_phrase_023.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_023.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "搭計程車時確保權益。",
+    "ttsText": "เปิดมิเตอร์ด้วย",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_024",
+    "text": "จอดตรงนี้",
+    "phonetic": "jord-trong-nee",
+    "translation": "請停在這裡。",
+    "audioUrl": "/audio/th/th_phrase_024.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "จอดตรงนี้",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_031",
+    "text": "ด่านตรวจคนเข้าเมืองอยู่ที่ไหน?",
+    "phonetic": "dan-truat-khon-khao-mueang-yu-tee-nai",
+    "translation": "入境檢查在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_031.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "ด่านตรวจคนเข้าเมืองอยู่ที่ไหน",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_035",
+    "text": "ไปที่นี่อย่างไร?",
+    "phonetic": "pai-tee-nee-yang-rai",
+    "translation": "要怎麼去這裡呢？",
+    "audioUrl": "/audio/th/th_phrase_035.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "ไปที่นี่อย่างไร",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
+  },
+  {
+    "id": "th_phrase_036",
+    "text": "ลงสถานีหน้า",
+    "phonetic": "long-sa-tha-nee-na",
+    "translation": "我在下一站下車。",
+    "audioUrl": "/audio/th/th_phrase_036.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_036.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "ลงสถานีหน้า",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "hk_phrase_011",
+    "text": "唔使要膠袋。",
+    "phonetic": "m4 sai2 jiu3 gaau1 doi2",
+    "translation": "不需要塑膠袋。",
+    "audioUrl": "/audio/hk/hk_phrase_011.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_011.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "唔使要膠袋",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_012",
+    "text": "收唔收八達通？",
+    "phonetic": "sau1 m4 sau1 baat3 daat6 tung1",
+    "translation": "收八達通嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_012.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_012.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "收唔收八達通",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_013",
+    "text": "幾錢話？",
+    "phonetic": "gei2 cin2 waa2",
+    "translation": "請問多少錢？",
+    "audioUrl": "/audio/hk/hk_phrase_013.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "幾錢話",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_032",
+    "text": "可唔可以俾收據？",
+    "phonetic": "ho2 m4 ho2 ji5 bei2 sau1 geoi3",
+    "translation": "可以給我收據嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_032.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以俾收據",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_047",
+    "text": "淨係收現金？",
+    "phonetic": "zing6 hai6 sau1 jin6 gam1",
+    "translation": "只收現金嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_047.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "淨係收現金",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_048",
+    "text": "可唔可以碌卡？",
+    "phonetic": "ho2 m4 ho2 ji5 luk1 kaat1",
+    "translation": "可以刷卡嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_048.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "life",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以碌卡",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_066",
+    "text": "唔該，俾個袋我。",
+    "phonetic": "m4 goi1, bei2 go3 doi2 ngo5",
+    "translation": "麻煩給我一個袋子。",
+    "audioUrl": "/audio/hk/hk_phrase_066.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 64,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "唔該，俾個袋我",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_067",
+    "text": "咁樣就得㗎喇。",
+    "phonetic": "gam2 joeng6 zau6 dak1 gaa3 laa3",
+    "translation": "這樣就可以了。",
+    "audioUrl": "/audio/hk/hk_phrase_067.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 65,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "咁樣就得㗎喇",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_068",
+    "text": "我冇會員。",
+    "phonetic": "ngo5 mou5 wui6 jyun4",
+    "translation": "我沒有會員。",
+    "audioUrl": "/audio/hk/hk_phrase_068.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "我冇會員",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  },
+  {
+    "id": "hk_phrase_069",
+    "text": "可唔可以分開埋單？",
+    "phonetic": "ho2 m4 ho2 ji5 fan1 hoi1 maai4 daan1",
+    "translation": "可以分開結帳嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_069.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "travel",
+      "store"
+    ],
+    "note": "",
+    "ttsText": "可唔可以分開埋單",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
+  }
+]

@@ -15,7 +15,13 @@
     "note": "女性結尾詞用 kha。",
     "ttsText": "สวัสดี",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_002",
@@ -33,7 +39,13 @@
     "note": "",
     "ttsText": "ขอบคุณ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_003",
@@ -51,7 +63,13 @@
     "note": "",
     "ttsText": "ขอโทษ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_004",
@@ -69,7 +87,13 @@
     "note": "泰國人的口頭禪。",
     "ttsText": "ไม่เป็นไร",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_005",
@@ -87,7 +111,13 @@
     "note": "",
     "ttsText": "ใช่",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_006",
@@ -105,7 +135,13 @@
     "note": "",
     "ttsText": "ยินดีที่ได้รู้จัก",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_007",
@@ -123,25 +159,13 @@
     "note": "女性自稱用 chan。",
     "ttsText": "ฉันเป็นคนไต้หวัน",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "th_phrase_008",
-    "text": "ฉันเป็นวิศวกร",
-    "phonetic": "chan-pen-wit-sa-wa-korn",
-    "translation": "我是工程師。",
-    "audioUrl": "/audio/th/th_phrase_008.mp3",
-    "translationAudioUrl": "/audio/th/th_zh_phrase_008.mp3",
-    "hasAudio": true,
-    "order": 8,
-    "tags": [
-      "intro",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "ฉันเป็นวิศวกร",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_009",
@@ -151,7 +175,7 @@
     "audioUrl": "/audio/th/th_phrase_009.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_009.mp3",
     "hasAudio": true,
-    "order": 9,
+    "order": 8,
     "tags": [
       "chat",
       "basic"
@@ -159,7 +183,13 @@
     "note": "問句結尾用高聲 kha (คะ)。",
     "ttsText": "สบายดีไหม",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_010",
@@ -169,7 +199,7 @@
     "audioUrl": "/audio/th/th_phrase_010.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_010.mp3",
     "hasAudio": true,
-    "order": 10,
+    "order": 9,
     "tags": [
       "travel",
       "airport"
@@ -177,7 +207,13 @@
     "note": "",
     "ttsText": "ที่แลกเงินอยู่ที่ไหน",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_011",
@@ -187,7 +223,7 @@
     "audioUrl": "/audio/th/th_phrase_011.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_011.mp3",
     "hasAudio": true,
-    "order": 11,
+    "order": 10,
     "tags": [
       "travel",
       "hotel"
@@ -195,7 +231,12 @@
     "note": "",
     "ttsText": "ขอเช็คอิน",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "th_phrase_012",
@@ -205,7 +246,7 @@
     "audioUrl": "/audio/th/th_phrase_012.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_012.mp3",
     "hasAudio": true,
-    "order": 12,
+    "order": 11,
     "tags": [
       "travel",
       "hotel"
@@ -213,7 +254,12 @@
     "note": "",
     "ttsText": "ฝากกระเป๋าได้ไหม",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "th_phrase_013",
@@ -223,7 +269,7 @@
     "audioUrl": "/audio/th/th_phrase_013.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_013.mp3",
     "hasAudio": true,
-    "order": 13,
+    "order": 12,
     "tags": [
       "travel",
       "restaurant"
@@ -231,7 +277,13 @@
     "note": "",
     "ttsText": "ขอเมนูภาษาอังกฤษหน่อย",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_014",
@@ -241,7 +293,7 @@
     "audioUrl": "/audio/th/th_phrase_014.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_014.mp3",
     "hasAudio": true,
-    "order": 14,
+    "order": 13,
     "tags": [
       "travel",
       "restaurant"
@@ -249,7 +301,13 @@
     "note": "點餐最實用語句。",
     "ttsText": "เอาอันนี้",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_015",
@@ -259,7 +317,7 @@
     "audioUrl": "/audio/th/th_phrase_015.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_015.mp3",
     "hasAudio": true,
-    "order": 15,
+    "order": 14,
     "tags": [
       "travel",
       "restaurant"
@@ -267,7 +325,13 @@
     "note": "",
     "ttsText": "ไม่เผ็ด",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_016",
@@ -277,7 +341,7 @@
     "audioUrl": "/audio/th/th_phrase_016.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_016.mp3",
     "hasAudio": true,
-    "order": 16,
+    "order": 15,
     "tags": [
       "travel",
       "restaurant"
@@ -285,7 +349,13 @@
     "note": "",
     "ttsText": "ไม่ใส่ผักชี",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_017",
@@ -295,7 +365,7 @@
     "audioUrl": "/audio/th/th_phrase_017.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_017.mp3",
     "hasAudio": true,
-    "order": 17,
+    "order": 16,
     "tags": [
       "travel",
       "restaurant"
@@ -303,7 +373,13 @@
     "note": "",
     "ttsText": "เช็คบิลด้วย",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_018",
@@ -313,7 +389,7 @@
     "audioUrl": "/audio/th/th_phrase_018.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_018.mp3",
     "hasAudio": true,
-    "order": 18,
+    "order": 17,
     "tags": [
       "travel",
       "store"
@@ -321,7 +397,13 @@
     "note": "",
     "ttsText": "เท่าไหร่",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_019",
@@ -331,7 +413,7 @@
     "audioUrl": "/audio/th/th_phrase_019.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_019.mp3",
     "hasAudio": true,
-    "order": 19,
+    "order": 18,
     "tags": [
       "travel",
       "store"
@@ -339,7 +421,13 @@
     "note": "逛市集必備。",
     "ttsText": "ลดหน่อยได้ไหม",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_020",
@@ -349,7 +437,7 @@
     "audioUrl": "/audio/th/th_phrase_020.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_020.mp3",
     "hasAudio": true,
-    "order": 20,
+    "order": 19,
     "tags": [
       "travel",
       "store"
@@ -357,7 +445,13 @@
     "note": "泰國現在流行 QR Code 支付。",
     "ttsText": "สแกนจ่ายได้ไหม",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_021",
@@ -367,7 +461,7 @@
     "audioUrl": "/audio/th/th_phrase_021.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_021.mp3",
     "hasAudio": true,
-    "order": 21,
+    "order": 20,
     "tags": [
       "travel",
       "map"
@@ -375,7 +469,13 @@
     "note": "",
     "ttsText": "ห้องน้ำไปทางไหน",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_022",
@@ -385,7 +485,7 @@
     "audioUrl": "/audio/th/th_phrase_022.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_022.mp3",
     "hasAudio": true,
-    "order": 22,
+    "order": 21,
     "tags": [
       "travel",
       "transport"
@@ -393,7 +493,12 @@
     "note": "",
     "ttsText": "ไปสนามบิน",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_023",
@@ -403,7 +508,7 @@
     "audioUrl": "/audio/th/th_phrase_023.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_023.mp3",
     "hasAudio": true,
-    "order": 23,
+    "order": 22,
     "tags": [
       "travel",
       "transport"
@@ -411,7 +516,12 @@
     "note": "搭計程車時確保權益。",
     "ttsText": "เปิดมิเตอร์ด้วย",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_024",
@@ -421,7 +531,7 @@
     "audioUrl": "/audio/th/th_phrase_024.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_024.mp3",
     "hasAudio": true,
-    "order": 24,
+    "order": 23,
     "tags": [
       "travel",
       "transport"
@@ -429,7 +539,12 @@
     "note": "",
     "ttsText": "จอดตรงนี้",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_025",
@@ -439,7 +554,7 @@
     "audioUrl": "/audio/th/th_phrase_025.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_025.mp3",
     "hasAudio": true,
-    "order": 25,
+    "order": 24,
     "tags": [
       "social",
       "basic"
@@ -447,7 +562,13 @@
     "note": "",
     "ttsText": "พูดช้าๆ หน่อย",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_026",
@@ -457,7 +578,7 @@
     "audioUrl": "/audio/th/th_phrase_026.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_026.mp3",
     "hasAudio": true,
-    "order": 26,
+    "order": 25,
     "tags": [
       "greeting",
       "basic"
@@ -465,7 +586,13 @@
     "note": "",
     "ttsText": "ลาก่อน",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_027",
@@ -475,7 +602,7 @@
     "audioUrl": "/audio/th/th_phrase_027.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_027.mp3",
     "hasAudio": true,
-    "order": 27,
+    "order": 26,
     "tags": [
       "greeting",
       "basic"
@@ -483,7 +610,13 @@
     "note": "較明確的早安說法。",
     "ttsText": "สวัสดีตอนเช้า",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_028",
@@ -493,7 +626,7 @@
     "audioUrl": "/audio/th/th_phrase_028.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_028.mp3",
     "hasAudio": true,
-    "order": 28,
+    "order": 27,
     "tags": [
       "apology",
       "basic"
@@ -501,7 +634,13 @@
     "note": "",
     "ttsText": "ขอโทษจริงๆ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_029",
@@ -511,7 +650,7 @@
     "audioUrl": "/audio/th/th_phrase_029.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_029.mp3",
     "hasAudio": true,
-    "order": 29,
+    "order": 28,
     "tags": [
       "chat",
       "life"
@@ -519,7 +658,13 @@
     "note": "",
     "ttsText": "วันนี้อากาศดีนะ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_030",
@@ -529,7 +674,7 @@
     "audioUrl": "/audio/th/th_phrase_030.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_030.mp3",
     "hasAudio": true,
-    "order": 30,
+    "order": 29,
     "tags": [
       "social",
       "basic"
@@ -537,7 +682,13 @@
     "note": "",
     "ttsText": "เอาแบบนั้น",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_031",
@@ -547,7 +698,7 @@
     "audioUrl": "/audio/th/th_phrase_031.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_031.mp3",
     "hasAudio": true,
-    "order": 31,
+    "order": 30,
     "tags": [
       "travel",
       "airport"
@@ -555,7 +706,13 @@
     "note": "",
     "ttsText": "ด่านตรวจคนเข้าเมืองอยู่ที่ไหน",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_032",
@@ -565,7 +722,7 @@
     "audioUrl": "/audio/th/th_phrase_032.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_032.mp3",
     "hasAudio": true,
-    "order": 32,
+    "order": 31,
     "tags": [
       "travel",
       "hotel"
@@ -573,7 +730,12 @@
     "note": "",
     "ttsText": "อาหารเช้าเริ่มกี่โมง",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "th_phrase_033",
@@ -583,7 +745,7 @@
     "audioUrl": "/audio/th/th_phrase_033.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_033.mp3",
     "hasAudio": true,
-    "order": 33,
+    "order": 32,
     "tags": [
       "travel",
       "restaurant"
@@ -591,7 +753,13 @@
     "note": "",
     "ttsText": "ขอน้ำเปล่า",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_034",
@@ -601,7 +769,7 @@
     "audioUrl": "/audio/th/th_phrase_034.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_034.mp3",
     "hasAudio": true,
-    "order": 34,
+    "order": 33,
     "tags": [
       "travel",
       "store"
@@ -609,7 +777,13 @@
     "note": "",
     "ttsText": "ขอใบเสร็จด้วย",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_035",
@@ -619,7 +793,7 @@
     "audioUrl": "/audio/th/th_phrase_035.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_035.mp3",
     "hasAudio": true,
-    "order": 35,
+    "order": 34,
     "tags": [
       "travel",
       "map"
@@ -627,7 +801,13 @@
     "note": "",
     "ttsText": "ไปที่นี่อย่างไร",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_036",
@@ -637,7 +817,7 @@
     "audioUrl": "/audio/th/th_phrase_036.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_036.mp3",
     "hasAudio": true,
-    "order": 36,
+    "order": 35,
     "tags": [
       "travel",
       "transport"
@@ -645,7 +825,12 @@
     "note": "",
     "ttsText": "ลงสถานีหน้า",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "th_phrase_037",
@@ -655,7 +840,7 @@
     "audioUrl": "/audio/th/th_phrase_037.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_037.mp3",
     "hasAudio": true,
-    "order": 37,
+    "order": 36,
     "tags": [
       "travel",
       "emergency"
@@ -663,7 +848,12 @@
     "note": "",
     "ttsText": "เรียกตำรวจให้หน่อย",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "th_phrase_038",
@@ -673,7 +863,7 @@
     "audioUrl": "/audio/th/th_phrase_038.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_038.mp3",
     "hasAudio": true,
-    "order": 38,
+    "order": 37,
     "tags": [
       "social",
       "basic"
@@ -681,7 +871,13 @@
     "note": "",
     "ttsText": "รอสักครู่นะ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_039",
@@ -691,7 +887,7 @@
     "audioUrl": "/audio/th/th_phrase_039.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_039.mp3",
     "hasAudio": true,
-    "order": 39,
+    "order": 38,
     "tags": [
       "life",
       "chat"
@@ -699,25 +895,13 @@
     "note": "",
     "ttsText": "ตอนนี้ไป",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "th_phrase_040",
-    "text": "ตอนนี้ยุ่งอยู่",
-    "phonetic": "ton-nee yung-yu",
-    "translation": "我現在在忙。",
-    "audioUrl": "/audio/th/th_phrase_040.mp3",
-    "translationAudioUrl": "/audio/th/th_zh_phrase_040.mp3",
-    "hasAudio": true,
-    "order": 40,
-    "tags": [
-      "life",
-      "chat"
-    ],
-    "note": "",
-    "ttsText": "ตอนนี้ยุ่งอยู่",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_041",
@@ -727,7 +911,7 @@
     "audioUrl": "/audio/th/th_phrase_041.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_041.mp3",
     "hasAudio": true,
-    "order": 41,
+    "order": 39,
     "tags": [
       "social",
       "basic"
@@ -735,7 +919,13 @@
     "note": "",
     "ttsText": "ไม่เป็นไร ขอบคุณ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_042",
@@ -745,7 +935,7 @@
     "audioUrl": "/audio/th/th_phrase_042.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_042.mp3",
     "hasAudio": true,
-    "order": 42,
+    "order": 40,
     "tags": [
       "social",
       "basic"
@@ -753,7 +943,13 @@
     "note": "",
     "ttsText": "ตอนนี้ไม่เอา",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_043",
@@ -763,7 +959,7 @@
     "audioUrl": "/audio/th/th_phrase_043.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_043.mp3",
     "hasAudio": true,
-    "order": 43,
+    "order": 41,
     "tags": [
       "life",
       "chat"
@@ -771,7 +967,13 @@
     "note": "",
     "ttsText": "หิวน้ำ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_044",
@@ -781,7 +983,7 @@
     "audioUrl": "/audio/th/th_phrase_044.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_044.mp3",
     "hasAudio": true,
-    "order": 44,
+    "order": 42,
     "tags": [
       "life",
       "chat"
@@ -789,7 +991,13 @@
     "note": "",
     "ttsText": "หิวข้าว",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_045",
@@ -799,7 +1007,7 @@
     "audioUrl": "/audio/th/th_phrase_045.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_045.mp3",
     "hasAudio": true,
-    "order": 45,
+    "order": 43,
     "tags": [
       "life",
       "chat"
@@ -807,7 +1015,13 @@
     "note": "",
     "ttsText": "เหนื่อย",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_046",
@@ -817,7 +1031,7 @@
     "audioUrl": "/audio/th/th_phrase_046.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_046.mp3",
     "hasAudio": true,
-    "order": 46,
+    "order": 44,
     "tags": [
       "life",
       "chat"
@@ -825,7 +1039,13 @@
     "note": "",
     "ttsText": "ง่วง",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_047",
@@ -835,7 +1055,7 @@
     "audioUrl": "/audio/th/th_phrase_047.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 45,
     "tags": [
       "life",
       "health"
@@ -843,7 +1063,13 @@
     "note": "",
     "ttsText": "ไม่ค่อยสบาย",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_048",
@@ -853,7 +1079,7 @@
     "audioUrl": "/audio/th/th_phrase_048.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 46,
     "tags": [
       "life",
       "device"
@@ -861,7 +1087,13 @@
     "note": "",
     "ttsText": "โทรศัพท์แบตหมด",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_049",
@@ -871,7 +1103,7 @@
     "audioUrl": "/audio/th/th_phrase_049.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 47,
     "tags": [
       "life",
       "store"
@@ -879,7 +1111,13 @@
     "note": "",
     "ttsText": "รับแต่เงินสดใช่ไหม",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_050",
@@ -889,7 +1127,7 @@
     "audioUrl": "/audio/th/th_phrase_050.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_050.mp3",
     "hasAudio": true,
-    "order": 50,
+    "order": 48,
     "tags": [
       "life",
       "store"
@@ -897,7 +1135,13 @@
     "note": "",
     "ttsText": "ใช้บัตรได้ไหม",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_051",
@@ -907,7 +1151,7 @@
     "audioUrl": "/audio/th/th_phrase_051.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 49,
     "tags": [
       "chat",
       "life"
@@ -915,25 +1159,13 @@
     "note": "",
     "ttsText": "ตอนนี้ทำอะไรอยู่",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "th_phrase_052",
-    "text": "ตอนนี้อยู่บ้าน",
-    "phonetic": "ton-nee yu-ban",
-    "translation": "我現在在家。",
-    "audioUrl": "/audio/th/th_phrase_052.mp3",
-    "translationAudioUrl": "/audio/th/th_zh_phrase_052.mp3",
-    "hasAudio": true,
-    "order": 52,
-    "tags": [
-      "chat",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "ตอนนี้อยู่บ้าน",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_053",
@@ -943,7 +1175,7 @@
     "audioUrl": "/audio/th/th_phrase_053.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 50,
     "tags": [
       "chat",
       "social"
@@ -951,7 +1183,13 @@
     "note": "",
     "ttsText": "เดี๋ยวติดต่อไปนะ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_054",
@@ -961,7 +1199,7 @@
     "audioUrl": "/audio/th/th_phrase_054.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 51,
     "tags": [
       "chat",
       "social"
@@ -969,7 +1207,13 @@
     "note": "",
     "ttsText": "ไปด้วยกันไหม",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_055",
@@ -979,7 +1223,7 @@
     "audioUrl": "/audio/th/th_phrase_055.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 52,
     "tags": [
       "chat",
       "restaurant"
@@ -987,7 +1231,13 @@
     "note": "",
     "ttsText": "อยากกินอะไร",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_056",
@@ -997,7 +1247,7 @@
     "audioUrl": "/audio/th/th_phrase_056.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_056.mp3",
     "hasAudio": true,
-    "order": 56,
+    "order": 53,
     "tags": [
       "travel",
       "restaurant"
@@ -1005,7 +1255,13 @@
     "note": "",
     "ttsText": "เมนูแนะนำคืออะไร",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_057",
@@ -1015,7 +1271,7 @@
     "audioUrl": "/audio/th/th_phrase_057.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_057.mp3",
     "hasAudio": true,
-    "order": 57,
+    "order": 54,
     "tags": [
       "travel",
       "restaurant"
@@ -1023,7 +1279,13 @@
     "note": "",
     "ttsText": "อันนี้เผ็ดไหม",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_058",
@@ -1033,7 +1295,7 @@
     "audioUrl": "/audio/th/th_phrase_058.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_058.mp3",
     "hasAudio": true,
-    "order": 58,
+    "order": 55,
     "tags": [
       "travel",
       "restaurant"
@@ -1041,7 +1303,13 @@
     "note": "",
     "ttsText": "ใส่กล่องกลับบ้านได้ไหม",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_059",
@@ -1051,7 +1319,7 @@
     "audioUrl": "/audio/th/th_phrase_059.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 56,
     "tags": [
       "travel",
       "restaurant"
@@ -1059,7 +1327,13 @@
     "note": "",
     "ttsText": "ขอกาแฟหนึ่งแก้ว",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_060",
@@ -1069,7 +1343,7 @@
     "audioUrl": "/audio/th/th_phrase_060.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_060.mp3",
     "hasAudio": true,
-    "order": 60,
+    "order": 57,
     "tags": [
       "life",
       "health"
@@ -1077,7 +1351,13 @@
     "note": "",
     "ttsText": "ยาแบบไหนดี",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_061",
@@ -1087,7 +1367,7 @@
     "audioUrl": "/audio/th/th_phrase_061.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 58,
     "tags": [
       "chat",
       "social"
@@ -1095,7 +1375,13 @@
     "note": "",
     "ttsText": "ตอนนี้อยู่ไหน",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_062",
@@ -1105,7 +1391,7 @@
     "audioUrl": "/audio/th/th_phrase_062.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 59,
     "tags": [
       "chat",
       "social"
@@ -1113,7 +1399,13 @@
     "note": "",
     "ttsText": "ตอนนี้กำลังไป",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_063",
@@ -1123,7 +1415,7 @@
     "audioUrl": "/audio/th/th_phrase_063.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_063.mp3",
     "hasAudio": true,
-    "order": 63,
+    "order": 60,
     "tags": [
       "chat",
       "social"
@@ -1131,7 +1423,13 @@
     "note": "",
     "ttsText": "อาจจะไปช้านิดหน่อย",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_064",
@@ -1141,7 +1439,7 @@
     "audioUrl": "/audio/th/th_phrase_064.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_064.mp3",
     "hasAudio": true,
-    "order": 64,
+    "order": 61,
     "tags": [
       "chat",
       "social"
@@ -1149,7 +1447,13 @@
     "note": "",
     "ttsText": "ถึงแล้วจะติดต่อไป",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_065",
@@ -1159,7 +1463,7 @@
     "audioUrl": "/audio/th/th_phrase_065.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_065.mp3",
     "hasAudio": true,
-    "order": 65,
+    "order": 62,
     "tags": [
       "chat",
       "social"
@@ -1167,7 +1471,13 @@
     "note": "",
     "ttsText": "โอเคไหม",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_066",
@@ -1177,7 +1487,7 @@
     "audioUrl": "/audio/th/th_phrase_066.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_066.mp3",
     "hasAudio": true,
-    "order": 66,
+    "order": 63,
     "tags": [
       "chat",
       "social"
@@ -1185,7 +1495,13 @@
     "note": "",
     "ttsText": "ไว้เจอกันคราวหน้านะ",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_067",
@@ -1195,7 +1511,7 @@
     "audioUrl": "/audio/th/th_phrase_067.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_067.mp3",
     "hasAudio": true,
-    "order": 67,
+    "order": 64,
     "tags": [
       "chat",
       "social"
@@ -1203,7 +1519,13 @@
     "note": "",
     "ttsText": "พรุ่งนี้ว่างไหม",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "th_phrase_068",
@@ -1213,7 +1535,7 @@
     "audioUrl": "/audio/th/th_phrase_068.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 65,
     "tags": [
       "travel",
       "restaurant"
@@ -1221,7 +1543,13 @@
     "note": "",
     "ttsText": "ขออเมริกาโน่เย็นหนึ่งแก้ว",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_069",
@@ -1231,7 +1559,7 @@
     "audioUrl": "/audio/th/th_phrase_069.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 66,
     "tags": [
       "travel",
       "restaurant"
@@ -1239,7 +1567,13 @@
     "note": "內用。",
     "ttsText": "กินที่นี่",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_070",
@@ -1249,7 +1583,7 @@
     "audioUrl": "/audio/th/th_phrase_070.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_070.mp3",
     "hasAudio": true,
-    "order": 70,
+    "order": 67,
     "tags": [
       "travel",
       "restaurant"
@@ -1257,7 +1591,13 @@
     "note": "",
     "ttsText": "เอากลับ",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_071",
@@ -1267,7 +1607,7 @@
     "audioUrl": "/audio/th/th_phrase_071.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_071.mp3",
     "hasAudio": true,
-    "order": 71,
+    "order": 68,
     "tags": [
       "travel",
       "restaurant"
@@ -1275,7 +1615,13 @@
     "note": "店員常用句。",
     "ttsText": "เอาแบบร้อนหรือเย็น",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "th_phrase_072",
@@ -1285,7 +1631,7 @@
     "audioUrl": "/audio/th/th_phrase_072.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_072.mp3",
     "hasAudio": true,
-    "order": 72,
+    "order": 69,
     "tags": [
       "travel",
       "store"
@@ -1293,7 +1639,13 @@
     "note": "",
     "ttsText": "ขอถุง",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_073",
@@ -1303,7 +1655,7 @@
     "audioUrl": "/audio/th/th_phrase_073.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_073.mp3",
     "hasAudio": true,
-    "order": 73,
+    "order": 70,
     "tags": [
       "travel",
       "store"
@@ -1311,7 +1663,13 @@
     "note": "",
     "ttsText": "แบบนี้ก็ได้",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_074",
@@ -1321,7 +1679,7 @@
     "audioUrl": "/audio/th/th_phrase_074.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_074.mp3",
     "hasAudio": true,
-    "order": 74,
+    "order": 71,
     "tags": [
       "travel",
       "store"
@@ -1329,7 +1687,13 @@
     "note": "",
     "ttsText": "ไม่มีสมาชิก",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_075",
@@ -1339,7 +1703,7 @@
     "audioUrl": "/audio/th/th_phrase_075.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_075.mp3",
     "hasAudio": true,
-    "order": 75,
+    "order": 72,
     "tags": [
       "travel",
       "store"
@@ -1347,7 +1711,13 @@
     "note": "",
     "ttsText": "แยกจ่ายได้ไหม",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "th_phrase_076",
@@ -1357,7 +1727,7 @@
     "audioUrl": "/audio/th/th_phrase_076.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_076.mp3",
     "hasAudio": false,
-    "order": 76,
+    "order": 73,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1365,7 +1735,12 @@
     "note": "",
     "ttsText": "เข้าใจ",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "th_phrase_077",
@@ -1375,7 +1750,7 @@
     "audioUrl": "/audio/th/th_phrase_077.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_077.mp3",
     "hasAudio": false,
-    "order": 77,
+    "order": 74,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1383,7 +1758,12 @@
     "note": "",
     "ttsText": "ชื่ออะไร",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "th_phrase_078",
@@ -1393,7 +1773,7 @@
     "audioUrl": "/audio/th/th_phrase_078.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_078.mp3",
     "hasAudio": false,
-    "order": 78,
+    "order": 75,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1401,7 +1781,12 @@
     "note": "",
     "ttsText": "ฝันดี",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "th_phrase_079",
@@ -1411,7 +1796,7 @@
     "audioUrl": "/audio/th/th_phrase_079.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_079.mp3",
     "hasAudio": false,
-    "order": 79,
+    "order": 76,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1419,7 +1804,12 @@
     "note": "",
     "ttsText": "ไม่เป็นปัญหา",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "th_phrase_080",
@@ -1429,7 +1819,7 @@
     "audioUrl": "/audio/th/th_phrase_080.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_080.mp3",
     "hasAudio": false,
-    "order": 80,
+    "order": 77,
     "tags": [
       "basic",
       "questions"
@@ -1437,7 +1827,12 @@
     "note": "",
     "ttsText": "อะไร",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_081",
@@ -1447,7 +1842,7 @@
     "audioUrl": "/audio/th/th_phrase_081.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_081.mp3",
     "hasAudio": false,
-    "order": 81,
+    "order": 78,
     "tags": [
       "basic",
       "questions"
@@ -1455,7 +1850,12 @@
     "note": "",
     "ttsText": "ที่ไหน",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_082",
@@ -1465,7 +1865,7 @@
     "audioUrl": "/audio/th/th_phrase_082.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_082.mp3",
     "hasAudio": false,
-    "order": 82,
+    "order": 79,
     "tags": [
       "basic",
       "questions"
@@ -1473,7 +1873,12 @@
     "note": "",
     "ttsText": "เมื่อไหร่",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_083",
@@ -1483,7 +1888,7 @@
     "audioUrl": "/audio/th/th_phrase_083.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_083.mp3",
     "hasAudio": false,
-    "order": 83,
+    "order": 80,
     "tags": [
       "basic",
       "questions"
@@ -1491,7 +1896,12 @@
     "note": "",
     "ttsText": "ทำไม",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_084",
@@ -1501,7 +1911,7 @@
     "audioUrl": "/audio/th/th_phrase_084.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_084.mp3",
     "hasAudio": false,
-    "order": 84,
+    "order": 81,
     "tags": [
       "basic",
       "questions"
@@ -1509,7 +1919,12 @@
     "note": "",
     "ttsText": "อย่างไร",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_085",
@@ -1519,7 +1934,7 @@
     "audioUrl": "/audio/th/th_phrase_085.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_085.mp3",
     "hasAudio": false,
-    "order": 85,
+    "order": 82,
     "tags": [
       "basic",
       "questions"
@@ -1527,7 +1942,12 @@
     "note": "",
     "ttsText": "ใช่ไหม",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_086",
@@ -1537,7 +1957,7 @@
     "audioUrl": "/audio/th/th_phrase_086.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_086.mp3",
     "hasAudio": false,
-    "order": 86,
+    "order": 83,
     "tags": [
       "basic",
       "questions"
@@ -1545,7 +1965,12 @@
     "note": "",
     "ttsText": "ได้ไหม",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_087",
@@ -1555,7 +1980,7 @@
     "audioUrl": "/audio/th/th_phrase_087.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_087.mp3",
     "hasAudio": false,
-    "order": 87,
+    "order": 84,
     "tags": [
       "basic",
       "questions"
@@ -1563,7 +1988,12 @@
     "note": "",
     "ttsText": "จริงเหรอ",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_088",
@@ -1573,7 +2003,7 @@
     "audioUrl": "/audio/th/th_phrase_088.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_088.mp3",
     "hasAudio": false,
-    "order": 88,
+    "order": 85,
     "tags": [
       "basic",
       "questions"
@@ -1581,7 +2011,12 @@
     "note": "",
     "ttsText": "ใช่หรือเปล่า",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_089",
@@ -1591,7 +2026,7 @@
     "audioUrl": "/audio/th/th_phrase_089.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_089.mp3",
     "hasAudio": false,
-    "order": 89,
+    "order": 86,
     "tags": [
       "basic",
       "questions"
@@ -1599,7 +2034,12 @@
     "note": "",
     "ttsText": "ของใคร",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_090",
@@ -1609,7 +2049,7 @@
     "audioUrl": "/audio/th/th_phrase_090.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_090.mp3",
     "hasAudio": false,
-    "order": 90,
+    "order": 87,
     "tags": [
       "basic",
       "questions"
@@ -1617,7 +2057,12 @@
     "note": "",
     "ttsText": "หมายความว่าอะไร",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_091",
@@ -1627,7 +2072,7 @@
     "audioUrl": "/audio/th/th_phrase_091.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_091.mp3",
     "hasAudio": false,
-    "order": 91,
+    "order": 88,
     "tags": [
       "basic",
       "questions"
@@ -1635,7 +2080,12 @@
     "note": "",
     "ttsText": "พูดว่าอะไรนะ",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "th_phrase_092",
@@ -1645,7 +2095,7 @@
     "audioUrl": "/audio/th/th_phrase_092.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_092.mp3",
     "hasAudio": false,
-    "order": 92,
+    "order": 89,
     "tags": [
       "basic",
       "adjectives_feelings"
@@ -1653,7 +2103,12 @@
     "note": "",
     "ttsText": "พร้อม",
     "status": "published",
-    "category": "adjectives_feelings"
+    "category": "adjectives_feelings",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#adjectives_feelings"
+    ]
   },
   {
     "id": "th_phrase_093",
@@ -1663,7 +2118,7 @@
     "audioUrl": "/audio/th/th_phrase_093.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_093.mp3",
     "hasAudio": false,
-    "order": 93,
+    "order": 90,
     "tags": [
       "basic",
       "adjectives_feelings"
@@ -1671,7 +2126,12 @@
     "note": "",
     "ttsText": "สบาย",
     "status": "published",
-    "category": "adjectives_feelings"
+    "category": "adjectives_feelings",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#adjectives_feelings"
+    ]
   },
   {
     "id": "th_phrase_094",
@@ -1681,7 +2141,7 @@
     "audioUrl": "/audio/th/th_phrase_094.mp3",
     "translationAudioUrl": "/audio/th/th_zh_phrase_094.mp3",
     "hasAudio": false,
-    "order": 94,
+    "order": 91,
     "tags": [
       "basic",
       "restaurant_transportation"
@@ -1689,6 +2149,80 @@
     "note": "",
     "ttsText": "อิ่มแล้ว",
     "status": "published",
-    "category": "restaurant_transportation"
+    "category": "restaurant_transportation",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#restaurant_transportation"
+    ]
+  },
+  {
+    "id": "th_phrase_095",
+    "text": "เผ็ดน้อย",
+    "phonetic": "phet noi",
+    "translation": "微辣。",
+    "audioUrl": "/audio/th/th_phrase_095.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_095.mp3",
+    "hasAudio": false,
+    "order": 92,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "เผ็ดน้อย",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_096",
+    "text": "ไม่ใส่น้ำแข็ง",
+    "phonetic": "mai sai nam khaeng",
+    "translation": "去冰。",
+    "audioUrl": "/audio/th/th_phrase_096.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_096.mp3",
+    "hasAudio": false,
+    "order": 93,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใส่น้ำแข็ง",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_097",
+    "text": "ถ่ายรูปให้หน่อยได้ไหม",
+    "phonetic": "thai rup hai noi dai mai",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/th/th_phrase_097.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_097.mp3",
+    "hasAudio": false,
+    "order": 94,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "ถ่ายรูปให้หน่อยได้ไหม",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
   }
 ]

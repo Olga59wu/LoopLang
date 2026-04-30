@@ -1,0 +1,408 @@
+[
+  {
+    "id": "th_phrase_013",
+    "text": "ขอเมนูภาษาอังกฤษหน่อย",
+    "phonetic": "khor-me-nu-pha-sa-ang-grit-noi",
+    "translation": "請給我英文菜單。",
+    "audioUrl": "/audio/th/th_phrase_013.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_013.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอเมนูภาษาอังกฤษหน่อย",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_014",
+    "text": "เอาอันนี้",
+    "phonetic": "ao-an-nee",
+    "translation": "我要這個。",
+    "audioUrl": "/audio/th/th_phrase_014.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "點餐最實用語句。",
+    "ttsText": "เอาอันนี้",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_015",
+    "text": "ไม่เผ็ด",
+    "phonetic": "mai-phed",
+    "translation": "不加辣。",
+    "audioUrl": "/audio/th/th_phrase_015.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ไม่เผ็ด",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_016",
+    "text": "ไม่ใส่ผักชี",
+    "phonetic": "mai-sai-phak-chee",
+    "translation": "不加香菜。",
+    "audioUrl": "/audio/th/th_phrase_016.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_016.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใส่ผักชี",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_017",
+    "text": "เช็คบิลด้วย",
+    "phonetic": "check-bill-duay",
+    "translation": "請結帳。",
+    "audioUrl": "/audio/th/th_phrase_017.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_017.mp3",
+    "hasAudio": true,
+    "order": 16,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เช็คบิลด้วย",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_033",
+    "text": "ขอน้ำเปล่า",
+    "phonetic": "khor-nam-plao",
+    "translation": "請給我白開水。",
+    "audioUrl": "/audio/th/th_phrase_033.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอน้ำเปล่า",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_055",
+    "text": "อยากกินอะไร?",
+    "phonetic": "yak-gin-a-rai",
+    "translation": "你想吃什麼？",
+    "audioUrl": "/audio/th/th_phrase_055.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 52,
+    "tags": [
+      "chat",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "อยากกินอะไร",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_056",
+    "text": "เมนูแนะนำคืออะไร?",
+    "phonetic": "me-nu nae-nam kheu a-rai",
+    "translation": "推薦的餐點是什麼？",
+    "audioUrl": "/audio/th/th_phrase_056.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_056.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เมนูแนะนำคืออะไร",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_057",
+    "text": "อันนี้เผ็ดไหม?",
+    "phonetic": "an-nee phed mai",
+    "translation": "這個會辣嗎？",
+    "audioUrl": "/audio/th/th_phrase_057.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 54,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "อันนี้เผ็ดไหม",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_058",
+    "text": "ใส่กล่องกลับบ้านได้ไหม?",
+    "phonetic": "sai-glong-glap-ban dai mai",
+    "translation": "可以打包外帶嗎？",
+    "audioUrl": "/audio/th/th_phrase_058.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 55,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ใส่กล่องกลับบ้านได้ไหม",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_059",
+    "text": "ขอกาแฟหนึ่งแก้ว",
+    "phonetic": "khor-ga-fae neung-kaew",
+    "translation": "請給我一杯咖啡。",
+    "audioUrl": "/audio/th/th_phrase_059.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 56,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขอกาแฟหนึ่งแก้ว",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_068",
+    "text": "ขออเมริกาโน่เย็นหนึ่งแก้ว",
+    "phonetic": "khor a-me-ri-ga-no yen neung-kaew",
+    "translation": "請給我一杯冰美式。",
+    "audioUrl": "/audio/th/th_phrase_068.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 65,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "ขออเมริกาโน่เย็นหนึ่งแก้ว",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_069",
+    "text": "กินที่นี่",
+    "phonetic": "gin tee-nee",
+    "translation": "我要在這裡用。",
+    "audioUrl": "/audio/th/th_phrase_069.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "內用。",
+    "ttsText": "กินที่นี่",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_070",
+    "text": "เอากลับ",
+    "phonetic": "ao-glap",
+    "translation": "我要外帶。",
+    "audioUrl": "/audio/th/th_phrase_070.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "เอากลับ",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_071",
+    "text": "เอาแบบร้อนหรือเย็น?",
+    "phonetic": "ao baep ron rue yen",
+    "translation": "要熱的還是冰的呢？",
+    "audioUrl": "/audio/th/th_phrase_071.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 68,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "店員常用句。",
+    "ttsText": "เอาแบบร้อนหรือเย็น",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_095",
+    "text": "เผ็ดน้อย",
+    "phonetic": "phet noi",
+    "translation": "微辣。",
+    "audioUrl": "/audio/th/th_phrase_095.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_095.mp3",
+    "hasAudio": false,
+    "order": 92,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "เผ็ดน้อย",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  },
+  {
+    "id": "th_phrase_096",
+    "text": "ไม่ใส่น้ำแข็ง",
+    "phonetic": "mai sai nam khaeng",
+    "translation": "去冰。",
+    "audioUrl": "/audio/th/th_phrase_096.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_096.mp3",
+    "hasAudio": false,
+    "order": 93,
+    "tags": [
+      "travel",
+      "dining"
+    ],
+    "note": "",
+    "ttsText": "ไม่ใส่น้ำแข็ง",
+    "status": "published",
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#dining"
+    ]
+  }
+]

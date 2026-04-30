@@ -21,6 +21,13 @@
 <body class="mx-auto max-w-md pb-20 selection:bg-indigo-100 bg-slate-50/50">
   <div id="app" class="breathing-container" v-cloak>
     
+    <!-- 錯誤通知彈窗 (Toast) -->
+    <div v-show="errorMessage"
+      class="fixed top-20 left-1/2 -translate-x-1/2 z-[100] px-6 py-3 rounded-full bg-rose-500/95 backdrop-blur-md text-white shadow-2xl text-sm font-bold tracking-wide pointer-events-none transition-opacity duration-300"
+      :class="errorMessage ? 'opacity-100' : 'opacity-0'">
+      {{ errorMessage }}
+    </div>
+
     <!-- 登入閘門 (Auth Gate) -->
     <div v-if="!isAuthResolved" class="fixed inset-0 bg-slate-50 flex items-center justify-center z-50">
       <div class="animate-pulse text-slate-400 font-bold tracking-widest text-sm">LOADING...</div>
@@ -133,12 +140,12 @@
         const isLoggedIn = ref(false);
         const isLoggingIn = ref(false);
         const authUser = ref(null);
+        const catalog = ref([]);
+        const recent = ref(null);
+        const errorMessage = ref('');
         const useCloudAudio = ref(true);
         const isMobile = ref(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent));
         
-        const recent = ref(null);
-        const catalog = ref([]);
-
         const recentLabel = computed(() => {
           if (!recent.value || catalog.value.length === 0) return '';
           const l = catalog.value.find(c => c.lang === recent.value.lang);
@@ -197,7 +204,8 @@
           try {
             await FirebaseService.loginWithGoogle();
           } catch(e) {
-            alert('登入失敗，請重試');
+            errorMessage.value = '登入失敗，請重試';
+            setTimeout(() => errorMessage.value = '', 3000);
           } finally {
             isLoggingIn.value = false;
           }
@@ -209,7 +217,7 @@
         const goSettings = () => RouterHelpers.navigateToSettings();
 
         return {
-          isAuthResolved, isLoggedIn, isLoggingIn, authUser, login,
+          isAuthResolved, isLoggedIn, isLoggingIn, authUser, login, errorMessage,
           catalog, recent, recentLabel, useCloudAudio, toggleCloud,
           goTopics, continueLearning, goLearned, goFavorites, goSettings, isMobile
         };

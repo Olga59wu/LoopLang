@@ -1,0 +1,842 @@
+[
+  {
+    "id": "th_phrase_001",
+    "text": "สวัสดี",
+    "phonetic": "sa-wat-dee",
+    "translation": "你好。",
+    "audioUrl": "/audio/th/th_phrase_001.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "女性結尾詞用 kha。",
+    "ttsText": "สวัสดี",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_002",
+    "text": "ขอบคุณ",
+    "phonetic": "khob-khun",
+    "translation": "謝謝。",
+    "audioUrl": "/audio/th/th_phrase_002.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอบคุณ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_003",
+    "text": "ขอโทษ",
+    "phonetic": "khor-thot",
+    "translation": "對不起 / 不好意思。",
+    "audioUrl": "/audio/th/th_phrase_003.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_004",
+    "text": "ไม่เป็นไร",
+    "phonetic": "mai-pen-rai",
+    "translation": "沒關係。",
+    "audioUrl": "/audio/th/th_phrase_004.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "泰國人的口頭禪。",
+    "ttsText": "ไม่เป็นไร",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_005",
+    "text": "ใช่ / ไม่ใช่",
+    "phonetic": "chai / mai-chai",
+    "translation": "是 / 不是。",
+    "audioUrl": "/audio/th/th_phrase_005.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_005.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ใช่",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_006",
+    "text": "ยินดีที่ได้รู้จัก",
+    "phonetic": "yin-dee-tee-dai-roo-jak",
+    "translation": "很高興認識你。",
+    "audioUrl": "/audio/th/th_phrase_006.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ยินดีที่ได้รู้จัก",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_007",
+    "text": "ฉันเป็นคนไต้หวัน",
+    "phonetic": "chan-pen-khon-tai-wan",
+    "translation": "我是台灣人。",
+    "audioUrl": "/audio/th/th_phrase_007.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "女性自稱用 chan。",
+    "ttsText": "ฉันเป็นคนไต้หวัน",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_009",
+    "text": "สบายดีไหม?",
+    "phonetic": "sa-bai-dee-mai",
+    "translation": "你好嗎？",
+    "audioUrl": "/audio/th/th_phrase_009.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "chat",
+      "basic"
+    ],
+    "note": "問句結尾用高聲 kha (คะ)。",
+    "ttsText": "สบายดีไหม",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_025",
+    "text": "พูดช้าๆ หน่อย",
+    "phonetic": "poot-cha-cha-noi",
+    "translation": "請講慢一點。",
+    "audioUrl": "/audio/th/th_phrase_025.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "พูดช้าๆ หน่อย",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_026",
+    "text": "ลาก่อน",
+    "phonetic": "la-gon",
+    "translation": "再見。",
+    "audioUrl": "/audio/th/th_phrase_026.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_026.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ลาก่อน",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_027",
+    "text": "สวัสดีตอนเช้า",
+    "phonetic": "sa-wat-dee-ton-chao",
+    "translation": "早安。",
+    "audioUrl": "/audio/th/th_phrase_027.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_027.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "較明確的早安說法。",
+    "ttsText": "สวัสดีตอนเช้า",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_028",
+    "text": "ขอโทษจริงๆ",
+    "phonetic": "khor-thot jing-jing",
+    "translation": "真的很抱歉。",
+    "audioUrl": "/audio/th/th_phrase_028.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_028.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษจริงๆ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_029",
+    "text": "วันนี้อากาศดีนะ",
+    "phonetic": "wan-nee aa-gat dee na",
+    "translation": "今天天氣很好呢。",
+    "audioUrl": "/audio/th/th_phrase_029.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "วันนี้อากาศดีนะ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_030",
+    "text": "เอาแบบนั้น",
+    "phonetic": "ao-baep-nan",
+    "translation": "那就照那樣吧。",
+    "audioUrl": "/audio/th/th_phrase_030.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "เอาแบบนั้น",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_038",
+    "text": "รอสักครู่นะ",
+    "phonetic": "ror-sak-kru na",
+    "translation": "請等一下。",
+    "audioUrl": "/audio/th/th_phrase_038.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "รอสักครู่นะ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_039",
+    "text": "ตอนนี้ไป",
+    "phonetic": "ton-nee pai",
+    "translation": "我現在過去 / 馬上去。",
+    "audioUrl": "/audio/th/th_phrase_039.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ไป",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_041",
+    "text": "ไม่เป็นไร ขอบคุณ",
+    "phonetic": "mai-pen-rai, khob-khun",
+    "translation": "沒關係，謝謝。",
+    "audioUrl": "/audio/th/th_phrase_041.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_041.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นไร ขอบคุณ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_042",
+    "text": "ตอนนี้ไม่เอา",
+    "phonetic": "ton-nee mai-ao",
+    "translation": "現在先不用。",
+    "audioUrl": "/audio/th/th_phrase_042.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_042.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ไม่เอา",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_043",
+    "text": "หิวน้ำ",
+    "phonetic": "hiu-nam",
+    "translation": "我口渴了。",
+    "audioUrl": "/audio/th/th_phrase_043.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "หิวน้ำ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_044",
+    "text": "หิวข้าว",
+    "phonetic": "hiu-khao",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/audio/th/th_phrase_044.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_044.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "หิวข้าว",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_045",
+    "text": "เหนื่อย",
+    "phonetic": "neuay",
+    "translation": "我累了。",
+    "audioUrl": "/audio/th/th_phrase_045.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "เหนื่อย",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_046",
+    "text": "ง่วง",
+    "phonetic": "nguang",
+    "translation": "我想睡了。",
+    "audioUrl": "/audio/th/th_phrase_046.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_046.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "ง่วง",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_047",
+    "text": "ไม่ค่อยสบาย",
+    "phonetic": "mai-khoi-sa-bai",
+    "translation": "我不太舒服。",
+    "audioUrl": "/audio/th/th_phrase_047.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ไม่ค่อยสบาย",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_048",
+    "text": "โทรศัพท์แบตหมด",
+    "phonetic": "tho-ra-sap baet mot",
+    "translation": "我手機沒電了。",
+    "audioUrl": "/audio/th/th_phrase_048.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "โทรศัพท์แบตหมด",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_051",
+    "text": "ตอนนี้ทำอะไรอยู่?",
+    "phonetic": "ton-nee tham-a-rai yu",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/audio/th/th_phrase_051.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้ทำอะไรอยู่",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_053",
+    "text": "เดี๋ยวติดต่อไปนะ",
+    "phonetic": "diao-tit-to-pai na",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/audio/th/th_phrase_053.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวติดต่อไปนะ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_054",
+    "text": "ไปด้วยกันไหม?",
+    "phonetic": "pai-duay-gan mai",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/audio/th/th_phrase_054.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 51,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ไปด้วยกันไหม",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_060",
+    "text": "ยาแบบไหนดี?",
+    "phonetic": "ya-baep-dai dee",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/audio/th/th_phrase_060.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_060.mp3",
+    "hasAudio": true,
+    "order": 57,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "ยาแบบไหนดี",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_061",
+    "text": "ตอนนี้อยู่ไหน?",
+    "phonetic": "ton-nee yu-nai",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/audio/th/th_phrase_061.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 58,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้อยู่ไหน",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_062",
+    "text": "ตอนนี้กำลังไป",
+    "phonetic": "ton-nee gam-lang pai",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/audio/th/th_phrase_062.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 59,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ตอนนี้กำลังไป",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_063",
+    "text": "อาจจะไปช้านิดหน่อย",
+    "phonetic": "at-ja pai-cha nit-noi",
+    "translation": "我可能會晚一點到。",
+    "audioUrl": "/audio/th/th_phrase_063.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_063.mp3",
+    "hasAudio": true,
+    "order": 60,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "อาจจะไปช้านิดหน่อย",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_064",
+    "text": "ถึงแล้วจะติดต่อไป",
+    "phonetic": "thueng-laeo ja tit-to pai",
+    "translation": "我到了再聯絡你。",
+    "audioUrl": "/audio/th/th_phrase_064.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 61,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ถึงแล้วจะติดต่อไป",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_065",
+    "text": "โอเคไหม?",
+    "phonetic": "o-kay mai",
+    "translation": "你還好嗎？ / 可以嗎？",
+    "audioUrl": "/audio/th/th_phrase_065.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 62,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "โอเคไหม",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_066",
+    "text": "ไว้เจอกันคราวหน้านะ",
+    "phonetic": "wai jer-gan krao-na na",
+    "translation": "下次再見喔。",
+    "audioUrl": "/audio/th/th_phrase_066.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 63,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "ไว้เจอกันคราวหน้านะ",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "th_phrase_067",
+    "text": "พรุ่งนี้ว่างไหม?",
+    "phonetic": "phrung-nee wang mai",
+    "translation": "你明天有空嗎？",
+    "audioUrl": "/audio/th/th_phrase_067.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 64,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "พรุ่งนี้ว่างไหม",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  }
+]

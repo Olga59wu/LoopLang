@@ -1,0 +1,25 @@
+[
+  {
+    "id": "jp_phrase_095",
+    "text": "[写真|しゃしん]を[撮|と]ってもらえませんか？",
+    "phonetic": "shashin o totte moraemasen ka",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_095.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_095.mp3",
+    "hasAudio": false,
+    "order": 92,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "写真を撮ってもらえませんか",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
+  }
+]

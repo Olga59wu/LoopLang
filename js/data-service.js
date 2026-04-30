@@ -21,23 +21,23 @@ export const DataService = {
     }
   },
 
-  /**
-   * 取得單一主題的完整句子庫
-   * @param {string} lang - 語言代碼 (例如：jp, th)
-   * @param {string} topicSlug - 主題識別碼 (例如：greetings)
-   * @returns {Promise<Array>} 該主題對應的句子陣列
-   */
   async getTopicData(lang, topicSlug) {
     try {
-      const resp = await fetch(`/data/${lang}.json`);
-      if (!resp.ok) throw new Error('Failed to fetch topic data');
-      const allData = await resp.json();
-
       if (topicSlug === 'all') {
-        return allData;
+        const resp = await fetch(`/data/${lang}.json`);
+        if (!resp.ok) throw new Error('Failed to fetch all data');
+        return await resp.json();
       }
 
-      return allData.filter(item => item.category === topicSlug);
+      const resp = await fetch(`/data/${lang}_${topicSlug}.json`);
+      if (!resp.ok) {
+        console.warn(`[DataService] Split file not found for ${lang}_${topicSlug}, falling back to full json.`);
+        const fallbackResp = await fetch(`/data/${lang}.json`);
+        if (!fallbackResp.ok) throw new Error('Failed to fetch fallback data');
+        const allData = await fallbackResp.json();
+        return allData.filter(item => item.category === topicSlug);
+      }
+      return await resp.json();
     } catch (error) {
       console.error(`[DataService] getTopicData error (${lang}/${topicSlug}):`, error);
       return [];

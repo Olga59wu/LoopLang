@@ -1,0 +1,26 @@
+[
+  {
+    "id": "jp_phrase_092",
+    "text": "[注文|ちゅうもん]お[願|ねが]いします",
+    "phonetic": "chuumon onegaishimasu",
+    "translation": "我要點餐",
+    "audioUrl": "/audio/jp/jp_phrase_092.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_092.mp3",
+    "hasAudio": false,
+    "order": 89,
+    "tags": [
+      "travel",
+      "restaurant"
+    ],
+    "note": "",
+    "ttsText": "注文お願いします",
+    "status": "published",
+    "category": "common_verbs",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#common_verbs"
+    ]
+  }
+]

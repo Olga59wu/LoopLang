@@ -1,0 +1,94 @@
+[
+  {
+    "id": "th_phrase_076",
+    "text": "เข้าใจ",
+    "phonetic": "kao-jai",
+    "translation": "明白/理解",
+    "audioUrl": "/audio/th/th_phrase_076.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_076.mp3",
+    "hasAudio": false,
+    "order": 73,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "เข้าใจ",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "th_phrase_077",
+    "text": "ชื่ออะไร",
+    "phonetic": "cheu a-rai",
+    "translation": "叫什麼名字",
+    "audioUrl": "/audio/th/th_phrase_077.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_077.mp3",
+    "hasAudio": false,
+    "order": 74,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ชื่ออะไร",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "th_phrase_078",
+    "text": "ฝันดี",
+    "phonetic": "fan-dee",
+    "translation": "晚安 (祝好夢)",
+    "audioUrl": "/audio/th/th_phrase_078.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_078.mp3",
+    "hasAudio": false,
+    "order": 75,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ฝันดี",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "th_phrase_079",
+    "text": "ไม่เป็นปัญหา",
+    "phonetic": "mai pen pan-ha",
+    "translation": "沒問題",
+    "audioUrl": "/audio/th/th_phrase_079.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_079.mp3",
+    "hasAudio": false,
+    "order": 76,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นปัญหา",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  }
+]

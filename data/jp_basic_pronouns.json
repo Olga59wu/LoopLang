@@ -1,0 +1,94 @@
+[
+  {
+    "id": "jp_phrase_081",
+    "text": "どういたしまして",
+    "phonetic": "dou itashimashite",
+    "translation": "不客氣",
+    "audioUrl": "/audio/jp/jp_phrase_081.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_081.mp3",
+    "hasAudio": false,
+    "order": 78,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "どういたしまして",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "jp_phrase_082",
+    "text": "ごめんなさい",
+    "phonetic": "gomennasai",
+    "translation": "對不起",
+    "audioUrl": "/audio/jp/jp_phrase_082.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_082.mp3",
+    "hasAudio": false,
+    "order": 79,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "ごめんなさい",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "jp_phrase_083",
+    "text": "[分|わ]かりました",
+    "phonetic": "wakarimashita",
+    "translation": "我知道了",
+    "audioUrl": "/audio/jp/jp_phrase_083.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_083.mp3",
+    "hasAudio": false,
+    "order": 80,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "分かりました",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "jp_phrase_084",
+    "text": "[分|わ]かりません",
+    "phonetic": "wakarimasen",
+    "translation": "不知道",
+    "audioUrl": "/audio/jp/jp_phrase_084.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_084.mp3",
+    "hasAudio": false,
+    "order": 81,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "分かりません",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  }
+]

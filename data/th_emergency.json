@@ -1,0 +1,25 @@
+[
+  {
+    "id": "th_phrase_037",
+    "text": "เรียกตำรวจให้หน่อย",
+    "phonetic": "riak tam-ruat hai-noi",
+    "translation": "請幫我叫警察。",
+    "audioUrl": "/audio/th/th_phrase_037.mp3",
+    "translationAudioUrl": "/audio/th/th_zh_phrase_037.mp3",
+    "hasAudio": true,
+    "order": 36,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "เรียกตำรวจให้หน่อย",
+    "status": "published",
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
+  }
+]

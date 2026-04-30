@@ -21,6 +21,18 @@
 <body class="bg-zinc-50 text-zinc-900 mx-auto max-w-md pb-20">
   <div id="app" class="breathing-container" v-cloak>
     
+    <!-- 登出確認對話框 (Modal) -->
+    <div v-if="showLogoutModal" class="fixed inset-0 bg-slate-900/40 backdrop-blur-sm z-[100] flex items-center justify-center p-4">
+      <div class="bg-white rounded-3xl p-6 w-full max-w-sm shadow-2xl scale-100 transition-transform">
+        <h3 class="text-lg font-bold text-slate-800 mb-2">確定要登出嗎？</h3>
+        <p class="text-sm text-slate-500 mb-6">登出後本機進度將被清除，直到下次登入才會恢復同步。</p>
+        <div class="flex gap-3">
+          <button @click="showLogoutModal = false" class="flex-1 bg-slate-100 text-slate-600 font-bold py-3 rounded-xl active:scale-95 transition-transform">取消</button>
+          <button @click="confirmLogout" class="flex-1 bg-rose-500 text-white font-bold py-3 rounded-xl active:scale-95 transition-transform shadow-sm shadow-rose-500/30">登出</button>
+        </div>
+      </div>
+    </div>
+
     <header class="flex items-center mb-8 pt-4">
       <button @click="goHome" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
@@ -39,7 +51,7 @@
             <div class="text-xs text-slate-500">{{ authUser.email }}</div>
           </div>
         </div>
-        <button @click="logout" class="bg-rose-50 text-rose-600 px-4 py-2 rounded-lg font-bold text-sm active:scale-95 transition-transform outline-none">登出</button>
+        <button @click="showLogoutModal = true" class="bg-rose-50 text-rose-600 px-4 py-2 rounded-lg font-bold text-sm active:scale-95 transition-transform outline-none">登出</button>
       </div>
     </div>
 
@@ -123,6 +135,7 @@
       },
       setup() {
         const authUser = ref(null);
+        const showLogoutModal = ref(false);
         const prefs = ref({
           pauseDuration: 2,
           showPhonetic: true,
@@ -146,10 +159,9 @@
           StorageService.savePreferences(newVal);
         }, { deep: true });
 
-        const logout = async () => {
-          if (confirm('確定要登出嗎？本機進度將被清除。')) {
-            await FirebaseService.logout();
-          }
+        const confirmLogout = async () => {
+          showLogoutModal.value = false;
+          await FirebaseService.logout();
         };
 
         const goHome = () => {
@@ -157,7 +169,7 @@
         };
 
         return {
-          prefs, authUser, logout, goHome
+          prefs, authUser, showLogoutModal, confirmLogout, goHome
         };
       }
     };

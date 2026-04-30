@@ -1,0 +1,71 @@
+[
+  {
+    "id": "hk_phrase_014",
+    "text": "我想辦理入住。",
+    "phonetic": "ngo5 soeng2 baan6 lei5 jap6 zyu6",
+    "translation": "我想辦理入住。",
+    "audioUrl": "/audio/hk/hk_phrase_014.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_014.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "我想辦理入住",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "hk_phrase_015",
+    "text": "可唔可以寄存行李？",
+    "phonetic": "ho2 m4 ho2 ji5 gei3 cyun4 hang4 lei5",
+    "translation": "可以寄放行李嗎？",
+    "audioUrl": "/audio/hk/hk_phrase_015.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_015.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "可唔可以寄存行李",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "hk_phrase_030",
+    "text": "早餐幾點開始？",
+    "phonetic": "zou2 caan1 gei2 dim2 hoi1 ci2",
+    "translation": "早餐幾點開始？",
+    "audioUrl": "/audio/hk/hk_phrase_030.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "早餐幾點開始",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  }
+]

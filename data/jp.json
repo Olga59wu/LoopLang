@@ -15,7 +15,13 @@
     "note": "",
     "ttsText": "おはようございます",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_002",
@@ -33,7 +39,13 @@
     "note": "白天使用。",
     "ttsText": "こんにちは",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_003",
@@ -51,7 +63,13 @@
     "note": "傍晚後使用。",
     "ttsText": "こんばんは",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_004",
@@ -69,25 +87,13 @@
     "note": "",
     "ttsText": "台湾から来ました",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "jp_phrase_005",
-    "text": "エンジニアです。",
-    "phonetic": "enjinia desu",
-    "translation": "我是工程師。",
-    "audioUrl": "/audio/jp/jp_phrase_005.mp3",
-    "translationAudioUrl": "/audio/jp/jp_zh_phrase_005.mp3",
-    "hasAudio": true,
-    "order": 5,
-    "tags": [
-      "intro",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "エンジニアです",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_006",
@@ -97,7 +103,7 @@
     "audioUrl": "/audio/jp/jp_phrase_006.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_006.mp3",
     "hasAudio": true,
-    "order": 6,
+    "order": 5,
     "tags": [
       "thanks",
       "basic"
@@ -105,7 +111,13 @@
     "note": "",
     "ttsText": "ありがとうございます",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_007",
@@ -115,7 +127,7 @@
     "audioUrl": "/audio/jp/jp_phrase_007.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_007.mp3",
     "hasAudio": true,
-    "order": 7,
+    "order": 6,
     "tags": [
       "apology",
       "basic"
@@ -123,7 +135,13 @@
     "note": "最通用的萬用語句。",
     "ttsText": "すみません",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_008",
@@ -133,7 +151,7 @@
     "audioUrl": "/audio/jp/jp_phrase_008.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_008.mp3",
     "hasAudio": true,
-    "order": 8,
+    "order": 7,
     "tags": [
       "social",
       "basic"
@@ -141,7 +159,13 @@
     "note": "",
     "ttsText": "はい、そうです",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_009",
@@ -151,7 +175,7 @@
     "audioUrl": "/audio/jp/jp_phrase_009.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_009.mp3",
     "hasAudio": true,
-    "order": 9,
+    "order": 8,
     "tags": [
       "chat",
       "basic"
@@ -159,7 +183,13 @@
     "note": "",
     "ttsText": "お元気ですか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_010",
@@ -169,7 +199,7 @@
     "audioUrl": "/audio/jp/jp_phrase_010.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_010.mp3",
     "hasAudio": true,
-    "order": 10,
+    "order": 9,
     "tags": [
       "travel",
       "hotel"
@@ -177,7 +207,12 @@
     "note": "",
     "ttsText": "チェックインをお願いします",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "jp_phrase_011",
@@ -187,7 +222,7 @@
     "audioUrl": "/audio/jp/jp_phrase_011.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_011.mp3",
     "hasAudio": true,
-    "order": 11,
+    "order": 10,
     "tags": [
       "travel",
       "hotel"
@@ -195,7 +230,12 @@
     "note": "",
     "ttsText": "荷物を預かってもらえますか",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "jp_phrase_012",
@@ -205,7 +245,7 @@
     "audioUrl": "/audio/jp/jp_phrase_012.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_012.mp3",
     "hasAudio": true,
-    "order": 12,
+    "order": 11,
     "tags": [
       "travel",
       "restaurant"
@@ -213,7 +253,13 @@
     "note": "",
     "ttsText": "メニューをください",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_013",
@@ -223,7 +269,7 @@
     "audioUrl": "/audio/jp/jp_phrase_013.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_013.mp3",
     "hasAudio": true,
-    "order": 13,
+    "order": 12,
     "tags": [
       "travel",
       "restaurant"
@@ -231,7 +277,13 @@
     "note": "",
     "ttsText": "これをお願いします",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_014",
@@ -241,7 +293,7 @@
     "audioUrl": "/audio/jp/jp_phrase_014.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_014.mp3",
     "hasAudio": true,
-    "order": 14,
+    "order": 13,
     "tags": [
       "travel",
       "restaurant"
@@ -249,7 +301,13 @@
     "note": "",
     "ttsText": "お会計をお願いします",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_015",
@@ -259,7 +317,7 @@
     "audioUrl": "/audio/jp/jp_phrase_015.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_015.mp3",
     "hasAudio": true,
-    "order": 15,
+    "order": 14,
     "tags": [
       "travel",
       "store"
@@ -267,7 +325,13 @@
     "note": "便利商店常用語。",
     "ttsText": "袋はいりません",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_016",
@@ -277,7 +341,7 @@
     "audioUrl": "/audio/jp/jp_phrase_016.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_016.mp3",
     "hasAudio": true,
-    "order": 16,
+    "order": 15,
     "tags": [
       "travel",
       "store"
@@ -285,7 +349,13 @@
     "note": "",
     "ttsText": "温めてください",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_017",
@@ -295,7 +365,7 @@
     "audioUrl": "/audio/jp/jp_phrase_017.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_017.mp3",
     "hasAudio": true,
-    "order": 17,
+    "order": 16,
     "tags": [
       "travel",
       "store"
@@ -303,7 +373,13 @@
     "note": "藥妝店購物必備。",
     "ttsText": "免税できますか",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_018",
@@ -313,7 +389,7 @@
     "audioUrl": "/audio/jp/jp_phrase_018.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_018.mp3",
     "hasAudio": true,
-    "order": 18,
+    "order": 17,
     "tags": [
       "travel",
       "map"
@@ -321,7 +397,13 @@
     "note": "",
     "ttsText": "トイレはどこですか",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "jp_phrase_019",
@@ -331,7 +413,7 @@
     "audioUrl": "/audio/jp/jp_phrase_019.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_019.mp3",
     "hasAudio": true,
-    "order": 19,
+    "order": 18,
     "tags": [
       "travel",
       "transport"
@@ -339,7 +421,12 @@
     "note": "",
     "ttsText": "切符売り場はどこですか",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "jp_phrase_020",
@@ -349,7 +436,7 @@
     "audioUrl": "/audio/jp/jp_phrase_020.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_020.mp3",
     "hasAudio": true,
-    "order": 20,
+    "order": 19,
     "tags": [
       "travel",
       "emergency"
@@ -357,7 +444,12 @@
     "note": "",
     "ttsText": "助けてください",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "jp_phrase_021",
@@ -367,7 +459,7 @@
     "audioUrl": "/audio/jp/jp_phrase_021.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_021.mp3",
     "hasAudio": true,
-    "order": 21,
+    "order": 20,
     "tags": [
       "social",
       "basic"
@@ -375,7 +467,13 @@
     "note": "",
     "ttsText": "日本語がわかりません",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_022",
@@ -385,7 +483,7 @@
     "audioUrl": "/audio/jp/jp_phrase_022.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_022.mp3",
     "hasAudio": true,
-    "order": 22,
+    "order": 21,
     "tags": [
       "social",
       "basic"
@@ -393,7 +491,13 @@
     "note": "",
     "ttsText": "もう一度お願いします",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_023",
@@ -403,7 +507,7 @@
     "audioUrl": "/audio/jp/jp_phrase_023.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_023.mp3",
     "hasAudio": true,
-    "order": 23,
+    "order": 22,
     "tags": [
       "social",
       "basic"
@@ -411,7 +515,13 @@
     "note": "",
     "ttsText": "ゆっくり話してください",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_024",
@@ -421,7 +531,7 @@
     "audioUrl": "/audio/jp/jp_phrase_024.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_024.mp3",
     "hasAudio": true,
-    "order": 24,
+    "order": 23,
     "tags": [
       "chat",
       "life"
@@ -429,7 +539,13 @@
     "note": "工作場合必備。",
     "ttsText": "お疲れ様です",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_025",
@@ -439,7 +555,7 @@
     "audioUrl": "/audio/jp/jp_phrase_025.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_025.mp3",
     "hasAudio": true,
-    "order": 25,
+    "order": 24,
     "tags": [
       "intro",
       "social"
@@ -447,7 +563,13 @@
     "note": "",
     "ttsText": "よろしくお願いします",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_026",
@@ -457,7 +579,7 @@
     "audioUrl": "/audio/jp/jp_phrase_026.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_026.mp3",
     "hasAudio": true,
-    "order": 26,
+    "order": 25,
     "tags": [
       "travel",
       "store"
@@ -465,7 +587,13 @@
     "note": "",
     "ttsText": "いくらですか",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_027",
@@ -475,7 +603,7 @@
     "audioUrl": "/audio/jp/jp_phrase_027.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_027.mp3",
     "hasAudio": true,
-    "order": 27,
+    "order": 26,
     "tags": [
       "social",
       "basic"
@@ -483,7 +611,13 @@
     "note": "",
     "ttsText": "大丈夫です",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_028",
@@ -493,7 +627,7 @@
     "audioUrl": "/audio/jp/jp_phrase_028.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_028.mp3",
     "hasAudio": true,
-    "order": 28,
+    "order": 27,
     "tags": [
       "chat",
       "restaurant"
@@ -501,7 +635,13 @@
     "note": "",
     "ttsText": "美味しいです",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_029",
@@ -511,7 +651,7 @@
     "audioUrl": "/audio/jp/jp_phrase_029.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_029.mp3",
     "hasAudio": true,
-    "order": 29,
+    "order": 28,
     "tags": [
       "greeting",
       "basic"
@@ -519,7 +659,13 @@
     "note": "非正式口語。",
     "ttsText": "またね",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_030",
@@ -529,7 +675,7 @@
     "audioUrl": "/audio/jp/jp_phrase_030.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_030.mp3",
     "hasAudio": true,
-    "order": 30,
+    "order": 29,
     "tags": [
       "greeting",
       "basic"
@@ -537,7 +683,13 @@
     "note": "第一次見面時使用。",
     "ttsText": "はじめまして",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_031",
@@ -547,7 +699,7 @@
     "audioUrl": "/audio/jp/jp_phrase_031.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_031.mp3",
     "hasAudio": true,
-    "order": 31,
+    "order": 30,
     "tags": [
       "apology",
       "basic"
@@ -555,7 +707,13 @@
     "note": "比 すみません 更正式。",
     "ttsText": "申し訳ありません",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_032",
@@ -565,7 +723,7 @@
     "audioUrl": "/audio/jp/jp_phrase_032.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_032.mp3",
     "hasAudio": true,
-    "order": 32,
+    "order": 31,
     "tags": [
       "chat",
       "life"
@@ -573,7 +731,13 @@
     "note": "適合輕鬆寒暄。",
     "ttsText": "今日はいい天気ですね",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_033",
@@ -583,7 +747,7 @@
     "audioUrl": "/audio/jp/jp_phrase_033.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_033.mp3",
     "hasAudio": true,
-    "order": 33,
+    "order": 32,
     "tags": [
       "social",
       "basic"
@@ -591,7 +755,13 @@
     "note": "回應對方提案時常用。",
     "ttsText": "それでお願いします",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_034",
@@ -601,7 +771,7 @@
     "audioUrl": "/audio/jp/jp_phrase_034.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_034.mp3",
     "hasAudio": true,
-    "order": 34,
+    "order": 33,
     "tags": [
       "travel",
       "airport"
@@ -609,7 +779,13 @@
     "note": "",
     "ttsText": "入国審査はどこですか",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
   },
   {
     "id": "jp_phrase_035",
@@ -619,7 +795,7 @@
     "audioUrl": "/audio/jp/jp_phrase_035.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_035.mp3",
     "hasAudio": true,
-    "order": 35,
+    "order": 34,
     "tags": [
       "travel",
       "hotel"
@@ -627,7 +803,12 @@
     "note": "",
     "ttsText": "朝食は何時からですか",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "jp_phrase_036",
@@ -637,7 +818,7 @@
     "audioUrl": "/audio/jp/jp_phrase_036.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_036.mp3",
     "hasAudio": true,
-    "order": 36,
+    "order": 35,
     "tags": [
       "travel",
       "restaurant"
@@ -645,7 +826,13 @@
     "note": "",
     "ttsText": "水をください",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_037",
@@ -655,7 +842,7 @@
     "audioUrl": "/audio/jp/jp_phrase_037.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_037.mp3",
     "hasAudio": true,
-    "order": 37,
+    "order": 36,
     "tags": [
       "travel",
       "store"
@@ -663,7 +850,13 @@
     "note": "",
     "ttsText": "レシートをください",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_038",
@@ -673,7 +866,7 @@
     "audioUrl": "/audio/jp/jp_phrase_038.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_038.mp3",
     "hasAudio": true,
-    "order": 38,
+    "order": 37,
     "tags": [
       "travel",
       "map"
@@ -681,7 +874,13 @@
     "note": "",
     "ttsText": "この場所へどうやって行きますか",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
   },
   {
     "id": "jp_phrase_039",
@@ -691,7 +890,7 @@
     "audioUrl": "/audio/jp/jp_phrase_039.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_039.mp3",
     "hasAudio": true,
-    "order": 39,
+    "order": 38,
     "tags": [
       "travel",
       "transport"
@@ -699,7 +898,12 @@
     "note": "",
     "ttsText": "次の駅で降ります",
     "status": "published",
-    "category": "transport"
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
   },
   {
     "id": "jp_phrase_040",
@@ -709,7 +913,7 @@
     "audioUrl": "/audio/jp/jp_phrase_040.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_040.mp3",
     "hasAudio": true,
-    "order": 40,
+    "order": 39,
     "tags": [
       "travel",
       "emergency"
@@ -717,7 +921,12 @@
     "note": "",
     "ttsText": "警察を呼んでください",
     "status": "published",
-    "category": "emergency"
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
   },
   {
     "id": "jp_phrase_041",
@@ -727,7 +936,7 @@
     "audioUrl": "/audio/jp/jp_phrase_041.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_041.mp3",
     "hasAudio": true,
-    "order": 41,
+    "order": 40,
     "tags": [
       "intro",
       "basic"
@@ -735,7 +944,13 @@
     "note": "",
     "ttsText": "お名前は何ですか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_042",
@@ -745,7 +960,7 @@
     "audioUrl": "/audio/jp/jp_phrase_042.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_042.mp3",
     "hasAudio": true,
-    "order": 42,
+    "order": 41,
     "tags": [
       "social",
       "basic"
@@ -753,7 +968,13 @@
     "note": "超高頻生活句。",
     "ttsText": "少し待ってください",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_043",
@@ -763,7 +984,7 @@
     "audioUrl": "/audio/jp/jp_phrase_043.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_043.mp3",
     "hasAudio": true,
-    "order": 43,
+    "order": 42,
     "tags": [
       "life",
       "chat"
@@ -771,25 +992,13 @@
     "note": "",
     "ttsText": "今行きます",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "jp_phrase_044",
-    "text": "[今|いま][忙|いそが]しいです。",
-    "phonetic": "ima isogashii desu",
-    "translation": "我現在很忙。",
-    "audioUrl": "/audio/jp/jp_phrase_044.mp3",
-    "translationAudioUrl": "/audio/jp/jp_zh_phrase_044.mp3",
-    "hasAudio": true,
-    "order": 44,
-    "tags": [
-      "life",
-      "chat"
-    ],
-    "note": "",
-    "ttsText": "今忙しいです",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_045",
@@ -799,7 +1008,7 @@
     "audioUrl": "/audio/jp/jp_phrase_045.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_045.mp3",
     "hasAudio": true,
-    "order": 45,
+    "order": 43,
     "tags": [
       "social",
       "basic"
@@ -807,7 +1016,13 @@
     "note": "",
     "ttsText": "大丈夫です、ありがとうございます",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_046",
@@ -817,7 +1032,7 @@
     "audioUrl": "/audio/jp/jp_phrase_046.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_046.mp3",
     "hasAudio": true,
-    "order": 46,
+    "order": 44,
     "tags": [
       "social",
       "basic"
@@ -825,7 +1040,13 @@
     "note": "委婉拒絕很好用。",
     "ttsText": "今は結構です",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_047",
@@ -835,7 +1056,7 @@
     "audioUrl": "/audio/jp/jp_phrase_047.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_047.mp3",
     "hasAudio": true,
-    "order": 47,
+    "order": 45,
     "tags": [
       "life",
       "chat"
@@ -843,7 +1064,13 @@
     "note": "",
     "ttsText": "喉が渇きました",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_048",
@@ -853,7 +1080,7 @@
     "audioUrl": "/audio/jp/jp_phrase_048.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_048.mp3",
     "hasAudio": true,
-    "order": 48,
+    "order": 46,
     "tags": [
       "life",
       "chat"
@@ -861,7 +1088,13 @@
     "note": "",
     "ttsText": "お腹が空きました",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_049",
@@ -871,7 +1104,7 @@
     "audioUrl": "/audio/jp/jp_phrase_049.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_049.mp3",
     "hasAudio": true,
-    "order": 49,
+    "order": 47,
     "tags": [
       "life",
       "chat"
@@ -879,7 +1112,13 @@
     "note": "",
     "ttsText": "疲れました",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_050",
@@ -889,7 +1128,7 @@
     "audioUrl": "/audio/jp/jp_phrase_050.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_050.mp3",
     "hasAudio": true,
-    "order": 50,
+    "order": 48,
     "tags": [
       "life",
       "chat"
@@ -897,7 +1136,13 @@
     "note": "",
     "ttsText": "眠いです",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_051",
@@ -907,7 +1152,7 @@
     "audioUrl": "/audio/jp/jp_phrase_051.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_051.mp3",
     "hasAudio": true,
-    "order": 51,
+    "order": 49,
     "tags": [
       "life",
       "health"
@@ -915,7 +1160,13 @@
     "note": "",
     "ttsText": "気分が悪いです",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_052",
@@ -925,7 +1176,7 @@
     "audioUrl": "/audio/jp/jp_phrase_052.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_052.mp3",
     "hasAudio": true,
-    "order": 52,
+    "order": 50,
     "tags": [
       "life",
       "health"
@@ -933,7 +1184,13 @@
     "note": "",
     "ttsText": "頭が痛いです",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_053",
@@ -943,7 +1200,7 @@
     "audioUrl": "/audio/jp/jp_phrase_053.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_053.mp3",
     "hasAudio": true,
-    "order": 53,
+    "order": 51,
     "tags": [
       "life",
       "store"
@@ -951,7 +1208,13 @@
     "note": "",
     "ttsText": "現金だけですか",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_054",
@@ -961,7 +1224,7 @@
     "audioUrl": "/audio/jp/jp_phrase_054.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_054.mp3",
     "hasAudio": true,
-    "order": 54,
+    "order": 52,
     "tags": [
       "life",
       "store"
@@ -969,7 +1232,13 @@
     "note": "",
     "ttsText": "カードは使えますか",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_055",
@@ -979,7 +1248,7 @@
     "audioUrl": "/audio/jp/jp_phrase_055.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_055.mp3",
     "hasAudio": true,
-    "order": 55,
+    "order": 53,
     "tags": [
       "chat",
       "life"
@@ -987,25 +1256,13 @@
     "note": "朋友聊天高頻句。",
     "ttsText": "今、何してますか",
     "status": "published",
-    "category": "greetings"
-  },
-  {
-    "id": "jp_phrase_056",
-    "text": "[今|いま]、[家|いえ]にいます。",
-    "phonetic": "ima, ie ni imasu",
-    "translation": "我現在在家。",
-    "audioUrl": "/audio/jp/jp_phrase_056.mp3",
-    "translationAudioUrl": "/audio/jp/jp_zh_phrase_056.mp3",
-    "hasAudio": true,
-    "order": 56,
-    "tags": [
-      "chat",
-      "life"
-    ],
-    "note": "",
-    "ttsText": "今、家にいます",
-    "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_057",
@@ -1015,7 +1272,7 @@
     "audioUrl": "/audio/jp/jp_phrase_057.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_057.mp3",
     "hasAudio": true,
-    "order": 57,
+    "order": 54,
     "tags": [
       "chat",
       "social"
@@ -1023,7 +1280,13 @@
     "note": "",
     "ttsText": "後で連絡します",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_058",
@@ -1033,7 +1296,7 @@
     "audioUrl": "/audio/jp/jp_phrase_058.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_058.mp3",
     "hasAudio": true,
-    "order": 58,
+    "order": 55,
     "tags": [
       "chat",
       "social"
@@ -1041,7 +1304,13 @@
     "note": "",
     "ttsText": "一緒に行きますか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_059",
@@ -1051,7 +1320,7 @@
     "audioUrl": "/audio/jp/jp_phrase_059.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_059.mp3",
     "hasAudio": true,
-    "order": 59,
+    "order": 56,
     "tags": [
       "chat",
       "restaurant"
@@ -1059,7 +1328,13 @@
     "note": "",
     "ttsText": "何を食べたいですか",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_060",
@@ -1069,7 +1344,7 @@
     "audioUrl": "/audio/jp/jp_phrase_060.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_060.mp3",
     "hasAudio": true,
-    "order": 60,
+    "order": 57,
     "tags": [
       "travel",
       "restaurant"
@@ -1077,7 +1352,13 @@
     "note": "餐廳、咖啡店都很常用。",
     "ttsText": "おすすめはありますか",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_061",
@@ -1087,7 +1368,7 @@
     "audioUrl": "/audio/jp/jp_phrase_061.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_061.mp3",
     "hasAudio": true,
-    "order": 61,
+    "order": 58,
     "tags": [
       "travel",
       "restaurant"
@@ -1095,7 +1376,13 @@
     "note": "",
     "ttsText": "これは辛いですか",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_062",
@@ -1105,7 +1392,7 @@
     "audioUrl": "/audio/jp/jp_phrase_062.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_062.mp3",
     "hasAudio": true,
-    "order": 62,
+    "order": 59,
     "tags": [
       "travel",
       "restaurant"
@@ -1113,7 +1400,13 @@
     "note": "",
     "ttsText": "持ち帰りできますか",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_063",
@@ -1123,7 +1416,7 @@
     "audioUrl": "/audio/jp/jp_phrase_063.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_063.mp3",
     "hasAudio": true,
-    "order": 63,
+    "order": 60,
     "tags": [
       "travel",
       "restaurant"
@@ -1131,7 +1424,13 @@
     "note": "",
     "ttsText": "コーヒーを一杯ください",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_064",
@@ -1141,7 +1440,7 @@
     "audioUrl": "/audio/jp/jp_phrase_064.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_064.mp3",
     "hasAudio": true,
-    "order": 64,
+    "order": 61,
     "tags": [
       "life",
       "health"
@@ -1149,7 +1448,13 @@
     "note": "",
     "ttsText": "風邪薬はありますか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_065",
@@ -1159,7 +1464,7 @@
     "audioUrl": "/audio/jp/jp_phrase_065.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_065.mp3",
     "hasAudio": true,
-    "order": 65,
+    "order": 62,
     "tags": [
       "life",
       "health"
@@ -1167,7 +1472,13 @@
     "note": "",
     "ttsText": "どの薬がいいですか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_066",
@@ -1177,7 +1488,7 @@
     "audioUrl": "/audio/jp/jp_phrase_066.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_066.mp3",
     "hasAudio": true,
-    "order": 66,
+    "order": 63,
     "tags": [
       "chat",
       "social"
@@ -1185,7 +1496,13 @@
     "note": "訊息聊天高頻句。",
     "ttsText": "今どこですか",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_067",
@@ -1195,7 +1512,7 @@
     "audioUrl": "/audio/jp/jp_phrase_067.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_067.mp3",
     "hasAudio": true,
-    "order": 67,
+    "order": 64,
     "tags": [
       "chat",
       "social"
@@ -1203,7 +1520,13 @@
     "note": "",
     "ttsText": "今向かっています",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_068",
@@ -1213,7 +1536,7 @@
     "audioUrl": "/audio/jp/jp_phrase_068.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_068.mp3",
     "hasAudio": true,
-    "order": 68,
+    "order": 65,
     "tags": [
       "chat",
       "social"
@@ -1221,7 +1544,13 @@
     "note": "",
     "ttsText": "少し遅れます",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_069",
@@ -1231,7 +1560,7 @@
     "audioUrl": "/audio/jp/jp_phrase_069.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_069.mp3",
     "hasAudio": true,
-    "order": 69,
+    "order": 66,
     "tags": [
       "chat",
       "social"
@@ -1239,7 +1568,13 @@
     "note": "",
     "ttsText": "着いたら連絡します",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_070",
@@ -1249,7 +1584,7 @@
     "audioUrl": "/audio/jp/jp_phrase_070.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_070.mp3",
     "hasAudio": true,
-    "order": 70,
+    "order": 67,
     "tags": [
       "chat",
       "social"
@@ -1257,7 +1592,13 @@
     "note": "口語簡短版。",
     "ttsText": "大丈夫",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_071",
@@ -1267,7 +1608,7 @@
     "audioUrl": "/audio/jp/jp_phrase_071.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_071.mp3",
     "hasAudio": true,
-    "order": 71,
+    "order": 68,
     "tags": [
       "chat",
       "social"
@@ -1275,7 +1616,13 @@
     "note": "",
     "ttsText": "また今度ね",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_072",
@@ -1285,7 +1632,7 @@
     "audioUrl": "/audio/jp/jp_phrase_072.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_072.mp3",
     "hasAudio": true,
-    "order": 72,
+    "order": 69,
     "tags": [
       "chat",
       "social"
@@ -1293,7 +1640,13 @@
     "note": "",
     "ttsText": "了解です",
     "status": "published",
-    "category": "greetings"
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
   },
   {
     "id": "jp_phrase_073",
@@ -1303,7 +1656,7 @@
     "audioUrl": "/audio/jp/jp_phrase_073.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_073.mp3",
     "hasAudio": true,
-    "order": 73,
+    "order": 70,
     "tags": [
       "travel",
       "restaurant"
@@ -1311,7 +1664,13 @@
     "note": "咖啡店高頻句。",
     "ttsText": "アイスコーヒーをお願いします",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_074",
@@ -1321,7 +1680,7 @@
     "audioUrl": "/audio/jp/jp_phrase_074.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_074.mp3",
     "hasAudio": true,
-    "order": 74,
+    "order": 71,
     "tags": [
       "travel",
       "restaurant"
@@ -1329,7 +1688,13 @@
     "note": "內用。",
     "ttsText": "ここで飲みます",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_075",
@@ -1339,7 +1704,7 @@
     "audioUrl": "/audio/jp/jp_phrase_075.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_075.mp3",
     "hasAudio": true,
-    "order": 75,
+    "order": 72,
     "tags": [
       "travel",
       "restaurant"
@@ -1347,7 +1712,13 @@
     "note": "",
     "ttsText": "持ち帰ります",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_076",
@@ -1357,7 +1728,7 @@
     "audioUrl": "/audio/jp/jp_phrase_076.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_076.mp3",
     "hasAudio": true,
-    "order": 76,
+    "order": 73,
     "tags": [
       "travel",
       "restaurant"
@@ -1365,7 +1736,13 @@
     "note": "店員常用句，也可收進學習資料。",
     "ttsText": "温かいのと冷たいの、どちらですか",
     "status": "published",
-    "category": "dining"
+    "category": "dining",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#dining"
+    ]
   },
   {
     "id": "jp_phrase_077",
@@ -1375,7 +1752,7 @@
     "audioUrl": "/audio/jp/jp_phrase_077.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_077.mp3",
     "hasAudio": true,
-    "order": 77,
+    "order": 74,
     "tags": [
       "travel",
       "store"
@@ -1383,7 +1760,13 @@
     "note": "",
     "ttsText": "袋をください",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_078",
@@ -1393,7 +1776,7 @@
     "audioUrl": "/audio/jp/jp_phrase_078.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_078.mp3",
     "hasAudio": true,
-    "order": 78,
+    "order": 75,
     "tags": [
       "travel",
       "store"
@@ -1401,7 +1784,13 @@
     "note": "不加熱、不分裝時可用。",
     "ttsText": "このままでいいです",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_079",
@@ -1411,7 +1800,7 @@
     "audioUrl": "/audio/jp/jp_phrase_079.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_079.mp3",
     "hasAudio": true,
-    "order": 79,
+    "order": 76,
     "tags": [
       "travel",
       "store"
@@ -1419,7 +1808,13 @@
     "note": "日本便利商店超常聽到。",
     "ttsText": "ポイントカードはありません",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_080",
@@ -1429,7 +1824,7 @@
     "audioUrl": "/audio/jp/jp_phrase_080.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_080.mp3",
     "hasAudio": true,
-    "order": 80,
+    "order": 77,
     "tags": [
       "travel",
       "store"
@@ -1437,7 +1832,13 @@
     "note": "",
     "ttsText": "別々でお会計できますか",
     "status": "published",
-    "category": "shopping"
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#store",
+      "#shopping"
+    ]
   },
   {
     "id": "jp_phrase_081",
@@ -1447,7 +1848,7 @@
     "audioUrl": "/audio/jp/jp_phrase_081.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_081.mp3",
     "hasAudio": false,
-    "order": 81,
+    "order": 78,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1455,7 +1856,12 @@
     "note": "",
     "ttsText": "どういたしまして",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "jp_phrase_082",
@@ -1465,7 +1871,7 @@
     "audioUrl": "/audio/jp/jp_phrase_082.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_082.mp3",
     "hasAudio": false,
-    "order": 82,
+    "order": 79,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1473,7 +1879,12 @@
     "note": "",
     "ttsText": "ごめんなさい",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "jp_phrase_083",
@@ -1483,7 +1894,7 @@
     "audioUrl": "/audio/jp/jp_phrase_083.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_083.mp3",
     "hasAudio": false,
-    "order": 83,
+    "order": 80,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1491,7 +1902,12 @@
     "note": "",
     "ttsText": "分かりました",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "jp_phrase_084",
@@ -1501,7 +1917,7 @@
     "audioUrl": "/audio/jp/jp_phrase_084.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_084.mp3",
     "hasAudio": false,
-    "order": 84,
+    "order": 81,
     "tags": [
       "basic",
       "basic_pronouns"
@@ -1509,7 +1925,12 @@
     "note": "",
     "ttsText": "分かりません",
     "status": "published",
-    "category": "basic_pronouns"
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
   },
   {
     "id": "jp_phrase_085",
@@ -1519,7 +1940,7 @@
     "audioUrl": "/audio/jp/jp_phrase_085.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_085.mp3",
     "hasAudio": false,
-    "order": 85,
+    "order": 82,
     "tags": [
       "basic",
       "questions"
@@ -1527,7 +1948,12 @@
     "note": "",
     "ttsText": "いくつですか",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_086",
@@ -1537,7 +1963,7 @@
     "audioUrl": "/audio/jp/jp_phrase_086.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_086.mp3",
     "hasAudio": false,
-    "order": 86,
+    "order": 83,
     "tags": [
       "basic",
       "questions"
@@ -1545,7 +1971,12 @@
     "note": "",
     "ttsText": "どうして",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_087",
@@ -1555,7 +1986,7 @@
     "audioUrl": "/audio/jp/jp_phrase_087.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_087.mp3",
     "hasAudio": false,
-    "order": 87,
+    "order": 84,
     "tags": [
       "basic",
       "questions"
@@ -1563,7 +1994,12 @@
     "note": "",
     "ttsText": "どのくらい",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_088",
@@ -1573,7 +2009,7 @@
     "audioUrl": "/audio/jp/jp_phrase_088.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_088.mp3",
     "hasAudio": false,
-    "order": 88,
+    "order": 85,
     "tags": [
       "basic",
       "questions"
@@ -1581,7 +2017,12 @@
     "note": "",
     "ttsText": "空いていますか",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_089",
@@ -1591,7 +2032,7 @@
     "audioUrl": "/audio/jp/jp_phrase_089.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_089.mp3",
     "hasAudio": false,
-    "order": 89,
+    "order": 86,
     "tags": [
       "basic",
       "questions"
@@ -1599,7 +2040,12 @@
     "note": "",
     "ttsText": "どこで乗り換えますか",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_090",
@@ -1609,7 +2055,7 @@
     "audioUrl": "/audio/jp/jp_phrase_090.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_090.mp3",
     "hasAudio": false,
-    "order": 90,
+    "order": 87,
     "tags": [
       "basic",
       "questions"
@@ -1617,7 +2063,12 @@
     "note": "",
     "ttsText": "試着できますか",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_091",
@@ -1627,7 +2078,7 @@
     "audioUrl": "/audio/jp/jp_phrase_091.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_091.mp3",
     "hasAudio": false,
-    "order": 91,
+    "order": 88,
     "tags": [
       "basic",
       "questions"
@@ -1635,7 +2086,12 @@
     "note": "",
     "ttsText": "別のサイズはありますか",
     "status": "published",
-    "category": "questions"
+    "category": "questions",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#questions"
+    ]
   },
   {
     "id": "jp_phrase_092",
@@ -1645,7 +2101,7 @@
     "audioUrl": "/audio/jp/jp_phrase_092.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_092.mp3",
     "hasAudio": false,
-    "order": 92,
+    "order": 89,
     "tags": [
       "travel",
       "restaurant"
@@ -1653,7 +2109,13 @@
     "note": "",
     "ttsText": "注文お願いします",
     "status": "published",
-    "category": "common_verbs"
+    "category": "common_verbs",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#restaurant",
+      "#common_verbs"
+    ]
   },
   {
     "id": "jp_phrase_093",
@@ -1663,7 +2125,7 @@
     "audioUrl": "/audio/jp/jp_phrase_093.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_093.mp3",
     "hasAudio": false,
-    "order": 93,
+    "order": 90,
     "tags": [
       "travel",
       "hotel"
@@ -1671,7 +2133,12 @@
     "note": "",
     "ttsText": "予約しています",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
   },
   {
     "id": "jp_phrase_094",
@@ -1681,7 +2148,7 @@
     "audioUrl": "/audio/jp/jp_phrase_094.mp3",
     "translationAudioUrl": "/audio/jp/jp_zh_phrase_094.mp3",
     "hasAudio": false,
-    "order": 94,
+    "order": 91,
     "tags": [
       "travel",
       "hotel"
@@ -1689,6 +2156,80 @@
     "note": "",
     "ttsText": "Wi-Fiのパスワードを教えてください",
     "status": "published",
-    "category": "hotel"
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "jp_phrase_095",
+    "text": "[写真|しゃしん]を[撮|と]ってもらえませんか？",
+    "phonetic": "shashin o totte moraemasen ka",
+    "translation": "可以幫我拍照嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_095.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_095.mp3",
+    "hasAudio": false,
+    "order": 92,
+    "tags": [
+      "travel",
+      "travel"
+    ],
+    "note": "",
+    "ttsText": "写真を撮ってもらえませんか",
+    "status": "published",
+    "category": "travel",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#travel"
+    ]
+  },
+  {
+    "id": "jp_phrase_096",
+    "text": "Suicaにチャージしたいです。",
+    "phonetic": "suika ni chaaji shitai desu",
+    "translation": "我想儲值西瓜卡。",
+    "audioUrl": "/audio/jp/jp_phrase_096.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_096.mp3",
+    "hasAudio": false,
+    "order": 93,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "Suicaにチャージしたいです",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_097",
+    "text": "これの[免税手続き|めんぜいてつづき]をお[願|ねが]いします。",
+    "phonetic": "kore no menzei tetsuzuki o onegaishimasu",
+    "translation": "麻煩幫我辦理這個的免稅手續。",
+    "audioUrl": "/audio/jp/jp_phrase_097.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_097.mp3",
+    "hasAudio": false,
+    "order": 94,
+    "tags": [
+      "travel",
+      "shopping"
+    ],
+    "note": "",
+    "ttsText": "これの免税手続きをお願いします",
+    "status": "published",
+    "category": "shopping",
+    "level": "beginner",
+    "hashtags": [
+      "#travel",
+      "#shopping"
+    ]
   }
 ]

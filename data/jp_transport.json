@@ -1,0 +1,143 @@
+[
+  {
+    "id": "jp_phrase_018",
+    "text": "トイレはどこですか？",
+    "phonetic": "toire wa doko desu ka",
+    "translation": "廁所在哪裡？",
+    "audioUrl": "/audio/jp/jp_phrase_018.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_018.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "トイレはどこですか",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_019",
+    "text": "[切符|きっぷ][売|う]り[場|ば]はどこですか？",
+    "phonetic": "kippu uriba wa doko desu ka",
+    "translation": "售票處在哪裡？",
+    "audioUrl": "/audio/jp/jp_phrase_019.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_019.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "切符売り場はどこですか",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_034",
+    "text": "[入国審査|にゅうこくしんさ]はどこですか？",
+    "phonetic": "nyuukoku shinsa wa doko desu ka",
+    "translation": "入境審查在哪裡？",
+    "audioUrl": "/audio/jp/jp_phrase_034.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "travel",
+      "airport"
+    ],
+    "note": "",
+    "ttsText": "入国審査はどこですか",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#airport",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_038",
+    "text": "この[場所|ばしょ]へどうやって[行|い]きますか？",
+    "phonetic": "kono basho e douyatte ikimasu ka",
+    "translation": "這個地方要怎麼去？",
+    "audioUrl": "/audio/jp/jp_phrase_038.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_038.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "travel",
+      "map"
+    ],
+    "note": "",
+    "ttsText": "この場所へどうやって行きますか",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#map",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_039",
+    "text": "[次|つぎ]の[駅|えき]で[降|お]ります。",
+    "phonetic": "tsugi no eki de orimasu",
+    "translation": "我在下一站下車。",
+    "audioUrl": "/audio/jp/jp_phrase_039.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_039.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "次の駅で降ります",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  },
+  {
+    "id": "jp_phrase_096",
+    "text": "Suicaにチャージしたいです。",
+    "phonetic": "suika ni chaaji shitai desu",
+    "translation": "我想儲值西瓜卡。",
+    "audioUrl": "/audio/jp/jp_phrase_096.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_096.mp3",
+    "hasAudio": false,
+    "order": 93,
+    "tags": [
+      "travel",
+      "transport"
+    ],
+    "note": "",
+    "ttsText": "Suicaにチャージしたいです",
+    "status": "published",
+    "category": "transport",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#transport"
+    ]
+  }
+]

@@ -1,0 +1,1178 @@
+[
+  {
+    "id": "kr_phrase_001",
+    "text": "안녕하세요.",
+    "phonetic": "annyeong-haseyo",
+    "translation": "你好。",
+    "audioUrl": "/audio/kr/kr_phrase_001.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "最通用的打招呼。",
+    "ttsText": "안녕하세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_002",
+    "text": "반갑습니다.",
+    "phonetic": "ban-gap-seumnida",
+    "translation": "很高興見到你。",
+    "audioUrl": "/audio/kr/kr_phrase_002.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "반갑습니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_003",
+    "text": "대만 사람이에요.",
+    "phonetic": "dae-man sa-ram-i-e-yo",
+    "translation": "我是台灣人。",
+    "audioUrl": "/audio/kr/kr_phrase_003.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "대만 사람이에요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_004",
+    "text": "제 이름은 ... 입니다.",
+    "phonetic": "je ireum-eun ... imnida",
+    "translation": "我的名字是...。",
+    "audioUrl": "/audio/kr/kr_phrase_004.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "제 이름은",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_005",
+    "text": "감사합니다.",
+    "phonetic": "gam-sa-ham-ni-da",
+    "translation": "非常感謝。",
+    "audioUrl": "/audio/kr/kr_phrase_005.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_005.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "正式敬語。",
+    "ttsText": "감사합니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_006",
+    "text": "고마워요.",
+    "phonetic": "go-ma-wo-yo",
+    "translation": "謝謝你。",
+    "audioUrl": "/audio/kr/kr_phrase_006.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "日常敬語。",
+    "ttsText": "고마워요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_007",
+    "text": "죄송합니다.",
+    "phonetic": "joe-song-ham-ni-da",
+    "translation": "對不起。",
+    "audioUrl": "/audio/kr/kr_phrase_007.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "죄송합니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_008",
+    "text": "실례합니다.",
+    "phonetic": "sil-lye-ham-ni-da",
+    "translation": "不好意思 / 打擾了。",
+    "audioUrl": "/audio/kr/kr_phrase_008.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "問路或藉過時使用。",
+    "ttsText": "실례합니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_009",
+    "text": "맞아요.",
+    "phonetic": "ma-ja-yo",
+    "translation": "沒錯。",
+    "audioUrl": "/audio/kr/kr_phrase_009.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "附和他人時常用。",
+    "ttsText": "맞아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_010",
+    "text": "진짜요?",
+    "phonetic": "jin-jja-yo",
+    "translation": "真的嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_010.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "chat",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "진짜요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_024",
+    "text": "괜찮아요.",
+    "phonetic": "gwaen-chan-a-yo",
+    "translation": "沒關係 / 不用了。",
+    "audioUrl": "/audio/kr/kr_phrase_024.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "拒絕推銷時也很好用。",
+    "ttsText": "괜찮아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_025",
+    "text": "천천히 말씀해 주세요.",
+    "phonetic": "cheon-cheon-hi mal-sseum-hae ju-se-yo",
+    "translation": "請說慢一點。",
+    "audioUrl": "/audio/kr/kr_phrase_025.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "천천히 말씀해 주세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_026",
+    "text": "배고파요.",
+    "phonetic": "bae-go-pa-yo",
+    "translation": "肚子餓了。",
+    "audioUrl": "/audio/kr/kr_phrase_026.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_026.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "배고파요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_029",
+    "text": "잠시만요.",
+    "phonetic": "jam-si-man-yo",
+    "translation": "等一下 / 借過。",
+    "audioUrl": "/audio/kr/kr_phrase_029.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "下電鐵藉過必備。",
+    "ttsText": "잠시만요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_030",
+    "text": "안녕히 계세요.",
+    "phonetic": "an-nyeong-hi gye-se-yo",
+    "translation": "再見。",
+    "audioUrl": "/audio/kr/kr_phrase_030.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "對留在原地的人說再見。",
+    "ttsText": "안녕히 계세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_031",
+    "text": "처음 뵙겠습니다.",
+    "phonetic": "cheo-eum boep-get-seum-ni-da",
+    "translation": "初次見面。",
+    "audioUrl": "/audio/kr/kr_phrase_031.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "較正式的初次見面說法。",
+    "ttsText": "처음 뵙겠습니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_032",
+    "text": "저는 오가예요.",
+    "phonetic": "jeo-neun o-ga-ye-yo",
+    "translation": "我是歐嘎。",
+    "audioUrl": "/audio/kr/kr_phrase_032.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "저는 오가예요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_033",
+    "text": "정말 죄송합니다.",
+    "phonetic": "jeong-mal joe-song-ham-ni-da",
+    "translation": "真的非常抱歉。",
+    "audioUrl": "/audio/kr/kr_phrase_033.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "정말 죄송합니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_034",
+    "text": "오늘 날씨 좋네요.",
+    "phonetic": "o-neul nal-ssi jot-ne-yo",
+    "translation": "今天天氣很好呢。",
+    "audioUrl": "/audio/kr/kr_phrase_034.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_034.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "輕鬆閒聊常用。",
+    "ttsText": "오늘 날씨 좋네요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_035",
+    "text": "그렇게 해 주세요.",
+    "phonetic": "geu-reo-ke hae ju-se-yo",
+    "translation": "請那樣幫我處理。",
+    "audioUrl": "/audio/kr/kr_phrase_035.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "그렇게 해 주세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_043",
+    "text": "이름이 뭐예요?",
+    "phonetic": "i-reum-i mwo-ye-yo",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/audio/kr/kr_phrase_043.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "이름이 뭐예요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_044",
+    "text": "잠시만 기다려 주세요.",
+    "phonetic": "jam-si-man gi-da-ryeo ju-se-yo",
+    "translation": "請等一下。",
+    "audioUrl": "/audio/kr/kr_phrase_044.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_044.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "禮貌請人稍候。",
+    "ttsText": "잠시만 기다려 주세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_045",
+    "text": "지금 갈게요.",
+    "phonetic": "ji-geum gal-ge-yo",
+    "translation": "我現在過去 / 馬上來。",
+    "audioUrl": "/audio/kr/kr_phrase_045.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "지금 갈게요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_047",
+    "text": "괜찮아요, 감사합니다.",
+    "phonetic": "gwaen-chan-a-yo, gam-sa-ham-ni-da",
+    "translation": "沒關係，謝謝你。",
+    "audioUrl": "/audio/kr/kr_phrase_047.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "괜찮아요, 감사합니다",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_048",
+    "text": "지금은 괜찮아요.",
+    "phonetic": "ji-geum-eun gwaen-chan-a-yo",
+    "translation": "現在先不用。",
+    "audioUrl": "/audio/kr/kr_phrase_048.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "지금은 괜찮아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_049",
+    "text": "목말라요.",
+    "phonetic": "mong-mal-la-yo",
+    "translation": "我口渴了。",
+    "audioUrl": "/audio/kr/kr_phrase_049.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "목말라요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_050",
+    "text": "배고파요.",
+    "phonetic": "bae-go-pa-yo",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/audio/kr/kr_phrase_050.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "배고파요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_051",
+    "text": "피곤해요.",
+    "phonetic": "pi-gon-hae-yo",
+    "translation": "我累了。",
+    "audioUrl": "/audio/kr/kr_phrase_051.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "피곤해요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_052",
+    "text": "졸려요.",
+    "phonetic": "jol-lyeo-yo",
+    "translation": "我想睡了。",
+    "audioUrl": "/audio/kr/kr_phrase_052.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_052.mp3",
+    "hasAudio": true,
+    "order": 51,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "졸려요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_053",
+    "text": "몸이 안 좋아요.",
+    "phonetic": "mom-i an jo-a-yo",
+    "translation": "我不太舒服。",
+    "audioUrl": "/audio/kr/kr_phrase_053.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_053.mp3",
+    "hasAudio": true,
+    "order": 52,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "몸이 안 좋아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_054",
+    "text": "머리가 아파요.",
+    "phonetic": "meo-ri-ga a-pa-yo",
+    "translation": "我頭痛。",
+    "audioUrl": "/audio/kr/kr_phrase_054.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_054.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "머리가 아파요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_055",
+    "text": "휴대폰 배터리가 없어요.",
+    "phonetic": "hyu-dae-pon bae-teo-ri-ga eop-seo-yo",
+    "translation": "我的手機沒電了。",
+    "audioUrl": "/audio/kr/kr_phrase_055.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 54,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "휴대폰 배터리가 없어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_056",
+    "text": "와이파이 비밀번호가 뭐예요?",
+    "phonetic": "wa-i-pa-i bi-mil-beon-ho-ga mwo-ye-yo",
+    "translation": "Wi-Fi 密碼是什麼？",
+    "audioUrl": "/audio/kr/kr_phrase_056.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_056.mp3",
+    "hasAudio": true,
+    "order": 55,
+    "tags": [
+      "life",
+      "device"
+    ],
+    "note": "",
+    "ttsText": "와이파이 비밀번호가 뭐예요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#device",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_059",
+    "text": "지금 뭐 해요?",
+    "phonetic": "ji-geum mwo hae-yo",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/audio/kr/kr_phrase_059.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_059.mp3",
+    "hasAudio": true,
+    "order": 58,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "",
+    "ttsText": "지금 뭐 해요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_061",
+    "text": "이따가 연락할게요.",
+    "phonetic": "i-tta-ga yeol-lak-hal-ge-yo",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/audio/kr/kr_phrase_061.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_061.mp3",
+    "hasAudio": true,
+    "order": 59,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "이따가 연락할게요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_062",
+    "text": "같이 갈래요?",
+    "phonetic": "ga-chi gal-lae-yo",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_062.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_062.mp3",
+    "hasAudio": true,
+    "order": 60,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "같이 갈래요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_068",
+    "text": "감기약 있어요?",
+    "phonetic": "gam-gi-yak i-sseo-yo",
+    "translation": "有感冒藥嗎？",
+    "audioUrl": "/audio/kr/kr_phrase_068.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "감기약 있어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_069",
+    "text": "열이 있어요.",
+    "phonetic": "yeol-i i-sseo-yo",
+    "translation": "我發燒了。",
+    "audioUrl": "/audio/kr/kr_phrase_069.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "열이 있어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_070",
+    "text": "기침이 나요.",
+    "phonetic": "gi-chim-i na-yo",
+    "translation": "我有咳嗽。",
+    "audioUrl": "/audio/kr/kr_phrase_070.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 68,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "기침이 나요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_071",
+    "text": "진통제 주세요.",
+    "phonetic": "jin-tong-je ju-se-yo",
+    "translation": "請給我止痛藥。",
+    "audioUrl": "/audio/kr/kr_phrase_071.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 69,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "진통제 주세요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_072",
+    "text": "어떤 약이 좋아요?",
+    "phonetic": "eo-tteon ya-gi jo-a-yo",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/audio/kr/kr_phrase_072.mp3",
+    "translationAudioUrl": "/audio/kr/kr_zh_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 70,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "어떤 약이 좋아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_073",
+    "text": "지금 어디예요?",
+    "phonetic": "ji-geum eo-di-ye-yo",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_073.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_073.mp3",
+    "hasAudio": true,
+    "order": 71,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "지금 어디예요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_074",
+    "text": "지금 가고 있어요.",
+    "phonetic": "ji-geum ga-go i-sseo-yo",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_074.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_074.mp3",
+    "hasAudio": true,
+    "order": 72,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "지금 가고 있어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_075",
+    "text": "조금 늦을 것 같아요.",
+    "phonetic": "jo-geum neu-jeul geot ga-ta-yo",
+    "translation": "我可能會晚一點到。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_075.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_075.mp3",
+    "hasAudio": true,
+    "order": 73,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "조금 늦을 것 같아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_076",
+    "text": "도착하면 연락할게요.",
+    "phonetic": "do-chak-ha-myeon yeol-lak-hal-ge-yo",
+    "translation": "我到了再聯絡你。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_076.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_076.mp3",
+    "hasAudio": true,
+    "order": 74,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "도착하면 연락할게요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_077",
+    "text": "괜찮아요?",
+    "phonetic": "gwaen-chan-a-yo",
+    "translation": "你還好嗎？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_077.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_077.mp3",
+    "hasAudio": true,
+    "order": 75,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "괜찮아요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_078",
+    "text": "다음에 봐요.",
+    "phonetic": "da-eum-e bwa-yo",
+    "translation": "下次見。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_078.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_078.mp3",
+    "hasAudio": true,
+    "order": 76,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "다음에 봐요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_079",
+    "text": "내일 시간 있어요?",
+    "phonetic": "nae-il si-gan i-sseo-yo",
+    "translation": "你明天有空嗎？",
+    "audioUrl": "/assets/audio/kr/kr_phrase_079.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_079.mp3",
+    "hasAudio": true,
+    "order": 77,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "내일 시간 있어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "kr_phrase_080",
+    "text": "알겠어요.",
+    "phonetic": "al-ge-sseo-yo",
+    "translation": "了解。",
+    "audioUrl": "/assets/audio/kr/kr_phrase_080.mp3",
+    "translationAudioUrl": "/assets/audio/zh/zh_kr_phrase_080.mp3",
+    "hasAudio": true,
+    "order": 78,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "알겠어요",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  }
+]

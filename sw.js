@@ -1,4 +1,4 @@
-const CACHE_NAME = 'looplang-cache-v10';
+const CACHE_NAME = 'looplang-cache-v12';
 
 // 預先快取核心資源，提升首屏載入速度
 const PRECACHE_URLS = [
@@ -73,6 +73,12 @@ self.addEventListener('fetch', (event) => {
       if (cachedResponse) {
         return cachedResponse;
       }
+      
+      // 避免 Chrome DevTools 的 only-if-cached bug 導致 fetch 拋出錯誤並回傳 ERR_FAILED
+      if (event.request.cache === 'only-if-cached' && event.request.mode !== 'same-origin') {
+        return new Response(null, { status: 504, statusText: 'Gateway Timeout' });
+      }
+
       return fetch(event.request).then((response) => {
         // 如果是跨域請求（例如 CDN 上的 Vue 或 Tailwind）可能 type 不為 basic，但也允許寫入
         if (!response || response.status !== 200) {
@@ -82,7 +88,9 @@ self.addEventListener('fetch', (event) => {
         caches.open(CACHE_NAME).then((cache) => cache.put(event.request, responseClone));
         return response;
       }).catch((e) => {
-        console.warn('[Service Worker] Fetch Failed:', e);
+        console.warn('[Service Worker] Fetch Failed:', e, event.request.url);
+        // 避免回傳 undefined 導致 ERR_FAILED
+        return new Response('Network error happened', { status: 408, headers: { 'Content-Type': 'text/plain' } });
       });
     })
   );

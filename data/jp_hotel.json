@@ -1,0 +1,117 @@
+[
+  {
+    "id": "jp_phrase_010",
+    "text": "チェックインをお[願|ねが]いします。",
+    "phonetic": "chekkuin o onegaishimasu",
+    "translation": "麻煩辦理入住。",
+    "audioUrl": "/audio/jp/jp_phrase_010.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_010.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "チェックインをお願いします",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "jp_phrase_011",
+    "text": "[荷物|にもつ]を[預|あず]かってもらえますか？",
+    "phonetic": "nimotsu o azukatte moraemasu ka",
+    "translation": "可以幫我寄放行李嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_011.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_011.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "荷物を預かってもらえますか",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "jp_phrase_035",
+    "text": "[朝食|ちょうしょく]は[何時|なんじ]からですか？",
+    "phonetic": "choushoku wa nanji kara desu ka",
+    "translation": "早餐幾點開始？",
+    "audioUrl": "/audio/jp/jp_phrase_035.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_035.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "朝食は何時からですか",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "jp_phrase_093",
+    "text": "[予約|よやく]しています。",
+    "phonetic": "yoyaku shite imasu",
+    "translation": "我有預約。",
+    "audioUrl": "/audio/jp/jp_phrase_093.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_093.mp3",
+    "hasAudio": false,
+    "order": 90,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "予約しています",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  },
+  {
+    "id": "jp_phrase_094",
+    "text": "Wi-Fiのパスワードを[教|おし]えてください。",
+    "phonetic": "waifai no pasuwaado o oshiete kudasai",
+    "translation": "請告訴我 Wi-Fi 密碼。",
+    "audioUrl": "/audio/jp/jp_phrase_094.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_094.mp3",
+    "hasAudio": false,
+    "order": 91,
+    "tags": [
+      "travel",
+      "hotel"
+    ],
+    "note": "",
+    "ttsText": "Wi-Fiのパスワードを教えてください",
+    "status": "published",
+    "category": "hotel",
+    "level": "intermediate",
+    "hashtags": [
+      "#travel",
+      "#hotel"
+    ]
+  }
+]

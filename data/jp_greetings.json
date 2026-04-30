@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "jp_phrase_001",
+    "text": "おはようございます。",
+    "phonetic": "ohayou gozaimasu",
+    "translation": "早安。",
+    "audioUrl": "/audio/jp/jp_phrase_001.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_001.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "おはようございます",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_002",
+    "text": "こんにちは。",
+    "phonetic": "konnichiwa",
+    "translation": "你好。",
+    "audioUrl": "/audio/jp/jp_phrase_002.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_002.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "白天使用。",
+    "ttsText": "こんにちは",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_003",
+    "text": "こんばんは。",
+    "phonetic": "konbanwa",
+    "translation": "晚安。",
+    "audioUrl": "/audio/jp/jp_phrase_003.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_003.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "傍晚後使用。",
+    "ttsText": "こんばんは",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_004",
+    "text": "[台湾|たいわん]から[来|き]ました。",
+    "phonetic": "taiwan kara kimashita",
+    "translation": "我從台灣來的。",
+    "audioUrl": "/audio/jp/jp_phrase_004.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_004.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "台湾から来ました",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_006",
+    "text": "ありがとうございます。",
+    "phonetic": "arigatou gozaimasu",
+    "translation": "非常感謝。",
+    "audioUrl": "/audio/jp/jp_phrase_006.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_006.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "thanks",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ありがとうございます",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#thanks",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_007",
+    "text": "すみません。",
+    "phonetic": "sumimasen",
+    "translation": "不好意思 / 抱歉。",
+    "audioUrl": "/audio/jp/jp_phrase_007.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_007.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "最通用的萬用語句。",
+    "ttsText": "すみません",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_008",
+    "text": "はい、そうです。",
+    "phonetic": "hai, sou desu",
+    "translation": "是的，沒錯。",
+    "audioUrl": "/audio/jp/jp_phrase_008.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_008.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "はい、そうです",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_009",
+    "text": "お[元気|げんき]ですか？",
+    "phonetic": "o genki desu ka",
+    "translation": "你好嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_009.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_009.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "chat",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "お元気ですか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_021",
+    "text": "[日本語|にほんご]がわかりません。",
+    "phonetic": "nihongo ga wakarimasen",
+    "translation": "我不懂日語。",
+    "audioUrl": "/audio/jp/jp_phrase_021.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_021.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "日本語がわかりません",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_022",
+    "text": "もう[一度|いちど]お[願|ねが]いします。",
+    "phonetic": "mou ichido onegaishimasu",
+    "translation": "請再說一次。",
+    "audioUrl": "/audio/jp/jp_phrase_022.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_022.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "もう一度お願いします",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_023",
+    "text": "ゆっくり[話|はな]してください。",
+    "phonetic": "yukkuri hanashite kudasai",
+    "translation": "請說慢一點。",
+    "audioUrl": "/audio/jp/jp_phrase_023.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_023.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "ゆっくり話してください",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_024",
+    "text": "お[疲|つか]れ[様|さま]です。",
+    "phonetic": "otsukaresama desu",
+    "translation": "辛苦了。",
+    "audioUrl": "/audio/jp/jp_phrase_024.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_024.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "工作場合必備。",
+    "ttsText": "お疲れ様です",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_025",
+    "text": "よろしくお[願|ねが]いします。",
+    "phonetic": "yoroshiku onegaishimasu",
+    "translation": "請多指教。",
+    "audioUrl": "/audio/jp/jp_phrase_025.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_025.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "intro",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "よろしくお願いします",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_027",
+    "text": "[大丈夫|だいじょうぶ]です。",
+    "phonetic": "daijoubu desu",
+    "translation": "沒關係 / 沒問題 / 不用了。",
+    "audioUrl": "/audio/jp/jp_phrase_027.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_027.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "大丈夫です",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_029",
+    "text": "またね。",
+    "phonetic": "matane",
+    "translation": "再見 / 下次見。",
+    "audioUrl": "/audio/jp/jp_phrase_029.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_029.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "非正式口語。",
+    "ttsText": "またね",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_030",
+    "text": "はじめまして。",
+    "phonetic": "hajimemashite",
+    "translation": "初次見面。",
+    "audioUrl": "/audio/jp/jp_phrase_030.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_030.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "greeting",
+      "basic"
+    ],
+    "note": "第一次見面時使用。",
+    "ttsText": "はじめまして",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#greeting",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_031",
+    "text": "[申|もう]し[訳|わけ]ありません。",
+    "phonetic": "moushiwake arimasen",
+    "translation": "非常抱歉。",
+    "audioUrl": "/audio/jp/jp_phrase_031.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_031.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "apology",
+      "basic"
+    ],
+    "note": "比 すみません 更正式。",
+    "ttsText": "申し訳ありません",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#apology",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_032",
+    "text": "[今日|きょう]はいい[天気|てんき]ですね。",
+    "phonetic": "kyou wa ii tenki desu ne",
+    "translation": "今天天氣真好呢。",
+    "audioUrl": "/audio/jp/jp_phrase_032.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_032.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "適合輕鬆寒暄。",
+    "ttsText": "今日はいい天気ですね",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_033",
+    "text": "それでお[願|ねが]いします。",
+    "phonetic": "sore de onegaishimasu",
+    "translation": "那就麻煩照這個辦。",
+    "audioUrl": "/audio/jp/jp_phrase_033.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_033.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "回應對方提案時常用。",
+    "ttsText": "それでお願いします",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_041",
+    "text": "お[名前|なまえ]は[何|なん]ですか？",
+    "phonetic": "onamae wa nan desu ka",
+    "translation": "你叫什麼名字？",
+    "audioUrl": "/audio/jp/jp_phrase_041.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_041.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "intro",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "お名前は何ですか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#intro",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_042",
+    "text": "[少|すこ]し[待|ま]ってください。",
+    "phonetic": "sukoshi matte kudasai",
+    "translation": "請等一下。",
+    "audioUrl": "/audio/jp/jp_phrase_042.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_042.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "超高頻生活句。",
+    "ttsText": "少し待ってください",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_043",
+    "text": "[今|いま][行|い]きます。",
+    "phonetic": "ima ikimasu",
+    "translation": "我現在過去 / 馬上來。",
+    "audioUrl": "/audio/jp/jp_phrase_043.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_043.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "今行きます",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_045",
+    "text": "[大丈夫|だいじょうぶ]です、ありがとうございます。",
+    "phonetic": "daijoubu desu, arigatou gozaimasu",
+    "translation": "沒關係，謝謝你。",
+    "audioUrl": "/audio/jp/jp_phrase_045.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_045.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "",
+    "ttsText": "大丈夫です、ありがとうございます",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_046",
+    "text": "[今|いま]は[結構|けっこう]です。",
+    "phonetic": "ima wa kekkou desu",
+    "translation": "現在不用了。",
+    "audioUrl": "/audio/jp/jp_phrase_046.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_046.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "social",
+      "basic"
+    ],
+    "note": "委婉拒絕很好用。",
+    "ttsText": "今は結構です",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#social",
+      "#basic",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_047",
+    "text": "[喉|のど]が[渇|かわ]きました。",
+    "phonetic": "nodo ga kawakimashita",
+    "translation": "我口渴了。",
+    "audioUrl": "/audio/jp/jp_phrase_047.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_047.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "喉が渇きました",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_048",
+    "text": "[お腹|おなか]が[空|す]きました。",
+    "phonetic": "onaka ga sukimashita",
+    "translation": "我肚子餓了。",
+    "audioUrl": "/audio/jp/jp_phrase_048.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_048.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "お腹が空きました",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_049",
+    "text": "[疲|つか]れました。",
+    "phonetic": "tsukaremashita",
+    "translation": "我累了。",
+    "audioUrl": "/audio/jp/jp_phrase_049.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_049.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "疲れました",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_050",
+    "text": "[眠|ねむ]いです。",
+    "phonetic": "nemui desu",
+    "translation": "我想睡了。",
+    "audioUrl": "/audio/jp/jp_phrase_050.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_050.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "life",
+      "chat"
+    ],
+    "note": "",
+    "ttsText": "眠いです",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#chat",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_051",
+    "text": "[気分|きぶん]が[悪|わる]いです。",
+    "phonetic": "kibun ga warui desu",
+    "translation": "我不舒服。",
+    "audioUrl": "/audio/jp/jp_phrase_051.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_051.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "気分が悪いです",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_052",
+    "text": "[頭|あたま]が[痛|いた]いです。",
+    "phonetic": "atama ga itai desu",
+    "translation": "我頭痛。",
+    "audioUrl": "/audio/jp/jp_phrase_052.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_052.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "頭が痛いです",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_055",
+    "text": "[今|いま]、[何|なに]してますか？",
+    "phonetic": "ima, nani shitemasu ka",
+    "translation": "你現在在做什麼？",
+    "audioUrl": "/audio/jp/jp_phrase_055.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_055.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "chat",
+      "life"
+    ],
+    "note": "朋友聊天高頻句。",
+    "ttsText": "今、何してますか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#life",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_057",
+    "text": "[後|あと]で[連絡|れんらく]します。",
+    "phonetic": "ato de renraku shimasu",
+    "translation": "我晚點聯絡你。",
+    "audioUrl": "/audio/jp/jp_phrase_057.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_057.mp3",
+    "hasAudio": true,
+    "order": 54,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "後で連絡します",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_058",
+    "text": "[一緒|いっしょ]に[行|い]きますか？",
+    "phonetic": "issho ni ikimasu ka",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_058.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_058.mp3",
+    "hasAudio": true,
+    "order": 55,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "一緒に行きますか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_064",
+    "text": "[風邪薬|かぜぐすり]はありますか？",
+    "phonetic": "kazegusuri wa arimasu ka",
+    "translation": "有感冒藥嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_064.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_064.mp3",
+    "hasAudio": true,
+    "order": 61,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "風邪薬はありますか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_065",
+    "text": "どの[薬|くすり]がいいですか？",
+    "phonetic": "dono kusuri ga ii desu ka",
+    "translation": "哪一種藥比較好？",
+    "audioUrl": "/audio/jp/jp_phrase_065.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_065.mp3",
+    "hasAudio": true,
+    "order": 62,
+    "tags": [
+      "life",
+      "health"
+    ],
+    "note": "",
+    "ttsText": "どの薬がいいですか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#life",
+      "#health",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_066",
+    "text": "[今|いま]どこですか？",
+    "phonetic": "ima doko desu ka",
+    "translation": "你現在在哪裡？",
+    "audioUrl": "/audio/jp/jp_phrase_066.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_066.mp3",
+    "hasAudio": true,
+    "order": 63,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "訊息聊天高頻句。",
+    "ttsText": "今どこですか",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_067",
+    "text": "[今|いま][向|む]かっています。",
+    "phonetic": "ima mukatteimasu",
+    "translation": "我現在正在過去。",
+    "audioUrl": "/audio/jp/jp_phrase_067.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_067.mp3",
+    "hasAudio": true,
+    "order": 64,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "今向かっています",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_068",
+    "text": "[少|すこ]し[遅|おく]れます。",
+    "phonetic": "sukoshi okuremasu",
+    "translation": "我會晚一點到。",
+    "audioUrl": "/audio/jp/jp_phrase_068.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_068.mp3",
+    "hasAudio": true,
+    "order": 65,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "少し遅れます",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_069",
+    "text": "[着|つ]いたら[連絡|れんらく]します。",
+    "phonetic": "tsuitara renraku shimasu",
+    "translation": "我到了再聯絡你。",
+    "audioUrl": "/audio/jp/jp_phrase_069.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_069.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "着いたら連絡します",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_070",
+    "text": "[大丈夫|だいじょうぶ]？",
+    "phonetic": "daijoubu",
+    "translation": "你還好嗎？",
+    "audioUrl": "/audio/jp/jp_phrase_070.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_070.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "口語簡短版。",
+    "ttsText": "大丈夫",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_071",
+    "text": "また[今度|こんど]ね。",
+    "phonetic": "mata kondo ne",
+    "translation": "下次再約喔。",
+    "audioUrl": "/audio/jp/jp_phrase_071.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_071.mp3",
+    "hasAudio": true,
+    "order": 68,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "また今度ね",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  },
+  {
+    "id": "jp_phrase_072",
+    "text": "[了解|りょうかい]です。",
+    "phonetic": "ryoukai desu",
+    "translation": "了解。",
+    "audioUrl": "/audio/jp/jp_phrase_072.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_072.mp3",
+    "hasAudio": true,
+    "order": 69,
+    "tags": [
+      "chat",
+      "social"
+    ],
+    "note": "",
+    "ttsText": "了解です",
+    "status": "published",
+    "category": "greetings",
+    "level": "beginner",
+    "hashtags": [
+      "#chat",
+      "#social",
+      "#greetings"
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "jp_phrase_020",
+    "text": "[助|たす]けてください！",
+    "phonetic": "tasukete kudasai",
+    "translation": "請救救我！",
+    "audioUrl": "/audio/jp/jp_phrase_020.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_020.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "助けてください",
+    "status": "published",
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
+  },
+  {
+    "id": "jp_phrase_040",
+    "text": "[警察|けいさつ]を[呼|よ]んでください。",
+    "phonetic": "keisatsu o yonde kudasai",
+    "translation": "請幫我叫警察。",
+    "audioUrl": "/audio/jp/jp_phrase_040.mp3",
+    "translationAudioUrl": "/audio/jp/jp_zh_phrase_040.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "travel",
+      "emergency"
+    ],
+    "note": "",
+    "ttsText": "警察を呼んでください",
+    "status": "published",
+    "category": "emergency",
+    "level": "advanced",
+    "hashtags": [
+      "#travel",
+      "#emergency"
+    ]
+  }
+]

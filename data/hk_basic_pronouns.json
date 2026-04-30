@@ -1,0 +1,48 @@
+[
+  {
+    "id": "hk_phrase_070",
+    "text": "唔緊要",
+    "phonetic": "m4 gan2 jiu3",
+    "translation": "沒關係",
+    "audioUrl": "/audio/hk/hk_phrase_070.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_070.mp3",
+    "hasAudio": false,
+    "order": 68,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "唔緊要",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  },
+  {
+    "id": "hk_phrase_071",
+    "text": "你近排點呀",
+    "phonetic": "nei5 gan6 paai4 dim2 aa3",
+    "translation": "你好嗎",
+    "audioUrl": "/audio/hk/hk_phrase_071.mp3",
+    "translationAudioUrl": "/audio/hk/hk_zh_phrase_071.mp3",
+    "hasAudio": false,
+    "order": 69,
+    "tags": [
+      "basic",
+      "basic_pronouns"
+    ],
+    "note": "",
+    "ttsText": "你近排點呀",
+    "status": "published",
+    "category": "basic_pronouns",
+    "level": "beginner",
+    "hashtags": [
+      "#basic",
+      "#basic_pronouns"
+    ]
+  }
+]

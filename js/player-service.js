@@ -500,6 +500,7 @@ export const PlayerService = {
    * 特性：只播放原文，不播放中文，播完即止
    */
   playSingleTarget(sentence) {
+    this._unlockMobileEngines();
     this._stopAllAudio();
     const targetUrl = resolveAudioUrl(sentence.audioUrl);
     const langCode = sentence.lang || this.config.lang;

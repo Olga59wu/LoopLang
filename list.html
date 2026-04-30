@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 語系清單</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+</head>
+<body class="bg-zinc-50 text-zinc-900 mx-auto max-w-md pb-20 selection:bg-indigo-100">
+  <div id="app" class="breathing-container" v-cloak>
+    
+    <!-- 頂部與返回導覽 (Sticky 方便搜尋) -->
+    <header class="sticky top-0 z-50 bg-zinc-50/90 backdrop-blur-md pt-8 pb-4 px-4 border-b border-slate-200 shadow-sm">
+      <div class="flex items-center mb-4">
+        <button @click="goBack" class="w-10 h-10 flex items-center justify-center rounded-full bg-white shadow-soft text-zinc-500 hover:text-zinc-900 hit-area-lg transition-transform active:scale-95 mr-4">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        </button>
+        <h1 class="text-2xl font-bold tracking-tight">{{ langLabel }} <span class="text-slate-400 font-medium text-lg ml-1">詞庫</span></h1>
+      </div>
+      
+      <!-- 搜尋列 -->
+      <div class="relative">
+        <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-slate-400"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        </div>
+        <input 
+          type="text" 
+          v-model="searchQuery" 
+          class="w-full bg-white border border-slate-200 text-slate-800 text-sm rounded-2xl focus:ring-2 focus:ring-indigo-100 focus:border-indigo-400 block pl-11 p-3.5 transition-all outline-none placeholder:text-slate-400 font-medium" 
+          placeholder="搜尋原文、拼音或中文..."
+        >
+        <button v-show="searchQuery" @click="searchQuery = ''" class="absolute inset-y-0 right-0 pr-4 flex items-center hit-area text-slate-400 hover:text-slate-600">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      
+      <div class="flex justify-between items-center mt-3 px-1">
+        <span class="text-[11px] font-bold tracking-widest text-slate-400 uppercase">總計 {{ filteredSentences.length }} 句</span>
+      </div>
+    </header>
+
+    <!-- 狀態一：載入中 -->
+    <div v-if="isLoading" class="flex flex-col items-center justify-center mt-20 text-slate-400">
+      <div class="w-8 h-8 border-4 border-slate-200 border-t-indigo-500 rounded-full animate-spin mb-4"></div>
+      <p class="text-sm font-bold tracking-wide">載入詞庫中...</p>
+    </div>
+
+    <!-- 狀態二：無搜尋結果 -->
+    <div v-else-if="filteredSentences.length === 0" class="flex flex-col items-center justify-center mt-20 text-slate-400">
+      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="mb-4 text-slate-300"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+      <p class="text-sm font-medium">找不到符合的句子</p>
+    </div>
+
+    <!-- 狀態三：資料列表 -->
+    <div v-else class="flex flex-col gap-3 px-4 pt-6 pb-12">
+      <div 
+        v-for="(item, index) in filteredSentences" 
+        :key="item.id"
+        @click="playAudio(item)"
+        class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex flex-col gap-1 active:scale-[0.98] transition-transform cursor-pointer"
+      >
+        <!-- 原文 (含防裁切 padding) -->
+        <div class="text-lg font-bold text-slate-800 leading-snug break-words" :class="lang === 'th' ? 'py-1' : ''" v-html="parseFurigana(item.text)">
+        </div>
+        <!-- 拼音/羅馬音 -->
+        <div class="text-sm font-mono text-indigo-500/80 tracking-wide font-semibold mt-0.5">
+          {{ item.phonetic }}
+        </div>
+        <!-- 中文翻譯 -->
+        <div class="text-sm text-slate-500 font-medium mt-1">
+          {{ item.translation }}
+        </div>
+        
+        <!-- Tags 顯示區 -->
+        <div v-if="item.hashtags && item.hashtags.length > 0" class="flex flex-wrap gap-1.5 mt-2.5">
+          <span v-for="tag in item.hashtags" :key="tag" class="text-[10px] px-2 py-0.5 rounded-full bg-slate-100 text-slate-400 font-bold tracking-wide">
+            {{ tag }}
+          </span>
+          <span v-if="item.level" class="text-[10px] px-2 py-0.5 rounded-full font-bold tracking-wide capitalize" :class="levelColor(item.level)">
+            {{ item.level }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="module">
+    import { createApp, ref, computed, onMounted } from 'vue';
+    import { DataService } from '/js/data-service.js';
+    import { PlayerService } from '/js/player-service.js';
+    import { RouterHelpers } from '/js/router-helpers.js';
+
+    const App = {
+      setup() {
+        const lang = ref('');
+        const langLabel = ref('');
+        const sentences = ref([]);
+        const searchQuery = ref('');
+        const isLoading = ref(true);
+
+        onMounted(async () => {
+          lang.value = RouterHelpers.getQueryParam('lang');
+          if (!lang.value) {
+            RouterHelpers.navigateToHome();
+            return;
+          }
+
+          try {
+            // 取得該語言的名稱
+            const catalog = await DataService.getCatalog();
+            const langInfo = catalog.find(c => c.lang === lang.value);
+            if (langInfo) {
+              langLabel.value = langInfo.langLabel;
+            } else {
+              langLabel.value = lang.value.toUpperCase();
+            }
+
+            // 取得全量資料
+            const allData = await DataService.getTopicData(lang.value, 'all');
+            sentences.value = allData;
+          } catch (e) {
+            console.error('載入資料失敗', e);
+          } finally {
+            isLoading.value = false;
+          }
+        });
+
+        const filteredSentences = computed(() => {
+          if (!searchQuery.value.trim()) {
+            return sentences.value;
+          }
+          const q = searchQuery.value.toLowerCase().trim();
+          return sentences.value.filter(s => {
+            return (s.text && s.text.toLowerCase().includes(q)) ||
+                   (s.translation && s.translation.toLowerCase().includes(q)) ||
+                   (s.phonetic && s.phonetic.toLowerCase().includes(q));
+          });
+        });
+
+        const goBack = () => {
+          // 若有上一頁紀錄則回上一頁，否則回首頁
+          if (window.history.length > 1) {
+            window.history.back();
+          } else {
+            RouterHelpers.navigateToHome();
+          }
+        };
+
+        const playAudio = (item) => {
+          // 初始化 PlayerService 供該語系發音使用 (如果尚未初始化)
+          if (PlayerService.state.lang !== lang.value) {
+            PlayerService.state.lang = lang.value;
+          }
+          PlayerService.config.lang = lang.value; // 確保 TTS fallback 語系正確
+          
+          // 僅播放外語原文 (不唸中文)
+          PlayerService.playSingleTarget(item);
+        };
+
+        const levelColor = (level) => {
+          if (level === 'beginner') return 'bg-emerald-100 text-emerald-600';
+          if (level === 'intermediate') return 'bg-amber-100 text-amber-600';
+          if (level === 'advanced') return 'bg-rose-100 text-rose-600';
+          return 'bg-slate-100 text-slate-500';
+        };
+
+        const parseFurigana = (text) => {
+          if (!text) return '';
+          return text.replace(/\[([^\|\]]+)\|([^\]]+)\]/g, '<ruby>$1<rt>$2</rt></ruby>');
+        };
+
+        return {
+          lang, langLabel, searchQuery, filteredSentences, isLoading,
+          goBack, playAudio, levelColor, parseFurigana
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

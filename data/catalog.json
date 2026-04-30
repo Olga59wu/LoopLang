@@ -11,7 +11,7 @@
         "difficulty": "beginner",
         "sentenceCount": 53,
         "cover": "/assets/images/jp-greetings.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_greetings.json",
         "sortOrder": 1
       },
       {
@@ -22,7 +22,7 @@
         "difficulty": "beginner",
         "sentenceCount": 14,
         "cover": "/assets/images/jp-dining.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_dining.json",
         "sortOrder": 2
       },
       {
@@ -33,7 +33,7 @@
         "difficulty": "beginner",
         "sentenceCount": 11,
         "cover": "/assets/images/jp-shopping.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_shopping.json",
         "sortOrder": 3
       },
       {
@@ -44,7 +44,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 5,
         "cover": "/assets/images/jp-transport.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_transport.json",
         "sortOrder": 4
       },
       {
@@ -55,7 +55,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 3,
         "cover": "/assets/images/jp-hotel.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_hotel.json",
         "sortOrder": 5
       },
       {
@@ -66,7 +66,7 @@
         "difficulty": "advanced",
         "sentenceCount": 2,
         "cover": "/assets/images/jp-emergency.jpg",
-        "dataFile": "/data/jp.json",
+        "dataFile": "/data/jp_emergency.json",
         "sortOrder": 6
       }
     ]
@@ -83,7 +83,7 @@
         "difficulty": "beginner",
         "sentenceCount": 50,
         "cover": "/assets/images/th-greetings.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_greetings.json",
         "sortOrder": 1
       },
       {
@@ -94,7 +94,7 @@
         "difficulty": "beginner",
         "sentenceCount": 15,
         "cover": "/assets/images/th-dining.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_dining.json",
         "sortOrder": 2
       },
       {
@@ -105,7 +105,7 @@
         "difficulty": "beginner",
         "sentenceCount": 10,
         "cover": "/assets/images/th-shopping.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_shopping.json",
         "sortOrder": 3
       },
       {
@@ -116,7 +116,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 8,
         "cover": "/assets/images/th-transport.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_transport.json",
         "sortOrder": 4
       },
       {
@@ -127,7 +127,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 3,
         "cover": "/assets/images/th-hotel.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_hotel.json",
         "sortOrder": 5
       },
       {
@@ -138,7 +138,7 @@
         "difficulty": "advanced",
         "sentenceCount": 2,
         "cover": "/assets/images/th-emergency.jpg",
-        "dataFile": "/data/th.json",
+        "dataFile": "/data/th_emergency.json",
         "sortOrder": 6
       }
     ]
@@ -155,7 +155,7 @@
         "difficulty": "beginner",
         "sentenceCount": 43,
         "cover": "/assets/images/kr-greetings.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_greetings.json",
         "sortOrder": 1
       },
       {
@@ -166,7 +166,7 @@
         "difficulty": "beginner",
         "sentenceCount": 11,
         "cover": "/assets/images/kr-dining.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_dining.json",
         "sortOrder": 2
       },
       {
@@ -177,7 +177,7 @@
         "difficulty": "beginner",
         "sentenceCount": 6,
         "cover": "/assets/images/kr-shopping.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_shopping.json",
         "sortOrder": 3
       },
       {
@@ -188,7 +188,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 7,
         "cover": "/assets/images/kr-transport.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_transport.json",
         "sortOrder": 4
       },
       {
@@ -199,7 +199,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 2,
         "cover": "/assets/images/kr-hotel.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_hotel.json",
         "sortOrder": 5
       },
       {
@@ -210,7 +210,7 @@
         "difficulty": "advanced",
         "sentenceCount": 3,
         "cover": "/assets/images/kr-emergency.jpg",
-        "dataFile": "/data/kr.json",
+        "dataFile": "/data/kr_emergency.json",
         "sortOrder": 6
       }
     ]
@@ -227,7 +227,7 @@
         "difficulty": "beginner",
         "sentenceCount": 48,
         "cover": "/assets/images/hk-greetings.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_greetings.json",
         "sortOrder": 1
       },
       {
@@ -238,7 +238,7 @@
         "difficulty": "beginner",
         "sentenceCount": 15,
         "cover": "/assets/images/hk-dining.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_dining.json",
         "sortOrder": 2
       },
       {
@@ -249,7 +249,7 @@
         "difficulty": "beginner",
         "sentenceCount": 10,
         "cover": "/assets/images/hk-shopping.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_shopping.json",
         "sortOrder": 3
       },
       {
@@ -260,7 +260,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 9,
         "cover": "/assets/images/hk-transport.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_transport.json",
         "sortOrder": 4
       },
       {
@@ -271,7 +271,7 @@
         "difficulty": "intermediate",
         "sentenceCount": 3,
         "cover": "/assets/images/hk-hotel.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_hotel.json",
         "sortOrder": 5
       },
       {
@@ -282,7 +282,7 @@
         "difficulty": "advanced",
         "sentenceCount": 3,
         "cover": "/assets/images/hk-emergency.jpg",
-        "dataFile": "/data/hk.json",
+        "dataFile": "/data/hk_emergency.json",
         "sortOrder": 6
       }
     ]
