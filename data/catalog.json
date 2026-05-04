@@ -140,6 +140,17 @@
         "cover": "/assets/images/th-emergency.jpg",
         "dataFile": "/data/th_emergency.json",
         "sortOrder": 6
+      },
+      {
+        "id": "th_new_phrases",
+        "title": "綜合實用語句",
+        "slug": "new_phrases",
+        "description": "從資料庫中匯出的最新日常會話",
+        "difficulty": "beginner",
+        "sentenceCount": 100,
+        "cover": "/assets/images/th-greetings.jpg",
+        "dataFile": "/data/th_all.json",
+        "sortOrder": 7
       }
     ]
   },

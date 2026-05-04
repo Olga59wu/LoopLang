@@ -75,18 +75,24 @@
                         placeholder="/data/lang/topic.json">
                 </div>
             </div>
-            <div class="mt-6 flex gap-4">
+            <div class="mt-6 flex flex-wrap gap-4">
                 <button @click="loadJson"
-                    class="bg-zinc-900 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">載入
-                    JSON</button>
-                <button @click="startBatchDownload" v-if="sentences.length > 0" :disabled="isDownloading"
-                    class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform disabled:opacity-50 flex items-center gap-2">
-                    <span v-if="!isDownloading">⬇️ 打包音檔 (ZIP)</span>
+                    class="bg-zinc-900 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform">載入 JSON</button>
+                
+                <button @click="startBatchDownload(true)" v-if="sentences.length > 0" :disabled="isDownloading"
+                    class="bg-emerald-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform disabled:opacity-50 flex items-center gap-2">
+                    <span v-if="!isDownloading">⚡ 僅打包未處理 (Pending)</span>
                     <span v-else class="flex items-center gap-2">
                         <div class="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin"></div>
-                        打包中...
+                        處理中...
                     </span>
                 </button>
+
+                <button @click="startBatchDownload(false)" v-if="sentences.length > 0" :disabled="isDownloading"
+                    class="bg-blue-600 text-white px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform disabled:opacity-50 flex items-center gap-2">
+                    <span>⬇️ 完整打包 (全部重抓)</span>
+                </button>
+
                 <button @click="clearHistory" v-if="sentences.length > 0"
                     class="bg-zinc-200 text-zinc-600 px-6 py-3 rounded-xl font-bold active:scale-95 transition-transform border border-zinc-300">清除下載紀錄</button>
             </div>
@@ -263,13 +269,12 @@
                             data = allData.filter(s => s.category === filterSlug);
                         }
 
-                        // 檢查歷史紀錄，標記為 pending 或 skipped
+                        // 預設全部顯示 pending，除非有明確下載成功的 localStorage 紀錄
                         sentences.value = data.map(s => {
                             const isDone = downloadHistory[s.id];
-                            return { ...s, status: isDone ? 'skipped' : 'pending' };
+                            return { ...s, status: isDone ? 'success' : 'pending' };
                         });
-                        // 只計算 pending 跟 error 的為主
-                        progress.total = sentences.value.filter(s => s.status !== 'skipped').length;
+                        progress.total = sentences.value.length;
                         progress.current = 0;
                     } catch (e) {
                         showAlert('載入失敗，請確認檔案路徑是否正確', '錯誤');
@@ -325,21 +330,36 @@
                     return null;
                 };
 
-                const startBatchDownload = async () => {
+                const startBatchDownload = async (onlyPending = true) => {
                     isDownloading.value = true;
                     isFinished.value = false;
                     const zip = new JSZip();
                     const audioFolder = zip.folder("audio").folder(config.lang.toUpperCase());
                     let hasDownloadedAny = false;
 
+                    // 計算需要下載的總數
+                    let targetItems = sentences.value;
+                    if (onlyPending) {
+                        targetItems = sentences.value.filter(item => item.hasAudio !== true && item.status !== 'success');
+                    }
+                    progress.total = targetItems.length;
+                    progress.current = 0;
+
                     for (let item of sentences.value) {
-                        // 跳過已經下載過或是成功的
-                        if (item.status === 'skipped' || item.status === 'success') continue;
-                        
+                        if (onlyPending) {
+                            if (item.hasAudio === true || item.status === 'success') {
+                                item.status = 'skipped';
+                                continue;
+                            }
+                        }
+
                         item.status = 'downloading';
                         try {
                             // 動態從 URL 擷取正確檔名與副檔名
-                            const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
+                            const getFileName = (url) => {
+                                const decodedUrl = decodeURIComponent(url).split('?')[0];
+                                return decodedUrl.substring(decodedUrl.lastIndexOf('/') + 1);
+                            };
 
                             // 支援跨語系的停頓轉換 (防範 Google TTS 讀到斜線直接截斷斷句)
                             let originalQueryText = item.ttsText || item.text;
@@ -370,6 +390,8 @@
                                 currentWordDisplay.value = `[中] ${item.translation}`;
                                 const translationFileName = getFileName(item.translationAudioUrl);
                                 let translationQuery = item.translation.replace(/\s*\/\s*/g, '、');
+                                // 過濾掉括號內的說明文字 (包含全形與半形括號)，避免 TTS 唸出冗長的註解
+                                translationQuery = translationQuery.replace(/\s*[\(（][^\)）]*[\)）]\s*/g, '');
                                 const blob = await fetchMp3Blob(translationQuery, 'zh-TW');
                                 if (blob) {
                                     audioFolder.file(translationFileName, blob);
@@ -406,7 +428,10 @@
                         const zip = new JSZip();
                         const audioFolder = zip.folder("audio").folder(config.lang.toUpperCase());
                         let hasDownloadedAny = false;
-                        const getFileName = (url) => url.substring(url.lastIndexOf('/') + 1);
+                        const getFileName = (url) => {
+                            const decodedUrl = decodeURIComponent(url).split('?')[0];
+                            return decodedUrl.substring(decodedUrl.lastIndexOf('/') + 1);
+                        };
                         
                         let originalQueryText = item.ttsText || item.text;
                         if (config.lang === 'jp') {
@@ -429,6 +454,8 @@
 
                         if (item.translationAudioUrl) {
                             let translationQuery = item.translation.replace(/\s*\/\s*/g, '、');
+                            // 過濾掉括號內的說明文字 (包含全形與半形括號)，避免 TTS 唸出冗長的註解
+                            translationQuery = translationQuery.replace(/\s*[\(（][^\)）]*[\)）]\s*/g, '');
                             const blob = await fetchMp3Blob(translationQuery, 'zh-TW');
                             if (blob) {
                                 audioFolder.file(getFileName(item.translationAudioUrl), blob);

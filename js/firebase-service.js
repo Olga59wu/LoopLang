@@ -25,6 +25,7 @@ const googleProvider = new GoogleAuthProvider();
 export const FirebaseService = {
   auth,
   storage,
+  db,
   
   /**
    * 註冊 Auth 狀態變更監聽器

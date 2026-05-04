@@ -1,9 +1,10 @@
-const CACHE_NAME = 'looplang-cache-v12';
+const CACHE_NAME = 'looplang-cache-v37';
 
 // 預先快取核心資源，提升首屏載入速度
 const PRECACHE_URLS = [
   '/',
   '/index.html',
+  '/thai_list.html',
   '/styles/main.css',
   '/manifest.json',
   '/assets/icons/icon-192x192.png',

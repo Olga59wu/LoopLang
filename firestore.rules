@@ -2,7 +2,32 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
-    // 限制每個人只能存取自己 /users/{uid} 節點底下的所有資料夾與文件
+    
+    function isWhitelisted() {
+      return request.auth != null && (
+        request.auth.token.email == 'chipang59@gmail.com' || 
+        request.auth.token.email == 'olgawu.59@gmail.com'
+      );
+    }
+
+    // 開放全域題庫供所有已登入使用者唯讀，但僅限白名單寫入
+    match /thai_phrases/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if isWhitelisted();
+    }
+    
+    // 全域設定檔（如聲調規則）
+    match /thai_config/{document=**} {
+      allow read: if request.auth != null;
+      allow write: if isWhitelisted();
+    }
+
+    // 針對泰語進度的特別防護：僅限本人且必須在白名單內才能讀寫
+    match /users/{userId}/thai_progress/{document=**} {
+      allow read, write: if request.auth != null && request.auth.uid == userId && isWhitelisted();
+    }
+
+    // 限制每個人只能存取自己 /users/{uid} 節點底下的其他資料
     match /users/{userId}/{document=**} {
       allow read, write: if request.auth != null && request.auth.uid == userId;
     }

@@ -96,6 +96,18 @@
            <polyline points="3 3 3 8 8 8"></polyline>
         </svg>
       </button>
+      <button @click="toggleShuffle" 
+        class="w-7 h-7 flex items-center justify-center rounded-full transition-colors hit-area"
+        :class="isShuffled ? 'bg-indigo-100 text-indigo-600' : 'bg-slate-200/50 text-slate-500 hover:bg-slate-300 hover:text-slate-800'"
+        title="隨機播放">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="16 3 21 3 21 8"></polyline>
+          <line x1="4" y1="20" x2="21" y2="3"></line>
+          <polyline points="21 16 21 21 16 21"></polyline>
+          <line x1="15" y1="15" x2="21" y2="21"></line>
+          <line x1="4" y1="4" x2="9" y2="9"></line>
+        </svg>
+      </button>
     </div>
 
     <!-- 中間顯示區 -->
@@ -249,6 +261,8 @@
 
         const playerState = PlayerService.state;
 
+        const isShuffled = ref(false);
+
         const currentSentence = computed(() => {
           if (playerState.sentences.length === 0) return null;
           return playerState.sentences[playerState.currentIndex];
@@ -360,16 +374,29 @@
         };
 
         const rebuildPlaylist = () => {
-          let newPlayList = baseSentences;
+          let newPlayList = [...baseSentences];
           if (prefs.value.filterMode === 'unlearned') {
-            newPlayList = baseSentences.filter(s => !StorageService.isLearned(s.id));
+            newPlayList = newPlayList.filter(s => !StorageService.isLearned(s.id));
           } else if (prefs.value.filterMode === 'starred') {
-            newPlayList = baseSentences.filter(s => StorageService.isFavorite(s.id));
+            newPlayList = newPlayList.filter(s => StorageService.isFavorite(s.id));
+          }
+
+          if (isShuffled.value) {
+            for (let i = newPlayList.length - 1; i > 0; i--) {
+              const j = Math.floor(Math.random() * (i + 1));
+              [newPlayList[i], newPlayList[j]] = [newPlayList[j], newPlayList[i]];
+            }
           }
 
           if (newPlayList.length === 0 && baseSentences.length > 0) {
             // 若過濾後無任何句子，妥協回歸全庫避免系統死機
-            newPlayList = baseSentences;
+            newPlayList = [...baseSentences];
+            if (isShuffled.value) {
+              for (let i = newPlayList.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newPlayList[i], newPlayList[j]] = [newPlayList[j], newPlayList[i]];
+              }
+            }
           }
 
           // 嘗試維持原本正在播放的這句的 ID 索引
@@ -516,6 +543,12 @@
           showPopup('已重設為第一句');
         };
 
+        const toggleShuffle = () => {
+          isShuffled.value = !isShuffled.value;
+          rebuildPlaylist();
+          showPopup(isShuffled.value ? '已切換為隨機播放' : '已恢復順序播放');
+        };
+
         // --- 進階功能切換 ---
         const cycleSpeed = () => {
           const speeds = [0.8, 1.0, 1.2];
@@ -565,9 +598,9 @@
 
         return {
           topics, lang, topicTitle, langLabel,
-          prefs, playerState, currentSentence, currentIndex, totalSentences,
+          prefs, playerState, currentSentence, currentIndex, totalSentences, isShuffled,
           isFavorite, isLearned, toggleFavorite, toggleLearned,
-          play, pause, next, prev, playInteractive, popupMessage, resetProgress,
+          play, pause, next, prev, playInteractive, popupMessage, resetProgress, toggleShuffle,
           cycleSpeed, cycleLoop, cycleMode, cycleFilter, loopLabel, modeLabel, filterLabel,
           goHome, goList, selectTopic, showTopicModal
         };

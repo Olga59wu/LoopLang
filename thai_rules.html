@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>LoopLang - 泰語聲調規則設定</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#f8fafc">
+  <link rel="apple-touch-icon" href="/assets/icons/icon-192x192.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&family=Sarabun:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+      }
+    }
+  </script>
+  <style>
+    .thai-text { font-family: 'Sarabun', sans-serif; }
+    [v-cloak] { display: none; }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen pb-20 selection:bg-indigo-100">
+
+  <div id="app" class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8" v-cloak>
+    
+    <!-- 導航列 -->
+    <header class="flex justify-between items-center mb-10 pt-4">
+      <div class="flex items-center gap-4">
+        <a href="/thai_drill.html" class="w-10 h-10 flex items-center justify-center rounded-full bg-white border border-slate-200 text-slate-400 hover:text-slate-700 hover:bg-slate-50 transition-colors shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </a>
+        <h1 class="text-2xl font-extrabold tracking-tight text-slate-800">聲調規則管理大腦</h1>
+      </div>
+      
+      <div class="flex items-center gap-2">
+        <button 
+          @click="syncAllTones" 
+          :disabled="isSyncing || isSaving"
+          class="bg-emerald-600 text-white px-4 py-2.5 rounded-full font-bold shadow-md shadow-emerald-200 hover:bg-emerald-700 hover:shadow-lg transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none flex items-center gap-2"
+        >
+          <svg v-if="isSyncing" class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+          <span v-else>🔄</span>
+          <span>{{ isSyncing ? `同步中 (${syncProgress}/${syncTotal})` : '重新整理全庫聲調' }}</span>
+        </button>
+        
+        <button 
+          @click="saveRules" 
+          :disabled="isSaving || isSyncing"
+          class="bg-indigo-600 text-white px-6 py-2.5 rounded-full font-bold shadow-md shadow-indigo-200 hover:bg-indigo-700 hover:shadow-lg transition-all active:scale-95 disabled:opacity-50 disabled:pointer-events-none flex items-center gap-2"
+        >
+          <svg v-if="isSaving" class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+          <span>{{ isSaving ? '儲存中...' : '儲存變更' }}</span>
+        </button>
+      </div>
+    </header>
+
+    <div v-if="isLoading" class="text-center py-20 text-slate-400 font-bold animate-pulse">
+      載入雲端規則中...
+    </div>
+
+    <div v-else class="space-y-12">
+      
+      <!-- 區塊一：子音分類 -->
+      <section class="bg-white rounded-[2rem] p-6 sm:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100">
+        <h2 class="text-xl font-bold mb-2 flex items-center gap-2">
+          <span class="text-indigo-500">1.</span> 子音階級分類
+        </h2>
+        <p class="text-sm text-slate-500 mb-6">定義哪些字母屬於中子音與高子音，其餘未列入的字母將自動被判定為低子音。</p>
+        
+        <div class="grid sm:grid-cols-2 gap-6">
+          <div>
+            <label class="block text-sm font-bold text-slate-700 mb-2">中子音 (Mid Consonants)</label>
+            <input v-model="rules.consonants.mid" type="text" class="thai-text w-full text-lg px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all">
+          </div>
+          <div>
+            <label class="block text-sm font-bold text-slate-700 mb-2">高子音 (High Consonants)</label>
+            <input v-model="rules.consonants.high" type="text" class="thai-text w-full text-lg px-4 py-3 bg-slate-50 border border-slate-200 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 outline-none transition-all">
+          </div>
+        </div>
+      </section>
+
+      <!-- 區塊二：規則矩陣 -->
+      <section class="bg-white rounded-[2rem] p-6 sm:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 overflow-hidden">
+        <h2 class="text-xl font-bold mb-2 flex items-center gap-2">
+          <span class="text-indigo-500">2.</span> 聲調推導矩陣
+        </h2>
+        <p class="text-sm text-slate-500 mb-6">定義「子音階級」與「尾音/聲調符號」的交叉組合結果。這是引擎判斷的核心。</p>
+        
+        <div class="overflow-x-auto pb-4">
+          <table class="w-full text-sm text-left">
+            <thead>
+              <tr class="text-slate-400 border-b border-slate-100">
+                <th class="pb-3 font-bold whitespace-nowrap">情境條件</th>
+                <th class="pb-3 font-bold text-center w-1/4">中子音 (Mid)</th>
+                <th class="pb-3 font-bold text-center w-1/4">高子音 (High)</th>
+                <th class="pb-3 font-bold text-center w-1/4">低子音 (Low)</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-slate-50">
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap">平音結尾 (Live)</td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.mid.live"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.high.live"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.live"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap">促音結尾 (Dead) <span class="text-[10px] text-slate-400 block sm:inline mt-1 sm:mt-0">短母音</span></td>
+                <td class="py-3 px-2" rowspan="2"><tone-select v-model="rules.matrix.mid.dead"></tone-select></td>
+                <td class="py-3 px-2" rowspan="2"><tone-select v-model="rules.matrix.high.dead"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.dead_short"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap">促音結尾 (Dead) <span class="text-[10px] text-slate-400 block sm:inline mt-1 sm:mt-0">長母音</span></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.dead_long"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap text-lg thai-text">ไม้เอก ( ่ )</td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.mid.mai_ek"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.high.mai_ek"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.mai_ek"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap text-lg thai-text">ไม้โท ( ้ )</td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.mid.mai_tho"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.high.mai_tho"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.mai_tho"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap text-lg thai-text">ไม้ตรี ( ๊ )</td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.mid.mai_tri"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.high.mai_tri"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.mai_tri"></tone-select></td>
+              </tr>
+              <tr class="hover:bg-slate-50/50 transition-colors">
+                <td class="py-4 font-medium text-slate-600 whitespace-nowrap text-lg thai-text">ไม้จัตวา ( ๋ )</td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.mid.mai_chattawa"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.high.mai_chattawa"></tone-select></td>
+                <td class="py-3 px-2"><tone-select v-model="rules.matrix.low.mai_chattawa"></tone-select></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- 區塊三：例外單字 -->
+      <section class="bg-white rounded-[2rem] p-6 sm:p-8 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100">
+        <div class="flex justify-between items-center mb-2">
+          <h2 class="text-xl font-bold flex items-center gap-2">
+            <span class="text-indigo-500">3.</span> 特例白名單 (Exceptions)
+          </h2>
+          <button @click="addException" class="text-indigo-600 bg-indigo-50 hover:bg-indigo-100 px-3 py-1.5 rounded-lg text-sm font-bold flex items-center gap-1 transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            新增單字
+          </button>
+        </div>
+        <p class="text-sm text-slate-500 mb-6">當輸入以下單字時，將無視所有推導規則，直接套用您指定的聲調。用於處理口語變音或不合規則的例外。</p>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          <div v-for="(tone, word) in rules.exceptions" :key="word" class="flex items-center gap-2 bg-slate-50 p-2 pl-4 rounded-xl border border-slate-100 group">
+            <span class="thai-text text-lg font-bold text-slate-700 flex-1">{{ word }}</span>
+            <tone-select :model-value="tone" @update:model-value="(val) => updateException(word, val)" class="w-32"></tone-select>
+            <button @click="removeException(word)" class="p-2 text-slate-300 hover:text-rose-500 hover:bg-rose-50 rounded-lg transition-colors" title="刪除">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- 新增輸入框 -->
+        <div v-if="isAddingException" class="mt-4 flex flex-col sm:flex-row items-center gap-3 bg-indigo-50/50 p-3 rounded-xl border border-indigo-100">
+          <input ref="newWordInput" v-model="newExceptionWord" @keyup.enter="confirmAddException" type="text" placeholder="輸入泰文單字..." class="thai-text flex-1 w-full text-lg px-4 py-2 bg-white border border-slate-200 rounded-lg focus:ring-2 focus:ring-indigo-500 outline-none">
+          <div class="flex items-center gap-2 w-full sm:w-auto justify-end">
+            <button @click="isAddingException = false" class="text-slate-500 hover:bg-slate-200 px-4 py-2 rounded-lg font-bold text-sm transition-colors">取消</button>
+            <button @click="confirmAddException" class="bg-indigo-600 text-white hover:bg-indigo-700 px-4 py-2 rounded-lg font-bold text-sm shadow-sm transition-colors">確認新增</button>
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  </div>
+
+  <script type="module">
+    import { createApp, ref, onMounted, nextTick } from 'vue';
+    import { FirebaseService } from '/js/firebase-service.js';
+    import { collection, getDocs, doc, getDoc, setDoc, updateDoc } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-firestore.js";
+    import { evaluateTonesForArray } from '/js/thai-core.js?v=2';
+
+    // 聲調選擇器組件
+    const ToneSelect = {
+      props: ['modelValue'],
+      emits: ['update:modelValue'],
+      template: `
+        <select 
+          :value="modelValue" 
+          @change="$emit('update:modelValue', $event.target.value)"
+          class="w-full bg-white border border-slate-200 rounded-lg p-2 text-sm outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 cursor-pointer text-slate-700 font-medium"
+        >
+          <option value="mid">Mid (平)</option>
+          <option value="high">High (高)</option>
+          <option value="low">Low (低)</option>
+          <option value="falling">Falling (落)</option>
+          <option value="rising">Rising (升)</option>
+        </select>
+      `
+    };
+
+    const App = {
+      components: { ToneSelect },
+      setup() {
+        const isLoading = ref(true);
+        const isSaving = ref(false);
+        const isSyncing = ref(false);
+        const syncProgress = ref(0);
+        const syncTotal = ref(0);
+        const rules = ref(null);
+        
+        const isAddingException = ref(false);
+        const newExceptionWord = ref('');
+        const newWordInput = ref(null);
+
+        onMounted(() => {
+          FirebaseService.onAuthChange(async (user) => {
+            if (user) {
+              await loadRules();
+            } else {
+              window.location.href = '/index.html';
+            }
+          });
+        });
+
+        const loadRules = async () => {
+          isLoading.value = true;
+          try {
+            const docRef = doc(FirebaseService.db, "thai_config", "tone_rules");
+            const docSnap = await getDoc(docRef);
+            if (docSnap.exists()) {
+              rules.value = docSnap.data();
+            } else {
+              alert("找不到規則檔案，請確定初始化腳本已執行。");
+            }
+          } catch (e) {
+            console.error("載入規則失敗:", e);
+            alert("載入失敗，請確認權限是否正確。");
+          } finally {
+            isLoading.value = false;
+          }
+        };
+
+        const saveRules = async () => {
+          isSaving.value = true;
+          try {
+            const docRef = doc(FirebaseService.db, "thai_config", "tone_rules");
+            await setDoc(docRef, rules.value);
+            alert("規則已成功儲存並生效！您可以回到打字頁面測試。");
+          } catch (e) {
+            console.error("儲存失敗:", e);
+            alert("儲存失敗，請檢查權限。");
+          } finally {
+            isSaving.value = false;
+          }
+        };
+
+        const syncAllTones = async () => {
+          if (!confirm("確定要依照當前的最新規則，重新整理全庫的聲調嗎？\n這將會重新斷詞並覆寫所有卡片的聲調紀錄。請確保您已先「儲存變更」最新的規則。")) return;
+          
+          isSyncing.value = true;
+          syncProgress.value = 0;
+          let updatedCount = 0;
+          
+          try {
+            const snapshot = await getDocs(collection(FirebaseService.db, 'thai_phrases'));
+            syncTotal.value = snapshot.size;
+            
+            for (const document of snapshot.docs) {
+              const data = document.data();
+              if (data.text && Array.isArray(data.text)) {
+                // Keep the exact original text segmentation that the user saved
+                const newToneClasses = evaluateTonesForArray(data.text, rules.value);
+                
+                const oldTones = data.tone_classes || [];
+                const isDifferent = oldTones.length !== newToneClasses.length || newToneClasses.some((t, i) => t !== oldTones[i]);
+                
+                if (isDifferent) {
+                  await updateDoc(doc(FirebaseService.db, 'thai_phrases', document.id), {
+                    tone_classes: newToneClasses
+                  });
+                  updatedCount++;
+                }
+              }
+              syncProgress.value++;
+            }
+            alert(`✅ 同步完成！共檢查 ${syncTotal.value} 張卡片，成功修正 ${updatedCount} 張卡片。`);
+          } catch(e) {
+            console.error("同步失敗:", e);
+            alert("同步失敗，請檢查網路與權限。");
+          } finally {
+            isSyncing.value = false;
+          }
+        };
+
+        const updateException = (word, tone) => {
+          rules.value.exceptions[word] = tone;
+        };
+
+        const removeException = (word) => {
+          if (confirm(`確定要刪除「${word}」的特例嗎？`)) {
+            delete rules.value.exceptions[word];
+          }
+        };
+
+        const addException = () => {
+          isAddingException.value = true;
+          newExceptionWord.value = '';
+          nextTick(() => {
+            if (newWordInput.value) newWordInput.value.focus();
+          });
+        };
+
+        const confirmAddException = () => {
+          const word = newExceptionWord.value.trim();
+          if (!word) {
+            isAddingException.value = false;
+            return;
+          }
+          if (rules.value.exceptions[word]) {
+            alert("該單字已存在特例清單中！");
+            return;
+          }
+          // 預設為 high，讓使用者自己改
+          rules.value.exceptions[word] = 'high';
+          isAddingException.value = false;
+        };
+
+        return {
+          isLoading, isSaving, isSyncing, syncProgress, syncTotal, rules,
+          isAddingException, newExceptionWord, newWordInput,
+          saveRules, syncAllTones, updateException, removeException, addException, confirmAddException
+        };
+      }
+    };
+
+    createApp(App).mount('#app');
+  </script>
+</body>
+</html>

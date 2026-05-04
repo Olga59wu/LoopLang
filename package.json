@@ -1,5 +1,8 @@
 {
   "volta": {
     "node": "24.14.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.8.0"
   }
 }

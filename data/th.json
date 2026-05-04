@@ -2224,5 +2224,2880 @@
       "#travel",
       "#travel"
     ]
+  },
+  {
+    "id": "0kbcmnszqLtJZQZfvmCW",
+    "text": "ทำอะไรอยู่",
+    "phonetic": "",
+    "translation": "在做什麼？",
+    "audioUrl": "/audio/th/0kbcmnszqLtJZQZfvmCW.mp3",
+    "translationAudioUrl": "/audio/th/0kbcmnszqLtJZQZfvmCW_tw.mp3",
+    "hasAudio": true,
+    "order": 1,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ทำอะไรอยู่",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "1skj3CA2Ja2vs15w2EHf",
+    "text": "ทานอะไรดีคะ",
+    "phonetic": "",
+    "translation": "吃什麼好呢？",
+    "audioUrl": "/audio/th/1skj3CA2Ja2vs15w2EHf.mp3",
+    "translationAudioUrl": "/audio/th/1skj3CA2Ja2vs15w2EHf_tw.mp3",
+    "hasAudio": true,
+    "order": 2,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ทานอะไรดีคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "1upsRai9GlON9PMjoLUF",
+    "text": "มีความลับหรือเปล่า",
+    "phonetic": "",
+    "translation": "是不是有秘密呀？",
+    "audioUrl": "/audio/th/1upsRai9GlON9PMjoLUF.mp3",
+    "translationAudioUrl": "/audio/th/1upsRai9GlON9PMjoLUF_tw.mp3",
+    "hasAudio": true,
+    "order": 3,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "มีความลับหรือเปล่า",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "2L7SIT7JUTCOFATZeRs4",
+    "text": "ขอโทษที่มาสาย",
+    "phonetic": "",
+    "translation": "抱歉我遲到了",
+    "audioUrl": "/audio/th/2L7SIT7JUTCOFATZeRs4.mp3",
+    "translationAudioUrl": "/audio/th/2L7SIT7JUTCOFATZeRs4_tw.mp3",
+    "hasAudio": true,
+    "order": 4,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษที่มาสาย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "2LNDPeBmUtaHleBNOQz7",
+    "text": "ตกลง",
+    "phonetic": "",
+    "translation": "一言為定/同意",
+    "audioUrl": "/audio/th/2LNDPeBmUtaHleBNOQz7.mp3",
+    "translationAudioUrl": "/audio/th/2LNDPeBmUtaHleBNOQz7_tw.mp3",
+    "hasAudio": true,
+    "order": 5,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ตกลง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "2WhMX68aP9iXaqZPmfl1",
+    "text": "เชื่อที่พูดไหมคะ",
+    "phonetic": "",
+    "translation": "相信我說的話嗎？",
+    "audioUrl": "/audio/th/2WhMX68aP9iXaqZPmfl1.mp3",
+    "translationAudioUrl": "/audio/th/2WhMX68aP9iXaqZPmfl1_tw.mp3",
+    "hasAudio": true,
+    "order": 6,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เชื่อที่พูดไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "48b7RdUErIYtcLLHseEo",
+    "text": "ขอบคุณ",
+    "phonetic": "",
+    "translation": "謝謝",
+    "audioUrl": "/audio/th/48b7RdUErIYtcLLHseEo.mp3",
+    "translationAudioUrl": "/audio/th/48b7RdUErIYtcLLHseEo_tw.mp3",
+    "hasAudio": true,
+    "order": 7,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอบคุณ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "4Ld5TdTZO6t6i7rrUWny",
+    "text": "นึกออกหรือยังคะ",
+    "phonetic": "",
+    "translation": "想起來了嗎？",
+    "audioUrl": "/audio/th/4Ld5TdTZO6t6i7rrUWny.mp3",
+    "translationAudioUrl": "/audio/th/4Ld5TdTZO6t6i7rrUWny_tw.mp3",
+    "hasAudio": true,
+    "order": 8,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "นึกออกหรือยังคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "4cBvjdI7sGtoBYfS4nIW",
+    "text": "ขอตัวก่อนนะ",
+    "phonetic": "",
+    "translation": "我先失陪了喔（要先行離開時的禮貌用語）",
+    "audioUrl": "/audio/th/4cBvjdI7sGtoBYfS4nIW.mp3",
+    "translationAudioUrl": "/audio/th/4cBvjdI7sGtoBYfS4nIW_tw.mp3",
+    "hasAudio": true,
+    "order": 9,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอตัวก่อนนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "4tRVT7AZcX7k41Ctj6lI",
+    "text": "นัดกี่โมงดีคะ",
+    "phonetic": "",
+    "translation": "約幾點好呢？",
+    "audioUrl": "/audio/th/4tRVT7AZcX7k41Ctj6lI.mp3",
+    "translationAudioUrl": "/audio/th/4tRVT7AZcX7k41Ctj6lI_tw.mp3",
+    "hasAudio": true,
+    "order": 10,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "นัดกี่โมงดีคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "6k8gWleukQzUUIpiYFk5",
+    "text": "ไม่ได้ตั้งใจ",
+    "phonetic": "",
+    "translation": "我不是故意的",
+    "audioUrl": "/audio/th/6k8gWleukQzUUIpiYFk5.mp3",
+    "translationAudioUrl": "/audio/th/6k8gWleukQzUUIpiYFk5_tw.mp3",
+    "hasAudio": true,
+    "order": 11,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ได้ตั้งใจ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "7DEhbDkNm3PsHdadKWwU",
+    "text": "เกรงใจจะแย่แล้ว",
+    "phonetic": "",
+    "translation": "真的非常不好意思（比單純的เกรงใจ語氣更重）",
+    "audioUrl": "/audio/th/7DEhbDkNm3PsHdadKWwU.mp3",
+    "translationAudioUrl": "/audio/th/7DEhbDkNm3PsHdadKWwU_tw.mp3",
+    "hasAudio": true,
+    "order": 12,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เกรงใจจะแย่แล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "85DcEQNf1VKXNb1fukB4",
+    "text": "ไม่ได้เจอกันนานเลยนะ",
+    "phonetic": "",
+    "translation": "好久沒見了呢",
+    "audioUrl": "/audio/th/85DcEQNf1VKXNb1fukB4.mp3",
+    "translationAudioUrl": "/audio/th/85DcEQNf1VKXNb1fukB4_tw.mp3",
+    "hasAudio": true,
+    "order": 13,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ได้เจอกันนานเลยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "89juMiHQJ5UaRPOZR8IR",
+    "text": "เดี๋ยวจัดการเอง",
+    "phonetic": "",
+    "translation": "等一下我會自己處理的",
+    "audioUrl": "/audio/th/89juMiHQJ5UaRPOZR8IR.mp3",
+    "translationAudioUrl": "/audio/th/89juMiHQJ5UaRPOZR8IR_tw.mp3",
+    "hasAudio": true,
+    "order": 14,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวจัดการเอง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "8VAVI9tagkJMzsLkqiHs",
+    "text": "เดี๋ยวเจอกันนะ",
+    "phonetic": "",
+    "translation": "待會見喔",
+    "audioUrl": "/audio/th/8VAVI9tagkJMzsLkqiHs.mp3",
+    "translationAudioUrl": "/audio/th/8VAVI9tagkJMzsLkqiHs_tw.mp3",
+    "hasAudio": true,
+    "order": 15,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวเจอกันนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "A0eTYgsaSv7tagn0r9pR",
+    "text": "ทำไงดีคะ",
+    "phonetic": "",
+    "translation": "該怎麼辦好呢？",
+    "audioUrl": "/audio/th/A0eTYgsaSv7tagn0r9pR.mp3",
+    "translationAudioUrl": "/audio/th/A0eTYgsaSv7tagn0r9pR_tw.mp3",
+    "hasAudio": true,
+    "order": 16,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ทำไงดีคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "BVDdSJyahl60AdXZwTKD",
+    "text": "น่ารักจัง",
+    "phonetic": "",
+    "translation": "好可愛",
+    "audioUrl": "/audio/th/BVDdSJyahl60AdXZwTKD.mp3",
+    "translationAudioUrl": "/audio/th/BVDdSJyahl60AdXZwTKD_tw.mp3",
+    "hasAudio": true,
+    "order": 17,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "น่ารักจัง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "BxmhSFCo1eGFIJ8ucI12",
+    "text": "โชคดีนะ",
+    "phonetic": "",
+    "translation": "祝你好運",
+    "audioUrl": "/audio/th/BxmhSFCo1eGFIJ8ucI12.mp3",
+    "translationAudioUrl": "/audio/th/BxmhSFCo1eGFIJ8ucI12_tw.mp3",
+    "hasAudio": true,
+    "order": 18,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "โชคดีนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "C86JOWUXV59XrJX3xL7P",
+    "text": "ขอเวลาคิดหน่อยนะ",
+    "phonetic": "",
+    "translation": "給我點時間考慮喔",
+    "audioUrl": "/audio/th/C86JOWUXV59XrJX3xL7P.mp3",
+    "translationAudioUrl": "/audio/th/C86JOWUXV59XrJX3xL7P_tw.mp3",
+    "hasAudio": true,
+    "order": 19,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอเวลาคิดหน่อยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "CCSEIw0w8pOWnDCTunW5",
+    "text": "ไม่กล้า",
+    "phonetic": "",
+    "translation": "我不敢啦（拒絕嘗試或感到害羞時用）",
+    "audioUrl": "/audio/th/CCSEIw0w8pOWnDCTunW5.mp3",
+    "translationAudioUrl": "/audio/th/CCSEIw0w8pOWnDCTunW5_tw.mp3",
+    "hasAudio": true,
+    "order": 20,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่กล้า",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "CLvhosenTyYTCyK1DWOi",
+    "text": "ลองดูก่อนนะ",
+    "phonetic": "",
+    "translation": "先試試看喔",
+    "audioUrl": "/audio/th/CLvhosenTyYTCyK1DWOi.mp3",
+    "translationAudioUrl": "/audio/th/CLvhosenTyYTCyK1DWOi_tw.mp3",
+    "hasAudio": true,
+    "order": 21,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ลองดูก่อนนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "DwhCErb1FEYjsE1YzqA9",
+    "text": "เกรงใจจังเลย",
+    "phonetic": "",
+    "translation": "真是不好意思（感到客氣）",
+    "audioUrl": "/audio/th/DwhCErb1FEYjsE1YzqA9.mp3",
+    "translationAudioUrl": "/audio/th/DwhCErb1FEYjsE1YzqA9_tw.mp3",
+    "hasAudio": true,
+    "order": 22,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เกรงใจจังเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "EP42VSEk6jzj2XcWEKIo",
+    "text": "คุยกันหน่อยได้ไหม",
+    "phonetic": "",
+    "translation": "可以聊一下嗎？",
+    "audioUrl": "/audio/th/EP42VSEk6jzj2XcWEKIo.mp3",
+    "translationAudioUrl": "/audio/th/EP42VSEk6jzj2XcWEKIo_tw.mp3",
+    "hasAudio": true,
+    "order": 23,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "คุยกันหน่อยได้ไหม",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "EfyDNAsNuf3lQFeFIs9F",
+    "text": "ไม่เป็นไรจริงจริง",
+    "phonetic": "",
+    "translation": "真的沒關係",
+    "audioUrl": "/audio/th/EfyDNAsNuf3lQFeFIs9F.mp3",
+    "translationAudioUrl": "/audio/th/EfyDNAsNuf3lQFeFIs9F_tw.mp3",
+    "hasAudio": true,
+    "order": 24,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นไรจริงจริง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "ElwPfYdNn6kh0i4gNNUV",
+    "text": "ไม่ค่อยว่าง",
+    "phonetic": "",
+    "translation": "不太有空耶",
+    "audioUrl": "/audio/th/ElwPfYdNn6kh0i4gNNUV.mp3",
+    "translationAudioUrl": "/audio/th/ElwPfYdNn6kh0i4gNNUV_tw.mp3",
+    "hasAudio": true,
+    "order": 25,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ค่อยว่าง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "F3dR3UFhz9K905AJYYiI",
+    "text": "ดีเลย",
+    "phonetic": "",
+    "translation": "那太好了",
+    "audioUrl": "/audio/th/F3dR3UFhz9K905AJYYiI.mp3",
+    "translationAudioUrl": "/audio/th/F3dR3UFhz9K905AJYYiI_tw.mp3",
+    "hasAudio": true,
+    "order": 26,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ดีเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "F7w7aaqgRMk3DUsvL7Dm",
+    "text": "มีอะไรให้ช่วยไหมคะ",
+    "phonetic": "",
+    "translation": "有什麼需要幫忙的嗎？",
+    "audioUrl": "/audio/th/F7w7aaqgRMk3DUsvL7Dm.mp3",
+    "translationAudioUrl": "/audio/th/F7w7aaqgRMk3DUsvL7Dm_tw.mp3",
+    "hasAudio": true,
+    "order": 27,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "มีอะไรให้ช่วยไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "GUrMFsiW3VDZdgWvK2Po",
+    "text": "จำผิดหรือเปล่าคะ",
+    "phonetic": "",
+    "translation": "是不是記錯了呀？",
+    "audioUrl": "/audio/th/GUrMFsiW3VDZdgWvK2Po.mp3",
+    "translationAudioUrl": "/audio/th/GUrMFsiW3VDZdgWvK2Po_tw.mp3",
+    "hasAudio": true,
+    "order": 28,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "จำผิดหรือเปล่าคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "HzWkyOmfBqDV9qddSSuu",
+    "text": "กินข้าวหรือยัง",
+    "phonetic": "",
+    "translation": "吃飯了嗎？",
+    "audioUrl": "/audio/th/HzWkyOmfBqDV9qddSSuu.mp3",
+    "translationAudioUrl": "/audio/th/HzWkyOmfBqDV9qddSSuu_tw.mp3",
+    "hasAudio": true,
+    "order": 29,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "กินข้าวหรือยัง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "IngNEl2eXrqf5RpLHGII",
+    "text": "ไม่อยากไปเลย",
+    "phonetic": "",
+    "translation": "真不想去耶",
+    "audioUrl": "/audio/th/IngNEl2eXrqf5RpLHGII.mp3",
+    "translationAudioUrl": "/audio/th/IngNEl2eXrqf5RpLHGII_tw.mp3",
+    "hasAudio": true,
+    "order": 30,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่อยากไปเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "JWyDJ87ICbXDTg39uMO0",
+    "text": "ขอเช็คแป๊บนึงนะ",
+    "phonetic": "",
+    "translation": "請讓我確認一下喔",
+    "audioUrl": "/audio/th/JWyDJ87ICbXDTg39uMO0.mp3",
+    "translationAudioUrl": "/audio/th/JWyDJ87ICbXDTg39uMO0_tw.mp3",
+    "hasAudio": true,
+    "order": 31,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอเช็คแป๊บนึงนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "JdM1ZlaFIpyLmnpFyBrV",
+    "text": "ช่วยบอกหน่อยได้ไหมคะ",
+    "phonetic": "",
+    "translation": "可以請妳告訴我嗎？",
+    "audioUrl": "/audio/th/JdM1ZlaFIpyLmnpFyBrV.mp3",
+    "translationAudioUrl": "/audio/th/JdM1ZlaFIpyLmnpFyBrV_tw.mp3",
+    "hasAudio": true,
+    "order": 32,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ช่วยบอกหน่อยได้ไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "JlYWo58nkPxSYEPdhW01",
+    "text": "พูดตามตรงนะ",
+    "phonetic": "",
+    "translation": "實話實說喔",
+    "audioUrl": "/audio/th/JlYWo58nkPxSYEPdhW01.mp3",
+    "translationAudioUrl": "/audio/th/JlYWo58nkPxSYEPdhW01_tw.mp3",
+    "hasAudio": true,
+    "order": 33,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "พูดตามตรงนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "JsD5FU4Z5sQD73QiXHAY",
+    "text": "ไม่แน่ใจเหมือนกัน",
+    "phonetic": "",
+    "translation": "我也不太確定耶",
+    "audioUrl": "/audio/th/JsD5FU4Z5sQD73QiXHAY.mp3",
+    "translationAudioUrl": "/audio/th/JsD5FU4Z5sQD73QiXHAY_tw.mp3",
+    "hasAudio": true,
+    "order": 34,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่แน่ใจเหมือนกัน",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "K9JgGV5WRDsyZFWCUnL8",
+    "text": "ใกล้ถึงหรือยังคะ",
+    "phonetic": "",
+    "translation": "快到了嗎？",
+    "audioUrl": "/audio/th/K9JgGV5WRDsyZFWCUnL8.mp3",
+    "translationAudioUrl": "/audio/th/K9JgGV5WRDsyZFWCUnL8_tw.mp3",
+    "hasAudio": true,
+    "order": 35,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ใกล้ถึงหรือยังคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "Lo1yJuShpA6SjQncfnBt",
+    "text": "แล้วเจอกันใหม่นะ",
+    "phonetic": "",
+    "translation": "下次見喔",
+    "audioUrl": "/audio/th/Lo1yJuShpA6SjQncfnBt.mp3",
+    "translationAudioUrl": "/audio/th/Lo1yJuShpA6SjQncfnBt_tw.mp3",
+    "hasAudio": true,
+    "order": 36,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "แล้วเจอกันใหม่นะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "MYNUefn5p6vMcaWwVaPO",
+    "text": "เป็นห่วงนะ",
+    "phonetic": "",
+    "translation": "很擔心你喔",
+    "audioUrl": "/audio/th/MYNUefn5p6vMcaWwVaPO.mp3",
+    "translationAudioUrl": "/audio/th/MYNUefn5p6vMcaWwVaPO_tw.mp3",
+    "hasAudio": true,
+    "order": 37,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เป็นห่วงนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "MYydsy9oT265Re1GlVIV",
+    "text": "ไม่ยุ่งหรอก",
+    "phonetic": "",
+    "translation": "不麻煩的 / 不會忙啦",
+    "audioUrl": "/audio/th/MYydsy9oT265Re1GlVIV.mp3",
+    "translationAudioUrl": "/audio/th/MYydsy9oT265Re1GlVIV_tw.mp3",
+    "hasAudio": true,
+    "order": 38,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ยุ่งหรอก",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "NaLLJEY0lj3tPUYxptg1",
+    "text": "แล้วแต่พี่เลย",
+    "phonetic": "",
+    "translation": "都聽姐姐的 / 看姐姐怎麼決定囉",
+    "audioUrl": "/audio/th/NaLLJEY0lj3tPUYxptg1.mp3",
+    "translationAudioUrl": "/audio/th/NaLLJEY0lj3tPUYxptg1_tw.mp3",
+    "hasAudio": true,
+    "order": 39,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "แล้วแต่พี่เลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "OKQU2Pwy5Iiml8jXLBrF",
+    "text": "เดี๋ยวมานะ",
+    "phonetic": "",
+    "translation": "等下就回來喔",
+    "audioUrl": "/audio/th/OKQU2Pwy5Iiml8jXLBrF.mp3",
+    "translationAudioUrl": "/audio/th/OKQU2Pwy5Iiml8jXLBrF_tw.mp3",
+    "hasAudio": true,
+    "order": 40,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวมานะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "OpOL8rBdvmFjqr89IV6d",
+    "text": "ไปด้วยคนสิคะ",
+    "phonetic": "",
+    "translation": "讓我也一起去嘛",
+    "audioUrl": "/audio/th/OpOL8rBdvmFjqr89IV6d.mp3",
+    "translationAudioUrl": "/audio/th/OpOL8rBdvmFjqr89IV6d_tw.mp3",
+    "hasAudio": true,
+    "order": 41,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไปด้วยคนสิคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "PPQqfJzTdOHGO55bSOWO",
+    "text": "ใจเย็นเย็นก่อนนะ",
+    "phonetic": "",
+    "translation": "先冷靜一點喔",
+    "audioUrl": "/audio/th/PPQqfJzTdOHGO55bSOWO.mp3",
+    "translationAudioUrl": "/audio/th/PPQqfJzTdOHGO55bSOWO_tw.mp3",
+    "hasAudio": true,
+    "order": 42,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ใจเย็นเย็นก่อนนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "QFNOYiHXloFKJ15ZjL78",
+    "text": "ไม่ต้องรีบก็ได้",
+    "phonetic": "",
+    "translation": "不用趕也沒關係",
+    "audioUrl": "/audio/th/QFNOYiHXloFKJ15ZjL78.mp3",
+    "translationAudioUrl": "/audio/th/QFNOYiHXloFKJ15ZjL78_tw.mp3",
+    "hasAudio": true,
+    "order": 43,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ต้องรีบก็ได้",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "QNRtt5gTcYtqvz3BVYV9",
+    "text": "อย่าคิดมากเลยนะ",
+    "phonetic": "",
+    "translation": "不要想太多（鑽牛角尖）喔",
+    "audioUrl": "/audio/th/QNRtt5gTcYtqvz3BVYV9.mp3",
+    "translationAudioUrl": "/audio/th/QNRtt5gTcYtqvz3BVYV9_tw.mp3",
+    "hasAudio": true,
+    "order": 44,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "อย่าคิดมากเลยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "QYtbyCoxhaohSiJwQiU9",
+    "text": "นอนหลับฝันดี",
+    "phonetic": "",
+    "translation": "晚安 (祝好夢)",
+    "audioUrl": "/audio/th/QYtbyCoxhaohSiJwQiU9.mp3",
+    "translationAudioUrl": "/audio/th/QYtbyCoxhaohSiJwQiU9_tw.mp3",
+    "hasAudio": true,
+    "order": 45,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "นอนหลับฝันดี",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "QowCIeuYeYZ4LBOhVOTg",
+    "text": "เข้าใจแล้ว",
+    "phonetic": "",
+    "translation": "我了解了",
+    "audioUrl": "/audio/th/QowCIeuYeYZ4LBOhVOTg.mp3",
+    "translationAudioUrl": "/audio/th/QowCIeuYeYZ4LBOhVOTg_tw.mp3",
+    "hasAudio": true,
+    "order": 46,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เข้าใจแล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "RO1MbDZV3YYGgDqjdY6m",
+    "text": "ไม่ต้องเป็นห่วง",
+    "phonetic": "",
+    "translation": "不用擔心喔",
+    "audioUrl": "/audio/th/RO1MbDZV3YYGgDqjdY6m.mp3",
+    "translationAudioUrl": "/audio/th/RO1MbDZV3YYGgDqjdY6m_tw.mp3",
+    "hasAudio": true,
+    "order": 47,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ต้องเป็นห่วง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "RkI06ALurCdh0nfoUfLq",
+    "text": "ขอโทษที่ให้รอ",
+    "phonetic": "",
+    "translation": "抱歉讓妳久等了",
+    "audioUrl": "/audio/th/RkI06ALurCdh0nfoUfLq.mp3",
+    "translationAudioUrl": "/audio/th/RkI06ALurCdh0nfoUfLq_tw.mp3",
+    "hasAudio": true,
+    "order": 48,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษที่ให้รอ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "RuNZ84KgcgC8ofpiokAA",
+    "text": "ฝากด้วยนะ",
+    "phonetic": "",
+    "translation": "那就拜託妳了喔",
+    "audioUrl": "/audio/th/RuNZ84KgcgC8ofpiokAA.mp3",
+    "translationAudioUrl": "/audio/th/RuNZ84KgcgC8ofpiokAA_tw.mp3",
+    "hasAudio": true,
+    "order": 49,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ฝากด้วยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "SddWVDE1gJuSBsYSB58z",
+    "text": "ล้อเล่นหรือเปล่าคะ",
+    "phonetic": "",
+    "translation": "在開玩笑嗎？",
+    "audioUrl": "/audio/th/SddWVDE1gJuSBsYSB58z.mp3",
+    "translationAudioUrl": "/audio/th/SddWVDE1gJuSBsYSB58z_tw.mp3",
+    "hasAudio": true,
+    "order": 50,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ล้อเล่นหรือเปล่าคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "SiDNdDRNcwI6cXCIdT7b",
+    "text": "ทำแบบนั้นไม่ดีนะ",
+    "phonetic": "",
+    "translation": "那樣做不太好喔",
+    "audioUrl": "/audio/th/SiDNdDRNcwI6cXCIdT7b.mp3",
+    "translationAudioUrl": "/audio/th/SiDNdDRNcwI6cXCIdT7b_tw.mp3",
+    "hasAudio": true,
+    "order": 51,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ทำแบบนั้นไม่ดีนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "TWMXdPznuQ501gj5ud7N",
+    "text": "ขอโทษที่รบกวนนะ",
+    "phonetic": "",
+    "translation": "抱歉打擾妳了喔",
+    "audioUrl": "/audio/th/TWMXdPznuQ501gj5ud7N.mp3",
+    "translationAudioUrl": "/audio/th/TWMXdPznuQ501gj5ud7N_tw.mp3",
+    "hasAudio": true,
+    "order": 52,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษที่รบกวนนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "VNPZoTNOb3NL6VJWLSj7",
+    "text": "ยินดีที่ได้รู้จัก",
+    "phonetic": "",
+    "translation": "很高興認識妳",
+    "audioUrl": "/audio/th/VNPZoTNOb3NL6VJWLSj7.mp3",
+    "translationAudioUrl": "/audio/th/VNPZoTNOb3NL6VJWLSj7_tw.mp3",
+    "hasAudio": true,
+    "order": 53,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ยินดีที่ได้รู้จัก",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "VRz48fnHLImMnkJvtsm7",
+    "text": "ไม่ยากเลย",
+    "phonetic": "",
+    "translation": "一點都不難",
+    "audioUrl": "/audio/th/VRz48fnHLImMnkJvtsm7.mp3",
+    "translationAudioUrl": "/audio/th/VRz48fnHLImMnkJvtsm7_tw.mp3",
+    "hasAudio": true,
+    "order": 54,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ยากเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "VcgKmQrE5iYRlhES6BPN",
+    "text": "รบกวนหน่อยนะ",
+    "phonetic": "",
+    "translation": "麻煩妳一下喔",
+    "audioUrl": "/audio/th/VcgKmQrE5iYRlhES6BPN.mp3",
+    "translationAudioUrl": "/audio/th/VcgKmQrE5iYRlhES6BPN_tw.mp3",
+    "hasAudio": true,
+    "order": 55,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "รบกวนหน่อยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "WNhL49HWHHb2lmTrlkhd",
+    "text": "ตื่นเต้นจังเลย",
+    "phonetic": "",
+    "translation": "好緊張喔 / 好興奮喔",
+    "audioUrl": "/audio/th/WNhL49HWHHb2lmTrlkhd.mp3",
+    "translationAudioUrl": "/audio/th/WNhL49HWHHb2lmTrlkhd_tw.mp3",
+    "hasAudio": true,
+    "order": 56,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ตื่นเต้นจังเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "WNtowIYlxXnfODYKPQjv",
+    "text": "ขอถามหน่อย",
+    "phonetic": "",
+    "translation": "想請問一下",
+    "audioUrl": "/audio/th/WNtowIYlxXnfODYKPQjv.mp3",
+    "translationAudioUrl": "/audio/th/WNtowIYlxXnfODYKPQjv_tw.mp3",
+    "hasAudio": true,
+    "order": 57,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอถามหน่อย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "WpHb6ijKcMSeZROcNm4z",
+    "text": "เดี๋ยวโทรหานะ",
+    "phonetic": "",
+    "translation": "等一下打給妳喔",
+    "audioUrl": "/audio/th/WpHb6ijKcMSeZROcNm4z.mp3",
+    "translationAudioUrl": "/audio/th/WpHb6ijKcMSeZROcNm4z_tw.mp3",
+    "hasAudio": true,
+    "order": 58,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เดี๋ยวโทรหานะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "X5fq9Xms01asLURO5Oxe",
+    "text": "เห็นด้วย",
+    "phonetic": "",
+    "translation": "我同意",
+    "audioUrl": "/audio/th/X5fq9Xms01asLURO5Oxe.mp3",
+    "translationAudioUrl": "/audio/th/X5fq9Xms01asLURO5Oxe_tw.mp3",
+    "hasAudio": true,
+    "order": 59,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เห็นด้วย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "XFktMWBDAVhNCD9epsjt",
+    "text": "เข้าใจไหม",
+    "phonetic": "",
+    "translation": "懂了嗎？",
+    "audioUrl": "/audio/th/XFktMWBDAVhNCD9epsjt.mp3",
+    "translationAudioUrl": "/audio/th/XFktMWBDAVhNCD9epsjt_tw.mp3",
+    "hasAudio": true,
+    "order": 60,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เข้าใจไหม",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "XlRZaLCXsy6owb4Koqv6",
+    "text": "ไปเที่ยวกันไหมคะ",
+    "phonetic": "",
+    "translation": "要一起去玩嗎？",
+    "audioUrl": "/audio/th/XlRZaLCXsy6owb4Koqv6.mp3",
+    "translationAudioUrl": "/audio/th/XlRZaLCXsy6owb4Koqv6_tw.mp3",
+    "hasAudio": true,
+    "order": 61,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไปเที่ยวกันไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "YrWbO8Q1wEJLnZqzNElk",
+    "text": "เหนื่อยหน่อยนะ",
+    "phonetic": "",
+    "translation": "辛苦了喔",
+    "audioUrl": "/audio/th/YrWbO8Q1wEJLnZqzNElk.mp3",
+    "translationAudioUrl": "/audio/th/YrWbO8Q1wEJLnZqzNElk_tw.mp3",
+    "hasAudio": true,
+    "order": 62,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เหนื่อยหน่อยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "acPnhHyVyf2FEvcitvyN",
+    "text": "คิดถึงนะ",
+    "phonetic": "",
+    "translation": "想念你喔",
+    "audioUrl": "/audio/th/acPnhHyVyf2FEvcitvyN.mp3",
+    "translationAudioUrl": "/audio/th/acPnhHyVyf2FEvcitvyN_tw.mp3",
+    "hasAudio": true,
+    "order": 63,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "คิดถึงนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "advr3Kq0DwbNbfZ1s54A",
+    "text": "ตกใจหมดเลย",
+    "phonetic": "",
+    "translation": "嚇死我了 / 被嚇了一跳",
+    "audioUrl": "/audio/th/advr3Kq0DwbNbfZ1s54A.mp3",
+    "translationAudioUrl": "/audio/th/advr3Kq0DwbNbfZ1s54A_tw.mp3",
+    "hasAudio": true,
+    "order": 64,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ตกใจหมดเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "b5PxLTIk0FJkdGYZAZEn",
+    "text": "ดีขึ้นหรือยังคะ",
+    "phonetic": "",
+    "translation": "（心情或身體）好一點了嗎？",
+    "audioUrl": "/audio/th/b5PxLTIk0FJkdGYZAZEn.mp3",
+    "translationAudioUrl": "/audio/th/b5PxLTIk0FJkdGYZAZEn_tw.mp3",
+    "hasAudio": true,
+    "order": 65,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ดีขึ้นหรือยังคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "bDgUvYUlxKCCLx3zSWDo",
+    "text": "ไปด้วยกันไหม",
+    "phonetic": "",
+    "translation": "要一起去嗎？",
+    "audioUrl": "/audio/th/bDgUvYUlxKCCLx3zSWDo.mp3",
+    "translationAudioUrl": "/audio/th/bDgUvYUlxKCCLx3zSWDo_tw.mp3",
+    "hasAudio": true,
+    "order": 66,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไปด้วยกันไหม",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "bZkUnUy2BAf7BZLP7bOc",
+    "text": "รอแป๊บนะ",
+    "phonetic": "",
+    "translation": "等一下喔",
+    "audioUrl": "/audio/th/bZkUnUy2BAf7BZLP7bOc.mp3",
+    "translationAudioUrl": "/audio/th/bZkUnUy2BAf7BZLP7bOc_tw.mp3",
+    "hasAudio": true,
+    "order": 67,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "รอแป๊บนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "cuquL4xibLZYifD9zWyO",
+    "text": "มีความสุขมากมากนะ",
+    "phonetic": "",
+    "translation": "要過得很幸福喔",
+    "audioUrl": "/audio/th/cuquL4xibLZYifD9zWyO.mp3",
+    "translationAudioUrl": "/audio/th/cuquL4xibLZYifD9zWyO_tw.mp3",
+    "hasAudio": true,
+    "order": 68,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "มีความสุขมากมากนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "fB3GKkig6GCx1icAYraC",
+    "text": "จริงเหรอ",
+    "phonetic": "",
+    "translation": "真的假的？",
+    "audioUrl": "/audio/th/fB3GKkig6GCx1icAYraC.mp3",
+    "translationAudioUrl": "/audio/th/fB3GKkig6GCx1icAYraC_tw.mp3",
+    "hasAudio": true,
+    "order": 69,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "จริงเหรอ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "fkSo5R6l6FR5hZ1iuF0J",
+    "text": "ขอโทษ",
+    "phonetic": "",
+    "translation": "對不起",
+    "audioUrl": "/audio/th/fkSo5R6l6FR5hZ1iuF0J.mp3",
+    "translationAudioUrl": "/audio/th/fkSo5R6l6FR5hZ1iuF0J_tw.mp3",
+    "hasAudio": true,
+    "order": 70,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขอโทษ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "fmYNe9N21qAwbRNWuJO6",
+    "text": "แปลกดีนะ",
+    "phonetic": "",
+    "translation": "挺特別的呢（指事情很有趣或有點古怪）",
+    "audioUrl": "/audio/th/fmYNe9N21qAwbRNWuJO6.mp3",
+    "translationAudioUrl": "/audio/th/fmYNe9N21qAwbRNWuJO6_tw.mp3",
+    "hasAudio": true,
+    "order": 71,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "แปลกดีนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "fu9qtjhxRmJieFDy3KKC",
+    "text": "พี่ว่ายังไงคะ",
+    "phonetic": "",
+    "translation": "姐姐覺得（意見）如何呢？",
+    "audioUrl": "/audio/th/fu9qtjhxRmJieFDy3KKC.mp3",
+    "translationAudioUrl": "/audio/th/fu9qtjhxRmJieFDy3KKC_tw.mp3",
+    "hasAudio": true,
+    "order": 72,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "พี่ว่ายังไงคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "hGS6a3zp9RgskFEriwfc",
+    "text": "สู้ๆ",
+    "phonetic": "",
+    "translation": "加油！",
+    "audioUrl": "/audio/th/hGS6a3zp9RgskFEriwfc.mp3",
+    "translationAudioUrl": "/audio/th/hGS6a3zp9RgskFEriwfc_tw.mp3",
+    "hasAudio": true,
+    "order": 73,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "สู้ๆ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "jNQpoXhypwGTlb7TSndv",
+    "text": "ไม่ได้ตั้งใจจะกวนนะ",
+    "phonetic": "",
+    "translation": "不是故意要打擾妳的喔",
+    "audioUrl": "/audio/th/jNQpoXhypwGTlb7TSndv.mp3",
+    "translationAudioUrl": "/audio/th/jNQpoXhypwGTlb7TSndv_tw.mp3",
+    "hasAudio": true,
+    "order": 74,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ได้ตั้งใจจะกวนนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "kHn0QqykkmeOZtrzbYA7",
+    "text": "สวัสดี",
+    "phonetic": "",
+    "translation": "你好",
+    "audioUrl": "/audio/th/kHn0QqykkmeOZtrzbYA7.mp3",
+    "translationAudioUrl": "/audio/th/kHn0QqykkmeOZtrzbYA7_tw.mp3",
+    "hasAudio": true,
+    "order": 75,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "สวัสดี",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "kj5Fyxkkt7BKEoBMj0wu",
+    "text": "ขยันจังเลยนะ",
+    "phonetic": "",
+    "translation": "真勤勞呢",
+    "audioUrl": "/audio/th/kj5Fyxkkt7BKEoBMj0wu.mp3",
+    "translationAudioUrl": "/audio/th/kj5Fyxkkt7BKEoBMj0wu_tw.mp3",
+    "hasAudio": true,
+    "order": 76,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ขยันจังเลยนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "klTqnrmvtH1P0Grt3QpV",
+    "text": "สะดวกไหมคะ",
+    "phonetic": "",
+    "translation": "現在方便嗎？",
+    "audioUrl": "/audio/th/klTqnrmvtH1P0Grt3QpV.mp3",
+    "translationAudioUrl": "/audio/th/klTqnrmvtH1P0Grt3QpV_tw.mp3",
+    "hasAudio": true,
+    "order": 77,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "สะดวกไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "laHqEklOzbO3pw6XgVVj",
+    "text": "พูดจริงเหรอคะ",
+    "phonetic": "",
+    "translation": "妳說真的嗎？（對訊息感到驚訝）",
+    "audioUrl": "/audio/th/laHqEklOzbO3pw6XgVVj.mp3",
+    "translationAudioUrl": "/audio/th/laHqEklOzbO3pw6XgVVj_tw.mp3",
+    "hasAudio": true,
+    "order": 78,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "พูดจริงเหรอคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "lszUxoyfZykp7hAu3Ezd",
+    "text": "วันนี้แต่งตัวสวยจัง",
+    "phonetic": "",
+    "translation": "今天穿得很漂亮耶",
+    "audioUrl": "/audio/th/lszUxoyfZykp7hAu3Ezd.mp3",
+    "translationAudioUrl": "/audio/th/lszUxoyfZykp7hAu3Ezd_tw.mp3",
+    "hasAudio": true,
+    "order": 79,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "วันนี้แต่งตัวสวยจัง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "mMthxhT6NCBHuub4St5F",
+    "text": "น่าอิจฉาจังเลย",
+    "phonetic": "",
+    "translation": "真令人羨慕呢",
+    "audioUrl": "/audio/th/mMthxhT6NCBHuub4St5F.mp3",
+    "translationAudioUrl": "/audio/th/mMthxhT6NCBHuub4St5F_tw.mp3",
+    "hasAudio": true,
+    "order": 80,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "น่าอิจฉาจังเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "nIupTfrVzk13GMIxfs2J",
+    "text": "ช่วยเลือกหน่อยได้ไหมคะ",
+    "phonetic": "",
+    "translation": "可以請妳幫我選一下嗎？",
+    "audioUrl": "/audio/th/nIupTfrVzk13GMIxfs2J.mp3",
+    "translationAudioUrl": "/audio/th/nIupTfrVzk13GMIxfs2J_tw.mp3",
+    "hasAudio": true,
+    "order": 81,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ช่วยเลือกหน่อยได้ไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "nkS4iBrdzjkE0p52waIQ",
+    "text": "เหนื่อยไหม",
+    "phonetic": "",
+    "translation": "累嗎？",
+    "audioUrl": "/audio/th/nkS4iBrdzjkE0p52waIQ.mp3",
+    "translationAudioUrl": "/audio/th/nkS4iBrdzjkE0p52waIQ_tw.mp3",
+    "hasAudio": true,
+    "order": 82,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เหนื่อยไหม",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "oJ9nB6xBECAtlWRAbDWD",
+    "text": "เป็นไปได้ยังไงคะ",
+    "phonetic": "",
+    "translation": "怎麼可能呢？",
+    "audioUrl": "/audio/th/oJ9nB6xBECAtlWRAbDWD.mp3",
+    "translationAudioUrl": "/audio/th/oJ9nB6xBECAtlWRAbDWD_tw.mp3",
+    "hasAudio": true,
+    "order": 83,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เป็นไปได้ยังไงคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "oljvgdBXe33Ao25WZe9E",
+    "text": "รักนะ",
+    "phonetic": "",
+    "translation": "愛你喔",
+    "audioUrl": "/audio/th/oljvgdBXe33Ao25WZe9E.mp3",
+    "translationAudioUrl": "/audio/th/oljvgdBXe33Ao25WZe9E_tw.mp3",
+    "hasAudio": true,
+    "order": 84,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "รักนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "pdCpP58FMOWOAK49Jxp1",
+    "text": "เกือบลืมไปแล้ว",
+    "phonetic": "",
+    "translation": "差點就忘記了耶",
+    "audioUrl": "/audio/th/pdCpP58FMOWOAK49Jxp1.mp3",
+    "translationAudioUrl": "/audio/th/pdCpP58FMOWOAK49Jxp1_tw.mp3",
+    "hasAudio": true,
+    "order": 85,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เกือบลืมไปแล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "pf26inmlEawMw1DSWrrR",
+    "text": "พูดอีกทีได้ไหมคะ",
+    "phonetic": "",
+    "translation": "可以請妳再說一次嗎？",
+    "audioUrl": "/audio/th/pf26inmlEawMw1DSWrrR.mp3",
+    "translationAudioUrl": "/audio/th/pf26inmlEawMw1DSWrrR_tw.mp3",
+    "hasAudio": true,
+    "order": 86,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "พูดอีกทีได้ไหมคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "qZL6aJrv8917CVub0y9u",
+    "text": "ทำได้อยู่แล้ว",
+    "phonetic": "",
+    "translation": "一定做得到的",
+    "audioUrl": "/audio/th/qZL6aJrv8917CVub0y9u.mp3",
+    "translationAudioUrl": "/audio/th/qZL6aJrv8917CVub0y9u_tw.mp3",
+    "hasAudio": true,
+    "order": 87,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ทำได้อยู่แล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "qdZ7JyLo81OfsBsckDoh",
+    "text": "อันนี้เท่าไหร่คะ",
+    "phonetic": "",
+    "translation": "這個多少錢？",
+    "audioUrl": "/audio/th/qdZ7JyLo81OfsBsckDoh.mp3",
+    "translationAudioUrl": "/audio/th/qdZ7JyLo81OfsBsckDoh_tw.mp3",
+    "hasAudio": true,
+    "order": 88,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "อันนี้เท่าไหร่คะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "qfUvKKnNonLwUBvAOY66",
+    "text": "คิดว่ายังไงคะ",
+    "phonetic": "",
+    "translation": "妳覺得如何呢？",
+    "audioUrl": "/audio/th/qfUvKKnNonLwUBvAOY66.mp3",
+    "translationAudioUrl": "/audio/th/qfUvKKnNonLwUBvAOY66_tw.mp3",
+    "hasAudio": true,
+    "order": 89,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "คิดว่ายังไงคะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "r33ePUrklObmtsGBkp9L",
+    "text": "ไม่ได้ยินเลย",
+    "phonetic": "",
+    "translation": "完全沒聽到耶",
+    "audioUrl": "/audio/th/r33ePUrklObmtsGBkp9L.mp3",
+    "translationAudioUrl": "/audio/th/r33ePUrklObmtsGBkp9L_tw.mp3",
+    "hasAudio": true,
+    "order": 90,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่ได้ยินเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "sqIR7J9xY3Ec4ytlc5rI",
+    "text": "เอาแบบนี้แหละ",
+    "phonetic": "",
+    "translation": "就照這樣吧",
+    "audioUrl": "/audio/th/sqIR7J9xY3Ec4ytlc5rI.mp3",
+    "translationAudioUrl": "/audio/th/sqIR7J9xY3Ec4ytlc5rI_tw.mp3",
+    "hasAudio": true,
+    "order": 91,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "เอาแบบนี้แหละ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "up6oLORT5PRPBWNIEzRp",
+    "text": "น่าเสียดายจัง",
+    "phonetic": "",
+    "translation": "真可惜呢",
+    "audioUrl": "/audio/th/up6oLORT5PRPBWNIEzRp.mp3",
+    "translationAudioUrl": "/audio/th/up6oLORT5PRPBWNIEzRp_tw.mp3",
+    "hasAudio": true,
+    "order": 92,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "น่าเสียดายจัง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "wAiH5hDEJusHkEw3B3za",
+    "text": "ไม่เป็นไร",
+    "phonetic": "",
+    "translation": "沒關係 / 不客氣",
+    "audioUrl": "/audio/th/wAiH5hDEJusHkEw3B3za.mp3",
+    "translationAudioUrl": "/audio/th/wAiH5hDEJusHkEw3B3za_tw.mp3",
+    "hasAudio": true,
+    "order": 93,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ไม่เป็นไร",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "wHYSMqCzC7eJIYhNENcR",
+    "text": "ก็ว่าอยู่",
+    "phonetic": "",
+    "translation": "我也在想說... / 我也覺得是那樣",
+    "audioUrl": "/audio/th/wHYSMqCzC7eJIYhNENcR.mp3",
+    "translationAudioUrl": "/audio/th/wHYSMqCzC7eJIYhNENcR_tw.mp3",
+    "hasAudio": true,
+    "order": 94,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ก็ว่าอยู่",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "xNqNRNKSc4IS7uFBj3aB",
+    "text": "จำไม่ได้แล้ว",
+    "phonetic": "",
+    "translation": "不記得了耶",
+    "audioUrl": "/audio/th/xNqNRNKSc4IS7uFBj3aB.mp3",
+    "translationAudioUrl": "/audio/th/xNqNRNKSc4IS7uFBj3aB_tw.mp3",
+    "hasAudio": true,
+    "order": 95,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "จำไม่ได้แล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "xUYjXU3IQ7NMffu0DLkh",
+    "text": "รอตรงนี้นะ",
+    "phonetic": "",
+    "translation": "在這邊等我喔",
+    "audioUrl": "/audio/th/xUYjXU3IQ7NMffu0DLkh.mp3",
+    "translationAudioUrl": "/audio/th/xUYjXU3IQ7NMffu0DLkh_tw.mp3",
+    "hasAudio": true,
+    "order": 96,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "รอตรงนี้นะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "yPWKqpcMNHC9zGgSmN9Z",
+    "text": "บ้าไปแล้ว",
+    "phonetic": "",
+    "translation": "瘋了吧！",
+    "audioUrl": "/audio/th/yPWKqpcMNHC9zGgSmN9Z.mp3",
+    "translationAudioUrl": "/audio/th/yPWKqpcMNHC9zGgSmN9Z_tw.mp3",
+    "hasAudio": true,
+    "order": 97,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "บ้าไปแล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "zDUMJg6qcaowPIpYrx7L",
+    "text": "น่าสนใจดี",
+    "phonetic": "",
+    "translation": "聽起來挺有趣的",
+    "audioUrl": "/audio/th/zDUMJg6qcaowPIpYrx7L.mp3",
+    "translationAudioUrl": "/audio/th/zDUMJg6qcaowPIpYrx7L_tw.mp3",
+    "hasAudio": true,
+    "order": 98,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "น่าสนใจดี",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "zMLhjgiTUqLPd65Czmio",
+    "text": "ตามนั้นเลย",
+    "phonetic": "",
+    "translation": "就照那樣吧 / 同意妳說的",
+    "audioUrl": "/audio/th/zMLhjgiTUqLPd65Czmio.mp3",
+    "translationAudioUrl": "/audio/th/zMLhjgiTUqLPd65Czmio_tw.mp3",
+    "hasAudio": true,
+    "order": 99,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "ตามนั้นเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "zOhw8umhZvxSU08Q2qQl",
+    "text": "อย่าร้องไห้",
+    "phonetic": "",
+    "translation": "別哭",
+    "audioUrl": "/audio/th/zOhw8umhZvxSU08Q2qQl.mp3",
+    "translationAudioUrl": "/audio/th/zOhw8umhZvxSU08Q2qQl_tw.mp3",
+    "hasAudio": true,
+    "order": 100,
+    "tags": [
+      "practical",
+      "thai"
+    ],
+    "note": "",
+    "ttsText": "อย่าร้องไห้",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#practical"
+    ]
+  },
+  {
+    "id": "add001",
+    "text": "เป็นอะไรหรือเปล่า",
+    "phonetic": "pen a-rai reu-plaao",
+    "translation": "妳怎麼了？",
+    "audioUrl": "/audio/th/add001.mp3",
+    "translationAudioUrl": "/audio/th/add001_tw.mp3",
+    "hasAudio": true,
+    "order": 101,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "關心對方狀況",
+    "ttsText": "เป็นอะไรหรือเปล่า",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add002",
+    "text": "ไม่โอเคเลย",
+    "phonetic": "mai o-kay loei",
+    "translation": "完全不OK",
+    "audioUrl": "/audio/th/add002.mp3",
+    "translationAudioUrl": "/audio/th/add002_tw.mp3",
+    "hasAudio": true,
+    "order": 102,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "強烈否定情緒",
+    "ttsText": "ไม่โอเคเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add003",
+    "text": "ใจหายเลย",
+    "phonetic": "jai haai loei",
+    "translation": "心都涼了 / 嚇了一跳",
+    "audioUrl": "/audio/th/add003.mp3",
+    "translationAudioUrl": "/audio/th/add003_tw.mp3",
+    "hasAudio": true,
+    "order": 103,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "常用於感到可惜或被嚇到",
+    "ttsText": "ใจหายเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add004",
+    "text": "น่าจะใช่นะ",
+    "phonetic": "naa ja chai na",
+    "translation": "應該是吧",
+    "audioUrl": "/audio/th/add004.mp3",
+    "translationAudioUrl": "/audio/th/add004_tw.mp3",
+    "hasAudio": true,
+    "order": 104,
+    "tags": [
+      "guess",
+      "thai"
+    ],
+    "note": "不確定語氣",
+    "ttsText": "น่าจะใช่นะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#guess"
+    ]
+  },
+  {
+    "id": "add005",
+    "text": "ไม่น่าจะใช่",
+    "phonetic": "mai naa ja chai",
+    "translation": "應該不是",
+    "audioUrl": "/audio/th/add005.mp3",
+    "translationAudioUrl": "/audio/th/add005_tw.mp3",
+    "hasAudio": true,
+    "order": 105,
+    "tags": [
+      "guess",
+      "thai"
+    ],
+    "note": "否定推測",
+    "ttsText": "ไม่น่าจะใช่",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#guess"
+    ]
+  },
+  {
+    "id": "add006",
+    "text": "แล้วไงต่อ",
+    "phonetic": "laeo ngai tor",
+    "translation": "然後呢？",
+    "audioUrl": "/audio/th/add006.mp3",
+    "translationAudioUrl": "/audio/th/add006_tw.mp3",
+    "hasAudio": true,
+    "order": 106,
+    "tags": [
+      "conversation",
+      "thai"
+    ],
+    "note": "接話用",
+    "ttsText": "แล้วไงต่อ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#conversation"
+    ]
+  },
+  {
+    "id": "add007",
+    "text": "สรุปคือ",
+    "phonetic": "sa-rup keu",
+    "translation": "總之就是",
+    "audioUrl": "/audio/th/add007.mp3",
+    "translationAudioUrl": "/audio/th/add007_tw.mp3",
+    "hasAudio": true,
+    "order": 107,
+    "tags": [
+      "conversation",
+      "thai"
+    ],
+    "note": "整理結論",
+    "ttsText": "สรุปคือ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#conversation"
+    ]
+  },
+  {
+    "id": "add008",
+    "text": "พอได้แล้ว",
+    "phonetic": "por dai laeo",
+    "translation": "夠了",
+    "audioUrl": "/audio/th/add008.mp3",
+    "translationAudioUrl": "/audio/th/add008_tw.mp3",
+    "hasAudio": true,
+    "order": 108,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "情緒爆發",
+    "ttsText": "พอได้แล้ว",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add009",
+    "text": "หยุดนะ",
+    "phonetic": "yut na",
+    "translation": "停下來",
+    "audioUrl": "/audio/th/add009.mp3",
+    "translationAudioUrl": "/audio/th/add009_tw.mp3",
+    "hasAudio": true,
+    "order": 109,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "制止他人",
+    "ttsText": "หยุดนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add010",
+    "text": "อย่ามายุ่ง",
+    "phonetic": "yaa maa yung",
+    "translation": "不要管我",
+    "audioUrl": "/audio/th/add010.mp3",
+    "translationAudioUrl": "/audio/th/add010_tw.mp3",
+    "hasAudio": true,
+    "order": 110,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "生氣用語",
+    "ttsText": "อย่ามายุ่ง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
+  },
+  {
+    "id": "add011",
+    "text": "หึงเหรอ",
+    "phonetic": "heung ror",
+    "translation": "吃醋喔？",
+    "audioUrl": "/audio/th/add011.mp3",
+    "translationAudioUrl": "/audio/th/add011_tw.mp3",
+    "hasAudio": true,
+    "order": 111,
+    "tags": [
+      "love",
+      "thai"
+    ],
+    "note": "撩人或開玩笑常用",
+    "ttsText": "หึงเหรอ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#love"
+    ]
+  },
+  {
+    "id": "add012",
+    "text": "อย่าคิดไปเอง",
+    "phonetic": "yaa kit pai eng",
+    "translation": "不要自己亂想",
+    "audioUrl": "/audio/th/add012.mp3",
+    "translationAudioUrl": "/audio/th/add012_tw.mp3",
+    "hasAudio": true,
+    "order": 112,
+    "tags": [
+      "love",
+      "thai"
+    ],
+    "note": "感情對話",
+    "ttsText": "อย่าคิดไปเอง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#love"
+    ]
+  },
+  {
+    "id": "add013",
+    "text": "เออใช่",
+    "phonetic": "er chai",
+    "translation": "對啊",
+    "audioUrl": "/audio/th/add013.mp3",
+    "translationAudioUrl": "/audio/th/add013_tw.mp3",
+    "hasAudio": true,
+    "order": 113,
+    "tags": [
+      "daily",
+      "thai"
+    ],
+    "note": "超口語",
+    "ttsText": "เออใช่",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#daily"
+    ]
+  },
+  {
+    "id": "add014",
+    "text": "ไม่รู้สิ",
+    "phonetic": "mai roo si",
+    "translation": "不知道欸",
+    "audioUrl": "/audio/th/add014.mp3",
+    "translationAudioUrl": "/audio/th/add014_tw.mp3",
+    "hasAudio": true,
+    "order": 114,
+    "tags": [
+      "daily",
+      "thai"
+    ],
+    "note": "隨意回答",
+    "ttsText": "ไม่รู้สิ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#daily"
+    ]
+  },
+  {
+    "id": "add015",
+    "text": "แล้วแต่เลย",
+    "phonetic": "laeo tae loei",
+    "translation": "隨便你",
+    "audioUrl": "/audio/th/add015.mp3",
+    "translationAudioUrl": "/audio/th/add015_tw.mp3",
+    "hasAudio": true,
+    "order": 115,
+    "tags": [
+      "daily",
+      "thai"
+    ],
+    "note": "放棄選擇",
+    "ttsText": "แล้วแต่เลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#daily"
+    ]
+  },
+  {
+    "id": "add016",
+    "text": "อีกแป๊บนึง",
+    "phonetic": "eek paep neung",
+    "translation": "再一下",
+    "audioUrl": "/audio/th/add016.mp3",
+    "translationAudioUrl": "/audio/th/add016_tw.mp3",
+    "hasAudio": true,
+    "order": 116,
+    "tags": [
+      "time",
+      "thai"
+    ],
+    "note": "時間短暫",
+    "ttsText": "อีกแป๊บนึง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#time"
+    ]
+  },
+  {
+    "id": "add017",
+    "text": "ยังไม่ถึง",
+    "phonetic": "yang mai teung",
+    "translation": "還沒到",
+    "audioUrl": "/audio/th/add017.mp3",
+    "translationAudioUrl": "/audio/th/add017_tw.mp3",
+    "hasAudio": true,
+    "order": 117,
+    "tags": [
+      "time",
+      "thai"
+    ],
+    "note": "狀態描述",
+    "ttsText": "ยังไม่ถึง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#time"
+    ]
+  },
+  {
+    "id": "add018",
+    "text": "เสร็จหรือยัง",
+    "phonetic": "set reu yang",
+    "translation": "好了沒？",
+    "audioUrl": "/audio/th/add018.mp3",
+    "translationAudioUrl": "/audio/th/add018_tw.mp3",
+    "hasAudio": true,
+    "order": 118,
+    "tags": [
+      "time",
+      "thai"
+    ],
+    "note": "詢問進度",
+    "ttsText": "เสร็จหรือยัง",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#time"
+    ]
+  },
+  {
+    "id": "add019",
+    "text": "ไม่เป็นไรหรอก",
+    "phonetic": "mai pen rai rok",
+    "translation": "真的沒關係啦",
+    "audioUrl": "/audio/th/add019.mp3",
+    "translationAudioUrl": "/audio/th/add019_tw.mp3",
+    "hasAudio": true,
+    "order": 119,
+    "tags": [
+      "daily",
+      "thai"
+    ],
+    "note": "語氣較柔和的安慰",
+    "ttsText": "ไม่เป็นไรหรอก",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#daily"
+    ]
+  },
+  {
+    "id": "add020",
+    "text": "แน่ใจนะ",
+    "phonetic": "nae jai na",
+    "translation": "確定喔？",
+    "audioUrl": "/audio/th/add020.mp3",
+    "translationAudioUrl": "/audio/th/add020_tw.mp3",
+    "hasAudio": true,
+    "order": 120,
+    "tags": [
+      "conversation",
+      "thai"
+    ],
+    "note": "再三確認時使用",
+    "ttsText": "แน่ใจนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#conversation"
+    ]
+  },
+  {
+    "id": "add021",
+    "text": "ทำไมล่ะ",
+    "phonetic": "tam-mai la",
+    "translation": "為什麼啦？",
+    "audioUrl": "/audio/th/add021.mp3",
+    "translationAudioUrl": "/audio/th/add021_tw.mp3",
+    "hasAudio": true,
+    "order": 121,
+    "tags": [
+      "conversation",
+      "thai"
+    ],
+    "note": "帶有好奇或輕微抱怨的語氣",
+    "ttsText": "ทำไมล่ะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#conversation"
+    ]
+  },
+  {
+    "id": "add022",
+    "text": "ว่าไงนะ",
+    "phonetic": "waa ngai na",
+    "translation": "妳說什麼？",
+    "audioUrl": "/audio/th/add022.mp3",
+    "translationAudioUrl": "/audio/th/add022_tw.mp3",
+    "hasAudio": true,
+    "order": 122,
+    "tags": [
+      "conversation",
+      "thai"
+    ],
+    "note": "沒聽清楚或感到驚訝時用",
+    "ttsText": "ว่าไงนะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#conversation"
+    ]
+  },
+  {
+    "id": "add023",
+    "text": "สัญญาเลย",
+    "phonetic": "san-yaa loei",
+    "translation": "我保證 / 我發誓",
+    "audioUrl": "/audio/th/add023.mp3",
+    "translationAudioUrl": "/audio/th/add023_tw.mp3",
+    "hasAudio": true,
+    "order": 123,
+    "tags": [
+      "love",
+      "thai"
+    ],
+    "note": "給予承諾",
+    "ttsText": "สัญญาเลย",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#love"
+    ]
+  },
+  {
+    "id": "add024",
+    "text": "รอตั้งนาน",
+    "phonetic": "ror tang naan",
+    "translation": "等了好久耶",
+    "audioUrl": "/audio/th/add024.mp3",
+    "translationAudioUrl": "/audio/th/add024_tw.mp3",
+    "hasAudio": true,
+    "order": 124,
+    "tags": [
+      "time",
+      "thai"
+    ],
+    "note": "帶點撒嬌或小抱怨的語氣",
+    "ttsText": "รอตั้งนาน",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "beginner",
+    "hashtags": [
+      "#thai",
+      "#time"
+    ]
+  },
+  {
+    "id": "add025",
+    "text": "ช่างมันเถอะ",
+    "phonetic": "chaang man tur",
+    "translation": "算了吧 / 隨他去吧",
+    "audioUrl": "/audio/th/add025.mp3",
+    "translationAudioUrl": "/audio/th/add025_tw.mp3",
+    "hasAudio": true,
+    "order": 125,
+    "tags": [
+      "emotion",
+      "thai"
+    ],
+    "note": "表達放棄糾結、看開",
+    "ttsText": "ช่างมันเถอะ",
+    "status": "published",
+    "category": "new_phrases",
+    "level": "intermediate",
+    "hashtags": [
+      "#thai",
+      "#emotion"
+    ]
   }
 ]

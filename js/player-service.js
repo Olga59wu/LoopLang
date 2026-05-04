@@ -9,6 +9,7 @@ import { StorageService } from './storage-service.js';
  */
 function resolveAudioUrl(path) {
   if (!path) return null;
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
   if (!StorageService.getUseCloudAudio()) return path;
 
   let cleanPath = path;
